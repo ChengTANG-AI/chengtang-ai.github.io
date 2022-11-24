@@ -41,8 +41,5 @@ redirect_from:
 
 <u>[2020-03-24]</u> I received an M.E. degree in engineering from the **[University of Toyama](https://www.u-toyama.ac.jp/)**.
 
-<script src="https://sinacloud.net/egg-lib/hit-kounter/hit-kounter-lc-0.4.1.js"></script>
-<span data-hk-site> - </span>
-
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <span id="busuanzi_container_site_pv">Total visits: <span id="busuanzi_value_site_pv"></span>.</span>
