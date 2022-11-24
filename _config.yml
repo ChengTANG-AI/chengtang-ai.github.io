@@ -83,12 +83,14 @@ author:
   name             : "Cheng TANG"
   avatar           : "picCT.jpg"
   bio              : "The hardest choices require the strongest wills."
+  googlescholar    : "https://scholar.google.com/citations?user=GvXOVv0AAAAJ"
+  researchgate     : "https://www.researchgate.net/profile/Cheng-Tang-11"
+  orcid            : "https://orcid.org/0000-0002-8148-1509"
+  github           : "ChengTANG-AI"
   location         : "Nagoya, Aichi, Japan"
   employer         : # "https://cem.web.nitech.ac.jp/hilab/"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=GvXOVv0AAAAJ"
   email            : "tangcheng.ac@outlook.com"
-  researchgate     : "https://www.researchgate.net/profile/Cheng-Tang-11"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,14 +98,12 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "ChengTANG-AI"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : # "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "https://orcid.org/0000-0002-8148-1509"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
