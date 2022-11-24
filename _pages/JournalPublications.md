@@ -4,7 +4,7 @@ permalink: /JournalPublications/
 author_profile: true
 ---
 
-**[Preprints](#preps)** &nbsp; &nbsp; - &nbsp; &nbsp; **[Journal Publications](#pubs)** &nbsp; &nbsp; - &nbsp; &nbsp; **[Google Scholar Profile (Up to date)](https://scholar.google.com/citations?user=GvXOVv0AAAAJ)**
+**[Preprints](#preps)** &nbsp; &nbsp; - &nbsp; &nbsp; **[Journal Publications](#pubs)** &nbsp; &nbsp; - &nbsp; &nbsp; **[Conference Proceedings](#cops)** &nbsp; &nbsp; - &nbsp; &nbsp; **[Google Scholar Profile (Up to date)](https://scholar.google.com/citations?user=GvXOVv0AAAAJ)**
 
 <h2 id="preps">
 Preprints
@@ -26,10 +26,10 @@ Preprints
 
 
 <h2 id="pubs">
-Publications
+Journal Articles
 </h2>
 
-### Journal Articles
+
 
 <u>[J015]</u>. **"A survey on machine learning models for financial time series forecasting."**  
 **Neurocomputing**, Volume 512, 1 November 2022, Pages 363-380. **[CameraReady](https://doi.org/10.1016/j.neucom.2022.09.003)**  
@@ -88,5 +88,15 @@ Publications
 👤<u>Authors</u>: Shuangyu Song, Xingqian Chen, **<u>Cheng Tang</u>**, Shuangbao Song, Zheng Tang, Yuki Todo.
 
 <u>[J001]</u>. **"An artificial bee colony algorithm search guided by scale-free networks."**  
+**Information Sciences**, Volume 473, January 2019, Pages 142-165. **[CameraReady](https://doi.org/10.1016/j.ins.2018.09.034)**  
+👤<u>Authors</u>: Junkai Ji, Shuangbao Song, **<u>Cheng Tang</u>**, Shangce Gao, Zheng Tang, Yuki Todo.  
+
+
+<h2 id="cops">
+Conference Proceedings
+</h2>
+
+
+<u>[C001]</u>. **"An artificial bee colony algorithm search guided by scale-free networks."**  
 **Information Sciences**, Volume 473, January 2019, Pages 142-165. **[CameraReady](https://doi.org/10.1016/j.ins.2018.09.034)**  
 👤<u>Authors</u>: Junkai Ji, Shuangbao Song, **<u>Cheng Tang</u>**, Shangce Gao, Zheng Tang, Yuki Todo.  
