@@ -31,6 +31,10 @@ Publications
 
 ### Journal Articles
 
+<u>[J005]</u>. **"A Simple Dendritic Neural Network Model-Based Approach for Daily PM<sub>2.5</sub> Concentration Prediction."**  
+**Complexity**, Volume 10, Issue 4, 3 February 2021, 373. **[CameraReady](https://doi.org/10.3390/electronics10040373)**  
+👤<u>Authors</u>: Xiaoxiao Qian, Cheng Tang, Yuki Todo, Qiuzhen Lin, Junkai Ji.
+
 <u>[J004]</u>. **"Evolutionary Dendritic Neural Model for Classification Problems."**  
 **Complexity**, Volume 2020, 19 August 2020, 6296209. **[CameraReady](https://doi.org/10.1155/2020/6296209)**  
 👤<u>Authors</u>: Xiaoxiao Qian, Cheng Tang, Yuki Todo, Qiuzhen Lin, Junkai Ji.
