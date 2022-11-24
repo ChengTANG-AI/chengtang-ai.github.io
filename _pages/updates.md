@@ -33,7 +33,7 @@ redirect_from:
 
 2020-06-04 Our paper [A generative modeling approach for interpreting population-level variability in brain structure](https://www.biorxiv.org/content/10.1101/2020.06.04.134635v1.abstract) is available on bioRxiv now.-->
 
-2022-08-01 I joined Prof. Eva Dyer's lab.
+2022-08-01 I joined the Department of Communications Engineering **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**, as an Assistant Professor.
 
 <script src="https://sinacloud.net/egg-lib/hit-kounter/hit-kounter-lc-0.4.1.js"></script>
 <span data-hk-site> - </span>
