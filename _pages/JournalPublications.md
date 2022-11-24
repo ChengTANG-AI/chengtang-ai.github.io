@@ -31,6 +31,10 @@ Publications
 
 ### Journal Articles
 
+<u>[J007]</u>. **"Transmission trend of the COVID-19 pandemic predicted by dendritic neural regression."**  
+**Applied Soft Computing**, Volume 111, November 2021, 107683. **[CameraReady](https://doi.org/10.1016/j.asoc.2021.107683)**  
+👤<u>Authors</u>: Minhui Dong, Cheng Tang, Junkai Ji, Qiuzhen Lin, Ka-Chun Wong..
+
 <u>[J006]</u>. **"Adaptive Self-Scaling Brain-Storm Optimization via a Chaotic Search Mechanism."**  
 **Algorithms**, Volume 14, Issue 8, 13 August 2021, 239. **[CameraReady](https://doi.org/10.3390/a14080239)**  
 👤<u>Authors</u>: Zhenyu Song, Xuemei Yan, Lvxing Zhao, Luyi Fan, Cheng Tang, Junkai Ji.
