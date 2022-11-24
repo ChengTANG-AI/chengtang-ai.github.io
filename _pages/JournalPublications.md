@@ -35,4 +35,4 @@ Publications
 
 <u>[J001]</u>. **"An artificial bee colony algorithm search guided by scale-free networks."**  
 **Information Sciences**, Volume 473, January 2019, Pages 142-165. **[CameraReady](https://doi.org/10.1016/j.ins.2018.09.034)**  
-&emsp; 👤<u>Authors</u>: Junkai Ji, Shuangbao Song, **<u>Cheng Tang</u>**, Shangce Gao, Zheng Tang, Yuki Todo.  
+👤<u>Authors</u>: Junkai Ji, Shuangbao Song, **<u>Cheng Tang</u>**, Shangce Gao, Zheng Tang, Yuki Todo.  
