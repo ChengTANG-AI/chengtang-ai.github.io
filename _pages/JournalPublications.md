@@ -31,6 +31,10 @@ Publications
 
 ### Journal Articles
 
+<u>[J013]</u>. **"Adopting a dendritic neural model for predicting stock price index movement."**  
+**Expert Systems with Applications**, Volume 205, 1 November 2022, 117637. **[CameraReady](https://doi.org/10.1016/j.eswa.2022.117637)**  
+👤<u>Authors</u>: Yajiao Tang, Zhenyu Song, Yulin Zhu, Maozhang Hou, Cheng Tang*, Junkai Ji.
+
 <u>[J012]</u>. **"A novel motion direction detection mechanism based on dendritic computation of direction-selective ganglion cells."**  
 **Knowledge-Based Systems**, Volume 241, 6 April 2022, 108205. **[CameraReady](https://doi.org/10.1016/j.knosys.2022.108205)**  
 👤<u>Authors</u>: Cheng Tang, Yuki Todo, Junkai Ji, Zheng Tang.
