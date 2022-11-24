@@ -83,8 +83,8 @@ author:
   name             : "Cheng TANG"
   avatar           : "picCT.jpg"
   bio              : "The above smiling person is me."
-  location         : # "Nagoya, Aichi, Japan"
-  employer         : "https://cem.web.nitech.ac.jp/hilab/"
+  location         : "Nagoya, Aichi, Japan"
+  employer         : # "https://cem.web.nitech.ac.jp/hilab/"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=GvXOVv0AAAAJ"
   email            : "tangcheng.ac@outlook.com"
