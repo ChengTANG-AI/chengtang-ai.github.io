@@ -31,9 +31,13 @@ Publications
 
 ### Journal Articles
 
+<u>[J010]</u>. **"A cuckoo search algorithm with scale-free population topology."**  
+**Expert Systems with Applications**, Volume 188, February 2022, 116049. **[CameraReady](https://doi.org/10.1016/j.eswa.2021.116049)**  
+👤<u>Authors</u>: Cheng Tang, Shuangbao Song, Junkai Ji, Yajiao Tang, Zheng Tang, Yuki Todo.
+
 <u>[J009]</u>. **"Air Quality Estimation Using Dendritic Neural Regression with Scale-Free Network-Based Differential Evolution."**  
 **Atmosphere**, Volume 12, Issue 12, 9 December 2021, 1647. **[CameraReady](https://doi.org/10.3390/atmos12121647)**  
-👤<u>Authors</u>: Cheng Tang, Yuki Todo, Junkai Ji, Qiuzhen Lin, ZhengTang.
+👤<u>Authors</u>: Zhenyu Song, Cheng Tang, Jin Qian, Bin Zhang, Yuki Todo.
 
 <u>[J008]</u>. **"Artificial immune system training algorithm for a dendritic neuron model."**  
 **Knowledge-Based Systems**, Volume 233, 5 December 2021, 107509. **[CameraReady](https://doi.org/10.1016/j.knosys.2021.107509)**  
