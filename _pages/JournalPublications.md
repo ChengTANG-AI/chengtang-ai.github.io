@@ -33,7 +33,7 @@ Publications
 
 <u>[J003]</u>. **"A novel machine learning technique for computer-aided diagnosis."**  
 **Engineering Applications of Artificial Intelligence**, Volume 92, June 2020, 103627. **[CameraReady](https://doi.org/10.1016/j.engappai.2020.103627)**  
-👤<u>Authors</u>: Shuangyu Song, Xingqian Chen, Cheng Tang, Shuangbao Song, Zheng Tang, Yuki Todo.
+👤<u>Authors</u>: Cheng Tang, Junkai Ji, Yajiao Tang, Shangce Gao, Zheng Tang, Yuki Todo.
 
 <u>[J002]</u>. **"Training an approximate logic dendritic neuron model using social learning particle swarm optimization algorithm."**  
 **IEEE Access**, Volume 7, 30 September 2019, Pages 141947 - 141959. **[CameraReady](https://doi.org/10.1109/ACCESS.2019.2944682)**  
