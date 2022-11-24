@@ -31,9 +31,13 @@ Publications
 
 ### Journal Articles
 
+<u>[J006]</u>. **"Adaptive Self-Scaling Brain-Storm Optimization via a Chaotic Search Mechanism."**  
+**Algorithms**, Volume 14, Issue 8, 13 August 2021, 239. **[CameraReady](https://doi.org/10.3390/a14080239)**  
+👤<u>Authors</u>: Zhenyu Song, Xuemei Yan, Lvxing Zhao, Luyi Fan, Cheng Tang, Junkai Ji.
+
 <u>[J005]</u>. **"A Simple Dendritic Neural Network Model-Based Approach for Daily PM<sub>2.5</sub> Concentration Prediction."**  
 **Complexity**, Volume 10, Issue 4, 3 February 2021, 373. **[CameraReady](https://doi.org/10.3390/electronics10040373)**  
-👤<u>Authors</u>: Xiaoxiao Qian, Cheng Tang, Yuki Todo, Qiuzhen Lin, Junkai Ji.
+👤<u>Authors</u>: Zhenyu Song, Cheng Tang, Junkai Ji, Yuki Todo, Zheng Tang.
 
 <u>[J004]</u>. **"Evolutionary Dendritic Neural Model for Classification Problems."**  
 **Complexity**, Volume 2020, 19 August 2020, 6296209. **[CameraReady](https://doi.org/10.1155/2020/6296209)**  
