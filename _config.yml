@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  name             : "Cheng TANG"
+  avatar           : "picCT.jpg"
+  bio              : "Yes, the smiling person above is me."
+  location         : "Nagoya, Aichi, Japan"
+  employer         : "https://cem.web.nitech.ac.jp/hilab/"
+  pubmed           : 
+  googlescholar    : "https://scholar.google.com/citations?user=GvXOVv0AAAAJ"
+  email            : "tangcheng.ac@outlook.com"
+  researchgate     : "https://www.researchgate.net/profile/Cheng-Tang-11"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "ChengTANG-AI"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : # "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-8148-1509"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : # "replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
