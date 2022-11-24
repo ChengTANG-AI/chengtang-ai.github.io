@@ -25,46 +25,6 @@ Preprints
 &emsp; &emsp; 🔑<u>Keywords</u>: Representation learning, self-supervision, neural decoding, computer vision.
 
 
-
-<h2 id="pubs">
-Publications
-</h2>
-
-### Conference Proceedings
-
-[C4] **"Building representations of different brain areas through hierarchical point cloud networks"** [OpenReview](https://openreview.net/pdf?id=3GeifJ_GCg0), [Talk](https://2022.midl.io/papers/d_s_3) \
-&emsp; &emsp; Medical Imaging with Deep Learning (**MIDL**) (2022, April) \
-&emsp; &emsp; 👤<u>Authors</u>: Joy M Jackson, **Ran Liu**, Eva L Dyer. \
-&emsp; &emsp; 🔑<u>Keywords</u>: Representation learning, point cloud, image classification.
-
-[C3] **"Drop, swap, and generate: A self-supervised approach for generating neural activity"** [CameraReady](https://proceedings.neurips.cc/paper/2021/file/58182b82110146887c02dbd78719e3d5-Paper.pdf), [arXiv](https://arxiv.org/pdf/2111.02338.pdf), [Talk](https://slideslive.com/38968190/drop-swap-and-generate-a-selfsupervised-approach-for-generating-neural-activity?ref=recommended) \
-&emsp; &emsp; Advances in Neural Information Processing Systems 34 (**NeurIPS**) **Oral presentation (top 1%)** (2021, December) \
-&emsp; &emsp; 👤<u>Authors</u>: **Ran Liu**, Mehdi Azabou, Max Dabagia, Chi-Heng Lin, Mohammad Gheshlaghi Azar, Keith Hengen, Michal Valko, Eva L Dyer. \
-&emsp; &emsp; 🔑<u>Keywords</u>: Self-supervision, generative learning, neural decoding, data augmentation.
-
-[C2] **"Multi-Scale Modeling of Neural Structure in X-Ray Imagery"** [CameraReady](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9506174) \
-&emsp; &emsp; IEEE International Conference on Image Processing (**ICIP**) (2021, September) \
-&emsp; &emsp; 👤<u>Authors</u>: Aishwarya Balwani, Joseph Miano, **Ran Liu**, Lindsey Kitchell, Judy A Prasad, Erik C Johnson, William Gray-Roncal, Eva L Dyer \
-&emsp; &emsp; 🔑<u>Keywords</u>: Multi-task learning, image segmentation, 3D reconstruction.
-
-[C1] **"A generative modeling approach for interpreting population-level variability in brain structure"** [CameraReady](https://link.springer.com/chapter/10.1007/978-3-030-59722-1_25), [bioRxiv](https://www.biorxiv.org/content/10.1101/2020.06.04.134635v1.full.pdf) \
-&emsp; &emsp; International Conference on Medical Image Computing and Computer-Assisted Intervention (**MICCAI**) (2020, October) \
-&emsp; &emsp; 👤<u>Authors</u>: **Ran Liu**, Cem Subakan, Aishwarya H Balwani, Jennifer Whitesell, Julie Harris, Sanmi Koyejo, Eva L Dyer \
-&emsp; &emsp; 🔑<u>Keywords</u>: Generative learning, interpretability, image synthesis.
-
-### Workshops and Posters
-
-[W2] **"Using self-supervision and augmentations to build insights into neural coding"** [CameraReady](https://sslneurips21.github.io/files/CameraReady/neural_ssl_workshop.pdf) \
-&emsp; &emsp; **NeurIPS** 2021 Workshop: Self-Supervised Learning - Theory and Practice (2021, December) \
-&emsp; &emsp; 👤<u>Authors</u>: Mehdi Azabou, Max Dabagia, **Ran Liu**, Chi-Heng Lin, Keith B Hengen, Eva L Dyer \
-&emsp; &emsp; 🔑<u>Keywords</u>: Neural decoding, self-supervision, data augmentation.
-
-[W1] **"Mine your own view: A self-supervised approach for learning representations of neural activity"** [CameraReady](https://sslneurips21.github.io/files/CameraReady/MYOW_NeurIPS_Workshop_SSL_2.pdf) \
-&emsp; &emsp; **NeurIPS** 2021 Workshop: Self-Supervised Learning - Theory and Practice (2021, December) \
-&emsp; &emsp; 👤<u>Authors</u>: Mehdi Azabou, Mohammad Gheshlaghi Azar, **Ran Liu**, Chi-Heng Lin, Erik C Johnson, Kiran Bhaskaran-Nair, WashU-St Louis, Max Dabagia, Bernardo Avila-Pires, Lindsey Kitchell, Keith B Hengen, William Gray-Roncal, Michal Valko, Eva L Dyer. \
-&emsp; &emsp; 🔑<u>Keywords</u>: Representation learning, self-supervision, neural decoding.
-
-
 ### Journal Articles
 
 [J3] **"Proximity-induced surface superconductivity in Dirac semimetal Cd<sub>3</sub>As<sub>2</sub>"** [CameraReady](https://www.nature.com/articles/s41467-019-10233-w) \
