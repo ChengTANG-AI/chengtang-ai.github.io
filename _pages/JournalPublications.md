@@ -1,6 +1,6 @@
 ---
-title: "Research"
-permalink: /research/
+title: "Journal Publications"
+permalink: /JournalPublications/
 author_profile: true
 ---
 
