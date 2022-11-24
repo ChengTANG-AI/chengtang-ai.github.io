@@ -43,3 +43,6 @@ redirect_from:
 
 <script src="https://sinacloud.net/egg-lib/hit-kounter/hit-kounter-lc-0.4.1.js"></script>
 <span data-hk-site> - </span>
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span id="busuanzi_container_site_pv">Total visits<span id="busuanzi_value_site_pv"></span>.</span>
