@@ -31,6 +31,10 @@ Publications
 
 ### Journal Articles
 
+<u>[J012]</u>. **"A novel motion direction detection mechanism based on dendritic computation of direction-selective ganglion cells."**  
+**Knowledge-Based Systems**, Volume 241, 6 April 2022, 108205. **[CameraReady](https://doi.org/10.1016/j.knosys.2022.108205)**  
+👤<u>Authors</u>: Cheng Tang, Yuki Todo, Junkai Ji, Zheng Tang.
+
 <u>[J011]</u>. **"A survey on dendritic neuron model: Mechanisms, algorithms and practical applications."**  
 **Neurocomputing**, Volume 489, 7 June 2022, Pages 390-406. **[CameraReady](https://doi.org/10.1016/j.neucom.2021.08.153)**  
 👤<u>Authors</u>: Junkai Ji, Cheng Tang*, Jiajun Zhao, Zheng Tang, Yuki Todo.
