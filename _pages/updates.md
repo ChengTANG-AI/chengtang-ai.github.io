@@ -35,5 +35,11 @@ redirect_from:
 
 <u>[2022-08-01]</u> I joined the Department of Communications Engineering **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**, as a Research Assistant Professor.
 
+<u>[2022-04-01]</u> I joined the Department of Communications Engineering **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**, as a Research Assistant Professor.
+
+<u>[2022-03-23]</u> I received a Ph.D. degree in engineering from the **[University of Toyama](https://www.u-toyama.ac.jp/)**, Toyama, Japan.
+
+<u>[2020-03-24]</u> I received an M.E. degree in engineering from the **[University of Toyama](https://www.u-toyama.ac.jp/)**, Toyama, Japan.
+
 <script src="https://sinacloud.net/egg-lib/hit-kounter/hit-kounter-lc-0.4.1.js"></script>
 <span data-hk-site> - </span>
