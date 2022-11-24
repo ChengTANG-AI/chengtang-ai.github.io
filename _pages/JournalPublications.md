@@ -4,7 +4,7 @@ permalink: /JournalPublications/
 author_profile: true
 ---
 
-**[Preprints](#preps)** &nbsp; &nbsp; **[Journal Publications](#pubs)** &nbsp; &nbsp; **[Conference Proceedings](#cops)** &nbsp; &nbsp; **[Google Scholar Profile (Up to date)](https://scholar.google.com/citations?user=GvXOVv0AAAAJ)**
+**[Preprints](#preps)** &nbsp; &nbsp; **[Journal Publications](#pubs)** &nbsp; &nbsp; **[Conference Proceedings](#cops)** &nbsp; &nbsp; **[Google Scholar (Up to date)](https://scholar.google.com/citations?user=GvXOVv0AAAAJ)**
 
 <h2 id="preps">
 Preprints
