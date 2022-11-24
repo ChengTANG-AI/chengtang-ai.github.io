@@ -16,4 +16,4 @@ I received a Ph.D. degree in engineering from the University of Toyama, Toyama, 
 
 My research interests lie at the intersection of **Machine / Deep Learning**, **Computational Neuroscience**, **Neural Networks**, **Evolutionary Computation**, and **Bioinformatics**.
 
-**I am looking for M.S. / B.S. students in engineering in, but not limited to, Computer Science and Artificial Intelligence. In addition, I am pleased to collaborate with researchers who are interested in advising on medical-related projects. If you are interested in my field of research, please feel free to email me.**
+**I am looking for M.E. / B.E. students in engineering in, but not limited to, Computer Science and Artificial Intelligence. In addition, I am pleased to collaborate with researchers who are interested in advising on medical-related projects. If you are interested in my field of research, please feel free to email me.**
