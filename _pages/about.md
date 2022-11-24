@@ -17,4 +17,5 @@ My research interests lie at the intersection of **Machine / Deep Learning**, **
 **I am looking for M.E. / B.E. students majoring in engineering, but not limited to, Computer Science and Artificial Intelligence. In addition, I am pleased to collaborate with researchers who are interested in advising on medical-related projects. If you are interested in my field of research, please feel free to email me.**
 
 
-[![MadeWith.cn统计标签](https://madewith.cn/240/statistic/svg.svg)](https://madewith.cn/240?from=shield)
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
