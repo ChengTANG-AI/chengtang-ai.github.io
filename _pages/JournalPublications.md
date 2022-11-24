@@ -9,20 +9,7 @@ author_profile: true
 <h2 id="preps">
 Preprints
 </h2>
-<!--
-[C6] **"Seeing the forest and the tree: Building representations of both individual and collective dynamics with transformers"** [arXiv](https://arxiv.org/pdf/2206.06131.pdf) \
-&emsp; &emsp; 👤<u>Authors</u>: **Ran Liu**, Mehdi Azabou, Max Dabagia, Jingyun Xiao, and Eva L Dyer. \
-&emsp; &emsp; 🔑<u>Keywords</u>: Transformer, multi-channel time-series, neural decoding, domain generalization. \
-&emsp; &emsp; 🔥**To appear in NeurIPS 2022**
-
-[C5] **"MTNeuro: A Benchmark for Evaluating Representations of Brain Structure Across Multiple Levels of Abstraction"** [OpenReview](https://openreview.net/pdf?id=5xuowSQ17vy) \
-&emsp; &emsp; 👤<u>Authors</u>: Jorge Quesada, Lakshmi Sathidevi, **Ran Liu**, Nauman Ahad, Joy M Jackson, Mehdi Azabou, Jingyun Xiao, Chris Liding, Carolina Urzay, William Gray-Roncal, Erik Christopher Johnson, Eva L Dyer. \
-&emsp; &emsp; 🔑<u>Keywords</u>: Representation learning, multi-task learning, new datasets. \
-&emsp; &emsp; 🔥**To appear in NeurIPS 2022** (Datasets and Benchmarks)
-
-**"Mine your own view: Self-supervised learning through across-sample prediction"** [arXiv](https://arxiv.org/pdf/2102.10106.pdf) \
-&emsp; &emsp; 👤<u>Authors</u>: Mehdi Azabou, Mohammad Gheshlaghi Azar, **Ran Liu**, Chi-Heng Lin, Erik C Johnson, Kiran Bhaskaran-Nair, Max Dabagia, Bernardo Avila-Pires, Lindsey Kitchell, Keith B Hengen, William Gray-Roncal, Michal Valko, Eva L Dyer. \
-&emsp; &emsp; 🔑<u>Keywords</u>: Representation learning, self-supervision, neural decoding, computer vision. -->
+<!--👤🔑🔥**To appear in NeurIPS 2022**-->
 
 
 <h2 id="pubs">
@@ -161,3 +148,6 @@ Conference Proceedings
 **2019 12th International Symposium on Computational Intelligence and Design (ISCID)**, 14-15 December 2019, 19649798. **[CameraReady](https://doi.org/10.1109/ISCID.2019.00031)**  
 👤<u>Authors</u>: Zhenyu Song, **<u>Cheng Tang</u>**, Xingqian Chen, Shuangyu Song and Junkai Ji.  
 🔑<u>Keywords</u>: Gravitational search algorithm, Self-adaptive, Chaotic, Local search, Exploitation.
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span id="busuanzi_container_site_pv">Total visits: <span id="busuanzi_value_site_pv"></span>.</span>
