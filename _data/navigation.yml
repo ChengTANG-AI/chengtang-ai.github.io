@@ -3,6 +3,9 @@ main:
 
   - title: "Publications"
     url: /JournalPublications/
+
+  - title: "Updates"
+    url: /updates/
     
 #   - title: "Guide"
 #     url: /markdown/
