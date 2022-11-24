@@ -31,14 +31,7 @@ Publications
 
 ### Journal Articles
 
-[J3] **"Proximity-induced surface superconductivity in Dirac semimetal Cd<sub>3</sub>As<sub>2</sub>"** [CameraReady](https://www.nature.com/articles/s41467-019-10233-w) \
-&emsp; &emsp; **Nature communications** (2019, May) \
-&emsp; &emsp; 👤<u>Authors</u>: Ce Huang, Benjamin T Zhou, Huiqin Zhang, Bingjia Yang, **Ran Liu**, Hanwen Wang, Yimin Wan, Ke Huang, Zhiming Liao, Enze Zhang, Shanshan Liu, Qingsong Deng, Yanhui Chen, Xiaodong Han, Jin Zou, Xi Lin, Zheng Han, Yihua Wang, Kam Tuen Law, Faxian Xiu
 
-[J2] **"Quantum Hall effect based on Weyl orbits in Cd<sub>3</sub>As<sub>2</sub>"** [CameraReady](https://www.nature.com/articles/s41586-018-0798-3) \
-&emsp; &emsp; **Nature** (2019, January) \
-&emsp; &emsp; 👤<u>Authors</u>: Cheng Zhang, Yi Zhang, Xiang Yuan, Shiheng Lu, Jinglei Zhang, Awadhesh Narayan, Yanwen Liu, Huiqin Zhang, Zhuoliang Ni, **Ran Liu**, Eun Sang Choi, Alexey Suslov, Stefano Sanvito, Li Pi, Hai-Zhou Lu, Andrew C Potter, Faxian Xiu
 
-[J1] **"Inducing Strong Superconductivity in WTe<sub>2</sub> by a Proximity Effect"** [CameraReady](https://pubs.acs.org/doi/abs/10.1021/acsnano.8b03102) \
-&emsp; &emsp; **ACS nano** (2018, June) \
-&emsp; &emsp; 👤<u>Authors</u>: Ce Huang, Awadhesh Narayan, Enze Zhang, Yanwen Liu, Xiao Yan, Jiaxiang Wang, Cheng Zhang, Weiyi Wang, Tong Zhou, Changjiang Yi, Shanshan Liu, Jiwei Ling, Huiqin Zhang, **Ran Liu**, Raman Sankar, Fangcheng Chou, Yihua Wang, Youguo Shi, Kam Tuen Law, Stefano Sanvito, Peng Zhou, Zheng Han, Faxian Xiu
+[J001] **"An artificial bee colony algorithm search guided by scale-free networks." Information Sciences** 473 (2019): 142-165. [CameraReady](https://doi.org/10.1016/j.ins.2018.09.034) \
+&emsp; &emsp; 👤<u>Authors</u>: Junkai Ji, Shuangbao Song, **Cheng Tang**, Shangce Gao, Zheng Tang, Yuki Todo.
