@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "AI"
+title                    : "Personal Website"
 title_separator          : "-"
 name                     : &name "Cheng TANG"
 description              : &description "personal description"
