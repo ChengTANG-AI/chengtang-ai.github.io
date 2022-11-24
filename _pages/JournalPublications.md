@@ -96,42 +96,44 @@ Journal Articles
 Conference Proceedings
 </h2>
 
+
+
 <u>[C009]</u>. **"Evolutionary Neural Architecture Design of Liquid State Machine for Image Classification."**  
 **ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)**, 23-27 May 2022, Pages 91-95. **[CameraReady](https://doi.org/10.1109/ICASSP43922.2022.9747040)**  
-👤<u>Authors</u>: Yuxiao Hua, Riku Inoue, Cheng Tang, Yuki Todo, Zheng Tang. 
+👤<u>Authors</u>: Yuxiao Hua, Riku Inoue, **<u>Cheng Tang</u>**, Yuki Todo, Zheng Tang. 
 
 <u>[C008]</u>. **"The Mechanism of Motion Direction Detection from Gray Images."**  
 **2021 4th International Conference on Signal Processing and Machine Learning**, August 2021, Pages 12-17. **[CameraReady](https://doi.org/10.1145/3483207.3483210)**  
-👤<u>Authors</u>: Yuxiao Hua, Riku Inoue, Cheng Tang, Yuki Todo, Zheng Tang. 
+👤<u>Authors</u>: Yuxiao Hua, Riku Inoue, **<u>Cheng Tang</u>**, Yuki Todo, Zheng Tang. 
 
 <u>[C007]</u>. **"An Efficient Orientation Detection Mechanism Inspired via Orientation-selective Amacrine Cells."**  
 **2021 4th International Conference on Signal Processing and Machine Learning**, August 2021, Pages 7-11. **[CameraReady](https://doi.org/10.1145/3483207.3483209)**  
-👤<u>Authors</u>: Fenggang Yuan, Cheng Tang, Yuki Todo, Zheng Tang. 
+👤<u>Authors</u>: Fenggang Yuan, **<u>Cheng Tang</u>**, Yuki Todo, Zheng Tang. 
 
 <u>[C006]</u>. **"An Evolutionary Neuron Model with Dendritic Computation for Classification and Prediction."**  
 **International Conference on Intelligent Computing**, 09 August 2021, Pages 18-36. **[CameraReady](https://doi.org/10.1007/978-3-030-84522-3_2)**  
-👤<u>Authors</u>: Cheng Tang, Zhenyu Song, Yajiao Tang, Huimei Tang, Yuxi Wang, Junkai Ji. 
+👤<u>Authors</u>: **<u>Cheng Tang</u>**, Zhenyu Song, Yajiao Tang, Huimei Tang, Yuxi Wang, Junkai Ji. 
 
 <u>[C005]</u>. **"The Mechanism of Orientation Detection Based on Dendritic Neuron."**  
 **2021 IEEE 4th International Conference on Big Data and Artificial Intelligence (BDAI)**, 02-04 July 2021, Pages 225-229. **[CameraReady](https://doi.org/10.1109/BDAI52447.2021.9515286)**  
-👤<u>Authors</u>: Xiliang Zhang, Yuki Todo, Cheng Tang, Zheng Tang. 
+👤<u>Authors</u>: Xiliang Zhang, Yuki Todo, **<u>Cheng Tang</u>**, Zheng Tang. 
 
 <u>[C004]</u>. **"An Adaptive Scaling Cuckoo Search Algorithm."**  
 **2021 4th International Conference on Advanced Electronic Materials, Computers and Software Engineering (AEMCSE)**, 26-28 March 2021, Pages 562-566. **[CameraReady](https://doi.org/10.1109/AEMCSE51986.2021.00120)**  
-👤<u>Authors</u>: Zhenyu Song, Shuangyu Song, Bin Zhang, Jin Qian, Cheng Tang, Junkai Ji. 
+👤<u>Authors</u>: Zhenyu Song, Shuangyu Song, Bin Zhang, Jin Qian, **<u>Cheng Tang</u>**, Junkai Ji. 
 
 <u>[C004]</u>. **"Wind Speed Time Series Prediction Using a Single Dendritic Neuron Model."**  
 **2020 2nd International Conference on Machine Learning, Big Data and Business Intelligence (MLBDBI)**, 23-25 October 2020, Pages 140-144. **[CameraReady](https://doi.org/10.1109/MLBDBI51377.2020.00031)**  
-👤<u>Authors</u>: Zhenyu Song, Tianle Zhou, Xuemei Yan, Cheng Tang, Junkai Ji. 
+👤<u>Authors</u>: Zhenyu Song, Tianle Zhou, Xuemei Yan, **<u>Cheng Tang</u>**, Junkai Ji. 
 
 <u>[C003]</u>. **"Improving Approximate Logic Neuron Model by Means of a Novel Learning Algorithm."**  
 **International Conference on Intelligent Computing**, 05 October 2020, Pages 484-496. **[CameraReady](https://doi.org/10.1007/978-3-030-60799-9_42)**  
-👤<u>Authors</u>: Jiajun Zhao, Minhui Dong, Cheng Tang, Junkai Ji, Ying He. 
+👤<u>Authors</u>: Jiajun Zhao, Minhui Dong, **<u>Cheng Tang</u>**, Junkai Ji, Ying He. 
 
 <u>[C002]</u>. **"A Novel Plastic Neural Model with Dendritic Computation for Classification Problems."**  
 **International Conference on Intelligent Computing**, 05 October 2020, Pages 471-483. **[CameraReady](https://doi.org/10.1007/978-3-030-60799-9_41)**  
-👤<u>Authors</u>: Junkai Ji, Minhui Dong, Cheng Tang, Jiajun Zhao, Shuangbao Song. 
+👤<u>Authors</u>: Junkai Ji, Minhui Dong, **<u>Cheng Tang</u>**, Jiajun Zhao, Shuangbao Song. 
 
 <u>[C001]</u>. **"A Self-adaptive Mechanism Embedded Gravitational Search Algorithm."**  
 **2019 12th International Symposium on Computational Intelligence and Design (ISCID)**, 14-15 December 2019, 19649798. **[CameraReady](https://doi.org/10.1109/ISCID.2019.00031)**  
-👤<u>Authors</u>: Zhenyu Song, Cheng Tang, Xingqian Chen, Shuangyu Song, Junkai Ji. 
+👤<u>Authors</u>: Zhenyu Song, **<u>Cheng Tang</u>**, Xingqian Chen, Shuangyu Song, Junkai Ji. 
