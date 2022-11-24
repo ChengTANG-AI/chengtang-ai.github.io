@@ -1,5 +1,5 @@
 ---
-title: "Journal Publications"
+title: "Publications"
 permalink: /JournalPublications/
 author_profile: true
 ---
