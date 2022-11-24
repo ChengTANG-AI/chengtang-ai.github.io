@@ -31,9 +31,13 @@ Publications
 
 ### Journal Articles
 
+<u>[J008]</u>. **"Artificial immune system training algorithm for a dendritic neuron model."**  
+**Knowledge-Based Systems**, Volume 233, 5 December 2021, 107509. **[CameraReady](https://doi.org/10.1016/j.knosys.2021.107509)**  
+👤<u>Authors</u>: Cheng Tang, Yuki Todo, Junkai Ji, Qiuzhen Lin, ZhengTang.
+
 <u>[J007]</u>. **"Transmission trend of the COVID-19 pandemic predicted by dendritic neural regression."**  
 **Applied Soft Computing**, Volume 111, November 2021, 107683. **[CameraReady](https://doi.org/10.1016/j.asoc.2021.107683)**  
-👤<u>Authors</u>: Minhui Dong, Cheng Tang, Junkai Ji, Qiuzhen Lin, Ka-Chun Wong..
+👤<u>Authors</u>: Minhui Dong, Cheng Tang, Junkai Ji, Qiuzhen Lin, Ka-Chun Wong.
 
 <u>[J006]</u>. **"Adaptive Self-Scaling Brain-Storm Optimization via a Chaotic Search Mechanism."**  
 **Algorithms**, Volume 14, Issue 8, 13 August 2021, 239. **[CameraReady](https://doi.org/10.3390/a14080239)**  
