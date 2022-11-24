@@ -309,3 +309,6 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+<script src="https://sinacloud.net/egg-lib/hit-kounter/hit-kounter-lc-0.4.1.js"></script>
+<span data-hk-site> - </span>
