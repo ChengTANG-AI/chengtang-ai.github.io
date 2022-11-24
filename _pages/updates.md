@@ -33,13 +33,13 @@ redirect_from:
 
 2020-06-04 Our paper [A generative modeling approach for interpreting population-level variability in brain structure](https://www.biorxiv.org/content/10.1101/2020.06.04.134635v1.abstract) is available on bioRxiv now.-->
 
-<u>[2022-08-01]</u> I joined the Department of Communications Engineering **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**, as a Research Assistant Professor.
+<u>[2022-08-01]</u> I joined the Department of Communications Engineering, **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**, as a Research Assistant Professor.
 
-<u>[2022-04-01]</u> I joined the Department of Communications Engineering **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**, as a Research Assistant Professor.
+<u>[2022-04-01]</u> I joined the Faculty of Engineering, **[University of Toyama](https://www.u-toyama.ac.jp/)**, as a Postdoctoral Researcher.
 
-<u>[2022-03-23]</u> I received a Ph.D. degree in engineering from the **[University of Toyama](https://www.u-toyama.ac.jp/)**, Toyama, Japan.
+<u>[2022-03-23]</u> I received a Ph.D. degree in engineering from the **[University of Toyama](https://www.u-toyama.ac.jp/)**.
 
-<u>[2020-03-24]</u> I received an M.E. degree in engineering from the **[University of Toyama](https://www.u-toyama.ac.jp/)**, Toyama, Japan.
+<u>[2020-03-24]</u> I received an M.E. degree in engineering from the **[University of Toyama](https://www.u-toyama.ac.jp/)**.
 
 <script src="https://sinacloud.net/egg-lib/hit-kounter/hit-kounter-lc-0.4.1.js"></script>
 <span data-hk-site> - </span>
