@@ -31,6 +31,10 @@ Publications
 
 ### Journal Articles
 
+<u>[J011]</u>. **"A survey on dendritic neuron model: Mechanisms, algorithms and practical applications."**  
+**Neurocomputing**, Volume 489, 7 June 2022, Pages 390-406. **[CameraReady](https://doi.org/10.1016/j.neucom.2021.08.153)**  
+👤<u>Authors</u>: Junkai Ji, Cheng Tang*, Jiajun Zhao, Zheng Tang, Yuki Todo.
+
 <u>[J010]</u>. **"A cuckoo search algorithm with scale-free population topology."**  
 **Expert Systems with Applications**, Volume 188, February 2022, 116049. **[CameraReady](https://doi.org/10.1016/j.eswa.2021.116049)**  
 👤<u>Authors</u>: Cheng Tang, Shuangbao Song, Junkai Ji, Yajiao Tang, Zheng Tang, Yuki Todo.
