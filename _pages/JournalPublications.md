@@ -31,6 +31,14 @@ Publications
 
 ### Journal Articles
 
+<u>[J015]</u>. **"A survey on machine learning models for financial time series forecasting."**  
+**Neurocomputing**, Volume 512, 1 November 2022, Pages 363-380. **[CameraReady](https://doi.org/10.1016/j.neucom.2022.09.003)**  
+👤<u>Authors</u>: Yajiao Tang, Zhenyu Song, Yulin Zhu, Huaiyu Yuan, Maozhang Hou, Junkai Ji, Cheng Tang*, Jianqiang Li.
+
+<u>[J014]</u>. **"The mechanism of orientation detection based on color-orientation jointly selective cells."**  
+**Knowledge-Based Systems**, Volume 254, 27 October 2022, 109715. **[CameraReady](https://doi.org/10.1016/j.knosys.2022.109715)**  
+👤<u>Authors</u>: Bin Li, Yuki Todo, Zheng Tang, Cheng Tang*.
+
 <u>[J013]</u>. **"Adopting a dendritic neural model for predicting stock price index movement."**  
 **Expert Systems with Applications**, Volume 205, 1 November 2022, 117637. **[CameraReady](https://doi.org/10.1016/j.eswa.2022.117637)**  
 👤<u>Authors</u>: Yajiao Tang, Zhenyu Song, Yulin Zhu, Maozhang Hou, Cheng Tang*, Junkai Ji.
