@@ -33,15 +33,15 @@ Publications
 
 <u>[J015]</u>. **"A survey on machine learning models for financial time series forecasting."**  
 **Neurocomputing**, Volume 512, 1 November 2022, Pages 363-380. **[CameraReady](https://doi.org/10.1016/j.neucom.2022.09.003)**  
-👤<u>Authors</u>: Yajiao Tang, Zhenyu Song, Yulin Zhu, Huaiyu Yuan, Maozhang Hou, Junkai Ji, Cheng Tang*, Jianqiang Li.
+👤<u>Authors</u>: Yajiao Tang, Zhenyu Song, Yulin Zhu, Huaiyu Yuan, Maozhang Hou, Junkai Ji, **Cheng Tang+**, Jianqiang Li.
 
 <u>[J014]</u>. **"The mechanism of orientation detection based on color-orientation jointly selective cells."**  
 **Knowledge-Based Systems**, Volume 254, 27 October 2022, 109715. **[CameraReady](https://doi.org/10.1016/j.knosys.2022.109715)**  
-👤<u>Authors</u>: Bin Li, Yuki Todo, Zheng Tang, Cheng Tang*.
+👤<u>Authors</u>: Bin Li, Yuki Todo, Zheng Tang, Cheng Tang+.
 
 <u>[J013]</u>. **"Adopting a dendritic neural model for predicting stock price index movement."**  
 **Expert Systems with Applications**, Volume 205, 1 November 2022, 117637. **[CameraReady](https://doi.org/10.1016/j.eswa.2022.117637)**  
-👤<u>Authors</u>: Yajiao Tang, Zhenyu Song, Yulin Zhu, Maozhang Hou, Cheng Tang*, Junkai Ji.
+👤<u>Authors</u>: Yajiao Tang, Zhenyu Song, Yulin Zhu, Maozhang Hou, Cheng Tang+, Junkai Ji.
 
 <u>[J012]</u>. **"A novel motion direction detection mechanism based on dendritic computation of direction-selective ganglion cells."**  
 **Knowledge-Based Systems**, Volume 241, 6 April 2022, 108205. **[CameraReady](https://doi.org/10.1016/j.knosys.2022.108205)**  
@@ -49,7 +49,7 @@ Publications
 
 <u>[J011]</u>. **"A survey on dendritic neuron model: Mechanisms, algorithms and practical applications."**  
 **Neurocomputing**, Volume 489, 7 June 2022, Pages 390-406. **[CameraReady](https://doi.org/10.1016/j.neucom.2021.08.153)**  
-👤<u>Authors</u>: Junkai Ji, Cheng Tang*, Jiajun Zhao, Zheng Tang, Yuki Todo.
+👤<u>Authors</u>: Junkai Ji, Cheng Tang+, Jiajun Zhao, Zheng Tang, Yuki Todo.
 
 <u>[J010]</u>. **"A cuckoo search algorithm with scale-free population topology."**  
 **Expert Systems with Applications**, Volume 188, February 2022, 116049. **[CameraReady](https://doi.org/10.1016/j.eswa.2021.116049)**  
