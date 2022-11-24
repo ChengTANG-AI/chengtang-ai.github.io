@@ -31,7 +31,7 @@ Journal Articles
 
 
 
-**<u>[J015]</u>**. **"A survey on machine learning models for financial time series forecasting."**  
+<u>[J015]</u>. **"A survey on machine learning models for financial time series forecasting."**  
 **Neurocomputing**, Volume 512, 1 November 2022, Pages 363-380. **[CameraReady](https://doi.org/10.1016/j.neucom.2022.09.003)**  
 👤<u>Authors</u>: Yajiao Tang, Zhenyu Song, Yulin Zhu, Huaiyu Yuan, Maozhang Hou, Junkai Ji, **<u>Cheng Tang+</u>** and Jianqiang Li.  
 🔑<u>Keywords</u>: Financial Time Series, Forecasting, Machine learning, Hybrid method.
