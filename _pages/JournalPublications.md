@@ -9,7 +9,7 @@ author_profile: true
 <h2 id="preps">
 Preprints
 </h2>
-
+<!--
 [C6] **"Seeing the forest and the tree: Building representations of both individual and collective dynamics with transformers"** [arXiv](https://arxiv.org/pdf/2206.06131.pdf) \
 &emsp; &emsp; 👤<u>Authors</u>: **Ran Liu**, Mehdi Azabou, Max Dabagia, Jingyun Xiao, and Eva L Dyer. \
 &emsp; &emsp; 🔑<u>Keywords</u>: Transformer, multi-channel time-series, neural decoding, domain generalization. \
@@ -22,8 +22,12 @@ Preprints
 
 **"Mine your own view: Self-supervised learning through across-sample prediction"** [arXiv](https://arxiv.org/pdf/2102.10106.pdf) \
 &emsp; &emsp; 👤<u>Authors</u>: Mehdi Azabou, Mohammad Gheshlaghi Azar, **Ran Liu**, Chi-Heng Lin, Erik C Johnson, Kiran Bhaskaran-Nair, Max Dabagia, Bernardo Avila-Pires, Lindsey Kitchell, Keith B Hengen, William Gray-Roncal, Michal Valko, Eva L Dyer. \
-&emsp; &emsp; 🔑<u>Keywords</u>: Representation learning, self-supervision, neural decoding, computer vision.
+&emsp; &emsp; 🔑<u>Keywords</u>: Representation learning, self-supervision, neural decoding, computer vision. -->
 
+
+<h2 id="pubs">
+Publications
+</h2>
 
 ### Journal Articles
 
