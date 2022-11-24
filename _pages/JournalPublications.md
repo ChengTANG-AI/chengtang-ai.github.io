@@ -31,6 +31,10 @@ Publications
 
 ### Journal Articles
 
+<u>[J004]</u>. **"Evolutionary Dendritic Neural Model for Classification Problems."**  
+**Complexity**, Volume 2020, 19 August 2020, 6296209. **[CameraReady](https://doi.org/10.1016/j.engappai.2020.103627)**  
+👤<u>Authors</u>: Cheng Tang, Junkai Ji, Yajiao Tang, Shangce Gao, Zheng Tang, Yuki Todo.
+
 <u>[J003]</u>. **"A novel machine learning technique for computer-aided diagnosis."**  
 **Engineering Applications of Artificial Intelligence**, Volume 92, June 2020, 103627. **[CameraReady](https://doi.org/10.1016/j.engappai.2020.103627)**  
 👤<u>Authors</u>: Cheng Tang, Junkai Ji, Yajiao Tang, Shangce Gao, Zheng Tang, Yuki Todo.
