@@ -33,7 +33,7 @@ Publications
 
 <u>[J002]</u>. **"Training an approximate logic dendritic neuron model using social learning particle swarm optimization algorithm."**  
 **IEEE Access**, Volume 7, 30 September 2019, Pages 141947 - 141959. **[CameraReady](https://doi.org/10.1109/ACCESS.2019.2944682)**  
-👤<u>Authors</u>: Junkai Ji, Shuangbao Song, **<u>Cheng Tang</u>**, Shangce Gao, Zheng Tang, Yuki Todo. 
+👤<u>Authors</u>: Shuangyu Song, Xingqian Chen, Cheng Tang, Shuangbao Song, Zheng Tang, Yuki Todo
 
 <u>[J001]</u>. **"An artificial bee colony algorithm search guided by scale-free networks."**  
 **Information Sciences**, Volume 473, January 2019, Pages 142-165. **[CameraReady](https://doi.org/10.1016/j.ins.2018.09.034)**  
