@@ -23,3 +23,7 @@ My research interests lie at the intersection of **Machine / Deep Learning**, **
 <span id="busuanzi_container_site_uv">本站总访客数<span id="busuanzi_value_site_uv"></span>人
 
 <span id="busuanzi_container_page_pv">本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+
+<script src="https://cdn1.lncld.net/static/js/av-mini-0.6.10.js"></script>
+<script src="http://jerry-cdn.b0.upaiyun.com/hit-kounter/hit-kounter-lc-0.2.0.js"></script>
+<span data-hk-page="current"> - </span>
