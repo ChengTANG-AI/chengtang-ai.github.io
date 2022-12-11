@@ -9,7 +9,7 @@ redirect_from:
 
 
 
-<u>[2022-08-01]</u> I joined the Department of Communications Engineering, **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**, as a Research Assistant Professor.
+<u>[2022-08-01]</u> I joined the Department of Electrical and Mechanical Engineering, **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**, as a Research Assistant Professor.
 
 <u>[2022-04-01]</u> I joined the Faculty of Engineering, **[University of Toyama](https://www.u-toyama.ac.jp/)**, as a Postdoctoral Researcher.
 
