@@ -18,20 +18,25 @@ Journal Articles
 
 
 
-<u>[J015]</u>. **"A survey on machine learning models for financial time series forecasting."**  
+<u>[J016]</u>. **"A survey on machine learning models for financial time series forecasting."**  
 **Neurocomputing**, Volume 512, 1 November 2022, Pages 363-380. **[CameraReady](https://doi.org/10.1016/j.neucom.2022.09.003)**  
 👤<u>Authors</u>: Yajiao Tang, Zhenyu Song, Yulin Zhu, Huaiyu Yuan, Maozhang Hou, Junkai Ji, **<u>Cheng Tang+</u>** and Jianqiang Li.  
 🔑<u>Keywords</u>: Financial Time Series, Forecasting, Machine learning, Hybrid method.
+
+<u>[J015]</u>. **"Adopting a dendritic neural model for predicting stock price index movement."**  
+**Expert Systems with Applications**, Volume 205, 1 November 2022, 117637. **[CameraReady](https://doi.org/10.1016/j.eswa.2022.117637)**  
+👤<u>Authors</u>: Yajiao Tang, Zhenyu Song, Yulin Zhu, Maozhang Hou, **<u>Cheng Tang+</u>** and Junkai Ji.  
+🔑<u>Keywords</u>: Financial time series, Prediction, Dendritic neural network, Differential evolution, Scale-free networks.
 
 <u>[J014]</u>. **"The mechanism of orientation detection based on color-orientation jointly selective cells."**  
 **Knowledge-Based Systems**, Volume 254, 27 October 2022, 109715. **[CameraReady](https://doi.org/10.1016/j.knosys.2022.109715)**  
 👤<u>Authors</u>: Bin Li, Yuki Todo, Zheng Tang and **<u>Cheng Tang+</u>**.  
 🔑<u>Keywords</u>: Orientation detection, Color-orientation jointly selective cell, McCulloch–Pitts neuron model, Artificial visual system.
 
-<u>[J013]</u>. **"Adopting a dendritic neural model for predicting stock price index movement."**  
-**Expert Systems with Applications**, Volume 205, 1 November 2022, 117637. **[CameraReady](https://doi.org/10.1016/j.eswa.2022.117637)**  
-👤<u>Authors</u>: Yajiao Tang, Zhenyu Song, Yulin Zhu, Maozhang Hou, **<u>Cheng Tang+</u>** and Junkai Ji.  
-🔑<u>Keywords</u>: Financial time series, Prediction, Dendritic neural network, Differential evolution, Scale-free networks.
+<u>[J013]</u>. **"DenseHashNet: A Novel Deep Hashing for Medical Image Retrieval."**  
+**IEEE Journal of Radio Frequency Identification**, Volume 6, 28 September 2022, Pages 697-702. **[CameraReady](https://doi.org/10.1109/JRFID.2022.3209986)**  
+👤<u>Authors</u>: Chuansheng Liu, Weiping Ding, Chun Cheng, **<u>Cheng Tang</u>**, Jiashuang Huang and Haipeng Wang.  
+🔑<u>Keywords</u>: Codes, Image retrieval, Feature extraction, Medical diagnostic imaging, Databases, X-ray imaging, Manganese.
 
 <u>[J012]</u>. **"A novel motion direction detection mechanism based on dendritic computation of direction-selective ganglion cells."**  
 **Knowledge-Based Systems**, Volume 241, 6 April 2022, 108205. **[CameraReady](https://doi.org/10.1016/j.knosys.2022.108205)**  
