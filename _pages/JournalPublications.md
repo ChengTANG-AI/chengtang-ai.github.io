@@ -74,7 +74,7 @@ Journal Articles
 🔑<u>Keywords</u>: Brain-storm optimization, Chaotic local search, Adaptive mechanism.
 
 <u>[J005]</u>. **"A Simple Dendritic Neural Network Model-Based Approach for Daily PM<sub>2.5</sub> Concentration Prediction."**  
-**Complexity**, Volume 10, Issue 4, 3 February 2021, 373. **[CameraReady](https://doi.org/10.3390/electronics10040373)**  
+**Electronics**, Volume 10, Issue 4, 3 February 2021, 373. **[CameraReady](https://doi.org/10.3390/electronics10040373)**  
 👤<u>Authors</u>: Zhenyu Song, **<u>Cheng Tang</u>**, Junkai Ji, Yuki Todo and Zheng Tang.  
 🔑<u>Keywords</u>: Air quality forecasting, Neural network, Environment, PM<sub>2.5</sub> concentration.
 
