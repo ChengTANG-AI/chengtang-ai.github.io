@@ -16,7 +16,20 @@ Preprints
 Journal Articles
 </h2>
 
+<u>[J019]</u>. **"A complex network-based firefly algorithm for numerical optimization and time series forecasting."**  
+**Applied Soft Computing**, Volume 137, April 2023, 110158. **[CameraReady](https://doi.org/10.1016/j.asoc.2023.110158)**  
+👤<u>Authors</u>: Zhenyu Song, **<u>Cheng Tang</u>**, Shuangbao Song, Yajiao Tang, Jinhai Li and Junkai Ji.  
+🔑<u>Keywords</u>: Firefly Algorithm; Complex Network; Evolutionary Computations; Optimization.
 
+<u>[J018]</u>. **"A model of amacrine cells for orientation detection."**  
+**Electronic Research Archive**, 16 February 2023. **[CameraReady](https://doi.org/10.3934/era.2023103)**  
+👤<u>Authors</u>: Fenggang Yuan, **<u>Cheng Tang+</u>**, Zheng Tang and Yuki Todo.  
+🔑<u>Keywords</u>: Visual System; Perceptron; Orientation Detection; Grayscale; Amacrine Cell.
+
+<u>[J017]</u>. **"A Model of the Starburst Amacrine Cell for Motion Direction Detection."**  
+**International Journal of Bio-Inspired Computation**, January 2023. **[CameraReady](https://doi.org/10.1504/IJBIC.2022.10053950)**  
+👤<u>Authors</u>: Fenggang Yuan, Hiroyoshi Todo, **<u>Cheng Tang</u>**, Zheng Tang and Yuki Todo.  
+🔑<u>Keywords</u>: Deep Learning; Convolutional Neural Network; Perceptron; Direction Detection; Grayscale; Artificial Neural Network.
 
 <u>[J016]</u>. **"A survey on machine learning models for financial time series forecasting."**  
 **Neurocomputing**, Volume 512, 1 November 2022, Pages 363-380. **[CameraReady](https://doi.org/10.1016/j.neucom.2022.09.003)**  
