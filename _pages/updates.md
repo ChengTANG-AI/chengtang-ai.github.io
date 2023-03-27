@@ -15,13 +15,13 @@ redirect_from:
 
 <u>[2022-04-01]</u> I received the **Outstanding Self-Financed Students Abroad Award of Chinese Government**.
 
-<u>[2022-03-23]</u> I received a Ph.D. degree in engineering from the **[University of Toyama](https://www.u-toyama.ac.jp/)**.
+<u>[2022-03-23]</u> I received a **Ph.D.** degree in **Engineering** from the **[University of Toyama](https://www.u-toyama.ac.jp/)**.
 
 <u>[2021-04-01]</u> I received the **Otsuka Toshimi Scholarship for fiscal 2021**.
 
 <u>[2020-04-01]</u> I received the **Otsuka Toshimi Scholarship for fiscal 2020**.
 
-<u>[2020-03-24]</u> I received an M.E. degree in engineering from the **[University of Toyama](https://www.u-toyama.ac.jp/)**.
+<u>[2020-03-24]</u> I received an **M.E.** degree in **Engineering** from the **[University of Toyama](https://www.u-toyama.ac.jp/)**.
 
 
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
