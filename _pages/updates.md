@@ -25,6 +25,4 @@ redirect_from:
 
 
 <script async src="https://busuanzi.icodeq.com/busuanzi.pure.mini.js"></script>
-1: <span id="busuanzi_value_page_pv"></span> .
-2: <span id="busuanzi_value_site_pv"></span> .
 3: <span id="busuanzi_value_site_uv"></span> .
