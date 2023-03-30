@@ -21,7 +21,7 @@ Outside of research, I enjoy **traveling** and **photography**.
 E-mail: <tangcheng.ac@outlook.com>
 
 
-<script async src="//busuanzi.icodeq.com/busuanzi.pure.mini.js"></script>
+<script async src="https://cdn.jsdelivr.net/gh/sukkaw/busuanzi@2.3/bsz.pure.mini.js"></script>
 1: <span id="busuanzi_value_page_pv"></span> .
 2: <span id="busuanzi_value_site_pv"></span> .
 3: <span id="busuanzi_value_site_uv"></span> .
