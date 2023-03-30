@@ -28,3 +28,4 @@ redirect_from:
 <span id="busuanzi_container_site_pv">SPV: <span id="busuanzi_value_site_pv"></span>.</span>
 <span id="busuanzi_container_site_uv">SUV: <span id="busuanzi_value_site_uv"></span>.</span>
 <span id="busuanzi_container_page_pv">PPV: <span id="busuanzi_value_page_pv"></span>.</span>
+<span id="busuanzi_container_page_uv">PUV: <span id="busuanzi_value_page_uv"></span>.</span>
