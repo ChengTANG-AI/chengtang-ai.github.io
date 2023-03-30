@@ -170,5 +170,3 @@ Conference Proceedings
 
 <script async src="https://busuanzi.icodeq.com/busuanzi.pure.mini.js"></script>
 <span id="busuanzi_value_page_pv"></span>
-<span id="busuanzi_value_site_pv"></span>
-<span id="busuanzi_value_site_uv"></span>
