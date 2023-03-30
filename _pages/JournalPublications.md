@@ -168,5 +168,10 @@ Conference Proceedings
 🔑<u>Keywords</u>: Gravitational search algorithm, Self-adaptive, Chaotic, Local search, Exploitation.
 
 
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-<span id="busuanzi_container_site_pv">Total visits: <span id="busuanzi_value_site_pv"></span>.</span>
+<script async src="https://busuanzi.icodeq.com/busuanzi.pure.mini.js"></script>
+
+本文总阅读量 <span id="busuanzi_value_page_pv"></span> 次
+
+本站总访问量 <span id="busuanzi_value_site_pv"></span> 次
+
+本站总访客数 <span id="busuanzi_value_site_uv"></span> 人
