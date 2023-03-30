@@ -24,10 +24,7 @@ redirect_from:
 <u>[2020-03-24]</u> I received an **M.E.** degree in **Engineering** from the **[University of Toyama](https://www.u-toyama.ac.jp/)**.
 
 
-<script async src="https://busuanzi.icodeq.com/busuanzi.pure.mini.js"></script>
-
+<script async src="https://npm.elemecdn.com/penndu@1.0.0/bsz.js"></script>
 <span id="busuanzi_container_site_pv">SPV: <span id="busuanzi_value_site_pv"></span>.</span>
-
 <span id="busuanzi_container_site_uv">SUV: <span id="busuanzi_value_site_uv"></span>.</span>
-
 <span id="busuanzi_container_page_pv">PPV: <span id="busuanzi_value_page_pv"></span>.</span>
