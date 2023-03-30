@@ -24,5 +24,5 @@ redirect_from:
 <u>[2020-03-24]</u> I received an **M.E.** degree in **Engineering** from the **[University of Toyama](https://www.u-toyama.ac.jp/)**.
 
 
-<script async src="https://busuanzi.icodeq.com/busuanzi.pure.mini.js"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/busuanzi/2.3.0/bsz.pure.mini.min.js"></script>
 Total Visit: <span id="busuanzi_value_site_uv"></span>.
