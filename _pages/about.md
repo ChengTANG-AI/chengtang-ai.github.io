@@ -22,10 +22,4 @@ E-mail: <tangcheng.ac@outlook.com>
 
 
 <script async src="https://npm.elemecdn.com/penndu@1.0.0/bsz.js"></script>
-<span id="busuanzi_container_page_pv">Total Page Visits: <span id="busuanzi_value_page_pv"></span>.</span>
-
-<span id="busuanzi_container_site_pv">Total Site Visits: <span id="busuanzi_value_site_pv"></span>.</span>
-
-<span id="busuanzi_container_page_uv">Total Page Visitors: <span id="busuanzi_value_page_uv"></span>.</span>
-
-<span id="busuanzi_container_site_uv">Total Site Visitors: <span id="busuanzi_value_site_uv"></span>.</span>
+<span id="busuanzi_container_site_pv">Total Visits: <span id="busuanzi_value_site_pv"></span>.</span>
