@@ -7,6 +7,18 @@ redirect_from:
   - /updates
 ---
 
+**[Biography](#bio)** &nbsp; &nbsp; **[Honor and Awards](#haa)** &nbsp; &nbsp;
+
+<h2 id="bio">
+Biography
+</h2>
+<!--👤🔑🔥**To appear in NeurIPS 2022**-->
+
+
+<h2 id="haa">
+Honor and Awards
+</h2>
+
 
 
 <u>[2022-08-01]</u> I joined the Department of Electrical and Mechanical Engineering, **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**, as a Research Assistant Professor.
