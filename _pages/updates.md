@@ -19,6 +19,8 @@ redirect_from:
 
 <u>[2021-04-01]</u> I received the **Otsuka Toshimi Scholarship** for fiscal 2021.
 
+<u>[2020-11-01]</u> I received the **Outstanding Students Award from University of Toyama**.
+
 <u>[2020-04-01]</u> I received the **Otsuka Toshimi Scholarship** for fiscal 2020.
 
 <u>[2020-03-24]</u> I received an **M.E.** degree in **Engineering** from the **[University of Toyama](https://www.u-toyama.ac.jp/)**.
