@@ -13,9 +13,9 @@ redirect_from:
 Biography
 </h2>
 
-<u>[2023-04-01]</u> I joined **[The Japanese Society for Artificial Intelligence](https://www.ai-gakkai.or.jp/)**, as a **Member**.
+<u>[2023-04-01]</u> I joined the **[The Japanese Society for Artificial Intelligence](https://www.ai-gakkai.or.jp/)**, as a **Member**.
 
-<u>[2022-09-01]</u> I joined **[Institute of Electrical and Electronics Engineers (IEEE)](https://www.ieee.org/)**, as a **Member**.
+<u>[2022-09-01]</u> I joined the **[Institute of Electrical and Electronics Engineers (IEEE)](https://www.ieee.org/)**, as a **Member**.
 
 <u>[2022-08-01]</u> I joined the Department of Electrical and Mechanical Engineering, **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**, as a **Research Assistant Professor**.
 
@@ -34,7 +34,7 @@ Honor and Awards
 
 <u>[2021-04-01]</u> I received the **Otsuka Toshimi Scholarship** for fiscal 2021.
 
-<u>[2020-11-01]</u> I received the **Outstanding Students Award** from University of Toyama.
+<u>[2020-11-01]</u> I received the **Outstanding Students Award** from the **[University of Toyama](https://www.u-toyama.ac.jp/)**.
 
 <u>[2020-04-01]</u> I received the **Otsuka Toshimi Scholarship** for fiscal 2020.
 
