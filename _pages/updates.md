@@ -12,14 +12,6 @@ redirect_from:
 <h2 id="bio">
 Biography
 </h2>
-<!--👤🔑🔥**To appear in NeurIPS 2022**-->
-
-
-<h2 id="haa">
-Honor and Awards
-</h2>
-
-
 
 <u>[2022-08-01]</u> I joined the Department of Electrical and Mechanical Engineering, **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**, as a Research Assistant Professor.
 
@@ -36,6 +28,14 @@ Honor and Awards
 <u>[2020-04-01]</u> I received the **Otsuka Toshimi Scholarship** for fiscal 2020.
 
 <u>[2020-03-24]</u> I received an **M.E.** degree in **Engineering** from the **[University of Toyama](https://www.u-toyama.ac.jp/)**.
+
+
+<h2 id="haa">
+Honor and Awards
+</h2>
+
+
+
 
 
 <script async src="https://npm.elemecdn.com/penndu@1.0.0/bsz.js"></script>
