@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an Assistant Professor in the **Artificial Intelligence** at **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**.  
+I am an **Assistant Professor** in the **Artificial Intelligence** at **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**.  
 I conduct my research in the **[Hirata & Kodera Lab](https://cem.web.nitech.ac.jp/hilab/)** advised by **[Prof. Hirata](https://scholar.google.com/citations?user=zSV81YwAAAAJ)**.  
 I received a Ph.D. degree in engineering from the **[University of Toyama](https://www.u-toyama.ac.jp/)**, Toyama, Japan, in 2022.
 
