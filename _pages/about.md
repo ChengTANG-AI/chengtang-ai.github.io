@@ -8,8 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I am an **Assistant Professor** in the **Artificial Intelligence** at **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**.  
-I conduct my research in the **[Hirata & Kodera Lab](https://cem.web.nitech.ac.jp/hilab/)** advised by **[Prof. Hirata](https://scholar.google.com/citations?user=zSV81YwAAAAJ)**.  
+I am an **Assistant Professor** in the **Artificial Intelligence** at **[Kyushu University](https://www.kyushu-u.ac.jp/ja/)**.  
+I conduct my research in the **[Laboratory for Image and Media Understanding](https://limu.ait.kyushu-u.ac.jp/index.html)** advised by **[Prof. Shimada](https://scholar.google.com/citations?user=zSV81YwAAAAJ)**.  
 I received a Ph.D. degree in engineering from the **[University of Toyama](https://www.u-toyama.ac.jp/)**, Toyama, Japan, in 2022.
 
 My research interests lie at the intersection of **Machine / Deep Learning**, **Computational Neuroscience**, **Neural Networks**, **Evolutionary Computation**, and **Bioinformatics**.
