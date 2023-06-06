@@ -13,13 +13,15 @@ redirect_from:
 Biography
 </h2>
 
+<u>[2022-08-01]</u> I joined the **Faculty of Information Science and Electrical Engineering**, **[Kyushu University](https://www.kyushu-u.ac.jp/ja/)**, as a ** Assistant Professor**.
+
 <u>[2023-04-01]</u> I joined the **[The Japanese Society for Artificial Intelligence](https://www.ai-gakkai.or.jp/)**, as a **Member**.
 
 <u>[2022-09-01]</u> I joined the **[Institute of Electrical and Electronics Engineers (IEEE)](https://www.ieee.org/)**, as a **Member**.
 
-<u>[2022-08-01]</u> I joined the Department of Electrical and Mechanical Engineering, **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**, as a **Research Assistant Professor**.
+<u>[2022-08-01]</u> I joined the **Department of Electrical and Mechanical Engineering**, **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**, as a **Research Assistant Professor**.
 
-<u>[2022-04-01]</u> I joined the Faculty of Engineering, **[University of Toyama](https://www.u-toyama.ac.jp/)**, as a **Postdoctoral Researcher**.
+<u>[2022-04-01]</u> I joined the **Faculty of Engineering**, **[University of Toyama](https://www.u-toyama.ac.jp/)**, as a **Postdoctoral Researcher**.
 
 <u>[2022-03-23]</u> I received a **Ph.D.** degree in **Engineering** from the **[University of Toyama](https://www.u-toyama.ac.jp/)**.
 
