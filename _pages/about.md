@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an **Assistant Professor** in the **Artificial Intelligence** at **[Kyushu University](https://www.kyushu-u.ac.jp/ja/)**.  
+I am a tenured **Assistant Professor** in the **Artificial Intelligence** at **[Kyushu University](https://www.kyushu-u.ac.jp/ja/)**.  
 I conduct my research in the **[Laboratory for Image and Media Understanding](https://www.eng.kyushu-u.ac.jp/lab_electrical33.html)** advised by **[Prof. Shimada](https://sites.google.com/view/atsushishimada/)**.  
 I received a Ph.D. degree in engineering from the **[University of Toyama](https://www.u-toyama.ac.jp/)**, Toyama, Japan, in 2022.
 
