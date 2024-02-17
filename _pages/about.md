@@ -23,7 +23,7 @@ I have published over 30 articles in international journals, such as
 **Applied Soft Computing (ASOC)**,  
 **Engineering Applications of Artificial Intelligence (EAAI)**,  
 **Neurocomputing**,  
-**IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)**  
+**IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)**,  
 and so on. 
 
 I serve as a peer reviewer for several international journals, such as  
