@@ -16,22 +16,22 @@ I received my M.E. and Ph.D. degrees in engineering from the **[University of To
 My main research interests are **Machine / Deep Learning**, **Computational Neuroscience**, **Neural Networks**, **Evolutionary Computation**, and **Bioinformatics**, **Learning Analytics**, and **Artificial Intelligence** in **Medical Big Data**. 
 
 I have published over 30 articles in international journals, such as  
-**IEEE Transactions on Emerging Topics in Computational Intelligence (TETCI)**,  
-**Knowledge-Based Systems (KBS)**,  
-**Information Sciences (INS)**,  
-**Expert Systems with Applications (ESWA)**,  
-**Applied Soft Computing (ASOC)**,  
-**Engineering Applications of Artificial Intelligence (EAAI)**,  
-**Neurocomputing**,  
-**IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)**,  
+**[IEEE Transactions on Emerging Topics in Computational Intelligence (TETCI)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7433297)**,  
+**[Knowledge-Based Systems (KBS)](https://www.sciencedirect.com/journal/knowledge-based-systems)**,  
+**[Information Sciences (INS)](https://www.sciencedirect.com/journal/information-sciences)**,  
+**[Expert Systems with Applications (ESWA)](https://www.sciencedirect.com/journal/expert-systems-with-applications)**,  
+**[Applied Soft Computing (ASOC)](https://www.sciencedirect.com/journal/applied-soft-computing)**,  
+**[Engineering Applications of Artificial Intelligence (EAAI)](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence)**,  
+**[Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing)**,  
+**[IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)]()**,  
 and so on. 
 
 I serve as a peer reviewer for several international journals, such as  
-**IEEE Transactions on Neural Networks and Learning Systems (TNNLS)**,  
-**IEEE Transactions on Fuzzy Systems (TFS)**,  
-**IEEE Transactions on Intelligent Vehicles (TIV)**,  
-**Information Fusion**,  
-**Applied Soft Computing (ASOC)**,  
+**[IEEE Transactions on Neural Networks and Learning Systems (TNNLS)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385)**,  
+**[IEEE Transactions on Fuzzy Systems (TFS)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=91)**,  
+**[IEEE Transactions on Intelligent Vehicles (TIV)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7274857)**,  
+**[Information Fusion](https://www.sciencedirect.com/journal/information-fusion)**,  
+**[Applied Soft Computing (ASOC)](https://www.sciencedirect.com/journal/applied-soft-computing)**,  
 and so on.
 
 Outside of research, I enjoy **traveling** and **photography**.
