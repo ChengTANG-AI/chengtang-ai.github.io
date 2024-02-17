@@ -12,6 +12,12 @@ I am a tenured **Assistant Professor** in the **Artificial Intelligence** at **[
 I conduct my research in the **[Laboratory for Image and Media Understanding](https://www.eng.kyushu-u.ac.jp/lab_electrical33.html)** advised by **[Prof. Shimada](https://sites.google.com/view/atsushishimada/)**.  
 I received a Ph.D. degree in engineering from the **[University of Toyama](https://www.u-toyama.ac.jp/)**, Toyama, Japan, in 2022.
 
+I received my M.E. and Ph.D. degrees in engineering from the **[University of Toyama](https://www.u-toyama.ac.jp/)**, Toyama, Japan, in 2020 and 2022, respectively. From 2022 to 2023, I was an Assistant Professor at the **[Hirata　Laboratory](https://cem.web.nitech.ac.jp/hilab/)**, Graduate School of Engineering Tsukuri College, **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**, Nagoya, Japan. In 2023, I joined **[Kyushu University](https://www.kyushu-u.ac.jp/ja/)**, Fukuoka, Japan, where I am currently an Assistant Professor (Tenured) with the Department of Advanced Information Technology, Graduate School and Faculty of Information Science and Electrical Engineering.
+
+My main research interests are **Machine / Deep Learning**, **Computational Neuroscience**, **Neural Networks**, **Evolutionary Computation**, and **Bioinformatics**, **Learning Analytics**, and **Artificial Intelligence** in **Medical Big Data**. I have published over 30 articles in international journals, such as **IEEE Transactions on Emerging Topics in Computational Intelligence (TETCI)**, **Knowledge-Based Systems**, **Information Sciences**, **Expert Systems with Applications**, **Applied Soft Computing**, **Engineering Applications of Artificial Intelligence**, **Neurocomputing**, **IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)** and so on. I serve as a peer reviewer for several international journals, such as **IEEE Transactions on Neural Networks and Learning Systems (TNNLS)**, **IEEE Transactions on Fuzzy Systems (TFS)**, **IEEE Transactions on Intelligent Vehicles (TIV)**, **Information Fusion**, **Applied Soft Computing**, and so on.
+![image](https://github.com/ChengTANG-AI/chengtang-ai.github.io/assets/97435706/459f8433-75a6-4b51-8b12-be6c0dd2d057)
+
+
 My research interests lie at the intersection of **Machine / Deep Learning**, **Computational Neuroscience**, **Neural Networks**, **Evolutionary Computation**, and **Bioinformatics**.
 
 Outside of research, I enjoy **traveling** and **photography**.
