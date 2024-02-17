@@ -15,9 +15,23 @@ I received my M.E. and Ph.D. degrees in engineering from the **[University of To
 
 My main research interests are **Machine / Deep Learning**, **Computational Neuroscience**, **Neural Networks**, **Evolutionary Computation**, and **Bioinformatics**, **Learning Analytics**, and **Artificial Intelligence** in **Medical Big Data**. 
 
-I have published over 30 articles in international journals, such as **IEEE Transactions on Emerging Topics in Computational Intelligence (TETCI)**, **Knowledge-Based Systems**, **Information Sciences**, **Expert Systems with Applications**, **Applied Soft Computing**, **Engineering Applications of Artificial Intelligence**, **Neurocomputing**, **IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)** and so on. 
+I have published over 30 articles in international journals, such as 
+**IEEE Transactions on Emerging Topics in Computational Intelligence (TETCI)**, 
+**Knowledge-Based Systems**, 
+**Information Sciences**, 
+**Expert Systems with Applications**, 
+**Applied Soft Computing**, 
+**Engineering Applications of Artificial Intelligence**, 
+**Neurocomputing**, 
+**IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)** 
+and so on. 
 
-I serve as a peer reviewer for several international journals, such as **IEEE Transactions on Neural Networks and Learning Systems (TNNLS)**, **IEEE Transactions on Fuzzy Systems (TFS)**, **IEEE Transactions on Intelligent Vehicles (TIV)**, **Information Fusion**, **Applied Soft Computing**, and so on.
+I serve as a peer reviewer for several international journals, such as 
+**IEEE Transactions on Neural Networks and Learning Systems (TNNLS)**, 
+**IEEE Transactions on Fuzzy Systems (TFS)**, 
+**IEEE Transactions on Intelligent Vehicles (TIV)**, 
+**Information Fusion**, **Applied Soft Computing**, 
+and so on.
 
 Outside of research, I enjoy **traveling** and **photography**.
 
