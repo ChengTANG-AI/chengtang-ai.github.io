@@ -17,11 +17,11 @@ My main research interests are **Machine / Deep Learning**, **Computational Neur
 
 I have published over 30 articles in international journals, such as  
 **IEEE Transactions on Emerging Topics in Computational Intelligence (TETCI)**,  
-**Knowledge-Based Systems**,  
-**Information Sciences**,  
-**Expert Systems with Applications**,  
-**Applied Soft Computing**,  
-**Engineering Applications of Artificial Intelligence**,  
+**Knowledge-Based Systems (KBS)**,  
+**Information Sciences (INS)**,  
+**Expert Systems with Applications (ESWA)**,  
+**Applied Soft Computing (ASOC)**,  
+**Engineering Applications of Artificial Intelligence (EAAI)**,  
 **Neurocomputing**,  
 **IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)**  
 and so on. 
@@ -30,7 +30,8 @@ I serve as a peer reviewer for several international journals, such as
 **IEEE Transactions on Neural Networks and Learning Systems (TNNLS)**,  
 **IEEE Transactions on Fuzzy Systems (TFS)**,  
 **IEEE Transactions on Intelligent Vehicles (TIV)**,  
-**Information Fusion**, **Applied Soft Computing**,  
+**Information Fusion**,  
+**Applied Soft Computing (ASOC)**,  
 and so on.
 
 Outside of research, I enjoy **traveling** and **photography**.
