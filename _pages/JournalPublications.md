@@ -115,11 +115,16 @@ Journal Articles
 Conference Proceedings
 </h2>
 
+Wang, Q., Zhang, H., Ji, J., Tang, C., & Tang, Y. (2023, November). Dendritic Neural Regression Model Trained by Chicken Swarm Optimization Algorithm for Bank Customer Churn Prediction. In  (pp. 254-265). Singapore: Springer Nature Singapore.
 
+<u>[C011]</u>. **"Dendritic Neural Regression Model Trained by Chicken Swarm Optimization Algorithm for Bank Customer Churn Prediction."**  
+**International Conference on Neural Information Processing (ICNIP)**, 26 November 2023, Pages 254–265. **[CameraReady](https://doi.org/10.1007/978-981-99-8184-7_20)**  
+👤<u>Authors</u>: Qi Wang, Haiyan Zhang, Junkai Ji, **<u>Cheng Tang</u>** and Yajiao Tang.  
+🔑<u>Keywords</u>: Dendritic Neural Regression Model, Chicken Swarm Optimization, Customer churn prediction.
 
 <u>[C010]</u>. **"Evolutionary Neural Architecture Design of Liquid State Machine for Image Classification."**  
 **ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)**, 23-27 May 2022, Pages 91-95. **[CameraReady](https://doi.org/10.1109/ICASSP43922.2022.9747040)**  
-👤<u>Authors</u>: **<u>Cheng Tang</u>**, Junkai Ji and Qiuzhen Lin.  
+👤<u>Authors</u>: **<u>Cheng Tang</u>**, Junkai Ji, Qiuzhen Lin and Yan Zhou.  
 🔑<u>Keywords</u>: Spiking neural network, Liquid state machine, Neural architecture, Evolutionary algorithm, Classification.
 
 <u>[C009]</u>. **"The Mechanism of Motion Direction Detection from Gray Images."**  
