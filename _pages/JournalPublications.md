@@ -115,7 +115,8 @@ Journal Articles
 Conference Proceedings
 </h2>
 
-Wang, Q., Zhang, H., Ji, J., Tang, C., & Tang, Y. (2023, November). Dendritic Neural Regression Model Trained by Chicken Swarm Optimization Algorithm for Bank Customer Churn Prediction. In  (pp. 254-265). Singapore: Springer Nature Singapore.
+
+
 
 <u>[C011]</u>. **"Dendritic Neural Regression Model Trained by Chicken Swarm Optimization Algorithm for Bank Customer Churn Prediction."**  
 **International Conference on Neural Information Processing (ICNIP)**, 26 November 2023, Pages 254–265. **[CameraReady](https://doi.org/10.1007/978-981-99-8184-7_20)**  
