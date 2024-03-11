@@ -16,6 +16,11 @@ Preprints
 Journal Articles
 </h2>
 
+<u>[J019]</u>. **"Dendritic Neural Network: A Novel Extension of Dendritic Neuron Model."**  
+**IEEE Transactions on Emerging Topics in Computational Intelligence**, Volume 137, March 2024, 110158. **[CameraReady](https://doi.org/10.1109/TETCI.2024.3367819)**  
+👤<u>Authors</u>: Zhenyu Song, **<u>Cheng Tang</u>**, Junkai Ji, Yuki Todo, Atsushi Shimada, Weiping Ding and Akimasa Hirata.  
+🔑<u>Keywords</u>: Dendritic Neuron Model, Dendritic Neural Network, Dropout Mechanism, Multiclass Classification.
+
 <u>[J019]</u>. **"A complex network-based firefly algorithm for numerical optimization and time series forecasting."**  
 **Applied Soft Computing**, Volume 137, April 2023, 110158. **[CameraReady](https://doi.org/10.1016/j.asoc.2023.110158)**  
 👤<u>Authors</u>: Zhenyu Song, **<u>Cheng Tang</u>**, Shuangbao Song, Yajiao Tang, Jinhai Li and Junkai Ji.  
