@@ -19,7 +19,7 @@ Biography
 
 <u>[2023-06-01]</u> I joined the **Faculty of Information Science and Electrical Engineering**, **[Kyushu University](https://www.kyushu-u.ac.jp/ja/)**, as an **Assistant Professor**.
 
-<u>[2023-04-01]</u> I joined the **[The Japanese Society for Artificial Intelligence](https://www.ai-gakkai.or.jp/)**, as a **Member**.
+<u>[2023-04-01]</u> I joined the **[Japanese Society for Artificial Intelligence](https://www.ai-gakkai.or.jp/)**, as a **Member**.
 
 <u>[2022-09-01]</u> I joined the **[Institute of Electrical and Electronics Engineers (IEEE)](https://www.ieee.org/)**, as a **Member**.
 
