@@ -13,9 +13,9 @@ redirect_from:
 Biography
 </h2>
 
-<u>[2022-08-01]</u> I served as a program committee member for the **[11th IEEE International Conference on Data Science and Advanced Analytics (DSAA 2024)](https://indigopurple.github.io/DSAA/dsaa2024.html)**， San Diego, CA, United States: October 6th-10th, 2024.
+<u>[2024-03-12]</u> I served as a program committee member for the **[11th IEEE International Conference on Data Science and Advanced Analytics (DSAA 2024)](https://indigopurple.github.io/DSAA/dsaa2024.html)**， San Diego, CA, United States: October 6th-10th, 2024.
 
-<u>[2022-08-01]</u> I joined the **Faculty of Information Science and Electrical Engineering**, **[Kyushu University](https://www.kyushu-u.ac.jp/ja/)**, as an **Assistant Professor**.
+<u>[2023-06-01]</u> I joined the **Faculty of Information Science and Electrical Engineering**, **[Kyushu University](https://www.kyushu-u.ac.jp/ja/)**, as an **Assistant Professor**.
 
 <u>[2023-04-01]</u> I joined the **[The Japanese Society for Artificial Intelligence](https://www.ai-gakkai.or.jp/)**, as a **Member**.
 
