@@ -16,7 +16,12 @@ Preprints
 Journal Articles
 </h2>
 
-<u>[J019]</u>. **"Dendritic Neural Network: A Novel Extension of Dendritic Neuron Model."**  
+<u>[J021]</u>. **"Sensitivity of Electrocardiogram on Electrode-Pair Locations for Wearable Devices: Computational Analysis of Amplitude and Waveform Distortion."**  
+**Biosensors**, Volume 14, Issue 3, March 2024, 110158. **[CameraReady](https://doi.org/10.3390/bios14030153)**  
+👤<u>Authors</u>: Kiyoto Sanjo, Kazuki Hebiguchi, **<u>Cheng Tang</u>**, Essam A Rashed, Sachiko Kodera, Hiroyoshi Togo and Akimasa Hirata.  
+🔑<u>Keywords</u>: Electrocardiogram, Numerical Human Model, Scalar-Potential Finite-Difference Method, Wearable Device.
+
+<u>[J020]</u>. **"Dendritic Neural Network: A Novel Extension of Dendritic Neuron Model."**  
 **IEEE Transactions on Emerging Topics in Computational Intelligence**, Volume 137, March 2024, 110158. **[CameraReady](https://doi.org/10.1109/TETCI.2024.3367819)**  
 👤<u>Authors</u>: Zhenyu Song, **<u>Cheng Tang</u>**, Junkai Ji, Yuki Todo, Atsushi Shimada, Weiping Ding and Akimasa Hirata.  
 🔑<u>Keywords</u>: Dendritic Neuron Model, Dendritic Neural Network, Dropout Mechanism, Multiclass Classification.
