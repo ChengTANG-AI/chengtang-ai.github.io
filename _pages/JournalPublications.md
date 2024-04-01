@@ -71,7 +71,7 @@ Journal Articles
 👤<u>Authors</u>: Junkai Ji, **<u>Cheng Tang+</u>**, Jiajun Zhao, Zheng Tang and Yuki Todo.  
 🔑<u>Keywords</u>: Neural model, Dendritic computation, Classification, Prediction, Logic circuit.
 
-<u>[J010]</u>. **"A cuckoo search algorithm with scale-free population topology."** **[Code](https://chengtang-ai.github.io/files/Cockoo_Search_SF.zip)**  
+<u>[J010]</u>. **"A cuckoo search algorithm with scale-free population topology."** **[<font color=red>Code</font>](https://chengtang-ai.github.io/files/Cockoo_Search_SF.zip)**  
 **Expert Systems with Applications**, Volume 188, February 2022, 116049. **[CameraReady](https://doi.org/10.1016/j.eswa.2021.116049)**  
 👤<u>Authors</u>: **<u>Cheng Tang</u>**, Shuangbao Song, Junkai Ji, Yajiao Tang, Zheng Tang and Yuki Todo.  
 🔑<u>Keywords</u>: Evolutionary computations, Optimization, Cuckoo search, Scale-free network, Population topology.
