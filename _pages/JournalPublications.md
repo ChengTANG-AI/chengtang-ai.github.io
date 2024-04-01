@@ -46,7 +46,7 @@ Journal Articles
 👤<u>Authors</u>: Yajiao Tang, Zhenyu Song, Yulin Zhu, Huaiyu Yuan, Maozhang Hou, Junkai Ji, **<u>Cheng Tang+</u>** and Jianqiang Li.  
 🔑<u>Keywords</u>: Financial Time Series, Forecasting, Machine learning, Hybrid method.
 
-<u>[J015]</u>. **"Adopting a dendritic neural model for predicting stock price index movement."**  
+<u>[J015]</u>. **"Adopting a dendritic neural model for predicting stock price index movement."**  **[Code](https://chengtang-ai.github.io/files/Scale-Free-Differential-Evolution-main.zip){: style="color: red"}**  
 **Expert Systems with Applications**, Volume 205, 1 November 2022, 117637. **[CameraReady](https://doi.org/10.1016/j.eswa.2022.117637)**  
 👤<u>Authors</u>: Yajiao Tang, Zhenyu Song, Yulin Zhu, Maozhang Hou, **<u>Cheng Tang+</u>** and Junkai Ji.  
 🔑<u>Keywords</u>: Financial time series, Prediction, Dendritic neural network, Differential evolution, Scale-free networks.
