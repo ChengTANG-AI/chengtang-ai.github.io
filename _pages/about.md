@@ -15,7 +15,7 @@ I received my M.E. and Ph.D. degrees in engineering from the **[University of To
 
 My main research interests are **Machine / Deep Learning**, **Computational Neuroscience**, **Neural Networks**, **Evolutionary Computation**, and **Bioinformatics**, **Learning Analytics**, and **Artificial Intelligence** in **Medical Big Data**. 
 
-I have published over 30 articles in international journals, such as  
+I have published over 30 articles in international journals, including  
 **[IEEE Transactions on Emerging Topics in Computational Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7433297)** (TETCI),  
 **[Knowledge-Based Systems](https://www.sciencedirect.com/journal/knowledge-based-systems)** (KBS),  
 **[Information Sciences](https://www.sciencedirect.com/journal/information-sciences)** (INS),  
@@ -30,12 +30,12 @@ I serve as the leading guest editor of special issues in several prestigious jou
 **[Electronics](https://www.mdpi.com/journal/electronics)**,  
 and so on.
 
-I serve as a committee member in several international conferences, including
+I serve as a committee member in several international conferences, including  
 **[11th IEEE International Conference on Data Science and Advanced Analytics](https://dsaa2024.dsaa.co/)** (DSAA 2024),  
 **[20th International Conference on Intelligent Computing](https://www.ic-icc.cn/2024/index.htm)** (ICIC 2024),  
 and so on.
 
-I serve as a peer reviewer for several international journals, such as  
+I serve as a peer reviewer for several international journals, including  
 **[IEEE Transactions on Neural Networks and Learning Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385)** (TNNLS),  
 **[IEEE Transactions on Fuzzy Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=91)** (TFS),  
 **[IEEE Transactions on Intelligent Vehicles](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7274857)** (TIV),  
