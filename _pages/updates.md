@@ -13,7 +13,11 @@ redirect_from:
 Biography
 </h2>
 
-<u>[2024-03-12]</u> I served as a program committee member for the **[11th IEEE International Conference on Data Science and Advanced Analytics (DSAA 2024)](https://indigopurple.github.io/DSAA/dsaa2024.html)**, San Diego, CA, United States: October 6th-10th, 2024.
+<u>[2024-04-22]</u> I served as the leading guest editor of Special Issue: Applications of Edge Computing in Mobile Systems, **[Electronics](https://www.mdpi.com/journal/electronics)** (ISSN 2079-9292).
+
+<u>[2024-04-22]</u> I served as a program committee member for the **[20th International Conference on Intelligent Computing](https://www.ic-icc.cn/2024/index.htm)** (ICIC 2024), Tianjin, China: August 5th-8th, 2024.
+
+<u>[2024-03-12]</u> I served as a program committee member for the **[11th IEEE International Conference on Data Science and Advanced Analytics](https://indigopurple.github.io/DSAA/dsaa2024.html)** (DSAA 2024), San Diego, CA, United States: October 6th-10th, 2024.
 
 <u>[2023-12-01]</u> I joined the **[Information Processing Society of Japan](https://www.ipsj.or.jp/index.html)**, as a **Member**.
 
