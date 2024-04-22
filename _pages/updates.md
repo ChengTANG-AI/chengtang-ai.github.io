@@ -25,7 +25,7 @@ Biography
 
 <u>[2023-04-01]</u> I joined the **[Japanese Society for Artificial Intelligence](https://www.ai-gakkai.or.jp/)**, as a **Member**.
 
-<u>[2023-02-01]</u> I participated in the **[COVID-19 AI & Simulation Project](https://www.covid19-ai.jp/ja-jp/)** Cabinet Agency for Infectious Disease Crisis Management, Cabinet Secretariat, Japan, as a **Co-Investigator**, **[Long-term projection of new positives in Tokyo](https://www.covid19-ai.jp/en-us/presentation/2022_rq1_simulations_for_infection_situations/articles/article435/)**, **[Projection of new positives after the 8th wave ~ Possibility of XBB.1.5 expansion ~](https://www.covid19-ai.jp/en-us/presentation/2022_rq1_simulations_for_infection_situations/articles/article427/)**.
+<u>[2023-02-01]</u> I participated in the **[COVID-19 AI & Simulation Project](https://www.covid19-ai.jp/ja-jp/)** (**[Long-term projection of new positives in Tokyo](https://www.covid19-ai.jp/en-us/presentation/2022_rq1_simulations_for_infection_situations/articles/article435/)**, **[Projection of new positives after the 8th wave ~ Possibility of XBB.1.5 expansion ~](https://www.covid19-ai.jp/en-us/presentation/2022_rq1_simulations_for_infection_situations/articles/article427/)**) Cabinet Agency for Infectious Disease Crisis Management, Cabinet Secretariat, Japan, as a **Co-Investigator**.
 
 <u>[2022-09-01]</u> I joined the **[Institute of Electrical and Electronics Engineers (IEEE)](https://www.ieee.org/)**, as a **Member**.
 
