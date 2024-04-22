@@ -26,7 +26,7 @@ I have published over 30 articles in international journals, such as
 **[IEEE International Conference on Acoustics, Speech, and Signal Processing](https://2022.ieeeicassp.org/)** (ICASSP),  
 and so on. 
 
-I serve as the leading guest editor of special issues in several prestigious journals, including
+I serve as the leading guest editor of special issues in several prestigious journals, including  
 **[Electronics](https://www.mdpi.com/journal/electronics)**,  
 and so on.
 
