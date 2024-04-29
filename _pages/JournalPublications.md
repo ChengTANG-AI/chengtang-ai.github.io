@@ -37,7 +37,7 @@ Journal Articles
 🔑<u>Keywords</u>: Firefly Algorithm; Complex Network; Evolutionary Computations; Optimization.
 
 <u>[J018]</u>. **"A model of amacrine cells for orientation detection."**  
-**Electronic Research Archive**, 16 February 2023. **[CameraReady](https://doi.org/10.3934/era.2023103)**  
+**Electronic Research Archive**, Volume 31, Issue 4, Pages 1998-2018, 16 February 2023. **[CameraReady](https://doi.org/10.3934/era.2023103)**  
 👤<u>Authors</u>: Fenggang Yuan, **<u>Cheng Tang+</u>**, Zheng Tang and Yuki Todo.  
 🔑<u>Keywords</u>: Visual System; Perceptron; Orientation Detection; Grayscale; Amacrine Cell.
 
