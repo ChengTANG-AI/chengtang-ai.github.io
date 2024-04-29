@@ -42,7 +42,7 @@ Journal Articles
 🔑<u>Keywords</u>: Visual System; Perceptron; Orientation Detection; Grayscale; Amacrine Cell.
 
 <u>[J017]</u>. **"A Model of the Starburst Amacrine Cell for Motion Direction Detection."**  
-**International Journal of Bio-Inspired Computation**, January 2023. **[CameraReady](https://doi.org/10.1504/IJBIC.2022.10053950)**  
+**International Journal of Bio-Inspired Computation**, Volume 21, No. 2, January 2023. **[CameraReady](https://doi.org/10.1504/IJBIC.2022.10053950)**  
 👤<u>Authors</u>: Fenggang Yuan, Hiroyoshi Todo, **<u>Cheng Tang</u>**, Zheng Tang and Yuki Todo.  
 🔑<u>Keywords</u>: Deep Learning; Convolutional Neural Network; Perceptron; Direction Detection; Grayscale; Artificial Neural Network.
 
