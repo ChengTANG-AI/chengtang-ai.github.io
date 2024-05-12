@@ -4,22 +4,27 @@ permalink: /JournalPublications/
 author_profile: true
 ---
 
-**[Preprints](#preps)** &nbsp; &nbsp; **[Journal Publications](#pubs)** &nbsp; &nbsp; **[Conference Proceedings](#cops)** &nbsp; &nbsp; **[Google Scholar (Up to date)](https://scholar.google.com/citations?user=GvXOVv0AAAAJ)**
-
-<h2 id="preps">
-Preprints
-</h2>
-<!--👤🔑🔥**To appear in NeurIPS 2022**-->
+**[Journal Publications](#pubs)** &nbsp; &nbsp; **[Conference Proceedings](#cops)** &nbsp; &nbsp; **[Google Scholar (Up to date)](https://scholar.google.com/citations?user=GvXOVv0AAAAJ)**
 
 
 <h2 id="pubs">
 Journal Articles
 </h2>
 
+<u>[J024]</u>. **"Improving the artificial bee colony algorithm with a proprietary estimation of distribution mechanism for protein-ligand docking."**  
+**Applied Soft Computing**, Volume 13, Issue 7, 153, May 2024. **[CameraReady](https://doi.org/10.1016/j.asoc.2024.111732)**  
+👤<u>Authors</u>: Shuangbao Song, **<u>Cheng Tang</u>**, Zhenyu Song, Jia Qu, Xingqian Chen.  
+🔑<u>Keywords</u>: Visual System, Orientation Detection, Dendritic Computation, Big Data, Hardware Implementation.
+
+<u>[J023]</u>. **"Assessing Residential Building Energy Efficiency Using Evolutionary Dendritic Neural Regression."**  
+**Electronics**, Volume 13, Issue 10, 1803, May 2024. **[CameraReady](https://doi.org/10.3390/electronics13101803)**  
+👤<u>Authors</u>: Zhenyu Song, Yajiao Tang, Shuangbao Song, Bin Zhang, **<u>Cheng Tang+</u>**.  
+🔑<u>Keywords</u>: Energy Efficiency, Dendritic Neural Regression, Buildings, Differential Evolution.
+
 <u>[J022]</u>. **"A Hardware-Based Orientation Detection System Using Dendritic Computation."**  
-**Electronics**, Volume 13, Issue 7, 153, April 2024. **[CameraReady](https://doi.org/10.3390/electronics13071367)**  
+**Electronics**, Volume 13, Issue 7, 1367, April 2024. **[CameraReady](https://doi.org/10.3390/electronics13071367)**  
 👤<u>Authors</u>: Masahiro Nomura, Tianqi Chen, **<u>Cheng Tang+</u>**, Yuki Todo, Rong Sun, Bin Li, Zheng Tang.  
-🔑<u>Keywords</u>: Electrocardiogram, Numerical Human Model, Scalar-Potential Finite-Difference Method, Wearable Device.
+🔑<u>Keywords</u>: Visual System, Orientation Detection, Dendritic Computation, Big Data, Hardware Implementation.
 
 <u>[J021]</u>. **"Sensitivity of Electrocardiogram on Electrode-Pair Locations for Wearable Devices: Computational Analysis of Amplitude and Waveform Distortion."**  
 **Biosensors**, Volume 14, Issue 3, 153, March 2024. **[CameraReady](https://doi.org/10.3390/bios14030153)**  
