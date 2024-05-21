@@ -12,7 +12,7 @@ Journal Articles
 </h2>
 
 <u>[J024]</u>. **"Improving the artificial bee colony algorithm with a proprietary estimation of distribution mechanism for protein-ligand docking."**  
-**Applied Soft Computing**, Volume 13, Issue 7, 153, May 2024. **[CameraReady](https://doi.org/10.1016/j.asoc.2024.111732)**  
+**Applied Soft Computing**, Volume 161, 111732, May 2024. **[CameraReady](https://doi.org/10.1016/j.asoc.2024.111732)**  
 👤<u>Authors</u>: Shuangbao Song, **<u>Cheng Tang</u>**, Zhenyu Song, Jia Qu, Xingqian Chen.  
 🔑<u>Keywords</u>: Visual System, Orientation Detection, Dendritic Computation, Big Data, Hardware Implementation.
 
