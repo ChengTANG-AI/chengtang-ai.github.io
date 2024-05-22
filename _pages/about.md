@@ -30,7 +30,7 @@ I serve as the leading guest editor of special issues in several prestigious jou
 ・**[Electronics](https://www.mdpi.com/journal/electronics)**,  
 and so on.
 
-I serve as a committee member in several international conferences, including  
+I serve as a　program committee member in several international conferences, including  
 ・**[11th IEEE International Conference on Data Science and Advanced Analytics](https://dsaa2024.dsaa.co/)** (DSAA 2024),  
 ・**[20th International Conference on Intelligent Computing](https://www.ic-icc.cn/2024/index.htm)** (ICIC 2024),  
 and so on.
