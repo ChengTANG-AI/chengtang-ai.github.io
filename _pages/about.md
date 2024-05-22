@@ -16,14 +16,19 @@ I received my M.E. and Ph.D. degrees in engineering from the **[University of To
 My main research interests are **Machine / Deep Learning**, **Computational Neuroscience**, **Neural Networks**, **Evolutionary Computation**, and **Bioinformatics**, **Learning Analytics**, and **Artificial Intelligence** in **Medical Big Data**. 
 
 I have published over 30 articles in international journals, including  
-・**[IEEE Transactions on Emerging Topics in Computational Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7433297)** (TETCI),  
-・**[Knowledge-Based Systems](https://www.sciencedirect.com/journal/knowledge-based-systems)** (KBS),  
-・**[Information Sciences](https://www.sciencedirect.com/journal/information-sciences)** (INS),  
-・**[Expert Systems with Applications](https://www.sciencedirect.com/journal/expert-systems-with-applications)** (ESWA),  
-・**[Applied Soft Computing](https://www.sciencedirect.com/journal/applied-soft-computing)** (ASOC),  
-・**[Engineering Applications of Artificial Intelligence](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence)** (EAAI),  
 ・**[Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing)**,  
-・**[IEEE International Conference on Acoustics, Speech, and Signal Processing](https://2022.ieeeicassp.org/)** (ICASSP),  
+・**[Information Sciences](https://www.sciencedirect.com/journal/information-sciences)** (INS),  
+・**[Applied Soft Computing](https://www.sciencedirect.com/journal/applied-soft-computing)** (ASOC),  
+・**[Knowledge-Based Systems](https://www.sciencedirect.com/journal/knowledge-based-systems)** (KBS),  
+・**[Expert Systems with Applications](https://www.sciencedirect.com/journal/expert-systems-with-applications)** (ESWA),  
+・**[Engineering Applications of Artificial Intelligence](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence)** (EAAI),  
+・**[IEEE Transactions on Emerging Topics in Computational Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7433297)** (TETCI),  
+
+・**[International Conference on Intelligent Computing](https://www.ic-icc.cn/2024/index.htm)** (ICIC),  
+・**[International Joint Conference on Neural Networks](https://www.inns.org/ijcnn-home)** (IJCNN),  
+・**[International Conference on Neural Information Processing](https://iconip2024.org/)** (ICONIP),  
+・**[International Conference on Acoustics, Speech, and Signal Processing](https://2022.ieeeicassp.org/)** (ICASSP),  
+・**[International Conference on Knowledge Science, Engineering and Management](https://ai-edge.net/index.html)** (KSEM),  
 and so on. 
 
 I serve as the leading guest editor of special issues in several prestigious journals, including  
@@ -31,16 +36,16 @@ I serve as the leading guest editor of special issues in several prestigious jou
 and so on.
 
 I serve as a　program committee member in several international conferences, including  
-・**[11th IEEE International Conference on Data Science and Advanced Analytics](https://dsaa2024.dsaa.co/)** (DSAA 2024),  
 ・**[20th International Conference on Intelligent Computing](https://www.ic-icc.cn/2024/index.htm)** (ICIC 2024),  
+・**[11th IEEE International Conference on Data Science and Advanced Analytics](https://dsaa2024.dsaa.co/)** (DSAA 2024),  
 and so on.
 
 I serve as a peer reviewer for several international journals, including  
-・**[IEEE Transactions on Neural Networks and Learning Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385)** (TNNLS),  
-・**[IEEE Transactions on Fuzzy Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=91)** (TFS),  
-・**[IEEE Transactions on Intelligent Vehicles](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7274857)** (TIV),  
 ・**[Information Fusion](https://www.sciencedirect.com/journal/information-fusion)**,  
 ・**[Applied Soft Computing](https://www.sciencedirect.com/journal/applied-soft-computing)** (ASOC),  
+・**[IEEE Transactions on Fuzzy Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=91)** (TFS),  
+・**[IEEE Transactions on Intelligent Vehicles](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7274857)** (TIV),  
+・**[IEEE Transactions on Neural Networks and Learning Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385)** (TNNLS),  
 and so on.
 
 Outside of research, I enjoy **traveling** and **photography**.
