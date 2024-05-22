@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a tenured **Assistant Professor** in the **Artificial Intelligence** at **[Kyushu University](https://www.kyushu-u.ac.jp/ja/)**.  
+I am a tenured **Assistant Professor** in the **Faculty of Information Science and Electrical Engineering** at **[Kyushu University](https://www.kyushu-u.ac.jp/ja/)**.  
 I conduct my research in the **[Laboratory for Image and Media Understanding](https://www.eng.kyushu-u.ac.jp/lab_electrical33.html)** advised by **[Prof. Shimada](https://sites.google.com/view/atsushishimada/)**.  
 
 I received my M.E. and Ph.D. degrees in engineering from the **[University of Toyama](https://www.u-toyama.ac.jp/)**, Toyama, Japan, in 2020 and 2022, respectively. From 2022 to 2023, I was an Assistant Professor at the **[Hirata　Laboratory](https://cem.web.nitech.ac.jp/hilab/)**, Graduate School of Engineering Tsukuri College, **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**, Nagoya, Japan. In 2023, I joined **[Kyushu University](https://www.kyushu-u.ac.jp/ja/)**, Fukuoka, Japan, where I am currently an Assistant Professor (Tenured) with the Department of Advanced Information Technology, Graduate School and Faculty of Information Science and Electrical Engineering.
