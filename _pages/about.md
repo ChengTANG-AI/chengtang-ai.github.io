@@ -15,7 +15,7 @@ I received my M.E. and Ph.D. degrees in engineering from the **[University of To
 
 My main research interests are **Machine / Deep Learning**, **Computational Neuroscience**, **Neural Networks**, **Evolutionary Computation**, **Bioinformatics**, **Learning Analytics**, and **Artificial Intelligence** in **Medical Big Data**. 
 
-I have published over 30 articles in international journals, including  
+I have published over 30 articles in international journals / conferences, including  
 ・**[Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing)**,  
 ・**[Information Sciences](https://www.sciencedirect.com/journal/information-sciences)** (INS),  
 ・**[Applied Soft Computing](https://www.sciencedirect.com/journal/applied-soft-computing)** (ASOC),  
