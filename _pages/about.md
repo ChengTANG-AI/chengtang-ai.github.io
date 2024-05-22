@@ -22,7 +22,7 @@ I have published over 30 articles in international journals, including
 ・**[Knowledge-Based Systems](https://www.sciencedirect.com/journal/knowledge-based-systems)** (KBS),  
 ・**[Expert Systems with Applications](https://www.sciencedirect.com/journal/expert-systems-with-applications)** (ESWA),  
 ・**[Engineering Applications of Artificial Intelligence](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence)** (EAAI),  
-・**[IEEE Transactions on Emerging Topics in Computational Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7433297)** (TETCI),  
+・**[IEEE Transactions on Emerging Topics in Computational Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7433297)** (IEEE TETCI),  
 
 ・**[International Conference on Intelligent Computing](https://www.ic-icc.cn/2024/index.htm)** (ICIC),  
 ・**[International Joint Conference on Neural Networks](https://www.inns.org/ijcnn-home)** (IJCNN),  
