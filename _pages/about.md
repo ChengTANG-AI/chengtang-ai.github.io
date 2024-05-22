@@ -8,8 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-<center>
-
 I am a tenured **Assistant Professor** in the **Artificial Intelligence** at **[Kyushu University](https://www.kyushu-u.ac.jp/ja/)**.  
 I conduct my research in the **[Laboratory for Image and Media Understanding](https://www.eng.kyushu-u.ac.jp/lab_electrical33.html)** advised by **[Prof. Shimada](https://sites.google.com/view/atsushishimada/)**.  
 
@@ -53,8 +51,6 @@ and so on.
 Outside of research, I enjoy **traveling** and **photography**.
 
 **I am looking for M.E. / B.E. students majoring in engineering, but not limited to, Computer Science and Artificial Intelligence. In addition, I am pleased to collaborate with researchers who are interested in advising on medical-related projects. If you are interested in my field of research, please feel free to email me.**
-
-</center>
 
 E-mail: <tangcheng.ac@outlook.com>  
 
