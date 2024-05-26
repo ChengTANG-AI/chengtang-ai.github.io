@@ -11,30 +11,31 @@ author_profile: true
 Journal Articles
 </h2>
 
-<u>[J024]</u>. **"Improving the artificial bee colony algorithm with a proprietary estimation of distribution mechanism for protein-ligand docking."**  
+
+<u>[J024]</u>. **"Dendritic Neural Network: A Novel Extension of Dendritic Neuron Model."**  
+**IEEE Transactions on Emerging Topics in Computational Intelligence**, Volume 8, Issue 3, Pages 2228-2239, June 2024. **[CameraReady](https://doi.org/10.1109/TETCI.2024.3367819)**  
+👤<u>Authors</u>: Zhenyu Song, **<u>Cheng Tang</u>**, Junkai Ji, Yuki Todo, Atsushi Shimada, Weiping Ding and Akimasa Hirata.  
+🔑<u>Keywords</u>: Dendritic Neuron Model, Dendritic Neural Network, Dropout Mechanism, Multiclass Classification.
+
+<u>[J023]</u>. **"Improving the artificial bee colony algorithm with a proprietary estimation of distribution mechanism for protein-ligand docking."**  
 **Applied Soft Computing**, Volume 161, 111732, May 2024. **[CameraReady](https://doi.org/10.1016/j.asoc.2024.111732)**  
 👤<u>Authors</u>: Shuangbao Song, **<u>Cheng Tang</u>**, Zhenyu Song, Jia Qu, Xingqian Chen.  
 🔑<u>Keywords</u>: Visual System, Orientation Detection, Dendritic Computation, Big Data, Hardware Implementation.
 
-<u>[J023]</u>. **"Assessing Residential Building Energy Efficiency Using Evolutionary Dendritic Neural Regression."**  
+<u>[J022]</u>. **"Assessing Residential Building Energy Efficiency Using Evolutionary Dendritic Neural Regression."**  
 **Electronics**, Volume 13, Issue 10, 1803, May 2024. **[CameraReady](https://doi.org/10.3390/electronics13101803)**  
 👤<u>Authors</u>: Zhenyu Song, Yajiao Tang, Shuangbao Song, Bin Zhang, **<u>Cheng Tang+</u>**.  
 🔑<u>Keywords</u>: Energy Efficiency, Dendritic Neural Regression, Buildings, Differential Evolution.
 
-<u>[J022]</u>. **"A Hardware-Based Orientation Detection System Using Dendritic Computation."**  
+<u>[J021]</u>. **"A Hardware-Based Orientation Detection System Using Dendritic Computation."**  
 **Electronics**, Volume 13, Issue 7, 1367, April 2024. **[CameraReady](https://doi.org/10.3390/electronics13071367)**  
 👤<u>Authors</u>: Masahiro Nomura, Tianqi Chen, **<u>Cheng Tang+</u>**, Yuki Todo, Rong Sun, Bin Li, Zheng Tang.  
 🔑<u>Keywords</u>: Visual System, Orientation Detection, Dendritic Computation, Big Data, Hardware Implementation.
 
-<u>[J021]</u>. **"Sensitivity of Electrocardiogram on Electrode-Pair Locations for Wearable Devices: Computational Analysis of Amplitude and Waveform Distortion."**  
+<u>[J020]</u>. **"Sensitivity of Electrocardiogram on Electrode-Pair Locations for Wearable Devices: Computational Analysis of Amplitude and Waveform Distortion."**  
 **Biosensors**, Volume 14, Issue 3, 153, March 2024. **[CameraReady](https://doi.org/10.3390/bios14030153)**  
 👤<u>Authors</u>: Kiyoto Sanjo, Kazuki Hebiguchi, **<u>Cheng Tang</u>**, Essam A Rashed, Sachiko Kodera, Hiroyoshi Togo and Akimasa Hirata.  
 🔑<u>Keywords</u>: Electrocardiogram, Numerical Human Model, Scalar-Potential Finite-Difference Method, Wearable Device.
-
-<u>[J020]</u>. **"Dendritic Neural Network: A Novel Extension of Dendritic Neuron Model."**  
-**IEEE Transactions on Emerging Topics in Computational Intelligence**, Volume 137, 110158, March 2024. **[CameraReady](https://doi.org/10.1109/TETCI.2024.3367819)**  
-👤<u>Authors</u>: Zhenyu Song, **<u>Cheng Tang</u>**, Junkai Ji, Yuki Todo, Atsushi Shimada, Weiping Ding and Akimasa Hirata.  
-🔑<u>Keywords</u>: Dendritic Neuron Model, Dendritic Neural Network, Dropout Mechanism, Multiclass Classification.
 
 <u>[J019]</u>. **"A complex network-based firefly algorithm for numerical optimization and time series forecasting."**  
 **Applied Soft Computing**, Volume 137, 110158, April 2023. **[CameraReady](https://doi.org/10.1016/j.asoc.2023.110158)**  
