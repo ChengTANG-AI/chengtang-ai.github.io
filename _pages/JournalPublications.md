@@ -14,7 +14,7 @@ Journal Articles
 
 <u>[J024]</u>. **"Dendritic Neural Network: A Novel Extension of Dendritic Neuron Model."**  
 **IEEE Transactions on Emerging Topics in Computational Intelligence**, Volume 8, Issue 3, Pages 2228-2239, June 2024. **[CameraReady](https://doi.org/10.1109/TETCI.2024.3367819)**  
-👤<u>Authors</u>: Zhenyu Song, **<u>Cheng Tang</u>**, Junkai Ji, Yuki Todo, Atsushi Shimada, Weiping Ding and Akimasa Hirata.  
+👤<u>Authors</u>: **<u>Cheng Tang</u>**, Junkai Ji, Yuki Todo, Atsushi Shimada, Weiping Ding and Akimasa Hirata.  
 🔑<u>Keywords</u>: Dendritic Neuron Model, Dendritic Neural Network, Dropout Mechanism, Multiclass Classification.
 
 <u>[J023]</u>. **"Improving the artificial bee colony algorithm with a proprietary estimation of distribution mechanism for protein-ligand docking."**  
