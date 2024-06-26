@@ -137,12 +137,25 @@ Conference Proceedings
 </h2>
 
 
+<u>[C014]</u>. **"A Novel Approach: Enhancing Data Extraction from Student Handwritten Notes Using Multi-Task U-net and GPT-4."**  
+**International Symposium on Autonomous Systems (ISAS)**, 13 June 2024. **[CameraReady](https://doi.org/10.1109/ISAS61044.2024.10552516)**  
+👤<u>Authors</u>: Yunyu Zhou, **<u>Cheng Tang</u>** and Atsushi Shimada.  
+🔑<u>Keywords</u>: Learning analytics, Attention multi-task U-Net, GPT-4, Image segmentation.
 
+<u>[C013]</u>. **"A High-speed and Lightweight Siamese Tracker based on RepVGG Network."**  
+**International Symposium on Autonomous Systems (ISAS)**, 13 June 2024. **[CameraReady](https://doi.org/10.1109/ISAS61044.2024.10552459)**  
+👤<u>Authors</u>: Yiding Li, **<u>Cheng Tang</u>**, Tsubasa Minematsu and Atsushi Shimada.  
+🔑<u>Keywords</u>: Visual object tracking, RepVGG, Siamese trackers, Model compression.
+
+<u>[C012]</u>. **"Visibility-aware Multi-teacher Knowledge Distillation for Siamese Tracker."**  
+**International Symposium on Autonomous Systems (ISAS)**, 13 June 2024. **[CameraReady](https://doi.org/10.1109/ISAS61044.2024.10552525)**  
+👤<u>Authors</u>: Yiding Li, **<u>Cheng Tang</u>**, Tsubasa Minematsu and Atsushi Shimada.  
+🔑<u>Keywords</u>: Visual object tracking, Knowledge distillation, Siamese trackers, Visible ratios.
 
 <u>[C011]</u>. **"Dendritic Neural Regression Model Trained by Chicken Swarm Optimization Algorithm for Bank Customer Churn Prediction."**  
 **International Conference on Neural Information Processing (ICNIP)**, Pages 254–265, 26 November 2023. **[CameraReady](https://doi.org/10.1007/978-981-99-8184-7_20)**  
 👤<u>Authors</u>: Qi Wang, Haiyan Zhang, Junkai Ji, **<u>Cheng Tang</u>** and Yajiao Tang.  
-🔑<u>Keywords</u>: Dendritic Neural Regression Model, Chicken Swarm Optimization, Customer churn prediction.
+🔑<u>Keywords</u>: Dendritic Neural Regression Model, Chicken Swarm Optimization, Customer Churn Prediction.
 
 <u>[C010]</u>. **"Evolutionary Neural Architecture Design of Liquid State Machine for Image Classification."**  
 **ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)**, Pages 91-95, 23-27 May 2022. **[CameraReady](https://doi.org/10.1109/ICASSP43922.2022.9747040)**  
