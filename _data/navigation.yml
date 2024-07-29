@@ -1,10 +1,10 @@
 # main links links
 main:
 
-  - title: "Journal Publications"
+  - title: "Journal"
     url: /JournalPublications/
 
-  - title: "Conference Publications"
+  - title: "Conference"
     url: /ConferencePublications/
 
   - title: "Updates"
