@@ -11,6 +11,25 @@ author_profile: true
 Journal Articles
 </h2>
 
+<u>[J028]</u>. **"An Improved Weighted Cross-Entropy-Based Convolutional Neural Network for Auxiliary Diagnosis of Pneumonia."**  
+**Electronics**, Volume 13, Issue 15, July 2024. **[CameraReady](https://doi.org/10.3390/electronics13152929)**  
+👤<u>Authors</u>: Zhenyu Song, Zhanling Shi, Xuemei Yan, Bin Zhang, Shuangbao Song, **<u>Cheng Tang</u>**.  
+🔑<u>Keywords</u>:  Pneumonia Diagnosis; Convolutional Neural Network, Cross-Entropy.
+
+<u>[J027]</u>. **"A framework of specialized knowledge distillation for Siamese tracker on challenging attributes."**  
+**Machine Vision and Applications**, Volume 35, Issue 92, July 2024. **[CameraReady](https://doi.org/10.1007/s00138-024-01578-4)**  
+👤<u>Authors</u>: Yiding Li, Atsushi Shimada, Tsubasa Minematsu, **<u>Cheng Tang</u>**.  
+🔑<u>Keywords</u>:  Visual Object Tracking, Knowledge Distillation, Siamese Trackers, Challenging Attributes.
+
+<u>[J026]</u>. **"A novel multivariate time series forecasting dendritic neuron model for COVID-19 pandemic transmission tendency."**  
+**Neural Networks**, Volume 179, Issue 106527, November 2024. **[CameraReady](https://doi.org/10.1016/j.neunet.2024.106527)**  
+👤<u>Authors</u>: **<u>Cheng Tang+</u>**, Yuki Todo, Sachiko Kodera, Rong Sun, Atsushi Shimada, Akimasa Hirata.  
+🔑<u>Keywords</u>: Multivariate time series, Dendritic computation, Neural network, Forecasting, COVID-19.
+
+<u>[J025]</u>. **"Attention-Based Artificial Neural Network for Student Performance Prediction Based on Learning Activities."**  
+**IEEE Access**, Volume 12, Pages 100659-100675, July 2024. **[CameraReady](https://doi.org/10.1109/ACCESS.2024.3429554)**  
+👤<u>Authors</u>: Sukrit Leelaluk, **<u>Cheng Tang</u>**, Tsubasa Minematsu, Yuta Taniguchi, Fumiya Okubo, Takayoshi Yamashita, Atsushi Shimada.  
+🔑<u>Keywords</u>: Artificial Neural Network, Attention Mechanism, Learning Analytics, Machine Learning, Student Performance Prediction.
 
 <u>[J024]</u>. **"Dendritic Neural Network: A Novel Extension of Dendritic Neuron Model."**  
 **IEEE Transactions on Emerging Topics in Computational Intelligence**, Volume 8, Issue 3, Pages 2228-2239, June 2024. **[CameraReady](https://doi.org/10.1109/TETCI.2024.3367819)**  
