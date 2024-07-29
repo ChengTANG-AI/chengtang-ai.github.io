@@ -155,6 +155,20 @@ Journal Articles
 Conference Proceedings
 </h2>
 
+<u>[C020]</u>. **"A Human-in-the-Loop Annotation Framework for Surveillance Scenarios with Enhanced Overlapping Object Detection."**  
+**The 30th International Workshop on Frontiers of Computer Vision 2024 (IW-FCV2024)**, February 2024. **[CameraReady](https://doi.org/10.1007/978-981-97-5495-3_14)** 
+👤<u>Authors</u>: Dao Zhou, Tsubasa Minematsu, **<u>Cheng Tang</u>**, Yuta Taniguchi, Fumiya Okubo, Atsushi Shimada.  
+
+<u>[C019]</u>. **"Educational Data Analysis using Generative AI."**  
+**The 6th Workshop on Predicting Performance Based on the Analysis of Reading Behavior (LAK24 Data Challenge)**, March 2024. **[CameraReady](https://ceur-ws.org/Vol-3667/DC-LAK24-paper-6.pdf)** 
+👤<u>Authors</u>: Abdul Berr, Sukrit Leelaluk, **<u>Cheng Tang</u>**, Li Chen, Fumiya Okubo, Atsushi Shimada.  
+🔑<u>Keywords</u>: Generative AI, Large Language Models, LangChain, Data Analysis, OpenLA.
+
+<u>[C018]</u>. **"A Deep learning Grade Prediction Model of Online Learning Performance Based on knowledge learning representation."**  
+**The 6th Workshop on Predicting Performance Based on the Analysis of Reading Behavior (LAK24 Data Challenge)**, March 2024. **
+👤<u>Authors</u>: Shuaileng Yuan, Sukrit Leelaluk, **<u>Cheng Tang</u>**, Li Chen, Fumiya Okubo, Atsushi Shimada.  
+🔑<u>Keywords</u>: Performance Prediction, Knowledge Representation, TabNet, Behavior Representation.
+
 <u>[C017]</u>. **"Visual Analytics of Learning Behavior Based on the Dendritic Neuron Model."**  
 **International Conference on Knowledge Science, Engineering and Management (KSEM)**, Page 192-203, July 2024. **[CameraReady](https://doi.org/10.1007/978-981-97-5495-3_14)** 
 👤<u>Authors</u>: **<u>Cheng Tang</u>**, Li Chen, Gen Li, Tsubasa Minematsu, Fumiya Okubo, Yuta Taniguchi, Atsushi Shimada.  
