@@ -31,12 +31,28 @@ First Author
 Co-Author
 </h2>
 
+<u>[C020]</u>. **"QA-Knowledge Attention for Exam Performance Prediction."**  
+**European Conference on Technology Enhanced Learning (EC-TEL)**, Page 375-389, 2024.09. **[CameraReady](http://dx.doi.org/10.1007/978-3-031-72315-5_26)**  
+👤<u>Authors</u>: Yongle Ren, **<u>Cheng Tang</u>**, Yuta Taniguchi, Fumiya Okubo, Atsushi Shimada.    
+🔑<u>Keywords</u>: Prediction, Attention, Exam Performance, Neural Network.
+
+<u>[C019]</u>. **"Binocular Disparity Unveils the Mechanisms of Stereo Feature Selectivity: Orientation and Motion?"**  
+**International Joint Conference on Neural Networks (IJCNN)**, Page 1-7, 2024.06. **[CameraReady](http://dx.doi.org/10.1109/IJCNN60899.2024.10650968)**  
+👤<u>Authors</u>: Bin Li, Yuki Todo, Zheng Tang, **<u>Cheng Tang</u>**.  
+🔑<u>Keywords</u>: Binocular Disparity, Stereo Vision, 3D Information, Orientation, Motion Direction.
+
+<u>[C018]</u>. **"Chaotic Map-Coded Evolutionary Algorithms for Dendritic Neuron Model Optimization."**  
+**IEEE Congress on Evolutionary Computation (CEC)**, Page 1-8, 2024.06. **[CameraReady](http://dx.doi.org/10.1109/CEC60901.2024.10612087)**  
+👤<u>Authors</u>: Haichuan Yang, Yifei Yang, Yuxin Zhang, **<u>Cheng Tang</u>**, Koichi Hashimoto, Yuichi Nagata.  
+🔑<u>Keywords</u>: Metameric Variable-Length Problem, Dendritic
+Neuron Model, Evolutionary Algorithms, Chaotic Maps.
+
 <u>[C017]</u>. **"LLM-driven ontology learning to augment student performance analysis in higher education."**  
 **International Conference on Knowledge Science, Engineering and Management (KSEM)**, Page 57-68, 2024.07. **[CameraReady](https://doi.org/10.1007/978-981-97-5498-4_5)**  
 👤<u>Authors</u>: Gen Li, **<u>Cheng Tang</u>**, Daisuke Deguchi, Takayoshi Yamashita, Atsushi Shimada.  
 🔑<u>Keywords</u>: Educational Data Mining, Ontology, LLM, Knowledge Graph, GNN, Student Performance Prediction.
 
-<u>[C016]</u>. **"How do strategies for using ChatGPT affect knowledge comprehension?."**  
+<u>[C016]</u>. **"How do strategies for using ChatGPT affect knowledge comprehension?"**  
 **International Conference on Artificial Intelligence in Education (CCIS)**, 3260, Page 151-162, 2024.07. **[CameraReady](https://doi.org/10.1007/978-3-031-64315-6_12)**  
 👤<u>Authors</u>: Li Chen, Gen Li, Boxuan Ma, **<u>Cheng Tang</u>**, Atsushi Shimada.  
 🔑<u>Keywords</u>: Generative AI, Knowledge Comprehension, Reading Behavior, Perceived Understanding, ChatGPT Strategy.
