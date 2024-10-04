@@ -36,7 +36,7 @@ Co-Author
 👤<u>Authors</u>: Yongle Ren, **<u>Cheng Tang</u>**, Yuta Taniguchi, Fumiya Okubo, Atsushi Shimada.    
 🔑<u>Keywords</u>: Prediction, Attention, Exam Performance, Neural Network.
 
-<u>[C019]</u>. **"Binocular Disparity Unveils the Mechanisms of Stereo Feature Selectivity: Orientation and Motion?"**  
+<u>[C019]</u>. **"Binocular Disparity Unveils the Mechanisms of Stereo Feature Selectivity: Orientation and Motion."**  
 **International Joint Conference on Neural Networks (IJCNN)**, Page 1-7, 2024.06. **[CameraReady](http://dx.doi.org/10.1109/IJCNN60899.2024.10650968)**  
 👤<u>Authors</u>: Bin Li, Yuki Todo, Zheng Tang, **<u>Cheng Tang</u>**.  
 🔑<u>Keywords</u>: Binocular Disparity, Stereo Vision, 3D Information, Orientation, Motion Direction.
