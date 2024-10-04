@@ -32,42 +32,42 @@ Co-Author
 </h2>
 
 <u>[C017]</u>. **"LLM-driven ontology learning to augment student performance analysis in higher education."**  
-**International Conference on Knowledge Science, Engineering and Management (KSEM)**, Page 57-68, 2024.07. **[CameraReady](https://doi.org/10.1007/978-981-97-5498-4_5)** 
+**International Conference on Knowledge Science, Engineering and Management (KSEM)**, Page 57-68, 2024.07. **[CameraReady](https://doi.org/10.1007/978-981-97-5498-4_5)**  
 👤<u>Authors</u>: Gen Li, **<u>Cheng Tang</u>**, Daisuke Deguchi, Takayoshi Yamashita, Atsushi Shimada.  
 🔑<u>Keywords</u>: Educational Data Mining, Ontology, LLM, Knowledge Graph, GNN, Student Performance Prediction.
 
 <u>[C016]</u>. **"How do strategies for using ChatGPT affect knowledge comprehension?."**  
-**International Conference on Artificial Intelligence in Education (CCIS)**, 3260, Page 151-162, 2024.07. **[CameraReady](https://doi.org/10.1007/978-3-031-64315-6_12)** 
+**International Conference on Artificial Intelligence in Education (CCIS)**, 3260, Page 151-162, 2024.07. **[CameraReady](https://doi.org/10.1007/978-3-031-64315-6_12)**  
 👤<u>Authors</u>: Li Chen, Gen Li, Boxuan Ma, **<u>Cheng Tang</u>**, Atsushi Shimada.  
 🔑<u>Keywords</u>: Generative AI, Knowledge Comprehension, Reading Behavior, Perceived Understanding, ChatGPT Strategy.
 
 <u>[C015]</u>. **"A high-speed and lightweight siamese tracker based on RepVGG network."**  
-**International Symposium on Autonomous Systems (ISAS)**, 2024.06. **[CameraReady](https://doi.org/10.1109/ISAS61044.2024.10552459)** 
+**International Symposium on Autonomous Systems (ISAS)**, 2024.06. **[CameraReady](https://doi.org/10.1109/ISAS61044.2024.10552459)**  
 👤<u>Authors</u>: Yiding Li, **<u>Cheng Tang</u>**, Tsubasa Minematsu, Atsushi Shimada.  
 🔑<u>Keywords</u>: Visual Object Tracking, RepVGG, Siamese Trackers, Model Compression.
 
 <u>[C014]</u>. **"A novel approach: enhancing data extraction from student handwritten notes using multi-task U-net and GPT-4."**  
-**International Symposium on Autonomous Systems (ISAS)**, 2024.06. **[CameraReady](https://doi.org/10.1109/ISAS61044.2024.10552516)** 
+**International Symposium on Autonomous Systems (ISAS)**, 2024.06. **[CameraReady](https://doi.org/10.1109/ISAS61044.2024.10552516)**  
 👤<u>Authors</u>: Yunyu Zhou, **<u>Cheng Tang</u>**, Atsushi Shimada.  
 🔑<u>Keywords</u>: Learning Analytics, Attention Multi-Task U-Net, GPT-4, Image Segmentation.
 
 <u>[C013]</u>. **"Visibility-aware multi-teacher knowledge distillation for Siamese tracker."**  
-**International Symposium on Autonomous Systems (ISAS)**, 2024.06. **[CameraReady](https://doi.org/10.1109/ISAS61044.2024.10552525)** 
+**International Symposium on Autonomous Systems (ISAS)**, 2024.06. **[CameraReady](https://doi.org/10.1109/ISAS61044.2024.10552525)**  
 👤<u>Authors</u>: Yiding Li, **<u>Cheng Tang</u>**, Tsubasa Minematsu, Atsushi Shimada.  
 🔑<u>Keywords</u>: Visual Object Tracking, Knowledge Distillation, Siamese Trackers, Visible Ratios.
 
 <u>[C012]</u>. **"A deep learning grade prediction model of online learning performance based on knowledge learning representation."**  
-**The 6th Workshop on Predicting Performance Based on the Analysis of Reading Behavior (LAK24 Data Challenge)**, 2024.03. **
+**The 6th Workshop on Predicting Performance Based on the Analysis of Reading Behavior (LAK24 Data Challenge)**, 2024.03. **  
 👤<u>Authors</u>: Shuaileng Yuan, Sukrit Leelaluk, **<u>Cheng Tang</u>**, Li Chen, Fumiya Okubo, Atsushi Shimada.  
 🔑<u>Keywords</u>: Performance Prediction, Knowledge Representation, TabNet, Behavior Representation.
 
 <u>[C011]</u>. **"Educational data analysis using generative AI."**  
-**The 6th Workshop on Predicting Performance Based on the Analysis of Reading Behavior (LAK24 Data Challenge)**, 2024.03. **[CameraReady](https://ceur-ws.org/Vol-3667/DC-LAK24-paper-6.pdf)** 
+**The 6th Workshop on Predicting Performance Based on the Analysis of Reading Behavior (LAK24 Data Challenge)**, 2024.03. **[CameraReady](https://ceur-ws.org/Vol-3667/DC-LAK24-paper-6.pdf)**  
 👤<u>Authors</u>: Abdul Berr, Sukrit Leelaluk, **<u>Cheng Tang</u>**, Li Chen, Fumiya Okubo, Atsushi Shimada.  
 🔑<u>Keywords</u>: Generative AI, Large Language Models, LangChain, Data Analysis, OpenLA.
 
 <u>[C010]</u>. **"A human-in-the-loop annotation framework for surveillance scenarios with enhanced overlapping object detection."**  
-**The 30th International Workshop on Frontiers of Computer Vision 2024 (IW-FCV2024)**, 2024.02. **[CameraReady](https://doi.org/10.1007/978-981-97-5495-3_14)** 
+**The 30th International Workshop on Frontiers of Computer Vision 2024 (IW-FCV2024)**, 2024.02. **[CameraReady](https://doi.org/10.1007/978-981-97-5495-3_14)**  
 👤<u>Authors</u>: Dao Zhou, Tsubasa Minematsu, **<u>Cheng Tang</u>**, Yuta Taniguchi, Fumiya Okubo, Atsushi Shimada.
 
 <u>[C09]</u>. **"Dendritic neural regression model trained by chicken swarm optimization algorithm for bank customer churn prediction."** 
