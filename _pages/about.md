@@ -23,6 +23,7 @@ I have published over 50 articles in international journals / conferences, inclu
 ・**[Expert Systems with Applications](https://www.sciencedirect.com/journal/expert-systems-with-applications)** (ESWA),  
 ・**[Engineering Applications of Artificial Intelligence](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence)** (EAAI),  
 ・**[IEEE Transactions on Emerging Topics in Computational Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7433297)** (IEEE TETCI),  
+・**[IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4609443)** (JSTARS),  
 
 ・**[International Conference on Intelligent Computing](https://www.ic-icc.cn/2024/index.htm)** (ICIC),  
 ・**[International Joint Conference on Neural Networks](https://www.inns.org/ijcnn-home)** (IJCNN),  
