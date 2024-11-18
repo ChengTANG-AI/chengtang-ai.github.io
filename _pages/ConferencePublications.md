@@ -34,7 +34,7 @@ Co-Author
 <u>[C021]</u>. **"A Three-Step Knowledge Graph Approach Using LLMs In Collaborative Problem Solving-based Stem Education."**  
 **International Conference on Cognition and Exploratory Learning in Digital Age (CELDA 2024)**, Page 51-58, 2024.10. **[CameraReady](http://dx.doi.org/10.1007/978-3-031-72315-5_26)**  
 👤<u>Authors</u>: Li Chen, Gen Li, Boxuan Ma, **<u>Cheng Tang</u>**, Masanori Yamada.    
-🔑<u>Keywords</u>: Prediction, Attention, Exam Performance, Neural Network.
+🔑<u>Keywords</u>: Knowledge graph, collaborative problem solving, STEM education, Large Language Model.
 
 <u>[C020]</u>. **"QA-Knowledge Attention for Exam Performance Prediction."**  
 **European Conference on Technology Enhanced Learning (EC-TEL)**, Page 375-389, 2024.09. **[CameraReady](http://dx.doi.org/10.1007/978-3-031-72315-5_26)**  
