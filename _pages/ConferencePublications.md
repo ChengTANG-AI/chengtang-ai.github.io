@@ -88,7 +88,7 @@ Neuron Model, Evolutionary Algorithms, Chaotic Maps.
 🔑<u>Keywords</u>: Generative AI, Large Language Models, LangChain, Data Analysis, OpenLA.
 
 <u>[C010]</u>. **"A human-in-the-loop annotation framework for surveillance scenarios with enhanced overlapping object detection."**  
-**The 30th International Workshop on Frontiers of Computer Vision 2024 (IW-FCV2024)**, 2024.02. **[CameraReady](https://doi.org/10.1007/978-981-97-5495-3_14)**  
+**The 30th International Workshop on Frontiers of Computer Vision 2024 (IW-FCV2024)**, 2024.02.   
 👤<u>Authors</u>: Dao Zhou, Tsubasa Minematsu, **<u>Cheng Tang</u>**, Yuta Taniguchi, Fumiya Okubo, Atsushi Shimada.
 
 <u>[C09]</u>. **"Dendritic neural regression model trained by chicken swarm optimization algorithm for bank customer churn prediction."** 
