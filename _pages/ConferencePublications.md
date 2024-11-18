@@ -12,7 +12,7 @@ First Author
 </h2>
 
 <u>[C003]</u>. **"Visual analytics of learning behavior based on the dendritic neuron model."**  
-**International Conference on Knowledge Science, Engineering and Management (KSEM)**, Page 192-203, 2024.07. **[CameraReady](https://doi.org/10.1007/978-981-97-5495-3_14)** 
+**International Conference on Knowledge Science, Engineering and Management (KSEM)**, Page 192-203, 2024.07. **[CameraReady](https://doi.org/10.1007/978-981-97-5495-3_14)**  
 👤<u>Authors</u>: **<u>Cheng Tang</u>**, Li Chen, Gen Li, Tsubasa Minematsu, Fumiya Okubo, Yuta Taniguchi, Atsushi Shimada.  
 🔑<u>Keywords</u>: Visual Analytics, Prediction, Learning Behavior, Dendritic Neuron Model.
 
