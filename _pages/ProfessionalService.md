@@ -11,7 +11,7 @@ author_profile: true
 Research grants
 </h2>
 
-<u>[001]</u>. **Development of a trusted XAI-based dropout prediction method with feature selection**, Japan Science and Technology Agency, Core Research for Evolutionary Science and Technology, AIP Challenge. **(PI)**
+<u>[001]</u>. **Development of a trusted XAI-based dropout prediction method with feature selection**, Japan Science and Technology Agency, Core Research for Evolutionary Science and Technology (CREST), AIP Challenge. **(PI)**
 
 
 <h2 id="rau">
