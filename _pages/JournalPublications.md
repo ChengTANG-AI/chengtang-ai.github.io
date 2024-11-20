@@ -4,10 +4,10 @@ permalink: /JournalPublications/
 author_profile: true
 ---
 
-**[First Author (JF)](#fau)** &nbsp; &nbsp; **[Corresponding Author (JS)](#rau)** &nbsp; &nbsp; **[Co-Author (JC)](#cau)** &nbsp; &nbsp; **[Google Scholar (Up to date)](https://scholar.google.com/citations?user=GvXOVv0AAAAJ)**
+**[First Author (JF)](#jf)** &nbsp; &nbsp; **[Corresponding Author (JS)](#js)** &nbsp; &nbsp; **[Co-Author (JC)](#jc)** &nbsp; &nbsp; **[Google Scholar (Up to date)](https://scholar.google.com/citations?user=GvXOVv0AAAAJ)**
 
 
-<h2 id="fau">
+<h2 id="jf">
 First Author
 </h2>
 
@@ -43,7 +43,7 @@ First Author
 
 
 
-<h2 id="rau">
+<h2 id="js">
 Corresponding Author
 </h2>
 
@@ -84,7 +84,7 @@ Corresponding Author
 
 
 
-<h2 id="cau">
+<h2 id="jc">
 Co-Author
 </h2>
 
