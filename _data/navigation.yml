@@ -1,6 +1,11 @@
 # main links links
 main:
 
+  - title: "Research Topics"
+    url: /ResearchTopics/
+
+  - title: "Professional Service"
+    url: /ProfessionalService/
   - title: "Journal"
     url: /JournalPublications/
 
