@@ -23,19 +23,19 @@ Time Series Forecasting
 <h2 id="cau">
 Computer Vision
 </h2>
-[CC019], [CC015], [CC013], [CC010], [CC008], [CC007], [CC006]  
+<u>[CC019]</u>, <u>[CC015]</u>, <u>[CC013]</u>, <u>[CC010]</u>, <u>[CC008]</u>, <u>[CC007]</u>, <u>[CC006]</u>  
 
 
 <h2 id="cau">
 Natural Language Processing
 </h2>
-[CC021], [CC020], [CC017], [CC016], [CC014], [CC011]  
+<u>[CC021]</u>, <u>[CC020]</u>, <u>[CC017]</u>, <u>[CC016]</u>, <u>[CC014]</u>, <u>[CC011]</u>  
 
 <h2 id="fau">
 Learning Analytics
 </h2>
-[CF003]   
-[CC021], [CC020], [CC017], [CC016], [CC012], [CC011]  
+<u>[CF003]</u>  
+<u>[CC021]</u>, <u>[CC020]</u>, <u>[CC017]</u>, <u>[CC016]</u>, <u>[CC012]</u>, <u>[CC011]</u>  
 
 
 <h2 id="rau">
@@ -46,15 +46,15 @@ AI for Drug Design
 <h2 id="cau">
 Explainable AI (XAI)
 </h2>
-[CF003], [CF001]   
-[CC018], [CC009], [CC004], [CC003]  
+<u>[CF003]</u>, <u>[CF001]</u>  
+<u>[CC018]</u>, <u>[CC009]</u>, <u>[CC004]</u>, <u>[CC003]</u>  
 
 
 <h2 id="fau">
 Optimization
 </h2>
-[CF002]   
-[CC018], [CC005], [CC001]  
+<u>[CF002]</u>  
+<u>[CC018]</u>, <u>[CC005]</u>, <u>[CC001]</u>  
 
 
 
