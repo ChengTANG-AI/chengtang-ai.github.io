@@ -31,7 +31,7 @@ Time Series Forecasting
 [**[JS007](https://chengtang-ai.github.io/JournalPublications/)**], [**[JS004](https://chengtang-ai.github.io/JournalPublications/)**], [**[JS003](https://chengtang-ai.github.io/JournalPublications/)**]  
 [**[JC014](https://chengtang-ai.github.io/JournalPublications/)**], [**[JC009](https://chengtang-ai.github.io/JournalPublications/)**], [**[JC007](https://chengtang-ai.github.io/JournalPublications/)**], [**[JC006](https://chengtang-ai.github.io/JournalPublications/)**], [**[JC004](https://chengtang-ai.github.io/JournalPublications/)**]  
 
-<u>[CC004]</u>  
+[**[CC004](https://chengtang-ai.github.io/ConferencePublications/)**]  
 
 <h2 id="cau">
 Computer Vision
@@ -62,37 +62,26 @@ Learning Analytics
 AI for Drug Design
 </h2>
 
-<u>[JC015]</u>  
 [**[JC015](https://chengtang-ai.github.io/JournalPublications/)**]  
 
 <h2 id="cau">
 Explainable AI (XAI)
 </h2>
 
-<u>[JF002]</u>  
 [**[JF002](https://chengtang-ai.github.io/JournalPublications/)**]  
-<u>[JS007]</u>, <u>[JS006]</u>, <u>[JS003]</u>, <u>[JS002]</u>  
 [**[JS007](https://chengtang-ai.github.io/JournalPublications/)**], [**[JS006](https://chengtang-ai.github.io/JournalPublications/)**], [**[JS003](https://chengtang-ai.github.io/JournalPublications/)**], [**[JS002](https://chengtang-ai.github.io/JournalPublications/)**]   
-<u>[JC003]</u>, <u>[JC002]</u>  
 [**[JC003](https://chengtang-ai.github.io/JournalPublications/)**], [**[JC002](https://chengtang-ai.github.io/JournalPublications/)**]   
-<u>[CF003]</u>, <u>[CF001]</u>   
 [**[CF003](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CF001](https://chengtang-ai.github.io/ConferencePublications/)**]  
-<u>[CC018]</u>, <u>[CC009]</u>, <u>[CC004]</u>, <u>[CC003]</u>   
 [**[CC018](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC009](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC004](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC003](https://chengtang-ai.github.io/ConferencePublications/)**]  
 
 <h2 id="fau">
 Optimization
 </h2>
 
-<u>[JF005]</u>, <u>[JF003]</u>, <u>[JF002]</u>  
 [**[JF005](https://chengtang-ai.github.io/JournalPublications/)**], [**[JF003](https://chengtang-ai.github.io/JournalPublications/)**], [**[JF002](https://chengtang-ai.github.io/JournalPublications/)**]   
-<u>[JS001]</u>  
 [**[JS001](https://chengtang-ai.github.io/JournalPublications/)**]  
-<u>[JC009]</u>, <u>[JC005]</u>, <u>[JC003]</u>, <u>[JC001]</u>   
 [**[JC009](https://chengtang-ai.github.io/JournalPublications/)**], [**[JC005](https://chengtang-ai.github.io/JournalPublications/)**], [**[JC003](https://chengtang-ai.github.io/JournalPublications/)**], [**[JC001](https://chengtang-ai.github.io/JournalPublications/)**]   
-<u>[CF002]</u>   
 [**[CF002](https://chengtang-ai.github.io/ConferencePublications/)**]  
-<u>[CC018]</u>, <u>[CC005]</u>, <u>[CC001]</u>   
 [**[CC018](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC005](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC001](https://chengtang-ai.github.io/ConferencePublications/)**]  
 
 
