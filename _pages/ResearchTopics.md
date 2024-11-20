@@ -4,12 +4,12 @@ permalink: /ResearchTopics/
 author_profile: true
 ---
 
-**[Medical Data Mining](#fau)** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **[Time Series Forecasting](#rau)** &nbsp; &nbsp; **[Computer Vision](#cau)**  
-**[Natural Language Processing](#cau)** &nbsp; &nbsp; **[Learning Analytics](#cau)** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **[AI for Drug Design](#cau)**  
-**[Explainable AI (XAI)](#cau)** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **[Optimization](#cau)**  
+**[Medical Data Mining](#mdm)** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **[Time Series Forecasting](#tsf)** &nbsp; &nbsp; **[Computer Vision](#cv)**  
+**[Natural Language Processing](#nlp)** &nbsp; &nbsp; **[Learning Analytics](#la)** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **[AI for Drug Design](#add)**  
+**[Explainable AI (XAI)](#xai)** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **[Optimization](#opt)**  
 
 
-<h2 id="fau">
+<h2 id="mdm">
 Medical Data Mining
 </h2>
 
@@ -27,7 +27,7 @@ With the wide application of imaging modalities such as X-ray and Computed Tomog
 
 [**[JC011](https://chengtang-ai.github.io/JournalPublications/)**], [**[JC006](https://chengtang-ai.github.io/JournalPublications/)**]  
 
-<h2 id="rau">
+<h2 id="tsf">
 Time Series Forecasting
 </h2>
 
@@ -40,7 +40,7 @@ Dendritic neuron model (DNM), which is a single neuron model with a plastic stru
 [**[JC014](https://chengtang-ai.github.io/JournalPublications/)**], [**[JC009](https://chengtang-ai.github.io/JournalPublications/)**], [**[JC007](https://chengtang-ai.github.io/JournalPublications/)**], [**[JC006](https://chengtang-ai.github.io/JournalPublications/)**], [**[JC004](https://chengtang-ai.github.io/JournalPublications/)**]  
 [**[CC004](https://chengtang-ai.github.io/ConferencePublications/)**]  
 
-<h2 id="cau">
+<h2 id="cv">
 Computer Vision
 </h2>
 
@@ -56,7 +56,7 @@ This paper discusses the visual mechanism of global orientation detection and th
 [**[JC016](https://chengtang-ai.github.io/JournalPublications/)**], [**[JC014](https://chengtang-ai.github.io/JournalPublications/)**], [**[JC012](https://chengtang-ai.github.io/JournalPublications/)**], [**[JC010](https://chengtang-ai.github.io/JournalPublications/)**], [**[JC008](https://chengtang-ai.github.io/JournalPublications/)**]   
 [**[CC019](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC015](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC013](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC010](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC008](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC007](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC006](https://chengtang-ai.github.io/ConferencePublications/)**]  
 
-<h2 id="cau">
+<h2 id="nlp">
 Natural Language Processing
 </h2>
 
@@ -66,7 +66,7 @@ Multi-label text classification tasks face challenges such as sample diversity, 
 
 [**[CC021](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC020](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC017](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC016](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC014](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC011](https://chengtang-ai.github.io/ConferencePublications/)**]  
 
-<h2 id="fau">
+<h2 id="la">
 Learning Analytics
 </h2>
 
@@ -80,7 +80,7 @@ Learning analytics, blending education theory, psychology, statistics, and compu
 
 [**[CC021](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC020](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC017](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC016](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC012](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC011](https://chengtang-ai.github.io/ConferencePublications/)**]  
 
-<h2 id="rau">
+<h2 id="add">
 AI for Drug Design
 </h2>
 
@@ -88,7 +88,7 @@ AI for Drug Design
 ![image](https://github.com/user-attachments/assets/73cd1f38-4a07-479c-91c7-5dd43e2dcafa)  
 The protein–ligand docking problem plays an essential role in structure-based drug design. The challenge for a protein–ligand docking method is how to execute an efficient conformational search to explore a well-designed scoring function. In this study, we improved the artificial bee colony (ABC) algorithm and proposed an approach called ABC-EDM to solve the protein–ligand docking problem. ABC-EDM employs the scoring function of the classical AutoDock Vina to evaluate a solution during docking simulation. ABC-EDM adopts the search framework of the canonical ABC algorithm to execute conformational search. By further investigating the characteristics of the protein–ligand docking problem, a proprietary search mechanism inspired by estimation of distribution algorithm, i.e., estimation of distribution mechanism (EDM), is designed to enhance the performance of ABC-EDM. To verify the effectiveness of the proposed ABC-EDM, we compare it with three variants of the ABC algorithm, three evolutionary computation algorithms, and AutoDock Vina. The experimental results show that ABC-EDM can effectively solve the protein–ligand docking problem, and it can achieve a success rate 5% higher than AutoDock Vina on the GOLD dataset. This study reveals that taking advantage of problem-specific information about the protein–ligand docking problem to enhance a docking method contributes to solving this problem.  
 
-<h2 id="cau">
+<h2 id="xai">
 Explainable AI (XAI)
 </h2>
 
@@ -107,7 +107,7 @@ Advances in the understanding of dendrites promote the development of dendritic 
 [**[CF003](https://chengtang-ai.github.io/ConferencePublications/)**]  
 [**[CC018](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC009](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC004](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC003](https://chengtang-ai.github.io/ConferencePublications/)**]  
 
-<h2 id="fau">
+<h2 id="opt">
 Optimization
 </h2>
 
