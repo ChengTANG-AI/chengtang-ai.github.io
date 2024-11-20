@@ -4,7 +4,7 @@ permalink: /ConferencePublications/
 author_profile: true
 ---
 
-**[First Author](#fau)** &nbsp; &nbsp; **[Co-Author](#cau)** &nbsp; &nbsp; **[Google Scholar (Up to date)](https://scholar.google.com/citations?user=GvXOVv0AAAAJ)**
+**[First Author (CF)](#fau)** &nbsp; &nbsp; **[Co-Author (CC)](#cau)** &nbsp; &nbsp; **[Google Scholar (Up to date)](https://scholar.google.com/citations?user=GvXOVv0AAAAJ)**
 
 
 <h2 id="fau">
