@@ -27,19 +27,20 @@ The primary motivation of this paper is twofold: first, to employ a heuristic op
 Time Series Forecasting
 </h2>
 
-<u>[JF006]</u>, <u>[JF002]</u>  
-<u>[JS007]</u>, <u>[JS004]</u>, <u>[JS003]</u>  
-<u>[JC014]</u>, <u>[JC009]</u>, <u>[JC007]</u>, <u>[JC006]</u>, <u>[JC004]</u>  
+[**[JF006](https://chengtang-ai.github.io/JournalPublications/)**], [**[JF002](https://chengtang-ai.github.io/JournalPublications/)**]  
+[**[JS007](https://chengtang-ai.github.io/JournalPublications/)**], [**[JS004](https://chengtang-ai.github.io/JournalPublications/)**], [**[JS003](https://chengtang-ai.github.io/JournalPublications/)**]  
+[**[JC014](https://chengtang-ai.github.io/JournalPublications/)**], [**[JC009](https://chengtang-ai.github.io/JournalPublications/)**], [**[JC007](https://chengtang-ai.github.io/JournalPublications/)**], [**[JC006](https://chengtang-ai.github.io/JournalPublications/)**], [**[JC004](https://chengtang-ai.github.io/JournalPublications/)**]  
+
 <u>[CC004]</u>  
 
 <h2 id="cau">
 Computer Vision
 </h2>
 
-<u>[JF004]</u>  
-<u>[JS005]</u>  
-<u>[JC016]</u>, <u>[JC014]</u>, <u>[JC012]</u>, <u>[JC010]</u>, <u>[JC008]</u>  
-<u>[CC019]</u>, <u>[CC015]</u>, <u>[CC013]</u>, <u>[CC010]</u>, <u>[CC008]</u>, <u>[CC007]</u>, <u>[CC006]</u>   
+[**[JF004](https://chengtang-ai.github.io/JournalPublications/)**]  
+[**[JS005](https://chengtang-ai.github.io/JournalPublications/)**]  
+[**[JC016](https://chengtang-ai.github.io/JournalPublications/)**], [**[JC014](https://chengtang-ai.github.io/JournalPublications/)**], [**[JC012](https://chengtang-ai.github.io/JournalPublications/)**], [**[JC010](https://chengtang-ai.github.io/JournalPublications/)**], [**[JC008](https://chengtang-ai.github.io/JournalPublications/)**]   
+[**[CC019](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC015](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC013](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC010](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC008](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC007](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC006](https://chengtang-ai.github.io/ConferencePublications/)**]  
 
 <h2 id="cau">
 Natural Language Processing
