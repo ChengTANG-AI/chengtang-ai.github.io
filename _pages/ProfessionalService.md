@@ -44,11 +44,11 @@ Courses
 </h2>
 
 <u>[R002]</u>. 2024.06-2024.08   Summer Quarter  
-Programming Exercise (Python) (Japanese)  
+**Programming Exercise (Python) (Japanese)**  
 Kyushu University
 
 <u>[R001]</u>. 2023.10-2024.03   Second Semester  
-Electrical and Computer Engineering Experiment III (Software Experiment II-III) (Japanese)  
+**Electrical and Computer Engineering Experiment III (Software Experiment II-III) (Japanese)**  
 Kyushu University  
 
 
