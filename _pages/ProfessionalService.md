@@ -4,11 +4,11 @@ permalink: /ProfessionalService/
 author_profile: true
 ---
 
-**[First Author](#fau)** &nbsp; &nbsp; **[Corresponding Author](#rau)** &nbsp; &nbsp; **[Co-Author](#cau)** &nbsp; &nbsp;
+**[Research grants](#fau)** &nbsp; &nbsp; **[Committee Memberships](#rau)** &nbsp; &nbsp; **[Reviewing](#cau)** &nbsp; &nbsp;
 
 
 <h2 id="fau">
-First Author
+Research grants
 </h2>
 
 <u>[J001]</u>. **"A novel machine learning technique for computer-aided diagnosis."**  
@@ -16,27 +16,40 @@ First Author
 👤<u>Authors</u>: **<u>Cheng Tang</u>**, Junkai Ji, Yajiao Tang, Shangce Gao, Zheng Tang, Yuki Todo.  
 🔑<u>Keywords</u>: Computer-Aided Diagnosis, Artificial Neural Network, Artificial Bee Colony Algorithm, Pruning, Logic Circuit.
 
+I serve as the leading guest editor of special issues in several prestigious journals, including  
+・**[Electronics](https://www.mdpi.com/journal/electronics)**,  
+and so on.
 
+I serve as a program committee member in several international conferences, including  
+・**[20th International Conference on Intelligent Computing](https://www.ic-icc.cn/2024/index.htm)** (ICIC 2024),  
+・**[11th IEEE International Conference on Data Science and Advanced Analytics](https://dsaa2024.dsaa.co/)** (DSAA 2024),  
+and so on.
 
 <h2 id="rau">
-Corresponding Author
+Committee Memberships
 </h2>
 
-<u>[J001]</u>. **"A survey on dendritic neuron model: Mechanisms, algorithms and practical applications."**  
-**Neurocomputing**, Volume 489, Pages 390-406, 2022.06. **[CameraReady](https://doi.org/10.1016/j.neucom.2021.08.153)**  
-👤<u>Authors</u>: Junkai Ji, **<u>Cheng Tang+</u>**, Jiajun Zhao, Zheng Tang, Yuki Todo.  
-🔑<u>Keywords</u>: Neural Model, Dendritic Computation, Classification, Prediction, Logic Circuit.
+<u>[003]</u>. **Editorial board**  
+・**[Electronics](https://www.mdpi.com/journal/electronics)**, 
+
+<u>[002]</u>. **Organizing Committee**  
+
+
+<u>[001]</u>. **Program Committee**  
+・**[20th International Conference on Intelligent Computing](https://www.ic-icc.cn/2024/index.htm)** (ICIC 2024),  
+・**[11th IEEE International Conference on Data Science and Advanced Analytics](https://dsaa2024.dsaa.co/)** (DSAA 2024),  
 
 
 
 <h2 id="cau">
-Co-Author
+Reviewing
 </h2>
 
-<u>[J001]</u>. **"An artificial bee colony algorithm search guided by scale-free networks."**  
-**Information Sciences**, Volume 473, Pages 142-165, 2019.01. **[CameraReady](https://doi.org/10.1016/j.ins.2018.09.034)**  
-👤<u>Authors</u>: Junkai Ji, Shuangbao Song, **<u>Cheng Tang</u>**, Shangce Gao, Zheng Tang, Yuki Todo.  
-🔑<u>Keywords</u>: Artificial Bee Colony, Scale-Free Network, Optimization, Exploration, Exploitation.
+<u>[005]</u>. **[Information Fusion](https://www.sciencedirect.com/journal/information-fusion)**,  
+<u>[004]</u>. **[Applied Soft Computing](https://www.sciencedirect.com/journal/applied-soft-computing)** (ASOC),  
+<u>[003]</u>. **[IEEE Transactions on Fuzzy Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=91)** (TFS),  
+<u>[002]</u>. **[IEEE Transactions on Intelligent Vehicles](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7274857)** (TIV),  
+<u>[001]</u>. **[IEEE Transactions on Neural Networks and Learning Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385)** (TNNLS),  
 
 
 
