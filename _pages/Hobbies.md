@@ -4,10 +4,10 @@ permalink: /Hobbies/
 author_profile: true
 ---
 
-**[Tourism・Photography](#fau)** &nbsp; &nbsp; **[Painting](#rau)**
+**[Tourism・Photography](#tp)** &nbsp; &nbsp; **[Painting・Calligraphy](#pc)**
 
 
-<h2 id="fau">
+<h2 id="tp">
 Tourism・Photography
 </h2>
 
@@ -28,7 +28,7 @@ Tourism・Photography
 
 ![image](https://github.com/user-attachments/assets/e27809ed-6d73-4753-9723-d9b0c8557fd4)  
 
-<h2 id="rau">
+<h2 id="pc">
 Painting・Calligraphy
 </h2>
 
