@@ -12,7 +12,6 @@ Research grants
 </h2>
 
 <u>[RG002]</u>. **Development of a trusted XAI-based dropout prediction method with feature selection**, Japan Science and Technology Agency, Core Research for Evolutionary Science and Technology (CREST), AIP Challenge. **(PI)**
-
 <u>[RG001]</u>. **COVID-19 AI & Simulation Project**, Cabinet Agency for Infectious Disease Crisis Management, Cabinet Secretariat, Japan. **Co-Investigator**.
 
 
@@ -36,7 +35,6 @@ Reviewing
 </h2>
 
 <u>[R006]</u>. **[Information Fusion](https://www.sciencedirect.com/journal/information-fusion)**,  
-
 <u>[R005]</u>. **[Applied Soft Computing](https://www.sciencedirect.com/journal/applied-soft-computing)** (ASOC),  
 <u>[R004]</u>. **[Expert Systems with Applications](https://www.sciencedirect.com/journal/expert-systems-with-applications)** (ESWA),  
 <u>[R003]</u>. **[IEEE Transactions on Fuzzy Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=91)** (TFS),  
