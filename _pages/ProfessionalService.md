@@ -33,7 +33,7 @@ Committee Memberships
 ・**[Electronics](https://www.mdpi.com/journal/electronics)**, 
 
 <u>[002]</u>. **Organizing Committee**  
-
+・**[1st International Conference on Learning Evidence and Analytics](https://sites.google.com/leds.ait.kyushu-u.ac.jp/iclea2025/?pli=1)** (ICLEA 2025), 
 
 <u>[001]</u>. **Program Committee**  
 ・**[20th International Conference on Intelligent Computing](https://www.ic-icc.cn/2024/index.htm)** (ICIC 2024),  
