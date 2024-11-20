@@ -47,6 +47,7 @@ Natural Language Processing
 </h2>
 
 <u>[JC017]</u>  
+[**[JC017](https://chengtang-ai.github.io/JournalPublications/)**]  
 <u>[CC021]</u>, <u>[CC020]</u>, <u>[CC017]</u>, <u>[CC016]</u>, <u>[CC014]</u>, <u>[CC011]</u>   
 
 <h2 id="fau">
