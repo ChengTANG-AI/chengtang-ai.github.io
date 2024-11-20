@@ -32,25 +32,6 @@ I have published over 50 articles in international journals / conferences, inclu
 ・**[International Conference on Knowledge Science, Engineering and Management](https://ai-edge.net/index.html)** (KSEM),  
 and so on. 
 
-I serve as the leading guest editor of special issues in several prestigious journals, including  
-・**[Electronics](https://www.mdpi.com/journal/electronics)**,  
-and so on.
-
-I serve as a program committee member in several international conferences, including  
-・**[20th International Conference on Intelligent Computing](https://www.ic-icc.cn/2024/index.htm)** (ICIC 2024),  
-・**[11th IEEE International Conference on Data Science and Advanced Analytics](https://dsaa2024.dsaa.co/)** (DSAA 2024),  
-and so on.
-
-I serve as a peer reviewer for several international journals, including  
-・**[Information Fusion](https://www.sciencedirect.com/journal/information-fusion)**,  
-・**[Applied Soft Computing](https://www.sciencedirect.com/journal/applied-soft-computing)** (ASOC),  
-・**[IEEE Transactions on Fuzzy Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=91)** (TFS),  
-・**[IEEE Transactions on Intelligent Vehicles](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7274857)** (TIV),  
-・**[IEEE Transactions on Neural Networks and Learning Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385)** (TNNLS),  
-and so on.
-
-Outside of research, I enjoy **traveling** and **photography**.
-
 **I am looking for M.E. / B.E. students majoring in engineering, but not limited to, Computer Science and Artificial Intelligence. In addition, I am pleased to collaborate with researchers who are interested in advising on healthcare-related projects. If you are interested in my field of research, please feel free to email me.**
 
 E-mail: <tangcheng.ac@outlook.com>  
