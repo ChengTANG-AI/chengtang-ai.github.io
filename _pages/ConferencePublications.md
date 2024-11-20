@@ -4,10 +4,10 @@ permalink: /ConferencePublications/
 author_profile: true
 ---
 
-**[First Author (CF)](#fau)** &nbsp; &nbsp; **[Co-Author (CC)](#cau)** &nbsp; &nbsp; **[Google Scholar (Up to date)](https://scholar.google.com/citations?user=GvXOVv0AAAAJ)**
+**[First Author (CF)](#cf)** &nbsp; &nbsp; **[Co-Author (CC)](#cc)** &nbsp; &nbsp; **[Google Scholar (Up to date)](https://scholar.google.com/citations?user=GvXOVv0AAAAJ)**
 
 
-<h2 id="fau">
+<h2 id="cf">
 First Author
 </h2>
 
@@ -27,7 +27,7 @@ First Author
 🔑<u>Keywords</u>: Dendritic Neuron Model, Firefly Algorithm, Classification, Prediction, Hardwarezation.
 
 
-<h2 id="cau">
+<h2 id="cc">
 Co-Author
 </h2>
 
