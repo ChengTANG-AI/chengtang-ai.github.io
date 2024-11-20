@@ -17,21 +17,24 @@ Medical Data Mining
 <h2 id="rau">
 Time Series Forecasting
 </h2>
+[CC004]  
 
 
 <h2 id="cau">
 Computer Vision
 </h2>
+[CC019], [CC015], [CC013], [CC010], [CC008], [CC007], [CC006]  
+
 
 <h2 id="cau">
 Natural Language Processing
 </h2>
-
+[CC021], [CC020], [CC017], [CC016], [CC014], [CC011]  
 
 <h2 id="fau">
 Learning Analytics
 </h2>
-
+[CF003], [CC021], [CC020], [CC017], [CC016], [CC012], [CC011]  
 
 
 <h2 id="rau">
@@ -42,11 +45,12 @@ AI for Drug Design
 <h2 id="cau">
 Explainable AI (XAI)
 </h2>
-
+[CF003], [CF001], [CC018], [CC009], [CC004], [CC003]  
 
 <h2 id="fau">
 Optimization
 </h2>
+[CF002], [CC018], [CC005], [CC001]  
 
 
 
