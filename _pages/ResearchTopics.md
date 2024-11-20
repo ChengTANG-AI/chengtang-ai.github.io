@@ -55,7 +55,6 @@ Learning Analytics
 
 [**[JC013](https://chengtang-ai.github.io/JournalPublications/)**]  
 [**[CF013](https://chengtang-ai.github.io/ConferencePublications/)**]  
-<u>[CC021]</u>, <u>[CC020]</u>, <u>[CC017]</u>, <u>[CC016]</u>, <u>[CC012]</u>, <u>[CC011]</u>  
 [**[CC021](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC020](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC017](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC016](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC012](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC011](https://chengtang-ai.github.io/ConferencePublications/)**]  
 
 <h2 id="rau">
