@@ -4,9 +4,9 @@ permalink: /ResearchTopics/
 author_profile: true
 ---
 
-**[Medical Data Mining](#fau)** &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; **[Time Series Forecasting](#rau)** &nbsp; &nbsp; **[Computer Vision](#cau)**     
+**[Medical Data Mining](#fau)** &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; **[Time Series Forecasting](#rau)** &nbsp; &nbsp; **[Computer Vision](#cau)**     
 **[Natural Language Processing](#cau)** &nbsp; &nbsp; **[Learning Analytics](#cau)** &nbsp; &nbsp; **[AI for Drug Design](#cau)**    
-**[Explainable AI (XAI)](#cau)** &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; **[Optimization](#cau)** &nbsp; &nbsp;
+**[Explainable AI (XAI)](#cau)** &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; **[Optimization](#cau)** &nbsp; &nbsp;
 
 
 <h2 id="fau">
