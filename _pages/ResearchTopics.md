@@ -46,17 +46,17 @@ Computer Vision
 Natural Language Processing
 </h2>
 
-<u>[JC017]</u>  
 [**[JC017](https://chengtang-ai.github.io/JournalPublications/)**]  
-<u>[CC021]</u>, <u>[CC020]</u>, <u>[CC017]</u>, <u>[CC016]</u>, <u>[CC014]</u>, <u>[CC011]</u>   
+[**[CC021](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC020](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC017](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC016](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC014](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC011](https://chengtang-ai.github.io/ConferencePublications/)**]  
 
 <h2 id="fau">
 Learning Analytics
 </h2>
 
-<u>[JC013]</u>  
-<u>[CF003]</u>   
-<u>[CC021]</u>, <u>[CC020]</u>, <u>[CC017]</u>, <u>[CC016]</u>, <u>[CC012]</u>, <u>[CC011]</u>   
+[**[JC013](https://chengtang-ai.github.io/JournalPublications/)**]  
+[**[CF013](https://chengtang-ai.github.io/ConferencePublications/)**]  
+<u>[CC021]</u>, <u>[CC020]</u>, <u>[CC017]</u>, <u>[CC016]</u>, <u>[CC012]</u>, <u>[CC011]</u>  
+[**[CC021](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC020](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC017](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC016](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC012](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC011](https://chengtang-ai.github.io/ConferencePublications/)**]  
 
 <h2 id="rau">
 AI for Drug Design
