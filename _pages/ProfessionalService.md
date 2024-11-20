@@ -1,6 +1,6 @@
 ---
-title: "Journal Publications"
-permalink: /JournalPublications/
+title: "Professional Service"
+permalink: /ProfessionalService/
 author_profile: true
 ---
 
