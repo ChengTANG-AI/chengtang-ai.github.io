@@ -22,10 +22,8 @@ Committee Memberships
 <u>[CM003]</u>. **Editorial board**  
 &nbsp; &nbsp; &nbsp; &nbsp; ・**[Electronics](https://www.mdpi.com/journal/electronics)**,  
 &nbsp; &nbsp; &nbsp; &nbsp; ・**[The Institute of Electrical Engineers of Japan](https://www.iee.jp/en/)** (IEEJ), 
-
 <u>[CM002]</u>. **Organizing Committee**  
 &nbsp; &nbsp; &nbsp; &nbsp; ・**[1st International Conference on Learning Evidence and Analytics](https://sites.google.com/leds.ait.kyushu-u.ac.jp/iclea2025/?pli=1)** (ICLEA 2025), 
-
 <u>[CM001]</u>. **Program Committee**  
 &nbsp; &nbsp; &nbsp; &nbsp; ・**[20th International Conference on Intelligent Computing](https://www.ic-icc.cn/2024/index.htm)** (ICIC 2024),  
 &nbsp; &nbsp; &nbsp; &nbsp; ・**[11th IEEE International Conference on Data Science and Advanced Analytics](https://dsaa2024.dsaa.co/)** (DSAA 2024),  
