@@ -15,6 +15,8 @@ Biography
 
 <u>[2024-11-05]</u> I served as the **Assistant Editor** of **[The Institute of Electrical Engineers of Japan](https://www.iee.jp/en/)** (IEEJ).
 
+<u>[2024-10-01]</u> I joined **[The Institute of Electrical Engineers of Japan](https://www.iee.jp/en/)** (IEEJ), as a **Member**.
+
 <u>[2024-04-22]</u> I served as the **Leading Guest Editor** of Special Issue: **[Applications of Edge Computing in Mobile Systems Computing](https://www.mdpi.com/journal/electronics/special_issues/OQ9C0UPK46)**, **[Electronics](https://www.mdpi.com/journal/electronics)** (ISSN 2079-9292).
 
 <u>[2024-04-22]</u> I served as a **Program Committee Member** for the **[20th International Conference on Intelligent Computing](https://www.ic-icc.cn/2024/index.htm)** (ICIC 2024), Tianjin, China: August 5th-8th, 2024.
