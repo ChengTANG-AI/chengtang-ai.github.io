@@ -11,8 +11,8 @@ author_profile: true
 Research grants
 </h2>
 
-<u>[RG002]</u>. **Development of a trusted XAI-based dropout prediction method with feature selection**, Japan Science and Technology Agency, Core Research for Evolutionary Science and Technology (CREST), AIP Challenge. **(PI)**
-<u>[RG001]</u>. **COVID-19 AI & Simulation Project**, Cabinet Agency for Infectious Disease Crisis Management, Cabinet Secretariat, Japan. **Co-Investigator**.
+<u>[RG002]</u>. **Development of a trusted XAI-based dropout prediction method with feature selection**, Japan Science and Technology Agency, Core Research for Evolutionary Science and Technology (CREST), AIP Challenge. **(PI)**  
+<u>[RG001]</u>. **COVID-19 AI & Simulation Project**, Cabinet Agency for Infectious Disease Crisis Management, Cabinet Secretariat, Japan. **Co-Investigator**.  
 
 
 <h2 id="rau">
