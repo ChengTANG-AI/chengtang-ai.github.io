@@ -19,7 +19,7 @@ Committee Memberships
 </h2>
 
 <u>[003]</u>. **Editorial board**  
-&nbsp; &nbsp; &nbsp; &nbsp; ・**[Electronics](https://www.mdpi.com/journal/electronics)**, 
+&nbsp; &nbsp; &nbsp; &nbsp; ・**[Electronics](https://www.mdpi.com/journal/electronics)**,  
 &nbsp; &nbsp; &nbsp; &nbsp; ・**[The Institute of Electrical Engineers of Japan](https://www.iee.jp/en/)** (IEEJ), 
 
 <u>[002]</u>. **Organizing Committee**  
