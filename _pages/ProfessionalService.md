@@ -4,7 +4,7 @@ permalink: /ProfessionalService/
 author_profile: true
 ---
 
-**[Research grants](#fau)** &nbsp; &nbsp; **[Committee Memberships](#rau)** &nbsp; &nbsp; **[Reviewing](#cau)** &nbsp; &nbsp;
+**[Research grants](#fau)** &nbsp; &nbsp; **[Committee Memberships](#rau)** &nbsp; &nbsp; **[Reviewing](#cau)** &nbsp; &nbsp; **[Courses](#cau)**
 
 
 <h2 id="fau">
@@ -39,6 +39,17 @@ Reviewing
 <u>[R002]</u>. **[IEEE Transactions on Intelligent Vehicles](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7274857)** (TIV),  
 <u>[R001]</u>. **[IEEE Transactions on Neural Networks and Learning Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385)** (TNNLS),  
 
+<h2 id="cau">
+Courses
+</h2>
+
+<u>[R002]</u>. 2024.06-2024.08   Summer Quarter  
+Programming Exercise (Python) (Japanese)  
+Kyushu University
+
+<u>[R001]</u>. 2023.10-2024.03   Second Semester  
+Electrical and Computer Engineering Experiment III (Software Experiment II-III) (Japanese)  
+Kyushu University  
 
 
 <script async src="https://npm.elemecdn.com/penndu@1.0.0/bsz.js"></script>
