@@ -13,7 +13,7 @@ author_profile: true
 Medical Data Mining
 </h2>
 
-<u>[**[JF006](https://chengtang-ai.github.io/JournalPublications/)**]</u>. A novel multivariate time series forecasting dendritic neuron model for COVID-19 pandemic transmission tendency.  
+[**[JF006](https://chengtang-ai.github.io/JournalPublications/)**]. A novel multivariate time series forecasting dendritic neuron model for COVID-19 pandemic transmission tendency.  
 ![image](https://github.com/user-attachments/assets/5296a915-f22f-49bb-8301-f6eb3bb521fd)
 
 ![image](https://github.com/ChengTANG-AI/chengtang-ai.github.io/blob/70d07a99846d0a67892dbb3931299664dcd6bec0/images/JF006_01.png)  
