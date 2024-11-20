@@ -11,16 +11,20 @@ author_profile: true
 Tourism・Photography
 </h2>
 
-<u>[TP001]</u>. 
+<u>[TP001]</u>. @Toyama, Japan  
+![image](https://github.com/user-attachments/assets/df6f9d1f-b5ae-41d0-b682-e2f05c5bedf9)  
 
 
 
 <h2 id="rau">
-Painting
+Painting・Calligraphy
 </h2>
 
-<u>[P001]</u>. 
+<u>[PC002]</u>. Pencil Drawing
+![image](https://github.com/user-attachments/assets/f73c13f2-3745-47c4-a7dd-a8dadc7bdb7a)  
 
+<u>[PC001]</u>. Chinese Calligraphy
+![image](https://github.com/user-attachments/assets/98c937d2-7d8b-4462-801f-5e72c56f82f5)  
 
 
 
