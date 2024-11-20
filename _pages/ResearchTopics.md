@@ -34,7 +34,6 @@ Dendritic neuron model (DNM), which is a single neuron model with a plastic stru
 [**[JF006](https://chengtang-ai.github.io/JournalPublications/)**]  
 [**[JS007](https://chengtang-ai.github.io/JournalPublications/)**], [**[JS004](https://chengtang-ai.github.io/JournalPublications/)**], [**[JS003](https://chengtang-ai.github.io/JournalPublications/)**]  
 [**[JC014](https://chengtang-ai.github.io/JournalPublications/)**], [**[JC009](https://chengtang-ai.github.io/JournalPublications/)**], [**[JC007](https://chengtang-ai.github.io/JournalPublications/)**], [**[JC006](https://chengtang-ai.github.io/JournalPublications/)**], [**[JC004](https://chengtang-ai.github.io/JournalPublications/)**]  
-
 [**[CC004](https://chengtang-ai.github.io/ConferencePublications/)**]  
 
 <h2 id="cau">
