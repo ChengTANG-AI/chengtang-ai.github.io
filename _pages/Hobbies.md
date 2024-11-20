@@ -11,7 +11,7 @@ author_profile: true
 Tourism・Photography
 </h2>
 
-<u>[TP001]</u>. @Nagano, Japan  
+<u>[TP002]</u>. @Nagano, Japan  
 ![image](https://github.com/user-attachments/assets/ccda438b-ff07-454b-80c1-86070d683bae)  
 ![image](https://github.com/user-attachments/assets/36d7a84e-c51f-458e-8c4c-f70ea47b6269)  
 
