@@ -44,12 +44,12 @@ Courses
 </h2>
 
 <u>[C002]</u>. 2024.06-2024.08   Summer Quarter  
-**Programming Exercise (Python) (Japanese)**  
-Kyushu University
+&nbsp; &nbsp; &nbsp; &nbsp; ・**Programming Exercise (Python) (Japanese)**  
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Kyushu University
 
 <u>[C001]</u>. 2023.10-2024.03   Second Semester  
-**Electrical and Computer Engineering Experiment III (Software Experiment II-III) (Japanese)**  
-Kyushu University  
+&nbsp; &nbsp; &nbsp; &nbsp; ・**Electrical and Computer Engineering Experiment III (Software Experiment II-III) (Japanese)**  
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Kyushu University  
 
 
 <script async src="https://npm.elemecdn.com/penndu@1.0.0/bsz.js"></script>
