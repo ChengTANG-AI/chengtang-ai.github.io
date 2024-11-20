@@ -13,7 +13,7 @@ I conduct my research in the **[Laboratory for Image and Media Understanding](ht
 
 I received my Ph.D. degree in engineering from the **[University of Toyama](https://www.u-toyama.ac.jp/)**, Toyama, Japan, in 2022. From 2022 to 2023, I was an Assistant Professor at the **[Hirata　Laboratory](https://cem.web.nitech.ac.jp/hilab/)**, Graduate School of Engineering Tsukuri College, **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**, Nagoya, Japan. In 2023, I joined **[Kyushu University](https://www.kyushu-u.ac.jp/ja/)**, Fukuoka, Japan, where I am currently an Assistant Professor (Tenured) with the Department of Advanced Information Technology, Graduate School and Faculty of Information Science and Electrical Engineering.
 
-My main research interests are **Machine / Deep Learning**, **Computational Neuroscience**, **Neural Networks**, **Evolutionary Computation**, **Bioinformatics**, **Learning Analytics**, and **Artificial Intelligence** in **Medical Big Data**. 
+My main research interests are **Medical Data Mining**, **Bioinformatics**, **Explainable AI (XAI)**, **Time Series Forecasting**, **Computer Vision**, **Optimization**, **AI for Drug Design**, and **Learning Analytics**. 
 
 I have published over 50 articles in international journals / conferences, including  
 ・**[Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing)**,  
