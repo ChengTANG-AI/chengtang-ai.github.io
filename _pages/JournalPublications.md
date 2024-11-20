@@ -4,7 +4,7 @@ permalink: /JournalPublications/
 author_profile: true
 ---
 
-**[First Author](#fau)** &nbsp; &nbsp; **[Corresponding Author](#rau)** &nbsp; &nbsp; **[Co-Author](#cau)** &nbsp; &nbsp; **[Google Scholar (Up to date)](https://scholar.google.com/citations?user=GvXOVv0AAAAJ)**
+**[First Author (JF)](#fau)** &nbsp; &nbsp; **[Corresponding Author (JS)](#rau)** &nbsp; &nbsp; **[Co-Author (JC)](#cau)** &nbsp; &nbsp; **[Google Scholar (Up to date)](https://scholar.google.com/citations?user=GvXOVv0AAAAJ)**
 
 
 <h2 id="fau">
@@ -87,6 +87,16 @@ Corresponding Author
 <h2 id="cau">
 Co-Author
 </h2>
+
+<u>[JC017]</u>. **"MFLSCI: Multi-granularity fusion and label semantic correlation information for multi-label legal text classification."**  
+**Engineering Applications of Artificial Intelligence**, Volume 139, Part B, 109604, 2025.01. **[CameraReady](https://doi.org/10.1016/j.engappai.2024.109604)**  
+👤<u>Authors</u>: Chunyun Meng, Yuki Todo, **<u>Cheng Tang</u>**, Li Luan, Zheng Tang.  
+🔑<u>Keywords</u>: Visual System, Orientation Detection, Dendritic Computation, Big Data, Hardware Implementation.
+
+<u>[JC016]</u>. **"Hyperspectral Image Classification Based on Double-hop Graph Attention Multi-view Fusion Network."**  
+**IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing**, Volume 17, Pages 20080-20097, 2024.10. **[CameraReady](https://doi.org/10.1109/JSTARS.2024.3486283)**  
+👤<u>Authors</u>: Ying Cui, Li Luo, Lu Wang, Liwei Chen, Shan Gao, Chunhui Zhao, **<u>Cheng Tang</u>**.  
+🔑<u>Keywords</u>: Attention mechanism, convolutional neural network (CNN), graph attention network (GAN), graph attention network (GAT), hyperspectral image (HSI) classiﬁcation, multiview fusion.
 
 <u>[JC015]</u>. **"Improving the artificial bee colony algorithm with a proprietary estimation of distribution mechanism for protein-ligand docking."**  
 **Applied Soft Computing**, Volume 161, 111732, 2024.08. **[CameraReady](https://doi.org/10.1016/j.asoc.2024.111732)**  
