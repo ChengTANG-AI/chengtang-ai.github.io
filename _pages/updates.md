@@ -13,7 +13,7 @@ redirect_from:
 Biography
 </h2>
 
-<u>[2024-11-05]</u> I served as the **Assistant editor** of Special Issue: **[Applications of Edge Computing in Mobile Systems Computing](https://www.mdpi.com/journal/electronics/special_issues/OQ9C0UPK46)**, **[Electronics](https://www.mdpi.com/journal/electronics)** (ISSN 2079-9292).
+<u>[2024-11-05]</u> I served as the **Assistant Editor** of **[The Institute of Electrical Engineers of Japan](https://www.iee.jp/en/)** (IEEJ).
 
 <u>[2024-04-22]</u> I served as the **Leading Guest Editor** of Special Issue: **[Applications of Edge Computing in Mobile Systems Computing](https://www.mdpi.com/journal/electronics/special_issues/OQ9C0UPK46)**, **[Electronics](https://www.mdpi.com/journal/electronics)** (ISSN 2079-9292).
 
