@@ -6,10 +6,10 @@ main:
 
   - title: "Professional Service"
     url: /ProfessionalService/
-  - title: "Journal"
+  - title: "Journal Publications"
     url: /JournalPublications/
 
-  - title: "Conference"
+  - title: "Conference Publications"
     url: /ConferencePublications/
 
   - title: "Updates"
