@@ -4,10 +4,10 @@ permalink: /ProfessionalService/
 author_profile: true
 ---
 
-**[Research grants](#fau)** &nbsp; &nbsp; **[Committee Memberships](#rau)** &nbsp; &nbsp; **[Reviewing](#cau)** &nbsp; &nbsp; **[Courses](#cau)**
+**[Research grants](#rg)** &nbsp; &nbsp; **[Committee Memberships](#cm)** &nbsp; &nbsp; **[Reviewing](#rev)** &nbsp; &nbsp; **[Courses](#cou)**
 
 
-<h2 id="fau">
+<h2 id="rg">
 Research grants
 </h2>
 
@@ -16,7 +16,7 @@ Research grants
 <u>[RG001]</u>. **COVID-19 AI & Simulation Project**, Cabinet Agency for Infectious Disease Crisis Management, Cabinet Secretariat, Japan. **Co-Investigator**.  
 
 
-<h2 id="rau">
+<h2 id="cm">
 Committee Memberships
 </h2>
 
@@ -31,7 +31,7 @@ Committee Memberships
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ・**[20th International Conference on Intelligent Computing](https://www.ic-icc.cn/2024/index.htm)** (ICIC 2024),  
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ・**[11th IEEE International Conference on Data Science and Advanced Analytics](https://dsaa2024.dsaa.co/)** (DSAA 2024),  
 
-<h2 id="cau">
+<h2 id="rev">
 Reviewing
 </h2>
 
@@ -47,7 +47,7 @@ Reviewing
 
 <u>[R001]</u>. **[IEEE Transactions on Neural Networks and Learning Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385)** (TNNLS),  
 
-<h2 id="cau">
+<h2 id="cou">
 Courses
 </h2>
 
