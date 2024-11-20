@@ -15,7 +15,7 @@ Medical Data Mining
 
 <u>[JF006]</u>, <u>[JF001]</u>  
 <u>[JC011]</u>, <u>[JC008]</u>, <u>[JC006]</u>  
-![image](https://github.com/ChengTANG-AI/chengtang-ai.github.io/blob/main/images/JF006-01.png)
+![image](https://github.com/ChengTANG-AI/chengtang-ai.github.io/blob/main/images/JF006_01.png)
 
 
 <h2 id="rau">
