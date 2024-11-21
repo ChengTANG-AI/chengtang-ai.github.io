@@ -55,4 +55,4 @@ Honor and Awards
 <u>[2020-04-01]</u> I received the **Otsuka Toshimi Scholarship** for fiscal 2020.
 
 
-**Total Visitors**:<p align="left"> <img src="https://komarev.com/ghpvc/?username=GITHUB-USERNAME&label=Profile%20views&color=ce9927&style=flat" alt="GITHUB-USERNAME" /> </p>
+**Total Visitors**: <img src="https://komarev.com/ghpvc/?username=GITHUB-USERNAME&label=Profile%20views&color=ce9927&style=flat" alt="GITHUB-USERNAME" />
