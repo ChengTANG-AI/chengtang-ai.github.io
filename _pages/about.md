@@ -35,6 +35,7 @@ and so on.
 
 E-mail: <tangcheng.ac@outlook.com>  
 
+![Visitor Count](https://profile-counter.glitch.me/chengtang-ai/count.svg)
 
 <script async src="https://npm.elemecdn.com/penndu@1.0.0/bsz.js"></script>
 <span id="busuanzi_container_site_pv">Total Visits: <span id="busuanzi_value_site_pv"></span>.</span>
