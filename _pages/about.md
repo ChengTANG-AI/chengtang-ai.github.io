@@ -37,5 +37,7 @@ E-mail: <tangcheng.ac@outlook.com>
 
 ![Visitor Count](https://profile-counter.glitch.me/chengtang-ai/count.svg)
 
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=GITHUB-USERNAME&label=Profile%20views&color=ce9927&style=flat" alt="GITHUB-USERNAME" /> </p>
+
 <script async src="https://npm.elemecdn.com/penndu@1.0.0/bsz.js"></script>
 <span id="busuanzi_container_site_pv">Total Visits: <span id="busuanzi_value_site_pv"></span>.</span>
