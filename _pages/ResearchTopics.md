@@ -126,4 +126,4 @@ The scale-free network is an important type of complex network. The node degrees
 [**[CC018](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC005](https://chengtang-ai.github.io/ConferencePublications/)**], [**[CC001](https://chengtang-ai.github.io/ConferencePublications/)**]  
 
 
-**Total Visitors**:<p align="left"> <img src="https://komarev.com/ghpvc/?username=GITHUB-USERNAME&label=Profile%20views&color=ce9927&style=flat" alt="GITHUB-USERNAME" /> </p>
+**Total Visitors**: <img src="https://komarev.com/ghpvc/?username=GITHUB-USERNAME&label=Profile%20views&color=ce9927&style=flat" alt="GITHUB-USERNAME" />
