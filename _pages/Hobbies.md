@@ -43,4 +43,4 @@ Painting・Calligraphy
 ![image](https://github.com/user-attachments/assets/98c937d2-7d8b-4462-801f-5e72c56f82f5)  
 
 
-**Total Visitors**:<p align="left"> <img src="https://komarev.com/ghpvc/?username=GITHUB-USERNAME&label=Profile%20views&color=ce9927&style=flat" alt="GITHUB-USERNAME" /> </p>
+**Total Visitors**: <img src="https://komarev.com/ghpvc/?username=GITHUB-USERNAME&label=Profile%20views&color=ce9927&style=flat" alt="GITHUB-USERNAME" />
