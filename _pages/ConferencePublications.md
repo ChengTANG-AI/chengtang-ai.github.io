@@ -137,5 +137,5 @@ Neuron Model, Evolutionary Algorithms, Chaotic Maps.
 🔑<u>Keywords</u>: Gravitational Search Algorithm, Self-Adaptive, Chaotic, Local Search, Exploitation.
 
 
-**Total Visitors**:<p align="left"> <img src="https://komarev.com/ghpvc/?username=GITHUB-USERNAME&label=Profile%20views&color=ce9927&style=flat" alt="GITHUB-USERNAME" /> </p>
+**Total Visitors**:<p align="center"> <img src="https://komarev.com/ghpvc/?username=GITHUB-USERNAME&label=Profile%20views&color=ce9927&style=flat" alt="GITHUB-USERNAME" /> </p>
 
