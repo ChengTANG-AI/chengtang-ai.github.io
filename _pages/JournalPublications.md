@@ -6,7 +6,6 @@ author_profile: true
 
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fchengtang-ai.github.io%2FJournalPublications%2F&count_bg=%233DC8BD&title_bg=%23555555&icon=airplayvideo.svg&icon_color=%23E7E7E7&title=Page+Views%3A&edge_flat=false)](https://hits.seeyoufarm.com)
-
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fchengtang-ai.github.io&count_bg=%23C83D3D&title_bg=%23555555&icon=airplayvideo.svg&icon_color=%23E7E7E7&title=Total+Visitors%3A&edge_flat=false)](https://hits.seeyoufarm.com)
 
 
@@ -180,6 +179,5 @@ Co-Author
 
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fchengtang-ai.github.io%2FJournalPublications%2F&count_bg=%233DC8BD&title_bg=%23555555&icon=airplayvideo.svg&icon_color=%23E7E7E7&title=Page+Views%3A&edge_flat=false)](https://hits.seeyoufarm.com)
-
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fchengtang-ai.github.io&count_bg=%23C83D3D&title_bg=%23555555&icon=airplayvideo.svg&icon_color=%23E7E7E7&title=Total+Visitors%3A&edge_flat=false)](https://hits.seeyoufarm.com)
 
