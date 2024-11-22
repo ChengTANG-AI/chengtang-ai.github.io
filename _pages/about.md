@@ -39,5 +39,5 @@ and so on.
 
 <img src="https://komarev.com/ghpvc/?username=GITHUB-USERNAME&label=Total%20Visitors&color=ce9927&style=flat" alt="GITHUB-USERNAME" /> </p>
 
-![Visitor Count](https://profile-counter.glitch.me/{YOUR USER}/count.svg)
+![Visitor Count](https://profile-counter.glitch.me/chengtang-ai/count.svg)
 
