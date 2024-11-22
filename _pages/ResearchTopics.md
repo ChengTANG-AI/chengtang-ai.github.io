@@ -4,6 +4,10 @@ permalink: /ResearchTopics/
 author_profile: true
 ---
 
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fchengtang-ai.github.io&count_bg=%23C83D3D&title_bg=%23555555&icon=airplayvideo.svg&icon_color=%23E7E7E7&title=Total+Visitors%3A&edge_flat=false)](https://hits.seeyoufarm.com)
+
+
 **[Medical Data Mining](#mdm)** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **[Time Series Forecasting](#tsf)** &nbsp; &nbsp; **[Computer Vision](#cv)**  
 **[Natural Language Processing](#nlp)** &nbsp; &nbsp; **[Learning Analytics](#la)** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **[AI for Drug Design](#add)**  
 **[Explainable AI (XAI)](#xai)** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **[Optimization](#opt)**  
