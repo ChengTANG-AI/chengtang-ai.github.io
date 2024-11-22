@@ -4,6 +4,10 @@ permalink: /JournalPublications/
 author_profile: true
 ---
 
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fchengtang-ai.github.io&count_bg=%23C83D3D&title_bg=%23555555&icon=airplayvideo.svg&icon_color=%23E7E7E7&title=Total+Visitors%3A&edge_flat=false)](https://hits.seeyoufarm.com)
+
+
 **[First Author (JF)](#jf)** &nbsp; &nbsp; **[Corresponding Author (JS)](#js)** &nbsp; &nbsp; **[Co-Author (JC)](#jc)** &nbsp; &nbsp; **[Google Scholar (Up to date)](https://scholar.google.com/citations?user=GvXOVv0AAAAJ)**
 
 
