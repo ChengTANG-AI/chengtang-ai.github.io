@@ -18,7 +18,7 @@ redirect_from:
 Biography
 </h2>
 
-<u>[2024-11-05]</u> I served as the **Assistant Editor** of **[The Institute of Electrical Engineers of Japan](https://www.iee.jp/en/)** (IEEJ).
+<u>[2024-11-05]</u> I served as the **Associate Editor** of **[The Institute of Electrical Engineers of Japan](https://www.iee.jp/en/)** (IEEJ).
 
 <u>[2024-10-01]</u> I joined **[The Institute of Electrical Engineers of Japan](https://www.iee.jp/en/)** (IEEJ), as a **Member**.
 
