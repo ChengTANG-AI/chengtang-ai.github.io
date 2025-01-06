@@ -35,10 +35,25 @@ First Author
 Co-Author
 </h2>
 
+<u>[CC024]</u>. **"A Three-Step Knowledge Graph Approach Using LLMs In Collaborative Problem Solving-based Stem Education."**  
+**International Conference on Cognition and Exploratory Learning in Digital Age (CELDA 2024)**, Page 51-58, 2024.10. **[CameraReady](http://dx.doi.org/)**  
+👤<u>Authors</u>: Li Chen, Gen Li, Boxuan Ma, **<u>Cheng Tang</u>**, Masanori Yamada.    
+🔑<u>Keywords</u>: Knowledge graph, collaborative problem solving, STEM education, Large Language Model.
+
+<u>[CC023]</u>. **"Analysis of adapter in attention of change detection Vision Transformer."**  
+**First International Workshop on “AI-based All-Weather Surveillance System"**, Page 51-58, 2024.10. **[CameraReady](http://dx.doi.org/)**  
+👤<u>Authors</u>: Li Chen, Gen Li, Boxuan Ma, **<u>Cheng Tang</u>**, Masanori Yamada.    
+🔑<u>Keywords</u>: Knowledge graph, collaborative problem solving, STEM education, Large Language Model.
+
+<u>[CC022]</u>. **"QA-Knowledge Attention for Exam Performance Prediction."**  
+**International Conference on Computers in Education (ICCE)**, Page 375-389, 2025.09. **[CameraReady](http://dx.doi.org/)**  
+👤<u>Authors</u>: Erwin Daniel Lopez Zapata, **<u>Cheng Tang</u>**, Yuta Taniguchi, Fumiya Okubo, Atsushi Shimada.    
+🔑<u>Keywords</u>: E-book, Digital Textbooks, Reading Behavior, LAD, LLM.
+
 <u>[CC021]</u>. **"A Three-Step Knowledge Graph Approach Using LLMs In Collaborative Problem Solving-based Stem Education."**  
 **International Conference on Cognition and Exploratory Learning in Digital Age (CELDA 2024)**, Page 51-58, 2024.10. **[CameraReady](http://dx.doi.org/10.1007/978-3-031-72315-5_26)**  
 👤<u>Authors</u>: Li Chen, Gen Li, Boxuan Ma, **<u>Cheng Tang</u>**, Masanori Yamada.    
-🔑<u>Keywords</u>: Knowledge graph, collaborative problem solving, STEM education, Large Language Model.
+🔑<u>Keywords</u>: Knowledge graph, Collaborative Problem Solving, STEM education, Large Language Model.
 
 <u>[CC020]</u>. **"QA-Knowledge Attention for Exam Performance Prediction."**  
 **European Conference on Technology Enhanced Learning (EC-TEL)**, Page 375-389, 2024.09. **[CameraReady](http://dx.doi.org/10.1007/978-3-031-72315-5_26)**  
