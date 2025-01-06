@@ -94,7 +94,7 @@ Co-Author
 </h2>
 
 <u>[JC018]</u>. **"Enhancing Convolutional Neural Network Robustness Against Image Noise via an Artificial Visual System."**  
-**Mathematics**, Volume 13, Issue 1, 142, 2025.01. **[CameraReady](https://doi.org/10.1016/j.engappai.2024.109604)**  
+**Mathematics**, Volume 13, Issue 1, 142, 2025.01. **[CameraReady](https://doi.org/10.3390/math13010142)**  
 👤<u>Authors</u>: Bin Li, Yuki Todo, Sichen Tao, **<u>Cheng Tang</u>**, Yu Wang.  
 🔑<u>Keywords</u>: CNN; Robustness; Artificial Visual System.
 
