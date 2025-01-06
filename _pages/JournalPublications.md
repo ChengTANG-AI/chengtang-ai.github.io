@@ -93,6 +93,11 @@ Corresponding Author
 Co-Author
 </h2>
 
+<u>[JC018]</u>. **"Enhancing Convolutional Neural Network Robustness Against Image Noise via an Artificial Visual System."**  
+**Mathematics**, Volume 13, Issue 1, 142, 2025.01. **[CameraReady](https://doi.org/10.1016/j.engappai.2024.109604)**  
+👤<u>Authors</u>: Bin Li, Yuki Todo, Sichen Tao, **<u>Cheng Tang</u>**, Yu Wang.  
+🔑<u>Keywords</u>: CNN; Robustness; Artificial Visual System.
+
 <u>[JC017]</u>. **"MFLSCI: Multi-granularity fusion and label semantic correlation information for multi-label legal text classification."**  
 **Engineering Applications of Artificial Intelligence**, Volume 139, Part B, 109604, 2025.01. **[CameraReady](https://doi.org/10.1016/j.engappai.2024.109604)**  
 👤<u>Authors</u>: Chunyun Meng, Yuki Todo, **<u>Cheng Tang</u>**, Li Luan, Zheng Tang.  
