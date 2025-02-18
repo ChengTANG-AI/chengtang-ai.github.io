@@ -18,6 +18,8 @@ redirect_from:
 Biography
 </h2>
 
+<u>[2025-02-11]</u> I served as the **Leading Guest Editor** of Special Issue: **[Deep Neural Network: Theory, Algorithms and Applications](https://www.mdpi.com/journal/mathematics/special_issues/156YM1P982)**, **[Mathematics](https://www.mdpi.com/journal/mathematics)** (EISSN 2227-7390).
+
 <u>[2025-01-25]</u> I served as a **Program Committee Member** for the **[21th International Conference on Intelligent Computing](http://www.ic-icc.cn/icg/)** (ICIC 2025), Ningbo, China: July 26th-29th, 2025.
 
 <u>[2024-11-05]</u> I served as the **Associate Editor** of **[The Institute of Electrical Engineers of Japan](https://www.iee.jp/en/)** (IEEJ).
