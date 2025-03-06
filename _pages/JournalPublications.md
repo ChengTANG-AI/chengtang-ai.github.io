@@ -65,7 +65,7 @@ Corresponding Author
 <u>[JS005]</u>. **"A model of amacrine cells for orientation detection."**  
 **Electronic Research Archive**, Volume 31, Issue 4, Pages 1998-2018, 2023.02. **[CameraReady](https://doi.org/10.3934/era.2023103)**  
 👤<u>Authors</u>: Fenggang Yuan, **<u>Cheng Tang+</u>**, Zheng Tang, Yuki Todo.  
-🔑<u>Keywords</u>: Visual System; Perceptron; Orientation Detection; Grayscale; Amacrine Cell.
+🔑<u>Keywords</u>: Visual System, Perceptron, Orientation Detection, Grayscale, Amacrine Cell.
 
 <u>[JS004]</u>. **"A survey on machine learning models for financial time series forecasting."**  
 **Neurocomputing**, Volume 512, Pages 363-380, 2022.11. **[CameraReady](https://doi.org/10.1016/j.neucom.2022.09.003)**  
@@ -96,12 +96,12 @@ Co-Author
 <u>[JC019]</u>. **"DPFSI: A legal judgment prediction method based on deontic logic prompt and fusion of law article statistical information."**  
 **Expert Systems with Applications**, Volume 272, 126722, 2025.05. **[CameraReady](https://doi.org/10.1016/j.eswa.2025.126722)**  
 👤<u>Authors</u>: Chunyun Meng, Yuki Todo, **<u>Cheng Tang</u>**, Li Luan, Zheng Tang.  
-🔑<u>Keywords</u>: Legal judgment prediction; Statistical information fusion; Prompt learning; Multi-graph fusion mechanism.
+🔑<u>Keywords</u>: Legal judgment prediction, Statistical information fusion, Prompt learning, Multi-graph fusion mechanism.
 
 <u>[JC018]</u>. **"Enhancing Convolutional Neural Network Robustness Against Image Noise via an Artificial Visual System."**  
 **Mathematics**, Volume 13, Issue 1, 142, 2025.01. **[CameraReady](https://doi.org/10.3390/math13010142)**  
 👤<u>Authors</u>: Bin Li, Yuki Todo, Sichen Tao, **<u>Cheng Tang</u>**, Yu Wang.  
-🔑<u>Keywords</u>: CNN; Robustness; Artificial Visual System.
+🔑<u>Keywords</u>: CNN, Robustness, Artificial Visual System.
 
 <u>[JC017]</u>. **"MFLSCI: Multi-granularity fusion and label semantic correlation information for multi-label legal text classification."**  
 **Engineering Applications of Artificial Intelligence**, Volume 139, Part B, 109604, 2025.01. **[CameraReady](https://doi.org/10.1016/j.engappai.2024.109604)**  
@@ -121,7 +121,7 @@ Co-Author
 <u>[JC014]</u>. **"An improved weighted cross-entropy-based convolutional neural network for auxiliary diagnosis of pneumonia."**  
 **Electronics**, Volume 13, Issue 15, 2024.07. **[CameraReady](https://doi.org/10.3390/electronics13152929)**  
 👤<u>Authors</u>: Zhenyu Song, Zhanling Shi, Xuemei Yan, Bin Zhang, Shuangbao Song, **<u>Cheng Tang</u>**.  
-🔑<u>Keywords</u>:  Pneumonia Diagnosis; Convolutional Neural Network, Cross-Entropy.
+🔑<u>Keywords</u>:  Pneumonia Diagnosis, Convolutional Neural Network, Cross-Entropy.
 
 <u>[JC013]</u>. **"Attention-based  artificial neural network for student performance prediction based on learning activities."**  
 **IEEE Access**, Volume 12, Pages 100659-100675, 2024.07. **[CameraReady](https://doi.org/10.1109/ACCESS.2024.3429554)**  
@@ -141,12 +141,12 @@ Co-Author
 <u>[JC010]</u>. **"A model of the starburst amacrine cell for motion direction detection."**  
 **International Journal of Bio-Inspired Computation**, Volume 21, No. 2, 2023.04. **[CameraReady](https://doi.org/10.1504/IJBIC.2022.10053950)**  
 👤<u>Authors</u>: Fenggang Yuan, Hiroyoshi Todo, **<u>Cheng Tang</u>**, Zheng Tang, Yuki Todo.  
-🔑<u>Keywords</u>: Deep Learning; Convolutional Neural Network; Perceptron; Direction Detection; Grayscale; Artificial Neural Network.
+🔑<u>Keywords</u>: Deep Learning, Convolutional Neural Network, Perceptron, Direction Detection, Grayscale, Artificial Neural Network.
 
 <u>[JC009]</u>. **"A complex network-based firefly algorithm for numerical optimization and time series forecasting."**  
 **Applied Soft Computing**, Volume 137, 110158, 2023.04. **[CameraReady](https://doi.org/10.1016/j.asoc.2023.110158)**  
 👤<u>Authors</u>: Zhenyu Song, **<u>Cheng Tang</u>**, Shuangbao Song, Yajiao Tang, Jinhai Li, Junkai Ji.  
-🔑<u>Keywords</u>: Firefly Algorithm; Complex Network; Evolutionary Computations; Optimization.
+🔑<u>Keywords</u>: Firefly Algorithm, Complex Network, Evolutionary Computations, Optimization.
 
 <u>[JC008]</u>. **"DenseHashNet: a novel deep hashing for medical image retrieval."**  
 **IEEE Journal of Radio Frequency Identification**, Volume 6, Pages 697-702, 2022.09. **[CameraReady](https://doi.org/10.1109/JRFID.2022.3209986)**  
