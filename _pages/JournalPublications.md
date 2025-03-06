@@ -93,6 +93,11 @@ Corresponding Author
 Co-Author
 </h2>
 
+<u>[JC019]</u>. **"DPFSI: A legal judgment prediction method based on deontic logic prompt and fusion of law article statistical information."**  
+**Expert Systems with Applications**, Volume 272, 126722, 2025.05. **[CameraReady](https://doi.org/10.1016/j.eswa.2025.126722)**  
+👤<u>Authors</u>: Bin Li, Yuki Todo, Sichen Tao, **<u>Cheng Tang</u>**, Yu Wang.  
+🔑<u>Keywords</u>: Legal judgment prediction; Statistical information fusion; Prompt learning; Multi-graph fusion mechanism.
+
 <u>[JC018]</u>. **"Enhancing Convolutional Neural Network Robustness Against Image Noise via an Artificial Visual System."**  
 **Mathematics**, Volume 13, Issue 1, 142, 2025.01. **[CameraReady](https://doi.org/10.3390/math13010142)**  
 👤<u>Authors</u>: Bin Li, Yuki Todo, Sichen Tao, **<u>Cheng Tang</u>**, Yu Wang.  
