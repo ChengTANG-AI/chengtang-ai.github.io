@@ -35,15 +35,15 @@ First Author
 Co-Author
 </h2>
 
-<u>[CC024]</u>. **"Attention-Seeker: Dynamic Self-Attention Scoring for Unsupervised Keyphrase Extraction."**  
-**International Conference on Computational Linguistics (COLING 2025)**, Page 5011-5026, 2024.10. **[CameraReady](http://dx.doi.org/)**  
-👤<u>Authors</u>: Erwin Daniel Lopez Zapata, **<u>Cheng Tang</u>**, Atsushi Shimada.  
-🔑<u>Keywords</u>: Knowledge graph, collaborative problem solving, STEM education, Large Language Model.
-
-<u>[CC023]</u>. **"Automated Recommendations for Revising Lecture Slides Using Reading Activity Data."**  
-**International Conference on Computers in Education (ICCE)**, Page 375-389, 2025.09. **[CameraReady](http://dx.doi.org/)**  
+<u>[CC024]</u>. **"Automated Recommendations for Revising Lecture Slides Using Reading Activity Data."**  
+**International Conference on Computers in Education (ICCE 2025)**, Page 375-389, 2025.02. **[CameraReady](http://dx.doi.org/)**  
 👤<u>Authors</u>: Erwin Daniel Lopez Zapata, **<u>Cheng Tang</u>**, Yuta Taniguchi, Fumiya Okubo, Atsushi Shimada.  
 🔑<u>Keywords</u>: E-book, Digital Textbooks, Reading Behavior, LAD, LLM.
+
+<u>[CC023]</u>. **"Attention-Seeker: Dynamic Self-Attention Scoring for Unsupervised Keyphrase Extraction."**  
+**International Conference on Computational Linguistics (COLING 2025)**, Page 5011-5026, 2025.01. **[CameraReady](http://dx.doi.org/)**  
+👤<u>Authors</u>: Erwin Daniel Lopez Zapata, **<u>Cheng Tang</u>**, Atsushi Shimada.  
+🔑<u>Keywords</u>: Knowledge graph, collaborative problem solving, STEM education, Large Language Model.
 
 <u>[CC022]</u>. **"A Three-Step Knowledge Graph Approach Using LLMs In Collaborative Problem Solving-based Stem Education."**  
 **International Conference on Cognition and Exploratory Learning in Digital Age (CELDA 2024)**, Page 51-58, 2024.10. **[CameraReady](http://dx.doi.org/10.1007/978-3-031-72315-5_26)**  
