@@ -8,7 +8,7 @@ author_profile: true
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fchengtang-ai.github.io&count_bg=%23C83D3D&title_bg=%23555555&icon=airplayvideo.svg&icon_color=%23E7E7E7&title=Total+Visits%3A&edge_flat=false)](https://hits.seeyoufarm.com)
 
 
-**[First Author (CF)](#cf)** &nbsp; &nbsp; **[Co-Author (CC)](#cc)** &nbsp; &nbsp; **[Google Scholar (Up to date)](https://scholar.google.com/citations?user=GvXOVv0AAAAJ)**
+**[First Author (CF)](#cf)** &nbsp; &nbsp; **[Co-Author (CC)](#cc)** &nbsp; &nbsp; **[Other (OT)](#ot)** &nbsp; &nbsp; **[Google Scholar (Up to date)](https://scholar.google.com/citations?user=GvXOVv0AAAAJ)**
 
 
 <h2 id="cf">
@@ -154,6 +154,23 @@ Neuron Model, Evolutionary Algorithms, Chaotic Maps.
 **2019 12th International Symposium on Computational Intelligence and Design (ISCID)**, 19649798, Pages 14-15, 2020.05. **[CameraReady](https://doi.org/10.1109/ISCID.2019.00031)**  
 👤<u>Authors</u>: Zhenyu Song, **<u>Cheng Tang</u>**, Xingqian Chen, Shuangyu Song, Junkai Ji.  
 🔑<u>Keywords</u>: Gravitational Search Algorithm, Self-Adaptive, Chaotic, Local Search, Exploitation.
+
+
+<h2 id="ot">
+Other
+</h2>
+
+<u>[ot003]</u>. **"Visual analytics of learning behavior based on the dendritic neuron model."**  
+**デジタル教科書のログデータを用いたKnowledge Tracingモデルの拡張**, 2024.09. **[CameraReady](https://doi.org/)**  
+👤<u>Authors</u>: 川畑 考太朗, 大久保 文哉, 谷口 雄太, **<u>唐 成</u>**, 島田 敬士.  
+
+<u>[ot002]</u>. **"変化検出ViTのattentionへのadapter導入に関する分析."**  
+**第27回 画像の認識・理解シンポジウム (MIRU2024)**, 2024.08. **[CameraReady](https://doi.org/)**  
+👤<u>Authors</u>: 濵田 龍之介, 峰松 翼, **<u>唐 成</u>**, 島田 敬士.  
+
+<u>[ot001]</u>. **"Students' Performance Prediction Based on Similarity between Online Textbooks and Questions."**  
+**第42回教育学習支援情報システム研究会 (CLE42)**, 2024.03. **[CameraReady](https://doi.org/)**  
+👤<u>Authors</u>: 任 永楽, **<u>唐 成</u>**, 谷口 雄太, 峰松 翼, 大久保 文哉, 島田 敬士.  
 
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fchengtang-ai.github.io%2FConferencePublications%2F&count_bg=%233DC8BD&title_bg=%23555555&icon=xsplit.svg&icon_color=%23E7E7E7&title=Page+Views%3A&edge_flat=false)](https://hits.seeyoufarm.com)
