@@ -18,6 +18,10 @@ redirect_from:
 Biography
 </h2>
 
+<u>[2025-03-06]</u> I served as a **Program Committee Member** for the **[1st International Conference on Learning Evidence and Analytics](https://sites.google.com/leds.ait.kyushu-u.ac.jp/iclea2025/?pli=1)** (ICLEA 2025), Fukuoka, Japan: Semptember 5th-7th, 2025.
+
+<u>[2025-03-06]</u> I served as a **Organizing Committee Member** for the **[1st International Conference on Learning Evidence and Analytics](https://sites.google.com/leds.ait.kyushu-u.ac.jp/iclea2025/?pli=1)** (ICLEA 2025), Fukuoka, Japan: Semptember 5th-7th, 2025.
+
 <u>[2025-03-06]</u> I served as a **Program Committee Member** for the **[26th International Conference on Artificial Intelligence in Education](https://iaied.org/conferences)** (AIED 2025), Palermo, Italy: July 22th-26th, 2025.
 
 <u>[2025-02-11]</u> I served as the **Leading Guest Editor** of Special Issue: **[Deep Neural Network: Theory, Algorithms and Applications](https://www.mdpi.com/journal/mathematics/special_issues/156YM1P982)**, **[Mathematics](https://www.mdpi.com/journal/mathematics)** (EISSN 2227-7390).
