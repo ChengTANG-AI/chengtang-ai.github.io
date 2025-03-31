@@ -36,7 +36,7 @@ Co-Author
 </h2>
 
 <u>[CC024]</u>. **"Automated Recommendations for Revising Lecture Slides Using Reading Activity Data."**  
-**International Conference on Computers in Education (ICCE 2025)**, Page 375-389, 2025.02. **[CameraReady](http://dx.doi.org/)**  
+**International Conference on Computers in Education (ICCE 2025)**, Page 375-389, 2025.02. **[CameraReady](https://doi.org/10.58459/icce.2024.4848)**  
 👤<u>Authors</u>: Erwin Daniel Lopez Zapata, **<u>Cheng Tang</u>**, Yuta Taniguchi, Fumiya Okubo, Atsushi Shimada.  
 🔑<u>Keywords</u>: E-book, Digital Textbooks, Reading Behavior, LAD, LLM.
 
