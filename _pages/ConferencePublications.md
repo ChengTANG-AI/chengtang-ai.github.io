@@ -21,7 +21,7 @@ First Author
 🔑<u>Keywords</u>: Visual Analytics, Prediction, Learning Behavior, Dendritic Neuron Model.
 
 <u>[CF002]</u>. **"Evolutionary neural architecture design of liquid state machine for image classification."**  
-**ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)**, Pages 91-95, 2022.05. **[CameraReady](https://doi.org/10.1109/ICASSP43922.2022.9747040)**  
+**IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)**, Pages 91-95, 2022.05. **[CameraReady](https://doi.org/10.1109/ICASSP43922.2022.9747040)**  
 👤<u>Authors</u>: **<u>Cheng Tang</u>**, Junkai Ji, Qiuzhen Lin, Yan Zhou.  
 🔑<u>Keywords</u>: Spiking Neural Network, Liquid State Machine, Neural Architecture, Evolutionary Algorithm, Classification.
 
