@@ -15,6 +15,11 @@ author_profile: true
 First Author
 </h2>
 
+<u>[CF004]</u>. **"[1] Ensemble dendritic neuron models for visual analytics of learning behavior and early risk prediction."**  
+**International Conference on Artificial Intelligence in Education (AIED)**, 2025.07. **[CameraReady](https://doi.org/)**  
+👤<u>Authors</u>: **<u>Cheng Tang</u>**, Bin Li, Haichuan Yang, Gen Li, Li Chen, Boxuan Ma, Atsushi Shimada.  
+🔑<u>Keywords</u>: Learning Behavior, Visual Analytics, Dendritic Neuron Model, Feature Selection, Early Prediction.
+
 <u>[CF003]</u>. **"Visual analytics of learning behavior based on the dendritic neuron model."**  
 **International Conference on Knowledge Science, Engineering and Management (KSEM)**, Page 192-203, 2024.07. **[CameraReady](https://doi.org/10.1007/978-981-97-5495-3_14)**  
 👤<u>Authors</u>: **<u>Cheng Tang</u>**, Li Chen, Gen Li, Tsubasa Minematsu, Fumiya Okubo, Yuta Taniguchi, Atsushi Shimada.  
@@ -35,14 +40,29 @@ First Author
 Co-Author
 </h2>
 
+<u>[CC027]</u>. **"From Reflections to Motifs: A Graph-Based Analysis of Learners’ Knowledge Construction."**  
+**International Conference on Artificial Intelligence in Education (AIED)**, 2025.07. **[CameraReady](https://doi.org/)**  
+👤<u>Authors</u>: Gen Li, Li Chen, **<u>Cheng Tang</u>**, Daisuke Deguchi, Takayoshi Yamashita, Atsushi Shimada.  
+🔑<u>Keywords</u>: Knowledge Graph, Graph Mining, Large Language Model.
+
+<u>[CC026]</u>. **"GluTANN Transformer-Based Continuous Glucose Monitoring Model with ANN Attention."**  
+**IEEE Conference on Artificial Intelligence (IEEE SAC)**, 2025.05. **[CameraReady](https://doi.org/)**  
+👤<u>Authors</u>: Sijie Xiong, Youhao Xu, **<u>Cheng Tang</u>**, Jianing Wang, Shuqing Liu, Atsushi Shimada.  
+🔑<u>Keywords</u>: Diabetes, Blood Glucose Prediction, Transformer Architecture, ANNs, CGM devices.
+
+<u>[CC025]</u>. **"Knowledge Distillation in RNN-Attention Models for Early Prediction of Student Performance."**  
+**Proceedings of the 40th ACM/SIGAPP Symposium on Applied Computing (ACM SAC)**, Page 64-73, 2025.03. **[CameraReady](https://doi.org/10.1145/3672608.3707805)**  
+👤<u>Authors</u>: Sukrit Leelaluk, **<u>Cheng Tang</u>**, Valdemar Švábenský, Atsushi Shimada.  
+🔑<u>Keywords</u>: Student Performance Prediction, Educational Data Mining, Learning Analytics, Knowledge Distillation, Neural Network.
+
 <u>[CC024]</u>. **"Automated Recommendations for Revising Lecture Slides Using Reading Activity Data."**  
 **International Conference on Computers in Education (ICCE 2025)**, Page 375-389, 2025.02. **[CameraReady](https://doi.org/10.58459/icce.2024.4848)**  
-👤<u>Authors</u>: Erwin Daniel Lopez Zapata, **<u>Cheng Tang</u>**, Yuta Taniguchi, Fumiya Okubo, Atsushi Shimada.  
+👤<u>Authors</u>: Erwin Daniel López Zapata, **<u>Cheng Tang</u>**, Yuta Taniguchi, Fumiya Okubo, Atsushi Shimada.  
 🔑<u>Keywords</u>: E-book, Digital Textbooks, Reading Behavior, LAD, LLM.
 
 <u>[CC023]</u>. **"Attention-Seeker: Dynamic Self-Attention Scoring for Unsupervised Keyphrase Extraction."**  
 **International Conference on Computational Linguistics (COLING 2025)**, Page 5011-5026, 2025.01. **[CameraReady](http://dx.doi.org/)**  
-👤<u>Authors</u>: Erwin Daniel Lopez Zapata, **<u>Cheng Tang</u>**, Atsushi Shimada.  
+👤<u>Authors</u>: Erwin Daniel López Zapata, **<u>Cheng Tang</u>**, Atsushi Shimada.  
 🔑<u>Keywords</u>: Knowledge graph, collaborative problem solving, STEM education, Large Language Model.
 
 <u>[CC022]</u>. **"A Three-Step Knowledge Graph Approach Using LLMs In Collaborative Problem Solving-based Stem Education."**  
