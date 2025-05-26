@@ -93,10 +93,20 @@ Corresponding Author
 Co-Author
 </h2>
 
-<u>[JC019]</u>. **"DPFSI: A legal judgment prediction method based on deontic logic prompt and fusion of law article statistical information."**  
+<u>[JC021]</u>. **"DPFSI: A legal judgment prediction method based on deontic logic prompt and fusion of law article statistical information."**  
 **Expert Systems with Applications**, Volume 272, 126722, 2025.05. **[CameraReady](https://doi.org/10.1016/j.eswa.2025.126722)**  
 👤<u>Authors</u>: Chunyun Meng, Yuki Todo, **<u>Cheng Tang</u>**, Li Luan, Zheng Tang.  
 🔑<u>Keywords</u>: Legal judgment prediction, Statistical information fusion, Prompt learning, Multi-graph fusion mechanism.
+
+<u>[JC020]</u>. **"LECTOR: Summarizing E-book Reading Content for Personalized Student Support."**  
+**Expert Systems with Applications**, 1-39, 2025.04. **[CameraReady](https://doi.org/10.1007/s40593-025-00478-6)**  
+👤<u>Authors</u>: Erwin Daniel López Zapata, **<u>Cheng Tang</u>**, Valdemar Švábenský, Fumiya Okubo, Atsushi Shimada.  
+🔑<u>Keywords</u>: E-book Reading Logs, Reading Behavior Analysis, Student Performance Prediction, Multimodal Integration, Topic Extraction, Student Support.
+
+<u>[JC019]</u>. **"Extracting Learning Data from Handwritten Notes: A New Approach to Educational Data Analysis Based on Image Segmentation and Generative AI."**  
+**IEEE Access**, Volume 13, Page 74567-74580, 2025.04. **[CameraReady](https://doi.org/10.1109/ACCESS.2025.3561916)**  
+👤<u>Authors</u>: Yunyu Zhou, **<u>Cheng Tang</u>**, Atsushi Shimada.  
+🔑<u>Keywords</u>: Attention Multi-task U-Net, GPT-4o, Handwritten Notes, Image Segmentation, Knowledge Extraction, Natural Language Processing..
 
 <u>[JC018]</u>. **"Enhancing Convolutional Neural Network Robustness Against Image Noise via an Artificial Visual System."**  
 **Mathematics**, Volume 13, Issue 1, 142, 2025.01. **[CameraReady](https://doi.org/10.3390/math13010142)**  
