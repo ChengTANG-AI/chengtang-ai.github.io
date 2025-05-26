@@ -15,7 +15,7 @@ author_profile: true
 First Author
 </h2>
 
-<u>[CF004]</u>. **"[1] Ensemble dendritic neuron models for visual analytics of learning behavior and early risk prediction."**  
+<u>[CF004]</u>. **"Ensemble dendritic neuron models for visual analytics of learning behavior and early risk prediction."**  
 **International Conference on Artificial Intelligence in Education (AIED)**, 2025.07. **[CameraReady](https://doi.org/)**  
 👤<u>Authors</u>: **<u>Cheng Tang</u>**, Bin Li, Haichuan Yang, Gen Li, Li Chen, Boxuan Ma, Atsushi Shimada.  
 🔑<u>Keywords</u>: Learning Behavior, Visual Analytics, Dendritic Neuron Model, Feature Selection, Early Prediction.
