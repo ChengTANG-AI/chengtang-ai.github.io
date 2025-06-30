@@ -104,7 +104,7 @@ Co-Author
 🔑<u>Keywords</u>: Legal judgment prediction, Statistical information fusion, Prompt learning, Multi-graph fusion mechanism.
 
 <u>[JC020]</u>. **"LECTOR: Summarizing E-book Reading Content for Personalized Student Support."**  
-**Expert Systems with Applications**, 1-39, 2025.04. **[CameraReady](https://doi.org/10.1007/s40593-025-00478-6)**  
+**International Journal of Artificial Intelligence in Education**, 1-39, 2025.04. **[CameraReady](https://doi.org/10.1007/s40593-025-00478-6)**  
 👤<u>Authors</u>: Erwin Daniel López Zapata, **<u>Cheng Tang</u>**, Valdemar Švábenský, Fumiya Okubo, Atsushi Shimada.  
 🔑<u>Keywords</u>: E-book Reading Logs, Reading Behavior Analysis, Student Performance Prediction, Multimodal Integration, Topic Extraction, Student Support.
 
