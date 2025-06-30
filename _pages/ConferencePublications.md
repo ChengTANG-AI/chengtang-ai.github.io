@@ -40,13 +40,18 @@ First Author
 Co-Author
 </h2>
 
-<u>[CC027]</u>. **"From Reflections to Motifs: A Graph-Based Analysis of Learners’ Knowledge Construction."**  
+<u>[CC028]</u>. **"From Reflections to Motifs: A Graph-Based Analysis of Learners’ Knowledge Construction."**  
 **International Conference on Artificial Intelligence in Education (AIED)**, 2025.07. **[CameraReady](https://doi.org/)**  
 👤<u>Authors</u>: Gen Li, Li Chen, **<u>Cheng Tang</u>**, Daisuke Deguchi, Takayoshi Yamashita, Atsushi Shimada.  
 🔑<u>Keywords</u>: Knowledge Graph, Graph Mining, Large Language Model.
 
+<u>[CC027]</u>. **"Single-agent vs. Multi-agent LLM Strategies for Automated Student Reflection Assessment."**  
+**Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD)**, Page 300-311, 2025.06. **[CameraReady](https://doi.org/10.1007/978-981-96-8186-0_24)**  
+👤<u>Authors</u>: Gen Li, Li Chen, **<u>Cheng Tang</u>**, Valdemar Švábenský, Daisuke Deguchi, Takayoshi Yamashita, Atsushi Shimada.  
+🔑<u>Keywords</u>: Knowledge Graph, Graph Mining, Large Language Model.
+
 <u>[CC026]</u>. **"GluTANN Transformer-Based Continuous Glucose Monitoring Model with ANN Attention."**  
-**IEEE Conference on Artificial Intelligence (IEEE SAC)**, 2025.05. **[CameraReady](https://doi.org/)**  
+**IEEE Conference on Artificial Intelligence (IEEE CAI)**, 2025.05. **[CameraReady](https://doi.org/)**  
 👤<u>Authors</u>: Sijie Xiong, Youhao Xu, **<u>Cheng Tang</u>**, Jianing Wang, Shuqing Liu, Atsushi Shimada.  
 🔑<u>Keywords</u>: Diabetes, Blood Glucose Prediction, Transformer Architecture, ANNs, CGM devices.
 
