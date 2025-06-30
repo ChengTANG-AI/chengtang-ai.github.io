@@ -52,6 +52,11 @@ First Author
 Corresponding Author
 </h2>
 
+<u>[JS008]</u>. **"Multi-granular legal information fusion with adversarial compensation: A hierarchical and logic-aware framework for robust case retrieval."**  
+**Knowledge-Based Systems**, Volume 325, 113964, 2025.09. **[CameraReady](https://doi.org/10.1016/j.knosys.2025.113964)**  
+👤<u>Authors</u>: Chunyun Meng, **<u>Cheng Tang</u>**, Yuki Todo, Weiping Ding.  
+🔑<u>Keywords</u>: Legal case retrieval, Hierarchical masking, Adversarial compensation, Information fusion.
+
 <u>[JS007]</u>. **"Assessing residential building energy efficiency using evolutionary dendritic neural regression."**  
 **Electronics**, Volume 13, Issue 10, 1803, 2024.05. **[CameraReady](https://doi.org/10.3390/electronics13101803)**  
 👤<u>Authors</u>: Zhenyu Song, Yajiao Tang, Shuangbao Song, Bin Zhang, **<u>Cheng Tang+</u>**.  
