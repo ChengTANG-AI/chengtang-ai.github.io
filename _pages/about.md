@@ -14,7 +14,7 @@ I received my Ph.D. degree in engineering from the **[University of Toyama](http
 
 My main research interests are **[Medical Data Mining](https://chengtang-ai.github.io/ResearchTopics/)**, **[Time Series Forecasting](https://chengtang-ai.github.io/ResearchTopics/)**, **[Computer Vision](https://chengtang-ai.github.io/ResearchTopics/)**, **[Natural Language Processing](https://chengtang-ai.github.io/ResearchTopics/)**, **[Learning Analytics](https://chengtang-ai.github.io/ResearchTopics/)**, **[AI for Drug Design](https://chengtang-ai.github.io/ResearchTopics/)**, **[Explainable AI (XAI)](https://chengtang-ai.github.io/ResearchTopics/)**,  and **[Optimization](https://chengtang-ai.github.io/ResearchTopics/)**. 
 
-I have published over 60 articles in international journals/conferences, including  
+I have published over 70 articles in international journals/conferences, including  
 ・**[Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing)**,  
 ・**[Information Sciences](https://www.sciencedirect.com/journal/information-sciences)** (INS),  
 ・**[Applied Soft Computing](https://www.sciencedirect.com/journal/applied-soft-computing)** (ASOC),  
