@@ -15,8 +15,8 @@ author_profile: true
 First Author
 </h2>
 
-<u>[CF004]</u>. **"Ensemble dendritic neuron models for visual analytics of learning behavior and early risk prediction."**  
-**International Conference on Artificial Intelligence in Education (AIED)**, 2025.07. **[CameraReady](https://doi.org/)**  
+<u>[CF004]</u>. **"EDNMs for visual analytics of learning behavior and early risk prediction."**  
+**International Conference on Artificial Intelligence in Education (AIED)**, 2025.07. **[CameraReady](https://doi.org/https://doi.org/10.1007/978-3-031-98417-4_13)**  
 👤<u>Authors</u>: **<u>Cheng Tang</u>**, Bin Li, Haichuan Yang, Gen Li, Li Chen, Boxuan Ma, Atsushi Shimada.  
 🔑<u>Keywords</u>: Learning Behavior, Visual Analytics, Dendritic Neuron Model, Feature Selection, Early Prediction.
 
@@ -41,7 +41,7 @@ Co-Author
 </h2>
 
 <u>[CC028]</u>. **"From Reflections to Motifs: A Graph-Based Analysis of Learners’ Knowledge Construction."**  
-**International Conference on Artificial Intelligence in Education (AIED)**, 2025.07. **[CameraReady](https://doi.org/)**  
+**International Conference on Artificial Intelligence in Education (AIED)**, 2025.07. **[CameraReady](https://doi.org/https://doi.org/10.1007/978-3-031-98465-5_38)**  
 👤<u>Authors</u>: Gen Li, Li Chen, **<u>Cheng Tang</u>**, Daisuke Deguchi, Takayoshi Yamashita, Atsushi Shimada.  
 🔑<u>Keywords</u>: Knowledge Graph, Graph Mining, Large Language Model.
 
