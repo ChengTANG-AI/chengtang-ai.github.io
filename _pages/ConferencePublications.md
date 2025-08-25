@@ -189,15 +189,15 @@ Neuron Model, Evolutionary Algorithms, Chaotic Maps.
 Other
 </h2>
 
-<u>[ot003]</u>. **"Visual analytics of learning behavior based on the dendritic neuron model."**  
+<u>[OT003]</u>. **"Visual analytics of learning behavior based on the dendritic neuron model."**  
 **デジタル教科書のログデータを用いたKnowledge Tracingモデルの拡張**, 2024.09. **[CameraReady](https://doi.org/)**  
 👤<u>Authors</u>: 川畑 考太朗, 大久保 文哉, 谷口 雄太, **<u>唐 成</u>**, 島田 敬士.  
 
-<u>[ot002]</u>. **"変化検出ViTのattentionへのadapter導入に関する分析."**  
+<u>[OT002]</u>. **"変化検出ViTのattentionへのadapter導入に関する分析."**  
 **第27回 画像の認識・理解シンポジウム (MIRU2024)**, 2024.08. **[CameraReady](https://doi.org/)**  
 👤<u>Authors</u>: 濵田 龍之介, 峰松 翼, **<u>唐 成</u>**, 島田 敬士.  
 
-<u>[ot001]</u>. **"Students' Performance Prediction Based on Similarity between Online Textbooks and Questions."**  
+<u>[OT001]</u>. **"Students' Performance Prediction Based on Similarity between Online Textbooks and Questions."**  
 **第42回教育学習支援情報システム研究会 (CLE42)**, 2024.03. **[CameraReady](https://doi.org/)**  
 👤<u>Authors</u>: 任 永楽, **<u>唐 成</u>**, 谷口 雄太, 峰松 翼, 大久保 文哉, 島田 敬士.  
 
