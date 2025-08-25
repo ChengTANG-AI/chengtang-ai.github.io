@@ -18,6 +18,8 @@ redirect_from:
 Biography
 </h2>
 
+<u>[2025-07-10]</u> I was invited as an **Invited Speaker** at the **[EDE Student SIG Offline Event](https://sites.google.com/leds.ait.kyushu-u.ac.jp/iclea2025/ede-student-sig-offline-event?authuser=0)**, co-located with the **[1st International Conference on Learning Evidence and Analytics](https://sites.google.com/leds.ait.kyushu-u.ac.jp/iclea2025/?pli=1)** (ICLEA 2025), Fukuoka, Japan: Semptember 5th-7th, 2025.
+
 <u>[2025-03-06]</u> I served as a **Program Committee Member** for the **[1st International Conference on Learning Evidence and Analytics](https://sites.google.com/leds.ait.kyushu-u.ac.jp/iclea2025/?pli=1)** (ICLEA 2025), Fukuoka, Japan: Semptember 5th-7th, 2025.
 
 <u>[2025-03-06]</u> I served as a **Organizing Committee Member** for the **[1st International Conference on Learning Evidence and Analytics](https://sites.google.com/leds.ait.kyushu-u.ac.jp/iclea2025/?pli=1)** (ICLEA 2025), Fukuoka, Japan: Semptember 5th-7th, 2025.
