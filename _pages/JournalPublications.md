@@ -53,7 +53,7 @@ Corresponding Author
 </h2>
 
 <u>[JS009]</u>. **"Enhancing nonlinear dependencies of Mamba via negative feedback for time series forecasting."**  
-**Applied Soft Computing**, Volume 325, 113964, 2025.09. **[CameraReady](https://doi.org/10.1016/j.asoc.2025.113758)**  
+**Applied Soft Computing**, Volume 184, Part A, 113758, 2025.12. **[CameraReady](https://doi.org/10.1016/j.asoc.2025.113758)**  
 👤<u>Authors</u>: Sijie Xiong, **<u>Cheng Tang+</u>**, Yuanyuan Zhang, Haoling Xiong, Youhao Xu, Atsushi Shimada.  
 🔑<u>Keywords</u>: Time series forecasting, Mamba, Nonlinear dependencies, Embedding channel attention, Maclaurin.
 
