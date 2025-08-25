@@ -40,8 +40,12 @@ First Author
 Co-Author
 </h2>
 
+<u>[CC029]</u>. **"Attention Mamba: Time Series Modeling with Adaptive Pooling Acceleration and Receptive Field Enhancements."**  
+**IEEE Systems, Man, and Cybernetics Society (IEEE SMC)**, 2025.07. **[CameraReady](https://doi.org/)**  
+👤<u>Authors</u>: Sijie Xiong, Shuqing Liu, **<u>Cheng Tang</u>**, Fumiya Okubo, Haoling Xiong, Atsushi Shimada.  
+
 <u>[CC028]</u>. **"From Reflections to Motifs: A Graph-Based Analysis of Learners’ Knowledge Construction."**  
-**International Conference on Artificial Intelligence in Education (AIED)**, 2025.07. **[CameraReady](https://doi.org/https://doi.org/10.1007/978-3-031-98465-5_38)**  
+**International Conference on Artificial Intelligence in Education (AIED)**, 2025.07. **[CameraReady](https://doi.org/10.1007/978-3-031-98465-5_38)**  
 👤<u>Authors</u>: Gen Li, Li Chen, **<u>Cheng Tang</u>**, Daisuke Deguchi, Takayoshi Yamashita, Atsushi Shimada.  
 🔑<u>Keywords</u>: Knowledge Graph, Graph Mining, Large Language Model.
 
