@@ -35,18 +35,4 @@ and so on.
 **I am looking for M.E. / B.E. students majoring in engineering, but not limited to, Computer Science and Artificial Intelligence. In addition, I am pleased to collaborate with researchers who are interested in advising on healthcare-related projects. If you are interested in my field of research, please feel free to email me.**
 
 
-**本页阅读**：
-<span id="busuanzi_container_page_pv" style="display:none">
-  <span id="busuanzi_value_page_pv">0</span> 次
-</span>
-
-**本站总访问**：
-<span id="busuanzi_container_site_pv" style="display:none">
-  <span id="busuanzi_value_site_pv">0</span>
-</span>
-
-**本站访客数**：
-<span id="busuanzi_container_site_uv" style="display:none">
-  <span id="busuanzi_value_site_uv">0</span>
-</span>
 
