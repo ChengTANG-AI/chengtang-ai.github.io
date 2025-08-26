@@ -70,7 +70,7 @@ Courses
 Other
 </h2>
 
-<u>[O001]</u>. 2023.04-2025.03   
+<u>[O001]</u>. 2023.04-2026.03   
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ・**Part-time faculty (SU Capacity Building Project Towards a Sustainable Society) (S-SPRING)**  
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Shimane University  
 
