@@ -27,8 +27,9 @@ Committee Memberships
 </h2>
 
 <u>[CM003]</u>. **Editorial board**  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ・**[Mathematics](https://www.mdpi.com/journal/mathematics)**,  
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ・**[Electronics](https://www.mdpi.com/journal/electronics)**,  
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ・**[Mathematics](https://www.mdpi.com/journal/mathematics)**,  
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ・**[Frontiers in Artificial Intelligence](https://www.frontiersin.org/journals/artificial-intelligence)**,  
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ・**[The Institute of Electrical Engineers of Japan](https://www.iee.jp/en/)** (IEEJ),  
 
 <u>[CM002]</u>. **Organizing Committee**  
