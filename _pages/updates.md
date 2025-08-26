@@ -41,7 +41,7 @@ Biography
 
 <u>[2023-12-01]</u> I joined the **[Information Processing Society of Japan](https://www.ipsj.or.jp/index.html)**, as a **Member**.
 
-<u>[2023-06-01]</u> I was appointed as **Mentor** in the Shimane University Project for Developing Highly Skilled Human Resources for Building a Sustainable Society (持続可能な社会構築に向けた島根大学高度人材育成プロジェクト S-SPRING) at Shimane University (Faculty of Medicine).
+<u>[2023-09-01]</u> I was appointed as **Mentor** in the Shimane University Project for Developing Highly Skilled Human Resources for Building a Sustainable Society (持続可能な社会構築に向けた島根大学高度人材育成プロジェクト S-SPRING) at Shimane University (Faculty of Medicine).
 
 <u>[2023-06-01]</u> I joined the **Faculty of Information Science and Electrical Engineering**, **[Kyushu University](https://www.kyushu-u.ac.jp/ja/)**, as an **Assistant Professor**.
 
