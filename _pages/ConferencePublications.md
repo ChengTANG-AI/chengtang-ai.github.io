@@ -4,8 +4,6 @@ permalink: /ConferencePublications/
 author_profile: true
 ---
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fchengtang-ai.github.io%2FConferencePublications%2F&count_bg=%233DC8BD&title_bg=%23555555&icon=xsplit.svg&icon_color=%23E7E7E7&title=Page+Views%3A&edge_flat=false)](https://hits.seeyoufarm.com)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fchengtang-ai.github.io&count_bg=%23C83D3D&title_bg=%23555555&icon=airplayvideo.svg&icon_color=%23E7E7E7&title=Total+Visits%3A&edge_flat=false)](https://hits.seeyoufarm.com)
 
 
 **[First Author (CF)](#cf)** &nbsp; &nbsp; **[Co-Author (CC)](#cc)** &nbsp; &nbsp; **[Other (OT)](#ot)** &nbsp; &nbsp; **[Google Scholar (Up to date)](https://scholar.google.com/citations?user=GvXOVv0AAAAJ)**
@@ -201,7 +199,4 @@ Other
 **第42回教育学習支援情報システム研究会 (CLE42)**, 2024.03. **[CameraReady](https://doi.org/)**  
 👤<u>Authors</u>: 任 永楽, **<u>唐 成</u>**, 谷口 雄太, 峰松 翼, 大久保 文哉, 島田 敬士.  
 
-
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fchengtang-ai.github.io%2FConferencePublications%2F&count_bg=%233DC8BD&title_bg=%23555555&icon=xsplit.svg&icon_color=%23E7E7E7&title=Page+Views%3A&edge_flat=false)](https://hits.seeyoufarm.com)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fchengtang-ai.github.io&count_bg=%23C83D3D&title_bg=%23555555&icon=airplayvideo.svg&icon_color=%23E7E7E7&title=Total+Visits%3A&edge_flat=false)](https://hits.seeyoufarm.com)
 
