@@ -83,7 +83,7 @@ Co-Author
 🔑<u>Keywords</u>: Prediction, Attention, Exam Performance, Neural Network.
 
 <u>[CC020]</u>. **"Analysis of adapter in attention of change detection Vision Transformer."**  
-**First International Workshop on “AI-based All-Weather Surveillance System"**, Page 51-58, 2024.07. **[CameraReady](https://doi.org/10.1007/978-981-96-2641-0_3)**  
+**First International Workshop on “AI-based All-Weather Surveillance System**, Page 51-58, 2024.07. **[CameraReady](https://doi.org/10.1007/978-981-96-2641-0_3)**  
 👤<u>Authors</u>: Ryunosuke Hamada, Tsubasa Minematsu, **<u>Cheng Tang</u>**, Atsushi Shimada.  
 🔑<u>Keywords</u>: Change detection, Vision Transformer, Adapter.
 
