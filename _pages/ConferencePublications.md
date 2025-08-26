@@ -53,7 +53,7 @@ Co-Author
 🔑<u>Keywords</u>: Knowledge Graph, Graph Mining, Large Language Model.
 
 <u>[CC026]</u>. **"GluTANN Transformer-Based Continuous Glucose Monitoring Model with ANN Attention."**  
-**IEEE Conference on Artificial Intelligence (IEEE CAI)**, 2025.05. **[CameraReady](https://doi.org/)**  
+**IEEE Conference on Artificial Intelligence (IEEE CAI)**, 2025.05. **[CameraReady](https://doi.org/10.1109/CAI64502.2025.00099)**  
 👤<u>Authors</u>: Sijie Xiong, Youhao Xu, **<u>Cheng Tang</u>**, Jianing Wang, Shuqing Liu, Atsushi Shimada.  
 🔑<u>Keywords</u>: Diabetes, Blood Glucose Prediction, Transformer Architecture, ANNs, CGM devices.
 
