@@ -14,7 +14,7 @@ First Author
 </h2>
 
 <u>[CF004]</u>. **"EDNMs for visual analytics of learning behavior and early risk prediction."**  
-**International Conference on Artificial Intelligence in Education (AIED)**, 2025.07. **[CameraReady](https://doi.org/https://doi.org/10.1007/978-3-031-98417-4_13)**  
+**International Conference on Artificial Intelligence in Education (AIED)**, 2025.07. **[CameraReady](https://doi.org/10.1007/978-3-031-98417-4_13)**  
 👤<u>Authors</u>: **<u>Cheng Tang</u>**, Bin Li, Haichuan Yang, Gen Li, Li Chen, Boxuan Ma, Atsushi Shimada.  
 🔑<u>Keywords</u>: Learning Behavior, Visual Analytics, Dendritic Neuron Model, Feature Selection, Early Prediction.
 
