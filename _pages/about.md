@@ -27,6 +27,7 @@ I have published over 70 articles in international journals/conferences, includi
 ・**[International Conference on Intelligent Computing](https://www.ic-icc.cn/2024/index.htm)** (ICIC),  
 ・**[International Joint Conference on Neural Networks](https://www.inns.org/ijcnn-home)** (IJCNN),  
 ・**[International Conference on Neural Information Processing](https://iconip2024.org/)** (ICONIP),  
+・**[International Conference on Artificial Intelligence in Education](https://aied2025.itd.cnr.it/)** (AIED),  
 ・**[International Conference on Acoustics, Speech, and Signal Processing](https://2022.ieeeicassp.org/)** (ICASSP),  
 ・**[International Conference on Knowledge Science, Engineering and Management](https://ai-edge.net/index.html)** (KSEM),  
 and so on. 
