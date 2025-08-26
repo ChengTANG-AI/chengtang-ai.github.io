@@ -46,16 +46,12 @@ Committee Memberships
 Reviewing
 </h2>
 
-<u>[R006]</u>. **[Information Fusion](https://www.sciencedirect.com/journal/information-fusion)**,  
-
+<u>[R007]</u>. **[Information Fusion](https://www.sciencedirect.com/journal/information-fusion)**,  
+<u>[R006]</u>. **[Knowledge-Based Systems](https://www.sciencedirect.com/journal/knowledge-based-systems)** (KBS),  
 <u>[R005]</u>. **[Applied Soft Computing](https://www.sciencedirect.com/journal/applied-soft-computing)** (ASOC),  
-
 <u>[R004]</u>. **[Expert Systems with Applications](https://www.sciencedirect.com/journal/expert-systems-with-applications)** (ESWA),  
-
 <u>[R003]</u>. **[IEEE Transactions on Fuzzy Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=91)** (TFS),  
-
 <u>[R002]</u>. **[IEEE Transactions on Intelligent Vehicles](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7274857)** (TIV),  
-
 <u>[R001]</u>. **[IEEE Transactions on Neural Networks and Learning Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385)** (TNNLS),  
 
 <h2 id="cou">
