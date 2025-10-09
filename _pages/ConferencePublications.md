@@ -38,6 +38,31 @@ First Author
 Co-Author
 </h2>
 
+<u>[CC034]</u>. **"A Distilled Model for Collaborative Problem Solving Skill Classification on Resource-Limited Devices."**  
+**International Conference on Learning Evidence and Analytics (ICLEA 2025)**, 2025.09. **[CameraReady](https://doi.org/)**  
+👤<u>Authors</u>: Shuqing Liu, Li Chen, Haiqiao Liu, **<u>Cheng Tang</u>**, Fumiya Okubo, Atsushi Shimada.  
+🔑<u>Keywords</u>: Collaborative Problem-Solving, Knowledge Distillation, Natural Language Processing.
+
+<u>[CC033]</u>. **"FERL-YOLO: Facial Expression Recognition Model of Learners."**  
+**International Conference on Learning Evidence and Analytics (ICLEA 2025)**, 2025.09. **[CameraReady](https://doi.org/)**  
+👤<u>Authors</u>: Tao Sun, Li Chen, Sijie Xiong, **<u>Cheng Tang</u>**, Gen Li, Atsushi Shimada.  
+🔑<u>Keywords</u>: Emotions of learners, Facial expression recognition, YOLO.
+
+<u>[CC032]</u>. **"DiaRoBERTa: A Multi-Party Dialogue Model for Multi-Skill Recognition in Classroom Collaborative Problem Solving Discussions."**  
+**International Conference on Learning Evidence and Analytics (ICLEA 2025)**, 2025.09. **[CameraReady](https://doi.org/)**  
+👤<u>Authors</u>: Shuqing Liu, Li Chen, Sijie Xiong, Haiqiao Liu, **<u>Cheng Tang</u>**, Atsushi Shimada.  
+🔑<u>Keywords</u>: Collaborative Problem-Solving, Multi-Party Conversations, NaturalLanguage Processing.
+
+<u>[CC031]</u>. **"Enhancing Attention-Based Knowledge Tracing with Digital Textbook Interaction."**  
+**International Conference on Learning Evidence and Analytics (ICLEA 2025)**, 2025.09. **[CameraReady](https://doi.org/)**  
+👤<u>Authors</u>: Kotaro Kawabata, Fumiya Okubo, Yuta Taniguchi, **<u>Cheng Tang</u>**, Atsushi Shimada.  
+🔑<u>Keywords</u>: Knowledge Tracing, Learning Analytics, Digital Textbook, Deep Learning.
+
+<u>[CC030]</u>. **"Fine-tuned T5 Models on FairytaleQA Chinese Dataset."**  
+**International Conference on Learning Evidence and Analytics (ICLEA 2025)**, 2025.09. **[CameraReady](https://doi.org/)**  
+👤<u>Authors</u>: Sijie Xiong, Haoling Xiong, Tao Sun, Haiqiao Liu, Fumiya Okubo, **<u>Cheng Tang</u>**, Atsushi Shimada.  
+🔑<u>Keywords</u>: Question Answering, FairytaleQA, Chinese, Fine-tuned T5 Models.
+
 <u>[CC029]</u>. **"Attention Mamba: Time Series Modeling with Adaptive Pooling Acceleration and Receptive Field Enhancements."**  
 **IEEE Systems, Man, and Cybernetics Society (IEEE SMC)**, 2025.07. **[CameraReady](https://doi.org/)**  
 👤<u>Authors</u>: Sijie Xiong, Shuqing Liu, **<u>Cheng Tang</u>**, Fumiya Okubo, Haoling Xiong, Atsushi Shimada.  
