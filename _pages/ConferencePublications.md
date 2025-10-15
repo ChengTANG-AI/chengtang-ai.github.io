@@ -58,7 +58,7 @@ Co-Author
 👤<u>Authors</u>: Kotaro Kawabata, Fumiya Okubo, Yuta Taniguchi, **<u>Cheng Tang</u>**, Atsushi Shimada.  
 🔑<u>Keywords</u>: Knowledge Tracing, Learning Analytics, Digital Textbook, Deep Learning.
 
-<u>[CC030]</u>. **"Fine-tuned T5 Models on FairytaleQA Chinese Dataset."**  
+<u>[CC030]</u>. **"Fine-tuned T5 Models on FairytaleQA Chinese Dataset." (Best Poster)**  
 **International Conference on Learning Evidence and Analytics (ICLEA 2025)**, 2025.09. **[CameraReady](https://doi.org/)**  
 👤<u>Authors</u>: Sijie Xiong, Haoling Xiong, Tao Sun, Haiqiao Liu, Fumiya Okubo, **<u>Cheng Tang</u>**, Atsushi Shimada.  
 🔑<u>Keywords</u>: Question Answering, FairytaleQA, Chinese, Fine-tuned T5 Models.
