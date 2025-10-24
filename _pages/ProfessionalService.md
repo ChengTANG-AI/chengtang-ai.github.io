@@ -58,6 +58,10 @@ Reviewing
 Courses
 </h2>
 
+<u>[C002]</u>. 2025.06-2025.08   Summer Quarter  
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ・**Programming Exercise (Python) (Japanese)**  
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Kyushu University  
+
 <u>[C002]</u>. 2024.06-2024.08   Summer Quarter  
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ・**Programming Exercise (Python) (Japanese)**  
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Kyushu University  
