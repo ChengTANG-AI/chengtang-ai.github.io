@@ -212,8 +212,8 @@ Neuron Model, Evolutionary Algorithms, Chaotic Maps.
 Other
 </h2>
 
-<u>[OT003]</u>. **"Visual analytics of learning behavior based on the dendritic neuron model."**  
-**デジタル教科書のログデータを用いたKnowledge Tracingモデルの拡張**, 2024.09. **[CameraReady](https://doi.org/)**  
+<u>[OT003]</u>. **"デジタル教科書のログデータを用いたKnowledge Tracingモデルの拡張."**  
+**2024年 情報科学技術フォーラム(FIT)**, 2024.09. **[CameraReady](https://doi.org/)**  
 👤<u>Authors</u>: 川畑 考太朗, 大久保 文哉, 谷口 雄太, **<u>唐 成</u>**, 島田 敬士.  
 
 <u>[OT002]</u>. **"変化検出ViTのattentionへのadapter導入に関する分析."**  
