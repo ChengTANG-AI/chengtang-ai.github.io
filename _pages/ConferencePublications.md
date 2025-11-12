@@ -38,6 +38,11 @@ First Author
 Co-Author
 </h2>
 
+<u>[CC035]</u>. **"A Two-Stage Filtering Approach for Video-Based Document Digitization."**  
+**International Conference on Learning Evidence and Analytics (ICLEA 2025)**, Pages 273-280, 2025.10. **[CameraReady](https://doi.org/10.1007/978-981-95-3459-3_23)**  
+👤<u>Authors</u>: Shunsuke Kubo, **<u>Cheng Tang</u>**, Tomonori Akashi, Yuta Taniguchi.  
+🔑<u>Keywords</u>: Document Digitization, Video-Based Scanning, Low-Cost Digitization.
+
 <u>[CC034]</u>. **"A Distilled Model for Collaborative Problem Solving Skill Classification on Resource-Limited Devices."**  
 **International Conference on Learning Evidence and Analytics (ICLEA 2025)**, 2025.09. **[CameraReady](https://doi.org/)**  
 👤<u>Authors</u>: Shuqing Liu, Li Chen, Haiqiao Liu, **<u>Cheng Tang</u>**, Fumiya Okubo, Atsushi Shimada.  
