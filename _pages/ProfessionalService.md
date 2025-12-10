@@ -13,14 +13,11 @@ author_profile: true
 Research grants
 </h2>
 
-<u>[RG004]</u>. **Behavior sequence modeling and performance prediction using learning behavior logs (学習行動ログを用いた行動シーケンスモデリングと成績予測)**, Educational and Research Support Program for Mathematical and Data Science (数理・データサイエンスに関する教育・研究支援プログラム), Kyushu University, 2025-2026. **(PI)**  
+<u>[RG003]</u>. **Behavior sequence modeling and performance prediction using learning behavior logs (学習行動ログを用いた行動シーケンスモデリングと成績予測)**, Educational and Research Support Program for Mathematical and Data Science (数理・データサイエンスに関する教育・研究支援プログラム), Kyushu University, 2025-2026. **(PI)**  
 
-<u>[RG003]</u>. **Development of an explainable dendritic neural network with transparent architecture for medical image analysis**, Japan Society for the Promotion of Science (JSPS), Early-Career Scientists, No.JP25K21340, 2025-2028. **(PI)**  
+<u>[RG002]</u>. **Development of an explainable dendritic neural network with transparent architecture for medical image analysis**, Japan Society for the Promotion of Science (JSPS), Early-Career Scientists, No.JP25K21340, 2025-2028. **(PI)**  
 
-<u>[RG002]</u>. **Development of a trusted XAI-based dropout prediction method with feature selection**, Japan Science and Technology Agency, Core Research for Evolutionary Science and Technology (CREST), AIP Challenge, 2024-2025. **(PI)**  
-
-<u>[RG001]</u>. **COVID-19 AI & Simulation Project**, Cabinet Agency for Infectious Disease Crisis Management, Cabinet Secretariat, Japan. **Co-Investigator**.  
-
+<u>[RG001]</u>. **Development of a trusted XAI-based dropout prediction method with feature selection**, Japan Science and Technology Agency, Core Research for Evolutionary Science and Technology (CREST), AIP Challenge, 2024-2025. **(PI)**  
 
 <h2 id="cm">
 Committee Memberships
