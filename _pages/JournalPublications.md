@@ -111,7 +111,7 @@ Co-Author
 🔑<u>Keywords</u>: E-book Reading Logs, Reading Behavior Analysis, Student Performance Prediction, Multimodal Integration, Topic Extraction, Student Support.
 
 <u>[JC019]</u>. **"Extracting Learning Data from Handwritten Notes: A New Approach to Educational Data Analysis Based on Image Segmentation and Generative AI."**  
-**IEEE Access**, Volume 13, Page 74567-74580, 2025.04. **[CameraReady](https://doi.org/10.1109/ACCESS.2025.3561916)**  
+**IEEE Access**, Volume 13, Pages 74567-74580, 2025.04. **[CameraReady](https://doi.org/10.1109/ACCESS.2025.3561916)**  
 👤<u>Authors</u>: Yunyu Zhou, **<u>Cheng Tang</u>**, Atsushi Shimada.  
 🔑<u>Keywords</u>: Attention Multi-task U-Net, GPT-4o, Handwritten Notes, Image Segmentation, Knowledge Extraction, Natural Language Processing..
 
