@@ -19,7 +19,7 @@ First Author
 🔑<u>Keywords</u>: Learning Behavior, Visual Analytics, Dendritic Neuron Model, Feature Selection, Early Prediction.
 
 <u>[CF003]</u>. **"Visual analytics of learning behavior based on the dendritic neuron model."**  
-**International Conference on Knowledge Science, Engineering and Management (KSEM)**, Page 192-203, 2024.07. **[CameraReady](https://doi.org/10.1007/978-981-97-5495-3_14)**  
+**International Conference on Knowledge Science, Engineering and Management (KSEM)**, Pages 192-203, 2024.07. **[CameraReady](https://doi.org/10.1007/978-981-97-5495-3_14)**  
 👤<u>Authors</u>: **<u>Cheng Tang</u>**, Li Chen, Gen Li, Tsubasa Minematsu, Fumiya Okubo, Yuta Taniguchi, Atsushi Shimada.  
 🔑<u>Keywords</u>: Visual Analytics, Prediction, Learning Behavior, Dendritic Neuron Model.
 
@@ -74,7 +74,7 @@ Co-Author
 🔑<u>Keywords</u>: Question Answering, FairytaleQA, Chinese, Fine-tuned T5 Models.
 
 <u>[CC030]</u>. **"Classifying Knowledge Nodes and Analyzing Activation Features: An Integrated Knowledge Graph Approach for Collaborative Problem-Solving."**  
-**IEEE International Conference on Advanced Learning Technologies (ICALT 2025)**, 2025.07. **[CameraReady](https://doi.org/10.1109/ICALT64023.2025.00036)**  
+**IEEE International Conference on Advanced Learning Technologies (ICALT 2025)**, Pages 107-111 2025.07. **[CameraReady](https://doi.org/10.1109/ICALT64023.2025.00036)**  
 👤<u>Authors</u>: Li Chen, Gen Li, Boxuan Ma, **<u>Cheng Tang</u>**, Masanori Yamada, Atsushi Shimada.  
 🔑<u>Keywords</u>: knowledge graph, collaborative problem solving, STEM education, large language model, learning analytics.
 
@@ -88,7 +88,7 @@ Co-Author
 🔑<u>Keywords</u>: Knowledge Graph, Graph Mining, Large Language Model.
 
 <u>[CC027]</u>. **"Single-agent vs. Multi-agent LLM Strategies for Automated Student Reflection Assessment."**  
-**Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD)**, Page 300-311, 2025.06. **[CameraReady](https://doi.org/10.1007/978-981-96-8186-0_24)**  
+**Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD)**, Pages 300-311, 2025.06. **[CameraReady](https://doi.org/10.1007/978-981-96-8186-0_24)**  
 👤<u>Authors</u>: Gen Li, Li Chen, **<u>Cheng Tang</u>**, Valdemar Švábenský, Daisuke Deguchi, Takayoshi Yamashita, Atsushi Shimada.  
 🔑<u>Keywords</u>: Knowledge Graph, Graph Mining, Large Language Model.
 
@@ -98,53 +98,53 @@ Co-Author
 🔑<u>Keywords</u>: Diabetes, Blood Glucose Prediction, Transformer Architecture, ANNs, CGM devices.
 
 <u>[CC025]</u>. **"Knowledge Distillation in RNN-Attention Models for Early Prediction of Student Performance."**  
-**Proceedings of the 40th ACM/SIGAPP Symposium on Applied Computing (ACM SAC)**, Page 64-73, 2025.03. **[CameraReady](https://doi.org/10.1145/3672608.3707805)**  
+**Proceedings of the 40th ACM/SIGAPP Symposium on Applied Computing (ACM SAC)**, Pages 64-73, 2025.03. **[CameraReady](https://doi.org/10.1145/3672608.3707805)**  
 👤<u>Authors</u>: Sukrit Leelaluk, **<u>Cheng Tang</u>**, Valdemar Švábenský, Atsushi Shimada.  
 🔑<u>Keywords</u>: Student Performance Prediction, Educational Data Mining, Learning Analytics, Knowledge Distillation, Neural Network.
 
 <u>[CC024]</u>. **"Automated Recommendations for Revising Lecture Slides Using Reading Activity Data."**  
-**International Conference on Computers in Education (ICCE 2025)**, Page 375-389, 2025.02. **[CameraReady](https://doi.org/10.58459/icce.2024.4848)**  
+**International Conference on Computers in Education (ICCE 2025)**, Pages 375-389, 2025.02. **[CameraReady](https://doi.org/10.58459/icce.2024.4848)**  
 👤<u>Authors</u>: Erwin Daniel López Zapata, **<u>Cheng Tang</u>**, Yuta Taniguchi, Fumiya Okubo, Atsushi Shimada.  
 🔑<u>Keywords</u>: E-book, Digital Textbooks, Reading Behavior, LAD, LLM.
 
 <u>[CC023]</u>. **"Attention-Seeker: Dynamic Self-Attention Scoring for Unsupervised Keyphrase Extraction."**  
-**International Conference on Computational Linguistics (COLING 2025)**, Page 5011-5026, 2025.01. **[CameraReady](http://dx.doi.org/)**  
+**International Conference on Computational Linguistics (COLING 2025)**, Pages 5011-5026, 2025.01. **[CameraReady](http://dx.doi.org/)**  
 👤<u>Authors</u>: Erwin Daniel López Zapata, **<u>Cheng Tang</u>**, Atsushi Shimada.  
 🔑<u>Keywords</u>: Knowledge graph, collaborative problem solving, STEM education, Large Language Model.
 
 <u>[CC022]</u>. **"A Three-Step Knowledge Graph Approach Using LLMs In Collaborative Problem Solving-based Stem Education."**  
-**International Conference on Cognition and Exploratory Learning in Digital Age (CELDA 2024)**, Page 51-58, 2024.10. **[CameraReady](http://dx.doi.org/)**  
+**International Conference on Cognition and Exploratory Learning in Digital Age (CELDA 2024)**, Pages 51-58, 2024.10. **[CameraReady](http://dx.doi.org/)**  
 👤<u>Authors</u>: Li Chen, Gen Li, Boxuan Ma, **<u>Cheng Tang</u>**, Masanori Yamada.  
 🔑<u>Keywords</u>: Knowledge graph, Collaborative Problem Solving, STEM education, Large Language Model.
 
 <u>[CC021]</u>. **"QA-Knowledge Attention for Exam Performance Prediction."**  
-**European Conference on Technology Enhanced Learning (EC-TEL)**, Page 375-389, 2024.09. **[CameraReady](http://dx.doi.org/10.1007/978-3-031-72315-5_26)**  
+**European Conference on Technology Enhanced Learning (EC-TEL)**, Pages 375-389, 2024.09. **[CameraReady](http://dx.doi.org/10.1007/978-3-031-72315-5_26)**  
 👤<u>Authors</u>: Yongle Ren, **<u>Cheng Tang</u>**, Yuta Taniguchi, Fumiya Okubo, Atsushi Shimada.  
 🔑<u>Keywords</u>: Prediction, Attention, Exam Performance, Neural Network.
 
 <u>[CC020]</u>. **"Analysis of adapter in attention of change detection Vision Transformer."**  
-**First International Workshop on “AI-based All-Weather Surveillance System**, Page 51-58, 2024.07. **[CameraReady](https://doi.org/10.1007/978-981-96-2641-0_3)**  
+**First International Workshop on “AI-based All-Weather Surveillance System**, Pages 51-58, 2024.07. **[CameraReady](https://doi.org/10.1007/978-981-96-2641-0_3)**  
 👤<u>Authors</u>: Ryunosuke Hamada, Tsubasa Minematsu, **<u>Cheng Tang</u>**, Atsushi Shimada.  
 🔑<u>Keywords</u>: Change detection, Vision Transformer, Adapter.
 
 <u>[CC019]</u>. **"Binocular Disparity Unveils the Mechanisms of Stereo Feature Selectivity: Orientation and Motion."**  
-**International Joint Conference on Neural Networks (IJCNN)**, Page 1-7, 2024.06. **[CameraReady](http://dx.doi.org/10.1109/IJCNN60899.2024.10650968)**  
+**International Joint Conference on Neural Networks (IJCNN)**, Pages 1-7, 2024.06. **[CameraReady](http://dx.doi.org/10.1109/IJCNN60899.2024.10650968)**  
 👤<u>Authors</u>: Bin Li, Yuki Todo, Zheng Tang, **<u>Cheng Tang</u>**.  
 🔑<u>Keywords</u>: Binocular Disparity, Stereo Vision, 3D Information, Orientation, Motion Direction.
 
 <u>[CC018]</u>. **"Chaotic Map-Coded Evolutionary Algorithms for Dendritic Neuron Model Optimization."**  
-**IEEE Congress on Evolutionary Computation (CEC)**, Page 1-8, 2024.06. **[CameraReady](http://dx.doi.org/10.1109/CEC60901.2024.10612087)**  
+**IEEE Congress on Evolutionary Computation (CEC)**, Pages 1-8, 2024.06. **[CameraReady](http://dx.doi.org/10.1109/CEC60901.2024.10612087)**  
 👤<u>Authors</u>: Haichuan Yang, Yifei Yang, Yuxin Zhang, **<u>Cheng Tang</u>**, Koichi Hashimoto, Yuichi Nagata.  
 🔑<u>Keywords</u>: Metameric Variable-Length Problem, Dendritic
 Neuron Model, Evolutionary Algorithms, Chaotic Maps.
 
 <u>[CC017]</u>. **"LLM-driven ontology learning to augment student performance analysis in higher education."**  
-**International Conference on Knowledge Science, Engineering and Management (KSEM)**, Page 57-68, 2024.07. **[CameraReady](https://doi.org/10.1007/978-981-97-5498-4_5)**  
+**International Conference on Knowledge Science, Engineering and Management (KSEM)**, Pages 57-68, 2024.07. **[CameraReady](https://doi.org/10.1007/978-981-97-5498-4_5)**  
 👤<u>Authors</u>: Gen Li, **<u>Cheng Tang</u>**, Daisuke Deguchi, Takayoshi Yamashita, Atsushi Shimada.  
 🔑<u>Keywords</u>: Educational Data Mining, Ontology, LLM, Knowledge Graph, GNN, Student Performance Prediction.
 
 <u>[CC016]</u>. **"How do strategies for using ChatGPT affect knowledge comprehension?"**  
-**International Conference on Artificial Intelligence in Education (CCIS)**, 3260, Page 151-162, 2024.07. **[CameraReady](https://doi.org/10.1007/978-3-031-64315-6_12)**  
+**International Conference on Artificial Intelligence in Education (CCIS)**, 3260, Pages 151-162, 2024.07. **[CameraReady](https://doi.org/10.1007/978-3-031-64315-6_12)**  
 👤<u>Authors</u>: Li Chen, Gen Li, Boxuan Ma, **<u>Cheng Tang</u>**, Atsushi Shimada.  
 🔑<u>Keywords</u>: Generative AI, Knowledge Comprehension, Reading Behavior, Perceived Understanding, ChatGPT Strategy.
 
