@@ -15,6 +15,10 @@ redirect_from:
 Biography
 </h2>
 
+<u>[2026-01-01]</u> I served as a **Program Committee Member** for the **[6th 6th IEEE International Conference on Cybernetics](https://www.ieeecyb2026.net/)** (IEEE CYB 2026), Nanjing, Jiangsu Province, China: April 17th-20th, 2026.
+
+<u>[2025-12-23]</u> I served as a **Program Committee Member** for the **[22nd International Conference On Intelligent Computing](http://ic-icc.cn/2026/index.php)** (ICIC 2026), Toronto, Canada: July 22th-26th, 2026.
+
 <u>[2025-07-31]</u> I served as the **Guest Editor** of Special Issue: **[AI-Driven Architectures and Algorithms for Secure and Scalable Big Data Systems](https://www.frontiersin.org/research-topics/72103/ai-driven-architectures-and-algorithms-for-secure-and-scalable-big-data-systems)**, **[Frontiers in Artificial Intelligence](https://www.frontiersin.org/journals/artificial-intelligence)** (ISSN 2624-8212).
 
 <u>[2025-07-10]</u> I was invited as an **Invited Speaker** at the **[EDE Student SIG Offline Event](https://sites.google.com/leds.ait.kyushu-u.ac.jp/iclea2025/ede-student-sig-offline-event?authuser=0)**, co-located with the **[1st International Conference on Learning Evidence and Analytics](https://sites.google.com/leds.ait.kyushu-u.ac.jp/iclea2025/?pli=1)** (ICLEA 2025), Fukuoka, Japan: September 5th-7th, 2025.
