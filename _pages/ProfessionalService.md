@@ -33,6 +33,8 @@ Committee Memberships
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ・**[1st International Conference on Learning Evidence and Analytics](https://sites.google.com/leds.ait.kyushu-u.ac.jp/iclea2025/?pli=1)** (ICLEA 2025),  
 
 <u>[CM001]</u>. **Program Committee**  
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ・**[6th IEEE International Conference on Cybernetics](http://ic-icc.cn/2026/index.php)** (IEEE CYB 2026),  
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ・**[22nd International Conference on Intelligent Computing](http://ic-icc.cn/2026/index.php)** (ICIC 2026),  
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ・**[1st International Conference on Learning Evidence and Analytics](https://sites.google.com/leds.ait.kyushu-u.ac.jp/iclea2025/?pli=1)** (ICLEA 2025),  
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ・**[26th International Conference on Artificial Intelligence in Education](https://iaied.org/conferences)** (AIED 2025),  
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ・**[21st International Conference on Intelligent Computing](https://www.ic-icc.cn/2025/index.htm)** (ICIC 2025),  
