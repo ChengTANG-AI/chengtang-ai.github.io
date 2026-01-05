@@ -15,7 +15,7 @@ redirect_from:
 Biography
 </h2>
 
-<u>[2026-01-01]</u> I served as a **Program Committee Member** for the **[6th 6th IEEE International Conference on Cybernetics](https://www.ieeecyb2026.net/)** (IEEE CYB 2026), Nanjing, Jiangsu Province, China: April 17th-20th, 2026.
+<u>[2026-01-01]</u> I served as a **Program Committee Member** for the **[6th IEEE International Conference on Cybernetics](https://www.ieeecyb2026.net/)** (IEEE CYB 2026), Nanjing, Jiangsu Province, China: April 17th-20th, 2026.
 
 <u>[2025-12-23]</u> I served as a **Program Committee Member** for the **[22nd International Conference On Intelligent Computing](http://ic-icc.cn/2026/index.php)** (ICIC 2026), Toronto, Canada: July 22th-26th, 2026.
 
