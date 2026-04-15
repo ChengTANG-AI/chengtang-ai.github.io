@@ -15,6 +15,8 @@ redirect_from:
 Biography
 </h2>
 
+<u>[2026-04-01]</u> I joined the **Department of Electrical and Mechanical Engineering**, **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**, as an **Associate Professor**.
+
 <u>[2026-01-01]</u> I served as a **Program Committee Member** for the **[6th IEEE International Conference on Cybernetics](https://www.ieeecyb2026.net/)** (IEEE CYB 2026), Nanjing, Jiangsu Province, China: April 17th-20th, 2026.
 
 <u>[2025-12-23]</u> I served as a **Program Committee Member** for the **[22nd International Conference On Intelligent Computing](http://ic-icc.cn/2026/index.php)** (ICIC 2026), Toronto, Canada: July 22th-26th, 2026.
@@ -55,7 +57,7 @@ Biography
 
 <u>[2022-09-01]</u> I joined the **[Institute of Electrical and Electronics Engineers (IEEE)](https://www.ieee.org/)**, as a **Member**.
 
-<u>[2022-08-01]</u> I joined the **Department of Electrical and Mechanical Engineering**, **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**, as a **Assistant Professor**.
+<u>[2022-08-01]</u> I joined the **Department of Electrical and Mechanical Engineering**, **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**, as an **Assistant Professor**.
 
 <u>[2022-04-01]</u> I joined the **Faculty of Engineering**, **[University of Toyama](https://www.u-toyama.ac.jp/)**, as a **Postdoctoral Researcher**.
 
