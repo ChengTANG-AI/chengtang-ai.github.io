@@ -162,10 +162,12 @@ a {
 .language-nav {
   border-left: 1px solid var(--line);
   padding-left: 1rem;
+  flex-wrap: nowrap;
 }
 
 .language-nav a {
   font-weight: 800;
+  white-space: nowrap;
 }
 
 .language-nav a[lang="en"] {
