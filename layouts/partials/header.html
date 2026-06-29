@@ -6,28 +6,32 @@
       <span class="brand-full">{{ .Site.Params.labName }}</span>
     </span>
   </a>
-  <nav class="main-nav" aria-label="Main navigation">
-    {{ $disabledSections := .Site.Params.visibility.disabledSections | default slice }}
-    {{ range .Site.Menus.main }}
-      {{ $sectionKey := "" }}
-      {{ with .Page }}{{ $sectionKey = .Params.sectionKey | default "" }}{{ end }}
-      {{ if and $sectionKey (in $disabledSections $sectionKey) }}{{ continue }}{{ end }}
-      {{ $href := .URL | relLangURL }}
-      {{ if or (hasPrefix .URL "http://") (hasPrefix .URL "https://") }}
-        {{ $href = .URL }}
+  <input class="nav-toggle" type="checkbox" id="site-nav-toggle" aria-hidden="true">
+  <label class="nav-toggle-button" for="site-nav-toggle" aria-label="Toggle navigation">{{ if eq .Site.Language.Lang "ja" }}メニュー{{ else if eq .Site.Language.Lang "zh" }}菜单{{ else }}Menu{{ end }}</label>
+  <div class="site-nav-panel">
+    <nav class="main-nav" aria-label="Main navigation">
+      {{ $disabledSections := .Site.Params.visibility.disabledSections | default slice }}
+      {{ range .Site.Menus.main }}
+        {{ $sectionKey := "" }}
+        {{ with .Page }}{{ $sectionKey = .Params.sectionKey | default "" }}{{ end }}
+        {{ if and $sectionKey (in $disabledSections $sectionKey) }}{{ continue }}{{ end }}
+        {{ $href := .URL | relLangURL }}
+        {{ if or (hasPrefix .URL "http://") (hasPrefix .URL "https://") }}
+          {{ $href = .URL }}
+        {{ end }}
+        {{ with .Page }}{{ $href = .RelPermalink }}{{ end }}
+        {{ $isActive := or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
+        {{ if eq $href $.RelPermalink }}{{ $isActive = true }}{{ end }}
+        {{ $isLabLink := eq .URL "https://t-aiclab.github.io/" }}
+        <a href="{{ $href }}"{{ if or (hasPrefix .URL "http://") (hasPrefix .URL "https://") }} target="_blank" rel="noopener"{{ end }}{{ if or $isActive $isLabLink }} class="{{ if $isActive }}is-active{{ end }}{{ if and $isActive $isLabLink }} {{ end }}{{ if $isLabLink }}lab-site-link{{ end }}"{{ end }}{{ if $isActive }} aria-current="page"{{ end }}>{{ .Name }}</a>
       {{ end }}
-      {{ with .Page }}{{ $href = .RelPermalink }}{{ end }}
-      {{ $isActive := or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
-      {{ if eq $href $.RelPermalink }}{{ $isActive = true }}{{ end }}
-      {{ $isLabLink := eq .URL "https://t-aiclab.github.io/" }}
-      <a href="{{ $href }}"{{ if or (hasPrefix .URL "http://") (hasPrefix .URL "https://") }} target="_blank" rel="noopener"{{ end }}{{ if or $isActive $isLabLink }} class="{{ if $isActive }}is-active{{ end }}{{ if and $isActive $isLabLink }} {{ end }}{{ if $isLabLink }}lab-site-link{{ end }}"{{ end }}{{ if $isActive }} aria-current="page"{{ end }}>{{ .Name }}</a>
-    {{ end }}
-  </nav>
-  <nav class="language-nav" aria-label="Language switcher">
-    {{ $disabledLanguages := .Site.Params.visibility.disabledLanguages | default slice }}
-    {{ range .AllTranslations }}
-      {{ if in $disabledLanguages .Language.Lang }}{{ continue }}{{ end }}
-      <a href="{{ .RelPermalink }}" lang="{{ .Language.Lang }}"{{ if eq .Language.Lang $.Site.Language.Lang }} class="is-active" aria-current="true"{{ end }}>{{ .Language.LanguageName }}</a>
-    {{ end }}
-  </nav>
+    </nav>
+    <nav class="language-nav" aria-label="Language switcher">
+      {{ $disabledLanguages := .Site.Params.visibility.disabledLanguages | default slice }}
+      {{ range .AllTranslations }}
+        {{ if in $disabledLanguages .Language.Lang }}{{ continue }}{{ end }}
+        <a href="{{ .RelPermalink }}" lang="{{ .Language.Lang }}"{{ if eq .Language.Lang $.Site.Language.Lang }} class="is-active" aria-current="true"{{ end }}>{{ .Language.LanguageName }}</a>
+      {{ end }}
+    </nav>
+  </div>
 </header>
