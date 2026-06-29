@@ -41,9 +41,84 @@ example_news:
     ja: "**Markdown** と [リンク](https://example.com/) を利用できます．"
     zh: "可以使用 **Markdown** 和 [链接](https://example.com/)。"
 
+news_2026_02_12_01:
+  display: true
+  date: "2026-02-12"
+  student_year: ""
+  title:
+    en: "ICML 2026, Program Committee Member"
+    ja: "ICML 2026，プログラム委員"
+    zh: "ICML 2026，程序委员会委员"
+  person_name:
+    en: "Cheng Tang"
+    ja: "唐成"
+    zh: "唐成"
+  person_type:
+    en: "Faculty"
+    ja: "教員"
+    zh: "教员"
+  position:
+    en: "Associate Professor"
+    ja: "准教授"
+    zh: "副教授"
+  text:
+    en: "served as a **Program Committee Member** for the **[43rd International Conference on Machine Learning](https://icml.cc/Conferences/2026)** (ICML 2026)."
+    ja: "は，**[43rd International Conference on Machine Learning](https://icml.cc/Conferences/2026)**（ICML 2026）の**プログラム委員**を務めました．"
+    zh: "担任 **[第43届 International Conference on Machine Learning](https://icml.cc/Conferences/2026)**（ICML 2026）的**程序委员会委员**。"
+
+news_2026_05_14_01:
+  display: true
+  date: "2026-05-14"
+  student_year: ""
+  title:
+    en: "ICML 2026, Silver Reviewer"
+    ja: "ICML 2026，Silver Reviewer"
+    zh: "ICML 2026，银级审稿人"
+  person_name:
+    en: "Cheng Tang"
+    ja: "唐成"
+    zh: "唐成"
+  person_type:
+    en: "Faculty"
+    ja: "教員"
+    zh: "教员"
+  position:
+    en: "Associate Professor"
+    ja: "准教授"
+    zh: "副教授"
+  text:
+    en: "was recognized as a **Silver Reviewer** for the **[43rd International Conference on Machine Learning](https://icml.cc/Conferences/2026)** (ICML 2026) in recognition of outstanding reviewing service."
+    ja: "**[43rd International Conference on Machine Learning](https://icml.cc/Conferences/2026)**（ICML 2026）において，優れた査読貢献が評価され，**Silver Reviewer**に選出されました．"
+    zh: "因优秀的审稿贡献，被评为 **[第43届 International Conference on Machine Learning](https://icml.cc/Conferences/2026)**（ICML 2026）**银级审稿人（Silver Reviewer）**。"
+
 news_2026_06_28_01:
   display: true
   date: "2026-06-28"
+  student_year: ""
+  title:
+    en: "AAAI 2027, Program Committee Member"
+    ja: "AAAI 2027，プログラム委員"
+    zh: "AAAI 2027，程序委员会委员"
+  person_name:
+    en: "Cheng Tang"
+    ja: "唐成"
+    zh: "唐成"
+  person_type:
+    en: "Faculty"
+    ja: "教員"
+    zh: "教员"
+  position:
+    en: "Associate Professor"
+    ja: "准教授"
+    zh: "副教授"
+  text:
+    en: "served as a **Program Committee Member** for the **[41th Annual AAAI Conference on Artificial Intelligence](https://aaai.org/conference/aaai/aaai-27/)** (AAAI 2027), held at Montréal, Canada, February 16-23, 2027."
+    ja: "は，**[41th Annual AAAI Conference on Artificial Intelligence](https://aaai.org/conference/aaai/aaai-27/)**（AAAI 2027）の**プログラム委員**を務めました．同会議は2027年2月16日から23日までカナダのモントリオールで開催されました．"
+    zh: "担任 **[第41届 AAAI Conference on Artificial Intelligence](https://aaai.org/conference/aaai/aaai-27/)**（AAAI 2027）的**程序委员会委员**。会议于2027年2月16日至23日在加拿大蒙特利尔举行。"
+
+news_2025_06_28_01:
+  display: true
+  date: "2025-06-28"
   student_year: ""
   title:
     en: "AAAI 2026, Program Committee Member"
@@ -137,7 +212,7 @@ news_2026_04_01_01:
     ja: "准教授"
     zh: "副教授"
   text:
-    en: "joined the **Department of Electrical and Mechanical Engineering**, **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**."
+    en: "joined the **Department of Engineering**, **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**."
     ja: "は，**[名古屋工業大学](https://www.nitech.ac.jp/)** **大学院工学研究科 電気電子系** に准教授として着任しました．"
     zh: "加入 **[名古屋工业大学](https://www.nitech.ac.jp/)** **大学院工学研究科 电气电子系**，担任副教授。"
 
