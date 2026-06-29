@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="{{ .Site.Language.Lang }}">
+  {{ $disabledSections := .Site.Params.visibility.disabledSections | default slice }}
+  {{ $disabledLanguages := .Site.Params.visibility.disabledLanguages | default slice }}
+  {{ $sectionKey := .Params.sectionKey | default "" }}
+  {{ $languageHidden := in $disabledLanguages .Site.Language.Lang }}
+  {{ $pageHidden := or $languageHidden (and $sectionKey (in $disabledSections $sectionKey)) }}
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ .Site.Params.description }}">
+    <title>{{ .Site.Params.browserTitle | default "AIC Lab" }}</title>
+    <link rel="shortcut icon" href="{{ .Site.Params.faviconIco | relURL }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ .Site.Params.favicon | relURL }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.Params.appleTouchIcon | relURL }}">
+    {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+  </head>
+  <body>
+    {{ partial "header.html" . }}
+    <main id="main">
+      {{ if $pageHidden }}
+        <section class="page">
+          <header class="page-header">
+            <h1>{{ .Title }}</h1>
+          </header>
+          <article class="entry">
+            {{ if eq .Site.Language.Lang "ja" }}
+              <p>このページは現在公開されていません．</p>
+            {{ else if eq .Site.Language.Lang "zh" }}
+              <p>该页面当前未公开。</p>
+            {{ else }}
+              <p>This page is currently not published.</p>
+            {{ end }}
+          </article>
+        </section>
+      {{ else }}
+        {{ block "main" . }}{{ end }}
+      {{ end }}
+    </main>
+    {{ partial "footer.html" . }}
+  </body>
+</html>

@@ -1,0 +1,130 @@
+baseURL = "https://chengtang-ai.github.io/"
+title = "Cheng Tang"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+enableRobotsTXT = true
+disableLanguages = []
+
+[params]
+  browserTitle = "Cheng Tang"
+  labShortName = "Cheng Tang"
+  labName = "Associate Professor, Nagoya Institute of Technology"
+  logo = "images/ct_logo.jpg"
+  favicon = "favicon-ct-32x32.png"
+  faviconIco = "favicon-ct-32x32.png"
+  appleTouchIcon = "apple-touch-icon-ct.png"
+  description = "Academic website of Cheng Tang"
+  showCitations = true
+  showVisitCounter = true
+
+[params.visibility]
+  disabledLanguages = []
+  disabledSections = ["members", "access", "links"]
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[languages.en]
+  languageName = "English"
+  languageCode = "en-us"
+  contentDir = "content/en"
+  weight = 1
+  title = "Cheng Tang"
+  [languages.en.params]
+    labName = "Associate Professor, Nagoya Institute of Technology"
+    labShortName = "Cheng Tang"
+
+[[languages.en.menu.main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 10
+[[languages.en.menu.main]]
+  name = "AIC Lab"
+  url = "https://t-aiclab.github.io/"
+  weight = 5
+[[languages.en.menu.main]]
+  name = "Research"
+  pageRef = "/research"
+  weight = 20
+[[languages.en.menu.main]]
+  name = "Publications"
+  pageRef = "/publications"
+  weight = 30
+[[languages.en.menu.main]]
+  name = "Projects"
+  pageRef = "/projects"
+  weight = 40
+[[languages.en.menu.main]]
+  name = "News"
+  pageRef = "/news"
+  weight = 50
+
+[languages.ja]
+  languageName = "日本語"
+  languageCode = "ja-jp"
+  contentDir = "content/ja"
+  weight = 2
+  title = "唐 成"
+  [languages.ja.params]
+    labName = "名古屋工業大学 准教授"
+    labShortName = "唐 成"
+
+[[languages.ja.menu.main]]
+  name = "ホーム"
+  pageRef = "/"
+  weight = 10
+[[languages.ja.menu.main]]
+  name = "AIC Lab"
+  url = "https://t-aiclab.github.io/"
+  weight = 5
+[[languages.ja.menu.main]]
+  name = "研究紹介"
+  pageRef = "/research"
+  weight = 20
+[[languages.ja.menu.main]]
+  name = "文献リスト"
+  pageRef = "/publications"
+  weight = 30
+[[languages.ja.menu.main]]
+  name = "プロジェクト"
+  pageRef = "/projects"
+  weight = 40
+[[languages.ja.menu.main]]
+  name = "ニュース"
+  pageRef = "/news"
+  weight = 50
+
+[languages.zh]
+  languageName = "中文"
+  languageCode = "zh-cn"
+  contentDir = "content/zh"
+  weight = 3
+  title = "唐 成"
+  [languages.zh.params]
+    labName = "名古屋工业大学 副教授"
+    labShortName = "唐 成"
+
+[[languages.zh.menu.main]]
+  name = "首页"
+  pageRef = "/"
+  weight = 10
+[[languages.zh.menu.main]]
+  name = "AIC Lab"
+  url = "https://t-aiclab.github.io/"
+  weight = 5
+[[languages.zh.menu.main]]
+  name = "研究介绍"
+  pageRef = "/research"
+  weight = 20
+[[languages.zh.menu.main]]
+  name = "研究业绩"
+  pageRef = "/publications"
+  weight = 30
+[[languages.zh.menu.main]]
+  name = "科研项目"
+  pageRef = "/projects"
+  weight = 40
+[[languages.zh.menu.main]]
+  name = "动态"
+  pageRef = "/news"
+  weight = 50

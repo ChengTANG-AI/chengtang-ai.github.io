@@ -1,0 +1,9 @@
+<article class="project-entry">
+  <p class="meta">{{ .period }}{{ with .role }} &middot; {{ . }}{{ end }}</p>
+  <h2>{{ .title }}</h2>
+  {{ with .title_ja }}<p class="project-subtitle">{{ . }}</p>{{ end }}
+  <p>
+    {{ .funder }}{{ with .program }}, {{ . }}{{ end }}{{ with .grant_number }}, No.{{ . }}{{ end }}{{ with .institution }}, {{ . }}{{ end }}
+  </p>
+  {{ with .funder_ja }}<p class="meta">{{ . }}</p>{{ end }}
+</article>

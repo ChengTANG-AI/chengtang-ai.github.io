@@ -1,0 +1,54 @@
+profile:
+  name: "唐 成"
+  title: "准教授"
+  affiliation: "名古屋工業大学 大学院工学研究科"
+  photo: "/images/ct_photo.jpg"
+  email:
+    - "tang.cheng@nitech.ac.jp"
+    - "tangcheng.ac@outlook.com"
+  links:
+    - label: "ResearchGate"
+      url: "https://www.researchgate.net/profile/Cheng-Tang-11"
+    - label: "GitHub"
+      url: "https://github.com/ChengTANG-AI"
+    - label: "Google Scholar"
+      url: "https://scholar.google.com/citations?user=GvXOVv0AAAAJ"
+    - label: "ORCID"
+      url: "https://orcid.org/0000-0002-8148-1509"
+    - label: "researchmap"
+      url: "https://researchmap.jp/chengtang"
+hero:
+  eyebrow: ""
+  title: "唐 成"
+  description: "人工知能と通信技術を融合し，実世界で信頼して利用できる知的システムの構築を目指して研究しています．"
+  primaryButton: "文献リストを見る"
+  secondaryButton: "研究紹介を見る"
+biography:
+  label: "BIOGRAPHY"
+  title: "プロフィール"
+  paragraphs:
+    - "唐 成は，名古屋工業大学 大学院工学研究科の准教授です．人工知能，情報通信技術，データ駆動型モデリングの融合を基盤として研究を行っています．"
+    - "主な研究分野は，AI for Communications，Communications for AI，医療AI，時系列知能，ネットワーク知能，エッジ知能，説明可能AI，最適化，AI for Science などです．"
+    - "アルゴリズム，情報通信基盤，センシング，実社会応用を結びつけ，信頼性，解釈性，社会的価値を備えた知的システムの実現を目指しています．"
+interests:
+  label: "RESEARCH INTERESTS"
+  title: "研究分野"
+  items:
+    - "Medical Data Mining"
+    - "Time Series Forecasting"
+    - "Computer Vision"
+    - "Natural Language Processing"
+    - "Learning Analytics"
+    - "AI for Drug Design"
+    - "Explainable AI (XAI)"
+    - "Optimization"
+    - "Dendritic Computation"
+latest:
+  publicationsLabel: "最近の文献"
+  publicationsButton: "すべての文献を見る"
+  newsLabel: "最新ニュース"
+  newsButton: "すべてのニュースを見る"
+footer:
+  title: "唐 成"
+  affiliation: "名古屋工業大学 大学院工学研究科"
+  copyright: "© Cheng Tang, Nagoya Institute of Technology"

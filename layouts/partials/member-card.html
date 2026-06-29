@@ -1,0 +1,63 @@
+{{- $person := .person -}}
+{{- $lang := .lang -}}
+{{- $currentLabel := .currentLabel | default "Current" -}}
+{{- $image := $person.image | default "/images/members/aiclab_member_default.png" -}}
+{{- $originLabel := .originLabel | default "Origin" -}}
+{{- $interestsLabel := .interestsLabel | default "Research Interests" -}}
+{{- $hobbiesLabel := .hobbiesLabel | default "Hobbies" -}}
+{{- $messageLabel := .messageLabel | default "Message" -}}
+{{- $name := index $person.name $lang | default (index $person.name "en") -}}
+{{- $role := "" -}}
+{{- with $person.role -}}
+  {{- $role = index . $lang | default (index . "en") -}}
+{{- end -}}
+{{- $origin := "" -}}
+{{- with $person.origin -}}
+  {{- $origin = index . $lang | default (index . "en") -}}
+{{- end -}}
+{{- $interests := "" -}}
+{{- with $person.interests -}}
+  {{- $interests = index . $lang | default (index . "en") -}}
+{{- end -}}
+{{- $hobbies := "" -}}
+{{- with $person.hobbies -}}
+  {{- $hobbies = index . $lang | default (index . "en") -}}
+{{- end -}}
+{{- $message := "" -}}
+{{- with $person.message -}}
+  {{- $message = index . $lang | default (index . "en") -}}
+{{- end -}}
+{{- $current := "" -}}
+{{- with $person.current -}}
+  {{- $current = index . $lang | default (index . "en") -}}
+{{- end -}}
+{{- $metaParts := slice -}}
+{{- if $person.grade -}}
+  {{- $metaParts = $metaParts | append $person.grade -}}
+{{- else -}}
+  {{- with $role -}}{{- $metaParts = $metaParts | append . -}}{{- end -}}
+{{- end -}}
+<article class="card member-card">
+  <figure class="member-photo"><img src="{{ $image | relURL }}" alt="{{ $name }}"></figure>
+  <h3>{{ $name }}</h3>
+  {{ if $metaParts }}<p class="meta">{{ delimit $metaParts " · " }}</p>{{ end }}
+  {{ with $origin }}<p class="member-field"><span class="member-current-label">{{ $originLabel }}:</span><span class="member-field-value">{{ . }}</span></p>{{ end }}
+  {{ with $interests }}<p class="member-field"><span class="member-current-label">{{ $interestsLabel }}:</span><span class="member-field-value">{{ . }}</span></p>{{ end }}
+  {{ with $hobbies }}<p class="member-field"><span class="member-current-label">{{ $hobbiesLabel }}:</span><span class="member-field-value">{{ . }}</span></p>{{ end }}
+  {{ with $message }}<p class="member-field member-message-field"><span class="member-current-label">{{ $messageLabel }}:</span><span class="member-field-value">{{ . }}</span></p>{{ end }}
+  {{ with $current }}<p class="member-field"><span class="member-current-label">{{ $currentLabel }}:</span><span class="member-field-value">{{ . }}</span></p>{{ end }}
+  {{ with $person.url }}
+    <p class="member-field">
+      <span class="member-current-label">URL:</span>
+      <span class="member-field-value"><a href="{{ . }}" target="_blank" rel="noopener">{{ . }}</a></span>
+    </p>
+  {{ end }}
+  {{ if $person.emails }}
+    {{ range $email := $person.emails }}
+      <p class="member-email">E-mail: <a href="mailto:{{ $email }}">{{ $email }}</a></p>
+    {{ end }}
+  {{ else }}
+    {{ with $person.email }}<p class="member-email">E-mail: <a href="mailto:{{ . }}">{{ . }}</a></p>{{ end }}
+  {{ end }}
+</article>
+

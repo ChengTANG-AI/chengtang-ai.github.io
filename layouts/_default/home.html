@@ -1,0 +1,154 @@
+{{ define "main" }}
+  {{ $lang := .Site.Language.Lang }}
+  {{ if hasPrefix $lang "ja" }}
+    {{ $lang = "ja" }}
+  {{ else if hasPrefix $lang "zh" }}
+    {{ $lang = "zh" }}
+  {{ else }}
+    {{ $lang = "en" }}
+  {{ end }}
+  {{ $home := index .Site.Data $lang "home" }}
+  {{ $pubHref := "/publications/" | relLangURL }}
+  {{ $researchHref := "/research/" | relLangURL }}
+  {{ $newsHref := "/news/" | relLangURL }}
+  {{ with .Site.GetPage "/publications" }}{{ $pubHref = .RelPermalink }}{{ end }}
+  {{ with .Site.GetPage "/research" }}{{ $researchHref = .RelPermalink }}{{ end }}
+  {{ with .Site.GetPage "/news" }}{{ $newsHref = .RelPermalink }}{{ end }}
+
+  {{ $papers := slice }}
+  {{ range $id, $paper := .Site.Data.publications }}
+    {{ if and (ne $paper.display false) $paper.title }}
+      {{ $paperYear := int ($paper.year | default 0) }}
+      {{ $paperMonth := int ($paper.month | default 0) }}
+      {{ $sortKey := add (mul $paperYear 100) $paperMonth }}
+      {{ $papers = $papers | append (merge $paper (dict "id" $id "sortKey" $sortKey)) }}
+    {{ end }}
+  {{ end }}
+
+  {{ $newsItems := slice }}
+  {{ range $id, $item := .Site.Data.news }}
+    {{ if and (ne $item.display false) $item.date }}
+      {{ $sortDate := replace $item.date "-" "" }}
+      {{ $newsItems = $newsItems | append (dict "id" $id "sortKey" (int $sortDate) "item" $item) }}
+    {{ end }}
+  {{ end }}
+
+  <section class="personal-hero">
+    <div class="personal-hero-copy">
+      {{ with $home.hero.eyebrow }}
+        <p class="hero-eyebrow">{{ . }}</p>
+      {{ end }}
+      <h1>{{ $home.hero.title }}</h1>
+      <p class="personal-title">{{ $home.profile.title }}</p>
+      <p class="personal-affiliation">{{ $home.profile.affiliation }}</p>
+      <p class="hero-description">{{ $home.hero.description | markdownify }}</p>
+      <div class="personal-actions">
+        <a class="access-button" href="{{ $pubHref }}">{{ $home.hero.primaryButton }}</a>
+        <a class="access-button" href="{{ $researchHref }}">{{ $home.hero.secondaryButton }}</a>
+      </div>
+    </div>
+    <aside class="profile-card">
+      <img class="profile-photo" src="{{ $home.profile.photo | relURL }}" alt="{{ $home.profile.name }}">
+      <h2>{{ $home.profile.name }}</h2>
+      <p class="meta">{{ $home.profile.title }}</p>
+      <p>{{ $home.profile.affiliation }}</p>
+      <div class="compact-email-list">
+        {{ range $home.profile.email }}
+          <p class="contact-email">E-mail: <a href="mailto:{{ . }}">{{ . }}</a></p>
+        {{ end }}
+      </div>
+      <div class="profile-links">
+        {{ range $home.profile.links }}
+          <a href="{{ .url }}">{{ .label }}</a>
+        {{ end }}
+      </div>
+    </aside>
+  </section>
+
+  {{ with $home.biography }}
+    <section class="home-overview">
+      <div class="home-overview-inner">
+        <p class="section-label">{{ .label }}</p>
+        <h2>{{ .title }}</h2>
+        <div class="overview-copy">
+          {{ range .paragraphs }}
+            <p>{{ . | markdownify }}</p>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+  {{ end }}
+
+  {{ with $home.publicationProfile }}
+    <section class="personal-section">
+      <p class="section-label">{{ .label }}</p>
+      <h2>{{ .title }}</h2>
+      <div class="message-card publication-profile-card">
+        <p>{{ .intro | markdownify }}</p>
+        <div class="venue-columns">
+          {{ with .journals }}
+            <div>
+              <h3>Journals</h3>
+              <ul>
+                {{ range . }}
+                  <li>{{ . | markdownify }}</li>
+                {{ end }}
+              </ul>
+            </div>
+          {{ end }}
+          {{ with .conferences }}
+            <div>
+              <h3>Conferences</h3>
+              <ul>
+                {{ range . }}
+                  <li>{{ . | markdownify }}</li>
+                {{ end }}
+              </ul>
+            </div>
+          {{ end }}
+        </div>
+        {{ with .opportunity }}
+          <p class="opportunity-note">{{ . | markdownify }}</p>
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+
+  {{ if $papers }}
+    <section class="personal-section">
+      <p class="section-label">{{ $home.latest.publicationsLabel }}</p>
+      <div class="compact-entry-list">
+        {{ range first 5 (sort $papers "sortKey" "desc") }}
+          <article class="compact-entry">
+            <h3>{{ .title }}</h3>
+            <p class="meta">{{ .year }}{{ with .month }}.{{ printf "%02d" (int .) }}{{ end }} · {{ .journal | default .conference | default .preprint }}</p>
+          </article>
+        {{ end }}
+      </div>
+      <p class="access-action"><a class="access-button" href="{{ $pubHref }}">{{ $home.latest.publicationsButton }}</a></p>
+    </section>
+  {{ end }}
+
+  {{ if $newsItems }}
+    <section class="personal-section">
+      <p class="section-label">{{ $home.latest.newsLabel }}</p>
+      <div class="latest-news-list">
+        {{ range first 3 (sort $newsItems "sortKey" "desc") }}
+          {{ $item := .item }}
+          {{ $newsTitle := index $item.title $lang | default (index $item.title "en") }}
+          {{ $newsText := index $item.text $lang | default (index $item.text "en") }}
+          {{ $personName := index $item.person_name $lang | default (index $item.person_name "en") }}
+          {{ $personType := index $item.person_type $lang | default (index $item.person_type "en") }}
+          {{ $position := index $item.position $lang | default (index $item.position "en") }}
+          {{ $localizedItem := merge $item (dict "title" $newsTitle "text" $newsText "person_name" $personName "person_type" $personType "position" $position) }}
+          <article class="latest-news-card">
+            <p class="meta">{{ $item.date }}</p>
+            <h3>{{ $newsTitle | markdownify }}</h3>
+            <p>{{ partial "news-person-prefix.html" (dict "item" $localizedItem "lang" $lang) }} {{ $newsText | markdownify }}</p>
+          </article>
+        {{ end }}
+      </div>
+      <p class="access-action"><a class="access-button" href="{{ $newsHref }}">{{ $home.latest.newsButton }}</a></p>
+    </section>
+  {{ end }}
+{{ end }}

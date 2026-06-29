@@ -1,0 +1,21 @@
+<article class="publication-entry">
+  <div class="publication-entry-header">
+    <h3>{{ with .publicationNumber }}<span class="publication-number">[{{ . }}]</span> {{ end }}{{ .title }}</h3>
+    <div class="publication-actions">
+      {{ if and site.Params.showCitations (isset . "citations") (gt (int .citations) 0) }}<span class="publication-citations">Cited by {{ .citations }}</span>{{ end }}
+      {{ $link := .doi | default .url | default .link }}
+      {{ if not $link }}{{ $link = printf "https://scholar.google.com/scholar?q=%s" (.title | urlquery) }}{{ end }}
+      <a class="publication-link-button" href="{{ $link }}" title="Open paper link" aria-label="Open link for {{ .title }}">Link</a>
+    </div>
+  </div>
+  {{ $authors := .authors | replaceRE "(Cheng Tang|唐成)" "<span class=\"publication-author-self\">$1</span>" }}
+  {{ $venue := .journal | default .conference | default .preprint }}
+  {{ $date := "" }}
+  {{ with .year }}{{ $date = printf "%v" . }}{{ end }}
+  {{ if and .year .month }}{{ $date = printf "%v.%02d" .year (int .month) }}{{ end }}
+  <p class="publication-authors">{{ $authors | safeHTML }}</p>
+  <p class="meta">
+    {{ with $date }}{{ . }}{{ end }}{{ if and $date $venue }} &middot; {{ end }}{{ with $venue }}{{ . }}{{ end }}
+    {{ with .volume }} &middot; Vol. {{ . }}{{ end }}{{ with .number }}({{ . }}){{ end }}{{ with .pages }} &middot; pp. {{ . }}{{ end }}
+  </p>
+</article>

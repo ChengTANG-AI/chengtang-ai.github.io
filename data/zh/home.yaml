@@ -1,0 +1,54 @@
+profile:
+  name: "唐 成"
+  title: "副教授"
+  affiliation: "名古屋工业大学 大学院工学研究科"
+  photo: "/images/ct_photo.jpg"
+  email:
+    - "tang.cheng@nitech.ac.jp"
+    - "tangcheng.ac@outlook.com"
+  links:
+    - label: "ResearchGate"
+      url: "https://www.researchgate.net/profile/Cheng-Tang-11"
+    - label: "GitHub"
+      url: "https://github.com/ChengTANG-AI"
+    - label: "Google Scholar"
+      url: "https://scholar.google.com/citations?user=GvXOVv0AAAAJ"
+    - label: "ORCID"
+      url: "https://orcid.org/0000-0002-8148-1509"
+    - label: "Researchmap"
+      url: "https://researchmap.jp/chengtang"
+hero:
+  eyebrow: ""
+  title: "唐 成"
+  description: "我的研究聚焦人工智能与通信技术的融合，致力于构建面向真实环境、可靠、可解释且具有实际价值的智能系统。"
+  primaryButton: "查看研究业绩"
+  secondaryButton: "查看研究介绍"
+biography:
+  label: "BIOGRAPHY"
+  title: "个人简介"
+  paragraphs:
+    - "唐成是名古屋工业大学大学院工学研究科副教授，主要研究人工智能、通信技术与数据驱动建模的交叉融合。"
+    - "研究方向包括 AI for Communications、Communications for AI、医疗人工智能、时序智能、网络智能、边缘智能、可解释人工智能、优化算法以及 AI for Science 等。"
+    - "研究目标是将算法、通信基础设施、感知技术与实际应用相结合，构建兼具可靠性、可解释性与社会价值的智能系统。"
+interests:
+  label: "RESEARCH INTERESTS"
+  title: "研究方向"
+  items:
+    - "Medical Data Mining"
+    - "Time Series Forecasting"
+    - "Computer Vision"
+    - "Natural Language Processing"
+    - "Learning Analytics"
+    - "AI for Drug Design"
+    - "Explainable AI (XAI)"
+    - "Optimization"
+    - "Dendritic Computation"
+latest:
+  publicationsLabel: "近期论文"
+  publicationsButton: "查看全部研究业绩"
+  newsLabel: "最新动态"
+  newsButton: "查看全部动态"
+footer:
+  title: "唐 成"
+  affiliation: "名古屋工业大学 大学院工学研究科"
+  copyright: "© Cheng Tang, Nagoya Institute of Technology"

@@ -1,0 +1,33 @@
+<footer class="site-footer">
+  {{ $lang := .Site.Language.Lang }}
+  {{ if hasPrefix $lang "ja" }}
+    {{ $lang = "ja" }}
+  {{ else if hasPrefix $lang "zh" }}
+    {{ $lang = "zh" }}
+  {{ else }}
+    {{ $lang = "en" }}
+  {{ end }}
+  {{ $home := index .Site.Data $lang "home" }}
+  {{ $visitLabel := "Site visits" }}
+  {{ if eq $lang "ja" }}
+    {{ $visitLabel = "サイト訪問数" }}
+  {{ else if eq $lang "zh" }}
+    {{ $visitLabel = "本站访问次数" }}
+  {{ end }}
+  <div class="footer-inner">
+    <p class="footer-title">{{ $home.footer.title | default "Artificial Intelligence and Communication Laboratory" }}</p>
+    <p class="footer-affiliation">{{ $home.footer.affiliation | default "AIC Lab" }}</p>
+    {{ with $home.footer.affiliationSub }}
+      <p class="footer-affiliation secondary">{{ . }}</p>
+    {{ end }}
+    {{ if ne site.Params.showVisitCounter false }}
+      <p id="busuanzi_container_site_pv" class="footer-counter">
+        {{ $visitLabel }}: <span id="busuanzi_value_site_pv">-</span>
+      </p>
+    {{ end }}
+    <p class="footer-copyright">{{ $home.footer.copyright | default "© AIC Lab" }}</p>
+  </div>
+</footer>
+{{ if ne site.Params.showVisitCounter false }}
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+{{ end }}

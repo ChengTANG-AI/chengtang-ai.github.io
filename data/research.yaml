@@ -1,0 +1,995 @@
+# Research data are shared across English, Japanese, and Chinese pages.
+# directions: define the major research directions shown on the page.
+# papers: define research-introduction entries. Use the paper title as the key,
+# then set direction to one of the direction keys below.
+# display: true shows the item; display: false hides it.
+
+directions:
+  dendritic_computation:
+    display: true
+    title:
+      en: "Dendritic Computation"
+      ja: "樹状突起計算"
+      zh: "树突计算"
+    description:
+      en: "Computational models and learning algorithms inspired by dendritic processing in biological neurons."
+      ja: "生物学的ニューロンにおける樹状突起の情報処理に着想を得た計算モデルと学習アルゴリズムを研究します．"
+      zh: "研究受生物神经元树突信息处理机制启发的计算模型与学习算法。"
+
+  medical_data_mining:
+    display: true
+    title:
+      en: "Medical Data Mining"
+      ja: "医療データマイニング"
+      zh: "医疗数据挖掘"
+    description:
+      en: "Methods for discovering clinically meaningful patterns from heterogeneous medical and healthcare data."
+      ja: "多様な医療・ヘルスケアデータから臨床的に有用な知見を抽出する方法を研究します．"
+      zh: "研究从多源医疗与健康数据中挖掘具有临床意义知识的方法。"
+
+  time_series_forecasting:
+    display: true
+    title:
+      en: "Time Series Forecasting"
+      ja: "時系列予測"
+      zh: "时间序列预测"
+    description:
+      en: "Modeling temporal dynamics for prediction, monitoring, and decision support in real-world systems."
+      ja: "実世界システムにおける予測・監視・意思決定支援のために，時間変化を捉えるモデルを研究します．"
+      zh: "研究面向真实系统预测、监测与决策支持的时间动态建模方法。"
+
+  computer_vision:
+    display: true
+    title:
+      en: "Computer Vision"
+      ja: "コンピュータビジョン"
+      zh: "计算机视觉"
+    description:
+      en: "Visual recognition and analysis methods for images, videos, and multimodal real-world observations."
+      ja: "画像・映像・マルチモーダルな実世界観測を対象とした認識・解析手法を研究します．"
+      zh: "研究面向图像、视频与多模态真实观测数据的识别和分析方法。"
+
+  natural_language_processing:
+    display: true
+    title:
+      en: "Natural Language Processing"
+      ja: "自然言語処理"
+      zh: "自然语言处理"
+    description:
+      en: "Language understanding and generation techniques for extracting, organizing, and using knowledge."
+      ja: "知識の抽出・整理・活用を支える言語理解・生成技術を研究します．"
+      zh: "研究用于知识抽取、组织与利用的语言理解和生成技术。"
+
+  learning_analytics:
+    display: true
+    title:
+      en: "Learning Analytics"
+      ja: "ラーニングアナリティクス"
+      zh: "学习分析"
+    description:
+      en: "Data-driven analysis of learning behavior for understanding, prediction, and educational support."
+      ja: "学習行動データを用いて，理解・予測・教育支援を行うための分析手法を研究します．"
+      zh: "研究基于学习行为数据的理解、预测与教育支持方法。"
+
+  ai_for_drug_design:
+    display: true
+    title:
+      en: "AI for Drug Design"
+      ja: "創薬AI"
+      zh: "计算机辅助药物设计"
+    description:
+      en: "AI methods for molecular representation, property prediction, and data-driven drug discovery."
+      ja: "分子表現，物性予測，データ駆動型創薬を支えるAI技術を研究します．"
+      zh: "研究面向分子表示、性质预测和数据驱动药物发现的人工智能方法。"
+
+  explainable_ai:
+    display: true
+    title:
+      en: "Explainable AI (XAI)"
+      ja: "説明可能AI（XAI）"
+      zh: "可解释人工智能（XAI）"
+    description:
+      en: "Transparent and trustworthy AI methods that make model behavior understandable to humans."
+      ja: "モデルの振る舞いを人間が理解できる，透明で信頼性の高いAI手法を研究します．"
+      zh: "研究能够让人理解模型行为的透明、可信人工智能方法。"
+
+  optimization:
+    display: true
+    title:
+      en: "Optimization"
+      ja: "最適化"
+      zh: "优化"
+    description:
+      en: "Optimization algorithms for learning, search, scheduling, and intelligent system design."
+      ja: "学習，探索，スケジューリング，知的システム設計のための最適化アルゴリズムを研究します．"
+      zh: "研究用于学习、搜索、调度和智能系统设计的优化算法。"
+
+papers:
+  "Dendritic neural network: a novel extension of dendritic neuron model":
+    display: true
+    direction: "dendritic_computation"
+    image: "images/research/dendritic_computation/DNN.png"
+    contributions:
+      en:
+        - "Proposed the Dendritic Neural Network (DNN), extending the conventional dendritic neuron model into a neural network."
+        - "Introduced flexible synaptic and dendritic structures for enhanced nonlinear learning."
+        - "Developed a dendrite-aware dropout mechanism to mitigate gradient vanishing."
+        - "Designed a multi-output architecture for complex classification tasks."
+        - "Achieved state-of-the-art performance on benchmark classification datasets."
+      ja:
+        - "従来の樹状突起ニューロンモデルをニューラルネットワークへ拡張した Dendritic Neural Network（DNN）を提案しました．"
+        - "柔軟なシナプス構造と樹状突起構造を導入し，非線形学習能力を高めました．"
+        - "勾配消失を緩和するため，樹状突起構造を考慮したドロップアウト機構を開発しました．"
+        - "複雑な分類タスクに対応するため，マルチ出力アーキテクチャを設計しました．"
+        - "ベンチマーク分類データセットにおいて最先端性能を達成しました．"
+      zh:
+        - "提出 Dendritic Neural Network（DNN），将传统树突神经元模型扩展为神经网络。"
+        - "引入灵活的突触结构与树突结构，以增强非线性学习能力。"
+        - "开发面向树突结构的 dropout 机制，以缓解梯度消失问题。"
+        - "设计多输出架构，用于处理复杂分类任务。"
+        - "在基准分类数据集上取得了先进性能。"
+
+  "Artificial immune system training algorithm for a dendritic neuron model":
+    display: true
+    direction: "dendritic_computation"
+    image: "images/research/dendritic_computation/AISDNM.png"
+    contributions:
+      en:
+        - "Proposed an artificial immune system (AIS) training algorithm for the dendritic neuron model."
+        - "Improved the optimization capability of DNM through immune-inspired global search."
+        - "Enhanced convergence speed and reduced the risk of local optima compared with backpropagation."
+        - "Preserved the neuronal pruning mechanism for automatic model simplification."
+        - "Enabled hardware implementation through logic circuit transformation."
+      ja:
+        - "樹状突起ニューロンモデルのための人工免疫システム（AIS）学習アルゴリズムを提案しました．"
+        - "免疫機構に着想を得た大域探索により，DNM の最適化能力を向上させました．"
+        - "誤差逆伝播法と比較して，収束速度を高め，局所最適解に陥るリスクを低減しました．"
+        - "モデルを自動的に簡略化するためのニューロン枝刈り機構を維持しました．"
+        - "論理回路への変換を通じてハードウェア実装を可能にしました．"
+      zh:
+        - "提出用于树突神经元模型的人工免疫系统（AIS）训练算法。"
+        - "通过受免疫机制启发的全局搜索，提高 DNM 的优化能力。"
+        - "与反向传播相比，提高了收敛速度，并降低陷入局部最优的风险。"
+        - "保留神经元剪枝机制，实现模型的自动简化。"
+        - "通过逻辑电路转换支持硬件实现。"
+
+  "A survey on dendritic neuron model: mechanisms, algorithms and practical applications":
+    display: true
+    direction: "dendritic_computation"
+    image: "images/research/dendritic_computation/SDNM.png"
+    contributions:
+      en:
+        - "Presented the first comprehensive survey of the dendritic neuron model (DNM)."
+        - "Systematically reviewed the mechanisms, learning algorithms, and practical applications of DNM."
+        - "Analyzed the neural pruning and logic circuit transformation mechanisms of DNM."
+        - "Compared representative optimization algorithms for training DNM through extensive experiments."
+        - "Discussed the challenges and future research directions of dendritic neuron models."
+      ja:
+        - "樹状突起ニューロンモデル（DNM）に関する初めての包括的なサーベイを提示しました．"
+        - "DNM の機構，学習アルゴリズム，実応用を体系的に整理しました．"
+        - "DNM におけるニューロン枝刈り機構と論理回路変換機構を分析しました．"
+        - "広範な実験により，DNM 学習のための代表的な最適化アルゴリズムを比較しました．"
+        - "樹状突起ニューロンモデルの課題と今後の研究方向を議論しました．"
+      zh:
+        - "提出首篇关于树突神经元模型（DNM）的综合性综述。"
+        - "系统梳理了 DNM 的机制、学习算法和实际应用。"
+        - "分析了 DNM 的神经元剪枝机制和逻辑电路转换机制。"
+        - "通过大量实验比较了用于训练 DNM 的代表性优化算法。"
+        - "讨论了树突神经元模型面临的挑战和未来研究方向。"
+
+  "An evolutionary neuron model with dendritic computation for classification and prediction":
+    display: true
+    direction: "dendritic_computation"
+    publication_title: "Evolutionary dendritic neural model for classification problems"
+    image: "images/research/dendritic_computation/EDNM.png"
+    contributions:
+      en:
+        - "Proposed an evolutionary dendritic neuron model (FADNM) using the firefly algorithm for classification and prediction."
+        - "Improved the learning capability of the dendritic neuron model through metaheuristic optimization."
+        - "Introduced a neural pruning scheme to automatically simplify dendritic structures."
+        - "Enabled hardware implementation of the pruned model using logic circuits."
+        - "Demonstrated superior performance on both classification and time series prediction tasks."
+      ja:
+        - "分類と予測のため，ホタルアルゴリズムを用いた進化型樹状突起ニューロンモデル（FADNM）を提案しました．"
+        - "メタヒューリスティック最適化により，樹状突起ニューロンモデルの学習能力を向上させました．"
+        - "樹状突起構造を自動的に簡略化するためのニューロン枝刈り手法を導入しました．"
+        - "枝刈り後のモデルを論理回路でハードウェア実装できるようにしました．"
+        - "分類タスクと時系列予測タスクの両方で優れた性能を示しました．"
+      zh:
+        - "提出用于分类与预测的进化型树突神经元模型（FADNM），并采用萤火虫算法进行训练。"
+        - "通过元启发式优化提升树突神经元模型的学习能力。"
+        - "引入神经元剪枝方案，自动简化树突结构。"
+        - "利用逻辑电路实现剪枝后模型的硬件实现。"
+        - "在分类任务和时间序列预测任务上均展示了优异性能。"
+
+  "A novel machine learning technique for computer-aided diagnosis":
+    display: true
+    direction: "medical_data_mining"
+    image: "images/research/medical_data_mining/EDNM.png"
+    contributions:
+      en:
+        - "Proposed an evolutionary dendritic neuron model (EDNM) for computer-aided medical diagnosis."
+        - "Optimized the model using the gbest-guided artificial bee colony algorithm."
+        - "Introduced a neuronal pruning mechanism for automatic model simplification."
+        - "Enabled direct hardware implementation through logic circuits."
+        - "Demonstrated superior diagnostic performance on multiple medical datasets."
+      ja:
+        - "コンピュータ支援医療診断のための進化型樹状突起ニューロンモデル（EDNM）を提案しました．"
+        - "gbest 誘導型人工蜂コロニーアルゴリズムを用いてモデルを最適化しました．"
+        - "モデルを自動的に簡略化するためのニューロン枝刈り機構を導入しました．"
+        - "論理回路による直接的なハードウェア実装を可能にしました．"
+        - "複数の医療データセットにおいて優れた診断性能を示しました．"
+      zh:
+        - "提出用于计算机辅助医疗诊断的进化型树突神经元模型（EDNM）。"
+        - "采用 gbest 引导的人工蜂群算法对模型进行优化。"
+        - "引入神经元剪枝机制，实现模型的自动简化。"
+        - "通过逻辑电路支持模型的直接硬件实现。"
+        - "在多个医疗数据集上展示了优异的诊断性能。"
+
+  "A novel multivariate time series forecasting dendritic neuron model for COVID-19 pandemic transmission tendency":
+    display: true
+    direction: "medical_data_mining"
+    image: "images/research/medical_data_mining/DFDNM.png"
+    contributions:
+      en:
+        - "Proposed a densely connected highly flexible dendritic neuron model (DFDNM) for multivariate time series forecasting."
+        - "Introduced dense shortcut connections to alleviate vanishing and exploding gradient problems."
+        - "Developed a highly flexible dendritic architecture with AdamW-based optimization."
+        - "Achieved state-of-the-art performance in long-term COVID-19 transmission forecasting."
+        - "Demonstrated the generalizability of DFDNM on multiple multivariate forecasting benchmarks."
+      ja:
+        - "多変量時系列予測のための密結合型高柔軟性樹状突起ニューロンモデル（DFDNM）を提案しました．"
+        - "勾配消失および勾配爆発の問題を緩和するため，密なショートカット接続を導入しました．"
+        - "AdamW に基づく最適化を用いた高柔軟性樹状突起アーキテクチャを開発しました．"
+        - "COVID-19 感染拡大傾向の長期予測において最先端性能を達成しました．"
+        - "複数の多変量予測ベンチマークにより，DFDNM の汎化性能を示しました．"
+      zh:
+        - "提出用于多变量时间序列预测的密集连接高柔性树突神经元模型（DFDNM）。"
+        - "引入密集快捷连接，以缓解梯度消失和梯度爆炸问题。"
+        - "开发结合 AdamW 优化的高柔性树突结构。"
+        - "在 COVID-19 传播趋势长期预测中取得了先进性能。"
+        - "在多个多变量预测基准任务上验证了 DFDNM 的泛化能力。"
+
+  "Transmission trend of the COVID-19 pandemic predicted by dendritic neural regression":
+    display: true
+    direction: "medical_data_mining"
+    image: "images/research/medical_data_mining/DNR.png"
+    contributions:
+      en:
+        - "Proposed a dendritic neural regression (DNR) model for COVID-19 transmission trend prediction."
+        - "Introduced branch-strength modeling to enhance the regression capability of dendritic neural networks."
+        - "Developed a scale-free state-of-matter search (SFSMS) algorithm for efficient optimization of DNR."
+        - "Integrated phase space reconstruction to capture hidden nonlinear dynamics in epidemic time series."
+        - "Achieved superior forecasting performance over state-of-the-art machine learning and deep learning methods."
+      ja:
+        - "COVID-19 感染拡大傾向予測のための樹状突起ニューラル回帰（DNR）モデルを提案しました．"
+        - "樹状突起ニューラルネットワークの回帰能力を高めるため，枝強度モデリングを導入しました．"
+        - "DNR を効率的に最適化するため，スケールフリー物質状態探索（SFSMS）アルゴリズムを開発しました．"
+        - "感染症時系列に潜む非線形ダイナミクスを捉えるため，位相空間再構成を統合しました．"
+        - "最先端の機械学習および深層学習手法を上回る予測性能を達成しました．"
+      zh:
+        - "提出用于 COVID-19 传播趋势预测的树突神经回归（DNR）模型。"
+        - "引入分支强度建模，以增强树突神经网络的回归能力。"
+        - "开发无标度物质状态搜索（SFSMS）算法，用于高效优化 DNR。"
+        - "结合相空间重构，捕捉疫情时间序列中隐藏的非线性动态。"
+        - "相比先进机器学习和深度学习方法取得了更优的预测性能。"
+
+  "Adopting a dendritic neural model for predicting stock price index movement":
+    display: true
+    direction: "time_series_forecasting"
+    image: "images/research/time_series_forecasting/FDNM.png"
+    contributions:
+      en:
+        - "Proposed a dendritic neural model (DNM) for financial time series forecasting."
+        - "Developed a scale-free differential evolution (SFDE) algorithm for optimizing DNM."
+        - "Integrated phase space reconstruction to capture the chaotic dynamics of financial time series."
+        - "Improved the balance between exploration and exploitation through scale-free optimization."
+        - "Achieved superior prediction performance on multiple benchmark stock market indices."
+      ja:
+        - "金融時系列予測のための樹状突起ニューラルモデル（DNM）を提案しました．"
+        - "DNM を最適化するためのスケールフリー差分進化（SFDE）アルゴリズムを開発しました．"
+        - "金融時系列のカオス的ダイナミクスを捉えるため，位相空間再構成を統合しました．"
+        - "スケールフリー最適化により，探索と活用のバランスを改善しました．"
+        - "複数のベンチマーク株価指数において優れた予測性能を達成しました．"
+      zh:
+        - "提出用于金融时间序列预测的树突神经模型（DNM）。"
+        - "开发用于优化 DNM 的无标度差分进化（SFDE）算法。"
+        - "结合相空间重构，以捕捉金融时间序列中的混沌动态。"
+        - "通过无标度优化改善探索与开发之间的平衡。"
+        - "在多个基准股票市场指数上取得了优异的预测性能。"
+
+  "A survey on machine learning models for financial time series forecasting":
+    display: true
+    direction: "time_series_forecasting"
+    image: "images/research/time_series_forecasting/MLTSF.png"
+    contributions:
+      en:
+        - "Presented a comprehensive survey of machine learning models for financial time series forecasting."
+        - "Systematically compared the strengths and limitations of mainstream forecasting models."
+        - "Summarized widely used financial datasets, evaluation metrics, and forecasting tasks."
+        - "Analyzed recent research trends and the growing adoption of deep learning and hybrid models."
+        - "Identified open challenges and future research directions for financial time series forecasting."
+      ja:
+        - "金融時系列予測のための機械学習モデルに関する包括的なサーベイを提示しました．"
+        - "主要な予測モデルの利点と限界を体系的に比較しました．"
+        - "広く用いられている金融データセット，評価指標，予測タスクを整理しました．"
+        - "近年の研究動向と，深層学習およびハイブリッドモデルの利用拡大を分析しました．"
+        - "金融時系列予測における未解決課題と今後の研究方向を示しました．"
+      zh:
+        - "提出关于金融时间序列预测机器学习模型的综合性综述。"
+        - "系统比较了主流预测模型的优势与局限性。"
+        - "总结了常用金融数据集、评价指标和预测任务。"
+        - "分析了近期研究趋势以及深度学习和混合模型的广泛应用。"
+        - "指出了金融时间序列预测中的开放挑战和未来研究方向。"
+
+  "Enhancing nonlinear dependencies of Mamba via negative feedback for time series forecasting":
+    display: true
+    direction: "time_series_forecasting"
+    image: "images/research/time_series_forecasting/CME-Mamba.png"
+    contributions:
+      en:
+        - "Proposed CME-Mamba to enhance nonlinear dependency modeling for time series forecasting."
+        - "Introduced a Maclaurin-based negative feedback mechanism for nonlinear feature enhancement."
+        - "Developed an embedding channel attention mechanism to jointly capture temporal and inter-variate dependencies."
+        - "Incorporated an Einstein FFT block to alleviate gradient vanishing and improve training stability."
+        - "Achieved state-of-the-art performance on 11 real-world time series forecasting benchmarks."
+      ja:
+        - "時系列予測における非線形依存関係モデリングを強化する CME-Mamba を提案しました．"
+        - "非線形特徴を強化するため，Maclaurin 展開に基づく負帰還機構を導入しました．"
+        - "時間方向の依存関係と変数間依存関係を同時に捉える埋め込みチャネル注意機構を開発しました．"
+        - "勾配消失を緩和し，学習安定性を向上させるため，Einstein FFT ブロックを組み込みました．"
+        - "11 個の実世界時系列予測ベンチマークで最先端性能を達成しました．"
+      zh:
+        - "提出 CME-Mamba，以增强时间序列预测中的非线性依赖建模能力。"
+        - "引入基于 Maclaurin 展开的负反馈机制，用于非线性特征增强。"
+        - "开发嵌入通道注意力机制，同时捕捉时间依赖与变量间依赖。"
+        - "引入 Einstein FFT 模块，以缓解梯度消失并提升训练稳定性。"
+        - "在 11 个真实世界时间序列预测基准上取得了先进性能。"
+
+  "Evolutionary neural architecture design of liquid state machine for image classification":
+    display: true
+    direction: "computer_vision"
+    image: "images/research/computer_vision/LSM-SHADE.png"
+    contributions:
+      en:
+        - "Proposed an evolutionary neural architecture design framework for liquid state machines (LSMs)."
+        - "Developed a SHADE-based optimization strategy for automatic neural architecture search."
+        - "Optimized key reservoir hyperparameters without prior knowledge or manual tuning."
+        - "Improved the classification performance of LSM through evolutionary architecture optimization."
+        - "Demonstrated superior performance on handwritten image classification benchmarks."
+      ja:
+        - "液体状態機械（LSM）のための進化的ニューラルアーキテクチャ設計フレームワークを提案しました．"
+        - "自動ニューラルアーキテクチャ探索のため，SHADE に基づく最適化戦略を開発しました．"
+        - "事前知識や手動調整なしに，リザバーの主要ハイパーパラメータを最適化しました．"
+        - "進化的アーキテクチャ最適化により，LSM の分類性能を向上させました．"
+        - "手書き画像分類ベンチマークで優れた性能を示しました．"
+      zh:
+        - "提出用于液态机（LSM）的进化神经架构设计框架。"
+        - "开发基于 SHADE 的优化策略，用于自动神经架构搜索。"
+        - "在无需先验知识或人工调参的情况下优化关键储备池超参数。"
+        - "通过进化架构优化提升 LSM 的分类性能。"
+        - "在手写图像分类基准上展示了优异性能。"
+
+  "DenseHashNet: a novel deep hashing for medical image retrieval":
+    display: true
+    direction: "computer_vision"
+    image: "images/research/computer_vision/DenseHashNet.png"
+    contributions:
+      en:
+        - "Proposed DenseHashNet, an end-to-end deep hashing framework for content-based medical image retrieval."
+        - "Introduced a Spatial Pyramid Pooling (SPP) module for multi-scale feature extraction and fusion."
+        - "Developed a Power-Mean Transformation (PMT) module to enhance nonlinear feature representation."
+        - "Designed a joint optimization strategy with pairwise, quantization, and balanced loss functions for hash learning."
+        - "Achieved state-of-the-art retrieval performance on medical image datasets with compact hash codes."
+      ja:
+        - "内容ベース医療画像検索のためのエンドツーエンド深層ハッシングフレームワーク DenseHashNet を提案しました．"
+        - "マルチスケール特徴抽出と融合のため，Spatial Pyramid Pooling（SPP）モジュールを導入しました．"
+        - "非線形特徴表現を強化するため，Power-Mean Transformation（PMT）モジュールを開発しました．"
+        - "ハッシュ学習のため，ペアワイズ損失，量子化損失，バランス損失を組み合わせた共同最適化戦略を設計しました．"
+        - "コンパクトなハッシュコードにより，医療画像データセットで最先端の検索性能を達成しました．"
+      zh:
+        - "提出 DenseHashNet，一种用于基于内容的医学图像检索的端到端深度哈希框架。"
+        - "引入空间金字塔池化（SPP）模块，用于多尺度特征提取与融合。"
+        - "开发 Power-Mean Transformation（PMT）模块，以增强非线性特征表示。"
+        - "设计结合成对损失、量化损失和平衡损失的联合优化策略，用于哈希学习。"
+        - "利用紧凑哈希码，在医学图像数据集上取得了先进检索性能。"
+
+  "Visual analytics of learning behavior based on the dendritic neuron model":
+    display: true
+    direction: "learning_analytics"
+    image: "images/research/learning_analytics/DNM.png"
+    contributions:
+      en:
+        - "Proposed a visual analytics framework for learning behavior prediction based on the dendritic neuron model."
+        - "Developed an interpretable prediction model through synaptic and dendritic pruning mechanisms."
+        - "Quantified the contribution of individual learning behaviors for feature importance analysis."
+        - "Outperformed RNN, LSTM, GRU, BiLSTM, and BiGRU in student risk prediction."
+        - "Provided actionable insights to support early intervention and personalized learning guidance."
+      ja:
+        - "樹状突起ニューロンモデルに基づく学習行動予測のための可視化分析フレームワークを提案しました．"
+        - "シナプスおよび樹状突起の枝刈り機構により，解釈可能な予測モデルを開発しました．"
+        - "特徴重要度分析のため，個々の学習行動の寄与を定量化しました．"
+        - "学生リスク予測において，RNN，LSTM，GRU，BiLSTM，BiGRU を上回る性能を達成しました．"
+        - "早期介入と個別学習支援に役立つ実践的な知見を提供しました．"
+      zh:
+        - "提出基于树突神经元模型的学习行为预测可视分析框架。"
+        - "通过突触和树突剪枝机制构建可解释预测模型。"
+        - "量化单个学习行为的贡献，用于特征重要性分析。"
+        - "在学生风险预测中优于 RNN、LSTM、GRU、BiLSTM 和 BiGRU。"
+        - "提供可操作的分析结果，以支持早期干预和个性化学习指导。"
+
+  "Multi-granular legal information fusion with adversarial compensation: a hierarchical and logic-aware framework for robust case retrieval":
+    display: true
+    direction: "natural_language_processing"
+    image: "images/research/natural_language_processing/HLAF-LCR.png"
+    contributions:
+      en:
+        - "Proposed a hierarchical and logic-aware framework for legal case retrieval."
+        - "Introduced a dynamic masking strategy for fact, reasoning, and ruling modeling."
+        - "Developed a cross-hierarchical semantic and logic-guided fusion mechanism."
+        - "Designed a dual-channel adversarial compensation module for robust representation learning."
+        - "Achieved state-of-the-art performance on multiple Chinese and English legal case retrieval benchmarks."
+      ja:
+        - "法的事例検索のための階層的かつ論理認識型フレームワークを提案しました．"
+        - "事実，推論，判決をモデル化するための動的マスキング戦略を導入しました．"
+        - "階層横断的な意味情報と論理に基づく融合機構を開発しました．"
+        - "頑健な表現学習のための二チャネル敵対的補償モジュールを設計しました．"
+        - "複数の中国語および英語の法的事例検索ベンチマークで最先端性能を達成しました．"
+      zh:
+        - "提出用于法律案例检索的层次化逻辑感知框架。"
+        - "引入面向事实、推理和裁判结果建模的动态掩码策略。"
+        - "开发跨层次语义与逻辑引导的信息融合机制。"
+        - "设计双通道对抗补偿模块，用于稳健表征学习。"
+        - "在多个中文和英文法律案例检索基准上取得了先进性能。"
+
+  "A cuckoo search algorithm with scale-free population topology":
+    display: true
+    direction: "optimization"
+    image: "images/research/optimization/SFCS.png"
+    contributions:
+      en:
+        - "Proposed a scale-free population topology for the cuckoo search algorithm."
+        - "Improved the balance between exploration and exploitation through scale-free information exchange."
+        - "Enhanced solution quality and convergence speed on large-scale optimization problems."
+        - "Validated the proposed method on benchmark functions and real-world optimization problems."
+        - "Demonstrated that the scale-free topology can be generalized to other population-based algorithms."
+      ja:
+        - "カッコウ探索アルゴリズムのためのスケールフリー集団トポロジーを提案しました．"
+        - "スケールフリーな情報交換により，探索と活用のバランスを改善しました．"
+        - "大規模最適化問題において，解の品質と収束速度を向上させました．"
+        - "ベンチマーク関数と実世界の最適化問題により，提案手法を検証しました．"
+        - "スケールフリートポロジーが他の集団ベースアルゴリズムにも一般化可能であることを示しました．"
+      zh:
+        - "提出用于布谷鸟搜索算法的无标度种群拓扑结构。"
+        - "通过无标度信息交换，改善探索与开发之间的平衡。"
+        - "在大规模优化问题上提高了解的质量和收敛速度。"
+        - "通过基准函数和真实世界优化问题验证了所提方法。"
+        - "证明无标度拓扑结构可以推广到其他基于种群的算法。"
+
+  "An artificial bee colony algorithm search guided by scale-free networks":
+    display: true
+    direction: "optimization"
+    image: "images/research/optimization/SFABC.png"
+    contributions:
+      en:
+        - "Proposed a scale-free artificial bee colony (SFABC) algorithm guided by scale-free networks."
+        - "Enhanced the balance between exploration and exploitation through scale-free information exchange."
+        - "Accelerated convergence by guiding inferior solutions to learn from high-quality neighbors."
+        - "Conducted a systematic analysis of scale-free network properties in evolutionary optimization."
+        - "Demonstrated that the proposed mechanism can be generalized to improve other population-based optimization algorithms."
+      ja:
+        - "スケールフリーネットワークにより誘導されるスケールフリー人工蜂コロニー（SFABC）アルゴリズムを提案しました．"
+        - "スケールフリーな情報交換により，探索と活用のバランスを高めました．"
+        - "劣った解が高品質な近傍解から学習するよう誘導することで，収束を高速化しました．"
+        - "進化的最適化におけるスケールフリーネットワーク特性を体系的に分析しました．"
+        - "提案機構が他の集団ベース最適化アルゴリズムの改善にも一般化可能であることを示しました．"
+      zh:
+        - "提出由无标度网络引导的无标度人工蜂群（SFABC）算法。"
+        - "通过无标度信息交换增强探索与开发之间的平衡。"
+        - "引导较差解向高质量邻居学习，从而加速收敛。"
+        - "系统分析了进化优化中的无标度网络特性。"
+        - "证明所提机制可推广用于改进其他基于种群的优化算法。"
+
+  "A novel motion direction detection mechanism based on dendritic computation of direction-selective ganglion cells":
+    display: true
+    direction: "explainable_ai"
+    image: "images/research/explainable_ai/DSGCs.png"
+    contributions:
+      en:
+        - "Proposed a biologically inspired motion direction detection mechanism based on direction-selective ganglion cells (DSGCs)."
+        - "Developed a two-dimensional eight-direction motion detection framework using dendritic computation."
+        - "Introduced a local receptive field scanning mechanism for global motion perception."
+        - "Achieved robust motion detection for large-scale and random-dot images."
+        - "Provided a biologically plausible computational model for understanding visual motion processing."
+      ja:
+        - "方向選択性神経節細胞（DSGCs）に基づく，生物に着想を得た運動方向検出機構を提案しました．"
+        - "樹状突起計算を用いた二次元八方向の運動検出フレームワークを開発しました．"
+        - "大域的な運動知覚のために，局所受容野の走査機構を導入しました．"
+        - "大規模画像およびランダムドット画像に対して頑健な運動検出を実現しました．"
+        - "視覚運動処理を理解するための生物学的に妥当な計算モデルを提示しました．"
+      zh:
+        - "提出一种基于方向选择性神经节细胞（DSGCs）的仿生运动方向检测机制。"
+        - "利用树突计算构建二维八方向运动检测框架。"
+        - "引入局部感受野扫描机制，实现全局运动感知。"
+        - "在大规模图像和随机点图像中实现了稳健的运动检测。"
+        - "为理解视觉运动处理提供了具有生物合理性的计算模型。"
+
+  "The mechanism of orientation detection based on color-orientation jointly selective cells":
+    display: true
+    direction: "explainable_ai"
+    image: "images/research/explainable_ai/AVS.png"
+    contributions:
+      en:
+        - "Proposed a biologically inspired orientation detection mechanism based on color-orientation jointly selective (COJS) cells."
+        - "Developed an artificial visual system (AVS) for interpretable global orientation detection."
+        - "Designed a hardware-friendly implementation based on the McCulloch-Pitts neuron model."
+        - "Achieved robust orientation detection with superior noise immunity and generalization."
+        - "Demonstrated that AVS can effectively enhance the robustness of deep learning models through feature extraction."
+      ja:
+        - "色・方位同時選択性（COJS）細胞に基づく，生物に着想を得た方位検出機構を提案しました．"
+        - "解釈可能な大域的方位検出のための人工視覚システム（AVS）を開発しました．"
+        - "McCulloch-Pitts ニューロンモデルに基づくハードウェア親和性の高い実装を設計しました．"
+        - "優れた耐ノイズ性と汎化性能を備えた頑健な方位検出を実現しました．"
+        - "特徴抽出を通じて，AVS が深層学習モデルの頑健性を効果的に向上できることを示しました．"
+      zh:
+        - "提出基于颜色-方向联合选择性（COJS）细胞的仿生方向检测机制。"
+        - "开发用于可解释全局方向检测的人工视觉系统（AVS）。"
+        - "设计基于 McCulloch-Pitts 神经元模型的硬件友好实现。"
+        - "实现具有优异抗噪能力和泛化能力的稳健方向检测。"
+        - "证明 AVS 可通过特征提取有效提升深度学习模型的鲁棒性。"
+
+  "EDNMs for visual analytics of learning behavior and early risk prediction":
+    display: true
+    direction: "explainable_ai"
+    image: "images/research/explainable_ai/EDNMs.png"
+    contributions:
+      en:
+        - "Proposed ensemble dendritic neuron models (EDNMs) for interpretable early risk prediction in learning analytics."
+        - "Enabled visual feature selection through biologically inspired neural pruning mechanisms."
+        - "Developed a single-model framework for early prediction across different timeframes by dynamically pruning dendrites."
+        - "Reduced computational overhead by eliminating the need to train multiple models for different prediction weeks."
+        - "Achieved competitive prediction performance while providing transparent and explainable learning behavior analysis."
+      ja:
+        - "ラーニングアナリティクスにおける解釈可能な早期リスク予測のため，アンサンブル樹状突起ニューロンモデル（EDNMs）を提案しました．"
+        - "生物に着想を得たニューロン枝刈り機構により，可視的な特徴選択を可能にしました．"
+        - "樹状突起を動的に枝刈りすることで，異なる時点の早期予測を単一モデルで行うフレームワークを開発しました．"
+        - "予測週ごとに複数モデルを訓練する必要をなくし，計算コストを削減しました．"
+        - "透明で説明可能な学習行動分析を提供しつつ，競争力のある予測性能を達成しました．"
+      zh:
+        - "提出用于学习分析中可解释早期风险预测的集成树突神经元模型（EDNMs）。"
+        - "通过受生物启发的神经元剪枝机制，实现可视化特征选择。"
+        - "通过动态剪枝树突，开发可跨不同时间窗口进行早期预测的单模型框架。"
+        - "避免为不同预测周分别训练多个模型，从而降低计算开销。"
+        - "在提供透明、可解释学习行为分析的同时，取得了具有竞争力的预测性能。"
+
+  "A complex network-based firefly algorithm for numerical optimization and time series forecasting":
+    display: true
+    direction: "optimization"
+    image: "images/research/optimization/CnFA.png"
+    contributions:
+      en:
+        - "Proposed a complex network-based firefly algorithm (CnFA) by introducing a scale-free network topology into swarm optimization."
+        - "Improved the balance between global exploration and local exploitation through topology-guided information exchange instead of fully connected population interactions."
+        - "Enhanced population diversity and alleviated premature convergence by exploiting the power-law connectivity characteristics of complex networks."
+        - "Demonstrated that the proposed network-guided mechanism can be generalized to other population-based evolutionary algorithms."
+        - "Achieved superior performance on CEC2017 benchmark optimization tasks and improved time-series forecasting accuracy for wind speed and air quality prediction."
+      ja:
+        - "スケールフリー複雑ネットワークを群知能最適化へ導入した複雑ネットワークベースのホタルアルゴリズム（CnFA）を提案しました．"
+        - "完全結合型の個体間相互作用をネットワーク構造に基づく情報伝播へ置き換え，大域探索と局所探索のバランスを改善しました．"
+        - "複雑ネットワークのべき乗則に基づく接続特性を利用し，集団多様性を維持するとともに早期収束を抑制しました．"
+        - "提案したネットワーク誘導型探索機構は，ホタルアルゴリズム以外の集団ベース進化アルゴリズムにも適用可能であることを示しました．"
+        - "CEC2017ベンチマーク最適化問題および風速・PM2.5時系列予測において，高い最適化性能と予測精度を達成しました．"
+      zh:
+        - "提出了一种基于无标度复杂网络的萤火虫算法（CnFA），将复杂网络拓扑引入群智能优化过程。"
+        - "利用网络拓扑引导个体间的信息交互，替代传统全连接交互方式，提高了全局搜索与局部开发能力之间的平衡。"
+        - "借助复杂网络的幂律连接特性保持种群多样性，有效缓解算法早熟收敛和陷入局部最优的问题。"
+        - "证明所提出的网络引导机制不仅适用于萤火虫算法，也能够推广到其他基于种群的进化优化算法。"
+        - "在CEC2017数值优化基准测试以及风速、PM2.5时间序列预测任务中均取得了优于现有方法的性能。"
+
+  "Sensitivity of electrocardiogram on electrode-pair locations for wearable devices: computational analysis of amplitude and waveform distortion":
+    display: true
+    direction: "medical_data_mining"
+    image: "images/research/medical_data_mining/SECG.png"
+    contributions:
+      en:
+        - "Developed a computational framework to systematically evaluate wearable bipolar ECG electrode placements using anatomical human body models and electrophysiological simulations."
+        - "Quantified the effects of body morphology, heart size, heart orientation, and electrode misalignment on ECG amplitude and waveform distortion using dynamic time warping (DTW)."
+        - "Revealed that heart–electrode distance predominantly determines ECG amplitude, whereas the solid angle of the heart relative to the electrode mainly governs waveform distortion."
+        - "Identified electrode locations near the standard V2–V3 chest leads that provide robust ECG measurements with reduced inter-subject variability and lower sensitivity to electrode misalignment."
+        - "Provided practical design guidelines for optimizing electrode placement and improving signal reliability in wearable ECG monitoring devices."
+      ja:
+        - "解剖学的人体モデルと電気生理シミュレーションを用いて，ウェアラブル双極心電図の電極配置を体系的に評価する計算フレームワークを構築しました．"
+        - "体型，心臓サイズ，心臓の向き，および電極位置ずれが心電図振幅と波形歪みに及ぼす影響を，Dynamic Time Warping（DTW）を用いて定量的に解析しました．"
+        - "心電図振幅は主に心臓－電極間距離に，波形歪みは電極から見た心臓の立体角に強く依存することを明らかにしました．"
+        - "標準12誘導心電図のV2〜V3付近が，個体差や電極位置ずれの影響を受けにくい高品質な電極配置であることを示しました．"
+        - "ウェアラブル心電図デバイスにおける電極設計と高信頼な信号取得のための実用的な指針を提供しました．"
+      zh:
+        - "构建了基于解剖人体模型与电生理仿真的计算框架，系统评估可穿戴双极心电图（ECG）电极的最佳布置方案。"
+        - "利用动态时间规整（DTW）定量分析了体型、心脏大小、心脏朝向及电极偏移对ECG信号幅值和波形失真的影响。"
+        - "揭示了心脏与电极之间的距离主要决定ECG信号幅值，而电极视角下心脏的立体角主要影响波形失真。"
+        - "发现标准12导联V2–V3附近的电极位置能够兼顾较高信号质量、较低个体差异以及较强的抗电极偏移能力。"
+        - "为可穿戴心电监测设备的电极布局优化和高可靠信号采集提供了理论依据与设计指导。"
+
+  "A framework of specialized knowledge distillation for Siamese tracker on challenging attributes":
+    display: true
+    direction: "computer_vision"
+    image: "images/research/computer_vision/SDST.png"
+    contributions:
+      en:
+        - "Proposed a Specialized teachers Distilled Siamese Tracker (SDST) framework that compresses Siamese trackers while enhancing robustness under challenging tracking scenarios."
+        - "Introduced a multi-teacher knowledge distillation strategy combining a general teacher with attribute-specific specialized teachers to transfer both generic and scenario-oriented tracking knowledge."
+        - "Designed a Multi-teacher Specialized Knowledge Distillation (MSKD) model that jointly distills intermediate feature representations and high-level semantic knowledge through customized feature and soft-label losses."
+        - "Improved tracking performance on challenging attributes such as fast motion, occlusion, low resolution, and background clutter while achieving substantial model compression and real-time inference."
+        - "Validated the framework on multiple Siamese trackers, achieving up to 8× model compression, 252 FPS inference speed, and consistent accuracy improvements across challenging tracking benchmarks."
+      ja:
+        - "困難な追跡シナリオに対する頑健性を向上させつつ，Siameseトラッカーを軽量化するSpecialized teachers Distilled Siamese Tracker（SDST）フレームワークを提案しました．"
+        - "一般知識を学習するGeneral Teacherと，属性ごとの専門知識を持つSpecialized Teacherを組み合わせたマルチ教師知識蒸留方式を導入しました．"
+        - "中間特徴表現と高次意味情報を同時に蒸留するMulti-teacher Specialized Knowledge Distillation（MSKD）モデルを設計し，特徴蒸留とソフトラベル蒸留を統合しました．"
+        - "高速移動，遮蔽，低解像度，背景クラッタなどの困難属性における追跡性能を向上させるとともに，高いモデル圧縮率とリアルタイム推論を実現しました．"
+        - "複数のSiameseトラッカーで有効性を実証し，最大8倍のモデル圧縮，252 FPSの高速推論，および困難属性全体にわたる安定した性能向上を達成しました．"
+      zh:
+        - "提出了Specialized teachers Distilled Siamese Tracker（SDST）框架，在压缩Siamese目标跟踪模型的同时提升其在复杂场景下的跟踪鲁棒性。"
+        - "设计了结合通用教师（General Teacher）与属性专用教师（Specialized Teacher）的多教师知识蒸馏策略，同时传递通用跟踪知识和复杂场景下的专门知识。"
+        - "提出Multi-teacher Specialized Knowledge Distillation（MSKD）模型，通过定制化的特征蒸馏与软标签蒸馏联合学习中间特征和高层语义信息。"
+        - "显著提升了快速运动、遮挡、低分辨率和背景干扰等复杂属性下的目标跟踪性能，同时保持较高的模型压缩率和实时推理速度。"
+        - "在多种Siamese跟踪器上验证了该框架，实现最高8倍模型压缩、252 FPS实时跟踪，并在多个复杂属性基准测试中取得稳定的性能提升。"
+
+  "Improving the artificial bee colony algorithm with a proprietary estimation of distribution mechanism for protein-ligand docking":
+    display: true
+    direction: "ai_for_drug_design"
+    image: "images/research/ai_for_drug_design/ABC-DEM.png"
+    contributions:
+      en:
+        - "Proposed ABC-EDM, an enhanced artificial bee colony algorithm for protein–ligand docking by integrating a problem-specific estimation of distribution mechanism (EDM)."
+        - "Designed a proprietary search mechanism that models ligand positional variables with probabilistic distributions while preserving promising molecular conformations to improve docking efficiency."
+        - "Incorporated domain-specific knowledge of protein–ligand interactions into the optimization process, enabling more effective exploration of the docking search space than general-purpose evolutionary strategies."
+        - "Achieved superior docking accuracy and optimization performance compared with representative ABC variants, evolutionary algorithms, and AutoDock Vina."
+        - "Demonstrated that exploiting problem-specific prior knowledge significantly improves structure-based drug design and protein–ligand docking optimization."
+      ja:
+        - "タンパク質–リガンドドッキングのために，問題固有のEstimation of Distribution Mechanism（EDM）を統合した人工蜂コロニーアルゴリズムABC-EDMを提案しました．"
+        - "リガンド位置の確率分布を推定しつつ，有望な分子コンフォメーションを保持する独自の探索機構を設計し，ドッキング探索効率を向上させました．"
+        - "タンパク質–リガンド相互作用に関する事前知識を最適化過程へ組み込むことで，一般的な進化計算手法より効率的な探索を実現しました．"
+        - "ABCの代表的な改良手法，進化計算アルゴリズム，およびAutoDock Vinaと比較して，優れたドッキング精度と最適化性能を達成しました．"
+        - "問題固有の知識を活用した探索戦略が，構造ベース創薬およびタンパク質–リガンドドッキングの性能向上に有効であることを実証しました．"
+      zh:
+        - "提出了ABC-EDM算法，将面向蛋白质–配体对接问题的专用分布估计机制（EDM）融入人工蜂群算法，实现高效分子对接优化。"
+        - "设计了针对配体空间位置变量的概率分布建模策略，在保留优良分子构象的同时提升了构象搜索效率。"
+        - "将蛋白质–配体对接领域的先验知识融入优化过程，相较于通用进化算法能够更有效地探索对接搜索空间。"
+        - "与多种ABC改进算法、经典进化算法以及AutoDock Vina相比，在对接精度和优化性能方面取得了更优结果。"
+        - "验证了结合问题特定知识设计优化策略能够显著提升结构基础药物设计中的蛋白质–配体对接性能。"
+
+  "Hyperspectral image classification based on double-hop graph attention multiview fusion network":
+    display: true
+    direction: "computer_vision"
+    image: "images/research/computer_vision/DGAT-MFN.png"
+    contributions:
+      en:
+        - "Proposed a Double-hop Graph Attention Multiview Fusion Network (DGAT-MFN) for hyperspectral image classification by jointly exploiting graph-based contextual information and multiview feature learning."
+        - "Introduced a double-hop graph attention mechanism that aggregates both local and long-range superpixel relationships, extending the receptive field beyond conventional graph attention networks."
+        - "Developed a Spectral-Coordinate Attention Module (SCAM) that jointly models spectral channel importance and spatial coordinate dependencies to enhance discriminative spectral–spatial feature representation."
+        - "Designed a multiview fusion framework integrating global spectral–spatial representations with multiscale Gabor texture features, enabling more accurate preservation of edge details and homogeneous-region structures."
+        - "Achieved state-of-the-art classification performance on four benchmark hyperspectral datasets under limited labeled samples, demonstrating the effectiveness of combining graph learning, attention mechanisms, and multiview feature fusion."
+      ja:
+        - "グラフ構造情報とマルチビュー特徴学習を統合した，ハイパースペクトル画像分類のためのDouble-hop Graph Attention Multiview Fusion Network（DGAT-MFN）を提案しました．"
+        - "Double-hop Graph Attention機構を導入し，近傍情報だけでなく遠距離のスーパー画素間関係も集約することで，従来のGATより広い受容野を実現しました．"
+        - "スペクトルチャネルと空間座標の依存関係を同時に学習するSpectral-Coordinate Attention Module（SCAM）を設計し，識別性の高いスペクトル・空間特徴を抽出しました．"
+        - "グローバルなスペクトル・空間情報とマルチスケールGaborテクスチャ特徴を統合するマルチビュー融合フレームワークを構築し，エッジ情報や均質領域の特徴保持を強化しました．"
+        - "4つの代表的なハイパースペクトル画像データセットにおいて，少量の学習サンプルでも高い分類精度を達成し，グラフ学習，注意機構，マルチビュー融合の有効性を実証しました．"
+      zh:
+        - "提出了双跳图注意力多视图融合网络（DGAT-MFN），通过融合图结构上下文信息与多视图特征学习，实现高精度高光谱图像分类。"
+        - "设计了双跳图注意力机制，在传统图注意力网络基础上聚合局部与远距离超像素关系，有效扩大感受野并增强上下文建模能力。"
+        - "提出光谱-坐标注意力模块（SCAM），联合建模光谱通道权重与空间坐标依赖关系，提升光谱–空间判别特征表达能力。"
+        - "构建融合全局光谱–空间视图与多尺度Gabor纹理视图的多视图融合框架，在保留边缘细节和同质区域结构方面具有更强表现。"
+        - "在四个公开高光谱图像基准数据集上，以有限标注样本实现了优于现有方法的分类性能，验证了图学习、注意力机制和多视图特征融合的协同优势。"
+
+  "MFLSCI: multi-granularity fusion and label semantic correlation information for multi-label legal text classification":
+    display: true
+    direction: "natural_language_processing"
+    image: "images/research/natural_language_processing/MFLSCI.png"
+    contributions:
+      en:
+        - "Proposed the MFLSCI framework, which jointly models multi-granularity textual semantics and label semantic correlations for robust multi-label legal text classification."
+        - "Integrated Graph Convolutional Networks (GCNs) with TextCNN to capture both inter-label semantic dependencies and multi-granularity N-gram representations, reducing label omission and confusion."
+        - "Introduced a similarity-driven soft label distribution that fuses textual semantic features with label correlation information, replacing conventional multi-hot supervision with probability-based soft alignment."
+        - "Improved robustness against noisy annotations by dynamically aligning text–label similarity distributions, significantly outperforming conventional label smoothing on mislabeled datasets."
+        - "Demonstrated superior performance across multiple legal and general-purpose multi-label text classification benchmarks, validating the effectiveness and generalizability of the proposed framework."
+      ja:
+        - "マルチラベル法文分類のために，マルチグラニュラリティなテキスト特徴とラベル間意味相関を統合するMFLSCIフレームワークを提案しました．"
+        - "Graph Convolutional Network（GCN）とTextCNNを統合し，ラベル間の意味的依存関係とマルチグラニュラリティN-gram特徴を同時に学習することで，ラベル欠落やラベル混同を低減しました．"
+        - "テキスト特徴とラベル意味相関を融合した類似度ベースのソフトラベル分布を設計し，従来のマルチホット教師信号を確率分布によるソフトアラインメントへ置き換えました．"
+        - "テキストとラベルの類似度分布を動的に最適化することで，ノイズラベルに対する頑健性を向上させ，従来のLabel Smoothingを上回る性能を実現しました．"
+        - "複数の法律文書データセットおよび一般マルチラベル分類データセットで優れた性能を達成し，提案手法の有効性と高い汎化性能を実証しました．"
+      zh:
+        - "提出了MFLSCI框架，将多粒度文本语义特征与标签语义关联信息联合建模，实现高性能多标签法律文本分类。"
+        - "融合图卷积网络（GCN）与TextCNN，同时学习标签间语义依赖关系和多粒度N-gram文本表示，有效缓解标签遗漏和标签混淆问题。"
+        - "设计了融合文本语义与标签关联信息的相似度驱动软标签分布，以基于概率分布的软对齐替代传统Multi-hot监督方式，提高标签表达能力。"
+        - "通过动态优化文本–标签相似度分布，显著提升模型对噪声标注数据的鲁棒性，在噪声数据集上的性能明显优于传统Label Smoothing方法。"
+        - "在多个法律文本和通用多标签文本分类数据集上取得了优于现有方法的性能，验证了所提框架的有效性与良好的泛化能力。"
+
+  "DPFSI: a legal judgment prediction method based on deontic logic prompt and fusion of law article statistical information":
+    display: true
+    direction: "natural_language_processing"
+    image: "images/research/natural_language_processing/DPFSI.png"
+    contributions:
+      en:
+        - "Proposed the DPFSI framework for legal judgment prediction by integrating deontic logic prompt learning, multi-granularity graph representation fusion, and law article statistical information."
+        - "Enhanced legal language representations through deontic logic prompt learning, enabling pretrained language models to better capture obligations, permissions, prohibitions, and normative reasoning in legal texts."
+        - "Designed a multi-granularity heterogeneous graph fusion mechanism that combines PMI, AMR, and semantic dependency graphs via Gated Graph Neural Networks to jointly model semantic, syntactic, and structural information."
+        - "Introduced an adaptive statistical information fusion mechanism that aligns law article statistics with textual representations using a β-VAE and selectively replaces low-confidence features to improve robustness while reducing overfitting."
+        - "Achieved state-of-the-art performance on legal judgment prediction benchmarks, particularly for law article prediction, demonstrating the effectiveness of integrating legal knowledge, graph reasoning, and statistical information."
+      ja:
+        - "義務論理プロンプト学習，マルチグラニュラリティグラフ表現融合，および法条文統計情報を統合した法律判決予測フレームワークDPFSIを提案しました．"
+        - "義務論理プロンプト学習を導入することで，事前学習言語モデルが法律文書中の義務，許可，禁止などの規範的意味をより適切に表現できるようにしました．"
+        - "PMIグラフ，AMRグラフ，および意味依存グラフをGated Graph Neural Networkで統合するマルチグラニュラリティグラフ融合機構を設計し，意味・構文・構造情報を統合的に学習しました．"
+        - "β-VAEを用いて法条文統計情報をテキスト特徴空間へ整合させ，低信頼特徴を適応的に置換する統計情報融合機構を提案し，過学習を抑制しながらモデルの頑健性を向上させました．"
+        - "法律判決予測ベンチマークにおいて，特に適用法条予測で最先端性能を達成し，法律知識，グラフ推論，統計情報融合の有効性を実証しました．"
+      zh:
+        - "提出了DPFSI法律判决预测框架，将义务逻辑提示学习、多粒度图表示融合以及法条统计信息融合统一到同一模型中。"
+        - "通过义务逻辑提示学习增强预训练语言模型对法律文本中义务、许可、禁止等规范性逻辑的建模能力，提高法律语义表示质量。"
+        - "设计了基于门控图神经网络的多粒度异构图融合机制，联合融合PMI图、AMR图和语义依存图，实现语义、句法与结构信息的协同建模。"
+        - "提出基于β-VAE的法条统计信息自适应融合机制，将法条统计特征对齐到文本表示空间，并通过低置信特征替换提升模型鲁棒性、降低过拟合风险。"
+        - "在法律判决预测基准数据集上取得了领先性能，尤其在法条预测任务中表现突出，验证了法律知识、图推理与统计信息融合策略的有效性。"
+
+  "LECTOR: summarizing e-book reading content for personalized student support":
+    display: true
+    direction: "learning_analytics"
+    image: "images/research/learning_analytics/LECTOR.png"
+    contributions:
+      en:
+        - "Proposed LECTOR, an attention-based information retrieval framework that summarizes lecture slide content by modeling slide–topic relationships for educational e-book analysis."
+        - "Designed a discourse-aware topic extraction mechanism that leverages the hierarchical structure of lecture slides to improve keyphrase extraction beyond conventional educational tools and state-of-the-art unsupervised NLP methods."
+        - "Introduced a multimodal integration framework that combines reading activity logs with semantically contextualized slide content to derive topic-based reading preferences."
+        - "Enhanced at-risk student prediction and model interpretability by incorporating topic-level reading features, enabling personalized identification of students' learning difficulties and reading preferences."
+        - "Demonstrated the effectiveness of the proposed framework through large-scale experiments on 2,255 lecture slides and over 600,000 e-book reading logs, highlighting its potential for personalized educational support and learning analytics."
+      ja:
+        - "講義スライドとトピックの関係をモデル化し，教育用電子教材の内容を要約する注意機構ベースの情報検索フレームワークLECTORを提案しました．"
+        - "講義スライドの階層構造を活用した談話指向トピック抽出機構を設計し，従来の教育支援システムおよび最先端の教師なしキーフレーズ抽出手法を上回る性能を実現しました．"
+        - "読書行動ログと意味的に文脈化された講義内容を統合するマルチモーダルフレームワークを構築し，トピックベースの学習嗜好を抽出しました．"
+        - "トピックレベルの読書特徴を導入することで，学習困難の要因や読書嗜好を説明可能な形で分析し，学習リスク予測と個別化支援の解釈性を向上させました．"
+        - "2,255枚の講義スライドと60万件以上の電子教材閲覧ログを用いた大規模実験により，個別最適化学習支援およびラーニングアナリティクスへの有効性を実証しました．"
+      zh:
+        - "提出了LECTOR框架，通过建模讲义幻灯片与主题之间的关系，实现教育电子教材内容的智能摘要与信息检索。"
+        - "设计了基于讲义层次结构的篇章感知主题提取机制，在关键词提取任务上优于传统教育系统和现有无监督自然语言处理方法。"
+        - "构建了融合阅读行为日志与语义化阅读内容的多模态分析框架，实现基于主题的学生阅读偏好建模。"
+        - "利用主题级阅读特征提升了学业风险学生预测的性能与可解释性，能够定位学生学习困难主题并支持个性化学习干预。"
+        - "通过2,255页讲义幻灯片和60余万条电子教材阅读日志的大规模实验，验证了该框架在学习分析和个性化教育支持中的有效性与应用潜力。"
+
+  "Evaluating a novel incremental-input neural network for multivariate air temperature forecasting":
+    display: true
+    direction: "dendritic_computation"
+    image: "images/research/dendritic_computation/IINN.png"
+    contributions:
+      en:
+        - "Proposed a novel Incremental-Input Neural Network (IINN) for multivariate air temperature forecasting, extending dendritic neural computation to efficiently model complex nonstationary time series."
+        - "Introduced an incremental-input mechanism that preserves information flow across dendritic branches, effectively alleviating gradient vanishing, gradient explosion, and branch degeneration in high-dimensional learning."
+        - "Designed a lightweight dendritic neural architecture that enhances nonlinear feature representation while maintaining computational efficiency and improving model interpretability."
+        - "Integrated the IINN with AdamW optimization to achieve stable convergence and robust multivariate forecasting under different prediction horizons."
+        - "Demonstrated state-of-the-art forecasting performance on multiple real-world meteorological datasets, consistently outperforming recurrent, transformer-based, and conventional dendritic neural models."
+      ja:
+        - "複雑な非定常時系列を効率的にモデル化するため，樹状突起ニューロン計算を拡張したIncremental-Input Neural Network（IINN）を提案し，多変量気温予測へ適用しました．"
+        - "Incremental-Input機構を導入することで，樹状突起分岐における情報伝播を維持し，高次元学習で生じる勾配消失，勾配爆発，および分岐退化を効果的に抑制しました．"
+        - "軽量な樹状突起ニューラルアーキテクチャを設計し，計算効率を維持しながら非線形特徴表現能力とモデルの解釈性を向上させました．"
+        - "AdamW最適化手法を組み合わせることで，異なる予測期間においても安定した学習収束と高精度な多変量時系列予測を実現しました．"
+        - "複数の実世界気象データセットにおいて，RNN，Transformer系モデル，および従来の樹状突起ニューロンモデルを上回る予測性能を達成しました．"
+      zh:
+        - "提出了增量输入神经网络（Incremental-Input Neural Network，IINN），将树突神经元计算扩展到多变量气温预测，实现复杂非平稳时间序列的高效建模。"
+        - "设计了增量输入机制，在树突分支中持续保留信息流，有效缓解高维学习中的梯度消失、梯度爆炸以及分支退化问题。"
+        - "构建了轻量化树突神经网络结构，在保持较低计算复杂度的同时提升了非线性建模能力和模型可解释性。"
+        - "结合AdamW优化策略，实现了不同预测时间跨度下稳定收敛且鲁棒的多变量时间序列预测。"
+        - "在多个真实气象数据集上的实验表明，该模型持续优于循环神经网络、Transformer模型以及传统树突神经元模型，取得了领先的气温预测性能。"
+
+  "Short-term traffic flow prediction with a dendritic neural network-enhanced time series decomposition framework":
+    display: true
+    direction: "dendritic_computation"
+    image: "images/research/dendritic_computation/TSDDNN.png"
+    contributions:
+      en:
+        - "Proposed the TSDDNN framework, integrating seasonal-trend decomposition with a dendritic neural network for accurate and efficient short-term traffic flow prediction."
+        - "Developed a decomposition-based forecasting strategy that separately models seasonal, trend, and residual components, enabling more effective learning of complex traffic dynamics."
+        - "Enhanced dendritic neural network optimization using the OLSHADE-CS evolutionary algorithm, improving convergence efficiency and nonlinear residual modeling while avoiding local optima."
+        - "Combined statistical time-series decomposition with biologically inspired neural computation, providing a lightweight and computationally efficient framework for nonlinear traffic forecasting."
+        - "Demonstrated superior prediction accuracy and robustness over statistical, machine learning, deep learning, and transformer-based approaches across multiple real-world traffic datasets."
+      ja:
+        - "季節・トレンド分解と樹状突起ニューラルネットワークを統合した短期交通流予測フレームワークTSDDNNを提案し，高精度かつ高効率な交通流予測を実現しました．"
+        - "交通流時系列を季節成分，トレンド成分，残差成分へ分解し，各成分を個別に予測することで，複雑な交通時系列の特徴を効果的に学習する予測戦略を構築しました．"
+        - "OLSHADE-CS進化最適化アルゴリズムを用いて樹状突起ニューラルネットワークを学習し，収束性能と残差成分の非線形モデリング能力を向上させるとともに局所最適解への収束を抑制しました．"
+        - "統計的時系列分解と生物学的着想に基づく樹状突起計算を融合することで，軽量かつ計算効率に優れた非線形交通流予測フレームワークを実現しました．"
+        - "複数の実交通データセットにおいて，統計手法，機械学習，深層学習，Transformer系モデルを上回る予測性能と高い頑健性を実証しました．"
+      zh:
+        - "提出了TSDDNN框架，将时间序列分解与树突神经网络相结合，实现高精度、高效率的短时交通流预测。"
+        - "设计了基于时间序列分解的预测策略，将交通流序列分解为季节项、趋势项和残差项分别建模，有效提升了复杂交通动态的建模能力。"
+        - "采用OLSHADE-CS进化优化算法训练树突神经网络，提高了模型收敛效率和残差序列的非线性拟合能力，并有效避免陷入局部最优。"
+        - "融合统计时间序列分解与生物启发的树突神经计算，构建了兼具轻量化、计算效率和非线性表达能力的交通流预测框架。"
+        - "在多个真实交通流数据集上的实验表明，该方法持续优于统计模型、传统机器学习、深度学习以及Transformer系列模型，具有更高的预测精度和鲁棒性。"
+
+  "Dendritic neural regression model trained by chicken swarm optimization algorithm for bank customer churn prediction":
+    display: true
+    direction: "dendritic_computation"
+    image: "images/research/dendritic_computation/DNRM-CSO.png"
+    contributions:
+      en:
+        - "Proposed a Chicken Swarm Optimization-based Dendritic Neural Regression Model (CSO-DNRM) for accurate bank customer churn prediction by integrating biologically inspired neural computation with swarm intelligence optimization."
+        - "Designed a four-layer dendritic neural regression architecture that models nonlinear synaptic interactions while employing synaptic and dendritic pruning to simplify network topology and improve computational efficiency."
+        - "Applied the Chicken Swarm Optimization (CSO) algorithm to optimize network weights and thresholds, achieving an effective balance between global exploration and local exploitation during model training."
+        - "Improved prediction accuracy and convergence speed through the synergy of evolutionary optimization and dendritic neural computation, outperforming conventional gradient-based learning strategies."
+        - "Demonstrated superior performance on a public bank customer churn benchmark, highlighting the potential of lightweight dendritic neural models for customer relationship management and business decision support."
+      ja:
+        - "生物学的着想に基づく樹状突起ニューラル計算と群知能最適化を統合したChicken Swarm OptimizationベースのDendritic Neural Regression Model（CSO-DNRM）を提案し，銀行顧客離脱予測へ適用しました．"
+        - "シナプス層，樹状突起層，膜層，細胞体層から構成される4層の樹状突起ニューラル回帰モデルを設計し，シナプスおよび樹状突起の枝刈りによってネットワーク構造を簡素化しつつ計算効率を向上させました．"
+        - "Chicken Swarm Optimization（CSO）アルゴリズムを用いてネットワークの重みと閾値を最適化し，大域探索と局所探索のバランスを考慮した効率的な学習を実現しました．"
+        - "進化的最適化と樹状突起ニューラル計算を組み合わせることで，従来の勾配ベース学習手法より高い予測精度と高速な収束性能を達成しました．"
+        - "公開ベンチマークデータセットにおいて優れた顧客離脱予測性能を示し，顧客関係管理および意思決定支援への有効性を実証しました．"
+      zh:
+        - "提出了基于鸡群优化算法（Chicken Swarm Optimization，CSO）的树突神经回归模型（CSO-DNRM），将生物启发的树突神经计算与群智能优化相结合，实现高精度银行客户流失预测。"
+        - "设计了由突触层、树突层、膜层和胞体层组成的四层树突神经回归结构，通过突触剪枝和树突剪枝简化网络结构，提高计算效率。"
+        - "采用鸡群优化算法优化网络权重与阈值，在模型训练过程中实现全局搜索与局部开发之间的有效平衡。"
+        - "结合进化优化与树突神经计算，提高了模型预测精度和收敛速度，相较于传统梯度学习方法具有更优的优化性能。"
+        - "在公开银行客户流失数据集上取得了优于多种经典机器学习方法的预测性能，验证了轻量化树突神经模型在客户关系管理和商业决策支持中的应用潜力。"
+
+  "From reflections to motifs: a graph-based analysis of learners' knowledge construction":
+    display: true
+    direction: "learning_analytics"
+    image: "images/research/learning_analytics/MBTM.png"
+    contributions:
+      en:
+        - "Proposed a context-aware graph-based framework that transforms learner reflections into Personal Knowledge Graphs (PKGs) using large language models to explicitly represent learners' knowledge construction."
+        - "Developed a motif mining and representation learning approach that identifies recurrent graph substructures to characterize common knowledge organization patterns in learner reflections."
+        - "Introduced a structural analysis framework that categorizes motif patterns into path-like, star-like, and hybrid structures, enabling interpretable analysis of learners' conceptual organization and knowledge construction strategies."
+        - "Revealed significant relationships between motif structural characteristics and learning outcomes through statistical analysis, providing interpretable evidence of how different knowledge organization patterns influence academic performance."
+        - "Demonstrated that motif-based graph representations outperform text-based and graph neural network baselines in grade prediction and at-risk student identification, highlighting the effectiveness of graph mining for learning analytics."
+      ja:
+        - "大規模言語モデルを用いて学習者の振り返り文章をPersonal Knowledge Graph（PKG）へ変換し，知識構築過程を明示的に表現するコンテキスト指向グラフ分析フレームワークを提案しました．"
+        - "グラフモチーフのマイニングと表現学習手法を開発し，繰り返し出現する部分グラフ構造を抽出することで，学習者の知識構造パターンを効果的に表現しました．"
+        - "モチーフをPath-like，Star-like，Hybridの3種類へ分類する構造分析手法を導入し，概念間の関係性や知識構築戦略を解釈可能な形で分析しました．"
+        - "モチーフ構造と学習成果との関係を統計的に分析し，知識構造の特徴が学習成果へ与える影響を定量的かつ説明可能な形で明らかにしました．"
+        - "モチーフベースの知識表現が，テキストベース手法やグラフニューラルネットワークを上回る成績予測および学習リスク学生検出性能を達成し，グラフマイニングの有効性を実証しました．"
+      zh:
+        - "提出了基于大语言模型与知识图谱的上下文感知分析框架，将学习者反思文本自动转换为个人知识图谱（Personal Knowledge Graph，PKG），显式刻画知识建构过程。"
+        - "设计了基于图Motif挖掘与表示学习的方法，通过识别知识图谱中的高频子图结构，提取学习者知识组织的典型模式。"
+        - "提出将知识结构划分为Path-like、Star-like和Hybrid三类Motif，实现对学习者概念组织方式和知识建构策略的可解释分析。"
+        - "通过统计分析揭示了Motif结构特征与学习成绩之间的显著关系，为理解不同知识组织模式对学习效果的影响提供了可解释证据。"
+        - "实验结果表明，基于Motif的知识表示在成绩预测和风险学生识别任务中均优于文本表示和图神经网络方法，验证了图挖掘方法在学习分析中的有效性。"
+
+  "ATLAS-DMPNN: an attention-guided topological framework for enhanced ADMET property prediction":
+    display: true
+    direction: "ai_for_drug_design"
+    image: "images/research/ai_for_drug_design/ATLAS-DMPNN.png"
+    contributions:
+      en:
+        - "Proposed ATLAS-DMPNN, an enhanced directed message passing neural network that integrates attention-guided message passing, topological encoding, and structural motif mining for ADMET property prediction."
+        - "Introduced an attention-guided message aggregation mechanism with gated updates to improve feature weighting and capture pharmacologically relevant molecular interactions."
+        - "Developed a topological feature encoding strategy by incorporating molecular positional, ring, and geometric information, strengthening structural sensitivity beyond conventional molecular graph representations."
+        - "Designed an ant colony optimization (ACO)-based structural motif mining module to identify recurrent pharmacophore substructures and integrate motif-aware representations into molecular graph learning."
+        - "Achieved superior performance on multiple ADMET benchmarks, particularly for bioactivity and toxicity prediction tasks, demonstrating the effectiveness of combining graph neural networks with interpretable topological and motif-based molecular representations."
+      ja:
+        - "ADMET特性予測のために，注意機構付きメッセージ伝播，トポロジカル特徴符号化，および構造モチーフマイニングを統合した拡張Directed Message Passing Neural Network（ATLAS-DMPNN）を提案しました．"
+        - "注意機構に基づくメッセージ集約とゲート付き更新機構を導入し，薬理学的に重要な分子相互作用を強調する特徴学習を実現しました．"
+        - "分子の位置情報，環構造，および幾何学的特徴を統合したトポロジカル特徴符号化手法を設計し，従来の分子グラフ表現より高い構造表現能力を実現しました．"
+        - "Ant Colony Optimization（ACO）に基づく構造モチーフマイニング機構を開発し，繰り返し出現するファーマコフォア部分構造を抽出して分子表現へ統合しました．"
+        - "複数のADMETベンチマークデータセットにおいて，特に生物活性および毒性予測で高い性能を達成し，解釈可能なトポロジカル特徴と構造モチーフを組み合わせた分子グラフ学習の有効性を実証しました．"
+      zh:
+        - "提出了ATLAS-DMPNN框架，将注意力引导消息传递、拓扑结构编码以及结构Motif挖掘统一到增强型有向消息传递神经网络中，实现高性能ADMET性质预测。"
+        - "设计了基于注意力的消息聚合与门控更新机制，提高了重要分子特征的权重分配能力，并增强了药理相关分子相互作用的建模能力。"
+        - "提出融合分子位置、环结构和几何信息的拓扑特征编码方法，提升了分子图表示对复杂拓扑结构的敏感性和表达能力。"
+        - "构建了基于蚁群优化（ACO）的结构Motif挖掘模块，自动发现具有药效团意义的高频子结构，并将Motif特征融入分子图表示学习。"
+        - "在多个ADMET基准数据集上，特别是在生物活性和毒性预测任务中取得了优于基线模型的性能，验证了拓扑信息、注意力机制和结构Motif融合策略的有效性。"
+
+  "A two-stage filtering approach for video-based document digitization":
+    display: true
+    direction: "computer_vision"
+    image: "images/research/computer_vision/TSFA.png"
+    contributions:
+      en:
+        - "Proposed a lightweight two-stage filtering framework for automatic document digitization from overhead videos by combining temporal anomaly detection and density-based clustering."
+        - "Developed a page-turn event detection strategy using cosine similarity of pretrained MobileNetV3 feature embeddings, enabling robust identification of page transitions without additional model training."
+        - "Integrated OPTICS-based clustering to group stable page frames and eliminate residual page-turn artifacts, producing representative page images while preserving visually similar pages."
+        - "Designed a practical CPU-only digitization pipeline with hand detection and duplicate removal, supporting batch processing and parameter refinement without requiring video recapture."
+        - "Achieved perfect recall across multiple real-world document digitization scenarios, demonstrating a cost-effective and reliable alternative to dedicated document scanning systems."
+      ja:
+        - "時間的異常検知と密度ベースクラスタリングを組み合わせた，俯瞰動画から文書画像を自動抽出する軽量な二段階フィルタリングフレームワークを提案しました．"
+        - "事前学習済みMobileNetV3特徴量のコサイン類似度を利用したページめくり検出手法を設計し，追加学習を必要とせず高精度なページ遷移検出を実現しました．"
+        - "OPTICSクラスタリングを導入して静止ページフレームをグループ化し，残存するページめくりフレームを除去するとともに，代表画像を自動選択しました．"
+        - "手検出と重複画像除去を組み合わせたCPUのみで動作する実用的な文書デジタル化パイプラインを構築し，再撮影を必要としないバッチ処理を実現しました．"
+        - "複数の実文書デジタル化データセットにおいて完全なRecallを達成し，専用スキャナに代わる低コストかつ高信頼な文書デジタル化手法であることを実証しました．"
+      zh:
+        - "提出了面向俯视视频文档数字化的轻量级两阶段过滤框架，通过融合时间异常检测与密度聚类实现文档页面的自动提取。"
+        - "设计了基于预训练MobileNetV3特征余弦相似度的翻页事件检测方法，无需额外模型训练即可准确识别页面切换过程。"
+        - "结合OPTICS密度聚类对稳定页面进行分组，并去除残留的翻页干扰帧，同时自动选择每个页面的代表图像。"
+        - "构建了仅依赖CPU运行的文档数字化流程，集成手部检测与重复页面去除，支持离线批量处理和参数调整，无需重新录制视频。"
+        - "在多个真实文档数字化场景中实现了100%的页面召回率，验证了该方法作为低成本、高可靠文档数字化方案的实际应用价值。"
+
+  "Attention Mamba: time series modeling with adaptive pooling acceleration and receptive field enhancements":
+    display: true
+    direction: "time_series_forecasting"
+    image: "images/research/time_series_forecasting/Attention-Mamba.png"
+    contributions:
+      en:
+        - "Proposed Attention Mamba, a novel Mamba-based architecture that integrates adaptive pooling with bidirectional state space modeling to improve multivariate time series forecasting."
+        - "Designed an Adaptive Pooling attention mechanism that simultaneously enlarges receptive fields, preserves global contextual information, and accelerates attention computation through adaptive feature compression."
+        - "Combined adaptive attention with a bidirectional Mamba block to jointly capture long-range and short-range nonlinear temporal dependencies while maintaining computational efficiency."
+        - "Enhanced feature representation by coupling global attention with selective state space modeling, achieving a better trade-off between prediction accuracy, training efficiency, and memory consumption than existing Mamba variants."
+        - "Demonstrated state-of-the-art forecasting performance across diverse real-world benchmark datasets, validating the effectiveness of adaptive receptive field enhancement for complex time series modeling."
+      ja:
+        - "適応的プーリングと双方向状態空間モデルを統合した新しいMambaベースの時系列モデルAttention Mambaを提案し，多変量時系列予測性能を向上させました．"
+        - "Adaptive Pooling注意機構を設計し，特徴を適応的に圧縮することで，受容野を拡大しつつグローバル文脈情報を保持し，注意計算を高速化しました．"
+        - "Adaptive Poolingと双方向Mambaブロックを組み合わせることで，長期・短期の非線形時間依存関係を効率的に学習しました．"
+        - "グローバル注意機構と選択的状態空間モデルを統合し，既存のMamba系列モデルより予測精度，学習効率，およびメモリ効率のバランスを改善しました．"
+        - "複数の実世界時系列ベンチマークにおいて最先端の予測性能を達成し，適応的受容野拡張による複雑時系列モデリングの有効性を実証しました．"
+      zh:
+        - "提出了Attention Mamba模型，将自适应池化机制与双向状态空间模型相结合，实现高性能多变量时间序列预测。"
+        - "设计了Adaptive Pooling注意力机制，通过自适应特征压缩扩大模型感受野、保留全局上下文信息，并显著加速注意力计算。"
+        - "融合Adaptive Pooling与双向Mamba模块，同时建模长短期非线性时间依赖关系，在保持计算效率的同时提升时序表示能力。"
+        - "将全局注意力与选择性状态空间建模相结合，在预测精度、训练效率和内存开销之间取得了优于现有Mamba模型的综合性能。"
+        - "在多个真实世界时间序列基准数据集上取得了领先预测性能，验证了自适应感受野增强策略在复杂时间序列建模中的有效性。"
+
+  "Decomposed seasonal-trend network with rotary attention for time series forecasting":
+    display: true
+    direction: "time_series_forecasting"
+    image: "images/research/time_series_forecasting/DSTN-RA.png"
+    contributions:
+      en:
+        - "Proposed the Decomposed Seasonal-Trend Network with Rotary Attention (DSTN-RA), a dual-branch forecasting framework that explicitly models trend and seasonal components using dedicated architectures."
+        - "Introduced a Rotary Attention module with Rotary Position Embedding (RoPE) to strengthen periodic pattern learning and capture long-range nonlinear temporal dependencies in seasonal signals."
+        - "Developed a multi-granularity Channel Mixing module that combines down-sampling with feature and temporal mixing to effectively model smooth trend dynamics across multiple temporal resolutions."
+        - "Leveraged seasonal-trend decomposition to disentangle heterogeneous temporal patterns, enabling specialized learning strategies for trend and seasonal information and improving model interpretability."
+        - "Achieved state-of-the-art forecasting performance on multiple benchmark datasets, with ablation studies validating the complementary roles of decomposition, Rotary Attention, and Channel Mixing in time series modeling."
+      ja:
+        - "トレンド成分と季節成分を専用モジュールで個別に学習する二分岐型時系列予測モデルDecomposed Seasonal-Trend Network with Rotary Attention（DSTN-RA）を提案しました．"
+        - "Rotary Position Embedding（RoPE）を組み込んだRotary Attentionモジュールを設計し，季節性信号に含まれる周期性および長距離の非線形時間依存関係を効果的に学習しました．"
+        - "ダウンサンプリングと特徴・時間方向の混合を組み合わせたマルチグラニュラリティChannel Mixingモジュールを開発し，多様な時間スケールにおけるトレンド変化を効率的に表現しました．"
+        - "季節・トレンド分解を活用して異質な時間パターンを分離し，各成分に適した学習機構を適用することで，予測性能とモデルの解釈性を向上させました．"
+        - "複数の時系列ベンチマークデータセットにおいて最先端の予測性能を達成し，アブレーション実験により分解手法，Rotary Attention，およびChannel Mixingの相補的効果を実証しました．"
+      zh:
+        - "提出了DSTN-RA双分支时间序列预测框架，将趋势项与季节项显式分解，并分别采用专用网络进行建模。"
+        - "设计了融合Rotary Position Embedding（RoPE）的Rotary Attention模块，有效增强了季节性信号的周期建模能力和长距离非线性时间依赖建模能力。"
+        - "提出结合多粒度下采样、特征混合和时间混合的Channel Mixing模块，在多个时间尺度上高效建模平滑趋势变化。"
+        - "利用季节—趋势分解解耦复杂时间模式，为趋势项和季节项分别采用针对性的建模策略，提高了模型的预测性能与可解释性。"
+        - "在多个公开时间序列基准数据集上取得了领先的预测性能，并通过消融实验验证了季节—趋势分解、Rotary Attention以及Channel Mixing模块的协同作用。"
+
+  "GlucoMixer: an efficient glucose monitoring model with mixers":
+    display: true
+    direction: "medical_data_mining"
+    image: "images/research/medical_data_mining/GlucoMixer.png"
+    contributions:
+      en:
+        - "Proposed GlucoMixer, an efficient encoder-only glucose monitoring framework based on Mixer architectures, achieving a balanced trade-off between predictive accuracy and model trustworthiness."
+        - "Designed a lightweight Mask Block with progressive triangular masking to prevent future information leakage while preserving temporal continuity in continuous glucose prediction."
+        - "Developed a Pattern Extraction Block that combines Conv1D filtering with dual Time Mixer Blocks to capture heterogeneous glucose dynamics across different diabetes patterns."
+        - "Integrated temporal and channel mixing within a simple Mixer-based architecture, providing efficient feature interaction without relying on computationally intensive attention mechanisms."
+        - "Demonstrated state-of-the-art and well-balanced performance across in-distribution and out-of-distribution glucose prediction benchmarks, improving both forecasting accuracy and uncertainty calibration for reliable clinical decision support."
+      ja:
+        - "予測精度とモデルの信頼性の両立を目的として，Mixerアーキテクチャに基づくEncoder-only血糖値予測モデルGlucoMixerを提案しました．"
+        - "将来情報の漏洩を防ぎつつ時系列の連続性を保持する，段階的三角マスキング機構を備えた軽量Mask Blockを設計しました．"
+        - "Conv1Dによる特徴抽出と2つのTime Mixer Blockを組み合わせたPattern Extraction Blockを開発し，異なる糖尿病パターンに対応する血糖変動を効果的に学習しました．"
+        - "時間方向およびチャネル方向の特徴混合を統合したシンプルなMixerベース構造を採用し，計算量の大きい注意機構を用いずに高効率な特徴表現を実現しました．"
+        - "複数のIn-DistributionおよびOut-of-Distribution血糖予測ベンチマークにおいて，予測精度と不確実性推定の双方で優れた性能を達成し，信頼性の高い臨床意思決定支援への有効性を実証しました．"
+      zh:
+        - "提出了基于Mixer架构的Encoder-only血糖监测模型GlucoMixer，在预测精度与模型可信性之间实现了良好的平衡。"
+        - "设计了轻量级Mask Block，通过渐进式三角掩码机制有效防止未来信息泄漏，同时保持连续血糖预测中的时间连续性。"
+        - "构建了融合Conv1D滤波与双Time Mixer模块的Pattern Extraction Block，能够分别学习不同糖尿病模式下的血糖动态变化特征。"
+        - "采用时间混合与通道混合相结合的Mixer结构，在无需复杂注意力机制的情况下实现高效时序特征交互和表示学习。"
+        - "在多个分布内（ID）和分布外（OOD）血糖预测基准数据集上取得了兼顾预测精度与不确定性校准能力的领先性能，为可信医疗AI和临床决策支持提供了有效方案。"
+
+  "KPMG: a graphical Koopman-Mamba approach for financial markets":
+    display: true
+    direction: "time_series_forecasting"
+    image: "images/research/time_series_forecasting/KPMG.png"
+    contributions:
+      en:
+        - "Proposed KPMG, a hybrid forecasting framework that integrates Koopman-enhanced Mamba with graph neural networks to jointly model temporal dependencies and inter-variable correlations in financial markets."
+        - "Developed a Koopman-Mamba module by incorporating Koopman operator theory into bidirectional Mamba, improving feature filtering and enhancing long-range temporal dependency modeling while suppressing noisy financial signals."
+        - "Introduced the Gaussian Kernel Graph (GKG) module to construct adaptive graph representations of financial indicators, enabling effective modeling of inter-variable correlations with reduced computational complexity."
+        - "Unified temporal dynamics and graph-based relational learning through Koopman-Mamba and GKG, achieving improved forecasting accuracy, information coefficient (IC), and ranked information coefficient (RIC) for trustworthy financial prediction."
+        - "Demonstrated superior performance on multiple financial market benchmarks, validating the effectiveness of combining Koopman spectral analysis, state space modeling, and graph learning for reliable financial forecasting."
+      ja:
+        - "金融市場予測のために，Koopman演算子を組み込んだMambaとグラフニューラルネットワークを統合し，時間依存性と変数間相関を同時に学習するハイブリッドモデルKPMGを提案しました．"
+        - "Koopman演算子を双方向Mambaへ統合したKoopman-Mambaモジュールを開発し，重要特徴を強調しながら金融時系列に含まれるノイズを抑制し，長期時間依存関係の表現能力を向上させました．"
+        - "Gaussian Kernel Graph（GKG）モジュールを設計し，金融指標間の関係を適応的なグラフ構造として表現することで，変数間相関を効率的に学習しました．"
+        - "Koopman-Mambaによる時間モデリングとGKGによるグラフ学習を統合し，予測精度に加えてInformation Coefficient（IC）およびRanked IC（RIC）を向上させ，信頼性の高い金融市場予測を実現しました．"
+        - "複数の金融市場ベンチマークにおいて優れた予測性能を達成し，Koopmanスペクトル解析，状態空間モデル，およびグラフ学習を統合した金融時系列解析の有効性を実証しました．"
+      zh:
+        - "提出了KPMG框架，将Koopman增强Mamba与图神经网络相结合，实现对金融时间依赖关系和变量间关联关系的联合建模。"
+        - "设计了Koopman-Mamba模块，将Koopman算子融入双向Mamba，有效过滤金融时序噪声，强化关键特征表示，并提升长期时间依赖建模能力。"
+        - "提出Gaussian Kernel Graph（GKG）模块，利用高斯核自适应构建金融指标之间的图结构，实现高效的变量相关性建模，同时降低图计算复杂度。"
+        - "融合Koopman-Mamba与GKG，实现时间动态建模与图关系学习的协同优化，在预测精度、信息系数（IC）和排序信息系数（RIC）等可信金融预测指标上均取得显著提升。"
+        - "在多个金融市场基准数据集上的实验表明，该框架有效结合了Koopman谱分析、状态空间建模与图学习，为可靠金融时间序列预测提供了新的研究范式。"

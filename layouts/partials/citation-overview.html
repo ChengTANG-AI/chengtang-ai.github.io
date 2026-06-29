@@ -1,0 +1,174 @@
+﻿{{- $papers := .papers -}}
+{{- $lang := .lang -}}
+{{- $citationMeta := site.Data.citation_meta -}}
+{{- $currentYear := now.Year -}}
+{{- $recentYearStart := sub $currentYear 5 -}}
+{{- $chartYearStart := sub $currentYear 7 -}}
+{{- $total := 0 -}}
+{{- $recentTotal := 0 -}}
+{{- $citationCounts := slice -}}
+{{- $recentCitationCounts := slice -}}
+{{- $yearRows := slice -}}
+{{- $maxYearTotal := 0 -}}
+
+{{- range $papers -}}
+  {{- $citations := 0 -}}
+  {{- if isset . "citations" -}}{{- $citations = int .citations -}}{{- end -}}
+  {{- $recentCitations := 0 -}}
+  {{- with .citations_by_year -}}
+    {{- $yearMap := . -}}
+    {{- range seq $recentYearStart $currentYear -}}
+      {{- $yearValue := index $yearMap (printf "%d" .) -}}
+      {{- with $yearValue -}}{{- $recentCitations = add $recentCitations (int .) -}}{{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $total = add $total $citations -}}
+  {{- $recentTotal = add $recentTotal $recentCitations -}}
+  {{- $citationCounts = $citationCounts | append $citations -}}
+  {{- $recentCitationCounts = $recentCitationCounts | append $recentCitations -}}
+{{- end -}}
+
+{{- $hIndex := 0 -}}
+{{- if gt (len $citationCounts) 0 -}}
+  {{- range seq 1 (len $citationCounts) -}}
+    {{- $threshold := . -}}
+    {{- $paperCount := 0 -}}
+    {{- range $citationCounts -}}
+      {{- if ge . $threshold -}}{{- $paperCount = add $paperCount 1 -}}{{- end -}}
+    {{- end -}}
+    {{- if ge $paperCount $threshold -}}{{- $hIndex = $threshold -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $i10Index := 0 -}}
+{{- range $citationCounts -}}
+  {{- if ge . 10 -}}{{- $i10Index = add $i10Index 1 -}}{{- end -}}
+{{- end -}}
+
+{{- $recentHIndex := 0 -}}
+{{- if gt (len $recentCitationCounts) 0 -}}
+  {{- range seq 1 (len $recentCitationCounts) -}}
+    {{- $threshold := . -}}
+    {{- $paperCount := 0 -}}
+    {{- range $recentCitationCounts -}}
+      {{- if ge . $threshold -}}{{- $paperCount = add $paperCount 1 -}}{{- end -}}
+    {{- end -}}
+    {{- if ge $paperCount $threshold -}}{{- $recentHIndex = $threshold -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $recentI10Index := 0 -}}
+{{- range $recentCitationCounts -}}
+  {{- if ge . 10 -}}{{- $recentI10Index = add $recentI10Index 1 -}}{{- end -}}
+{{- end -}}
+
+{{- range seq $chartYearStart $currentYear -}}
+  {{- $year := . -}}
+  {{- $yearTotal := 0 -}}
+  {{- range $papers -}}
+    {{- with .citations_by_year -}}
+      {{- $yearValue := index . (printf "%d" $year) -}}
+      {{- with $yearValue -}}{{- $yearTotal = add $yearTotal (int .) -}}{{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if gt $yearTotal $maxYearTotal -}}{{- $maxYearTotal = $yearTotal -}}{{- end -}}
+  {{- $yearRows = $yearRows | append (dict "year" $year "citations" $yearTotal) -}}
+{{- end -}}
+
+{{- with $citationMeta.total_citations -}}{{- $total = int . -}}{{- end -}}
+{{- with $citationMeta.h_index -}}{{- $hIndex = int . -}}{{- end -}}
+{{- with $citationMeta.i10_index -}}{{- $i10Index = int . -}}{{- end -}}
+{{- with $citationMeta.h_index_recent -}}{{- $recentHIndex = int . -}}{{- end -}}
+{{- with $citationMeta.i10_index_recent -}}{{- $recentI10Index = int . -}}{{- end -}}
+{{- with $citationMeta.annual_citations -}}
+  {{- $annualCitations := . -}}
+  {{- $recentTotal = 0 -}}
+  {{- range seq $recentYearStart $currentYear -}}
+    {{- $yearValue := index $annualCitations (printf "%d" .) -}}
+    {{- with $yearValue -}}{{- $recentTotal = add $recentTotal (int .) -}}{{- end -}}
+  {{- end -}}
+  {{- $yearRows = slice -}}
+  {{- $maxYearTotal = 0 -}}
+  {{- range seq $chartYearStart $currentYear -}}
+    {{- $year := . -}}
+    {{- $yearTotal := 0 -}}
+    {{- $yearValue := index $annualCitations (printf "%d" $year) -}}
+    {{- with $yearValue -}}{{- $yearTotal = int . -}}{{- end -}}
+    {{- if gt $yearTotal $maxYearTotal -}}{{- $maxYearTotal = $yearTotal -}}{{- end -}}
+    {{- $yearRows = $yearRows | append (dict "year" $year "citations" $yearTotal) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $sourceName := $citationMeta.source | default "OpenAlex" -}}
+{{- $title := "Citation Metrics" -}}
+{{- $sourceLabel := printf "Source: %s" $sourceName -}}
+{{- $updatedLabel := "Updated" -}}
+{{- $totalLabel := "Citations" -}}
+{{- $allLabel := "All" -}}
+{{- $recentLabel := printf "Since %d" $recentYearStart -}}
+{{- $hLabel := "h-index" -}}
+{{- $i10Label := "i10-index" -}}
+{{- if eq $lang "ja" -}}
+  {{- $title = "引用指標" -}}
+  {{- $sourceLabel = printf "データ出典: %s" $sourceName -}}
+  {{- $updatedLabel = "更新日" -}}
+  {{- $totalLabel = "引用" -}}
+  {{- $allLabel = "すべて" -}}
+  {{- $recentLabel = printf "%d年以来" $recentYearStart -}}
+{{- else if eq $lang "zh" -}}
+  {{- $title = "引用概览" -}}
+  {{- $sourceLabel = printf "数据来源：%s" $sourceName -}}
+  {{- $updatedLabel = "更新时间" -}}
+  {{- $totalLabel = "引用" -}}
+  {{- $allLabel = "全部" -}}
+  {{- $recentLabel = printf "%d年以来" $recentYearStart -}}
+{{- end -}}
+
+{{- if gt (len $papers) 0 -}}
+  <section class="citation-overview" aria-labelledby="citation-overview-title">
+    <div class="citation-overview-summary">
+      <h2 id="citation-overview-title">
+        {{ $title }}
+        <span>{{ $sourceLabel }}{{ with $citationMeta.updated_at }} · {{ $updatedLabel }}: {{ . }}{{ end }}</span>
+      </h2>
+      <table class="citation-metrics-table">
+        <thead>
+          <tr>
+            <th></th>
+            <th>{{ $allLabel }}</th>
+            <th>{{ $recentLabel }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>{{ $totalLabel }}</th>
+            <td>{{ $total }}</td>
+            <td>{{ $recentTotal }}</td>
+          </tr>
+          <tr>
+            <th>{{ $hLabel }}</th>
+            <td>{{ $hIndex }}</td>
+            <td>{{ $recentHIndex }}</td>
+          </tr>
+          <tr>
+            <th>{{ $i10Label }}</th>
+            <td>{{ $i10Index }}</td>
+            <td>{{ $recentI10Index }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    {{- if and $yearRows (gt $maxYearTotal 0) -}}
+      <div class="citation-chart" aria-label="{{ $title }}">
+        {{- range $yearRows -}}
+          {{- $height := div (mul .citations 100) $maxYearTotal -}}
+          <div class="citation-bar-row">
+            <div class="citation-bar" style="--bar-height: {{ $height }}%;" title="{{ .year }}: {{ .citations }}"></div>
+            <span>{{ .year }}</span>
+          </div>
+        {{- end -}}
+      </div>
+    {{- end -}}
+  </section>
+{{- end -}}
+

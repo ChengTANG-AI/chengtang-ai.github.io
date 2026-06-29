@@ -1,0 +1,43 @@
+name: Update publication citations
+
+on:
+  schedule:
+    # JST 00:00
+    - cron: "0 15 * * *"
+    # JST 12:00
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-citations:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install citation updater dependencies
+        run: python -m pip install "scholarly==1.7.11" "httpx<0.28"
+
+      - name: Update citation counts
+        env:
+          CITATION_SOURCE: google_scholar
+          GOOGLE_SCHOLAR_ID: GvXOVv0AAAAJ
+          SCHOLARLY_USE_FREE_PROXIES: "true"
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          OPENALEX_EMAIL: ${{ secrets.OPENALEX_EMAIL }}
+          OPENALEX_AUTHOR_ID: ${{ vars.OPENALEX_AUTHOR_ID }}
+        run: python scripts/update_citations.py
+
+      - name: Commit updated citations
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update publication citation counts"
+          file_pattern: data/publications.yaml data/citation_meta.yaml

@@ -1,0 +1,14 @@
+{{- $item := .item -}}
+{{- $personName := $item.person_name -}}
+{{- $personType := $item.person_type -}}
+{{- $position := $item.position -}}
+{{- $studentYear := $item.student_year -}}
+{{- $parts := slice -}}
+{{- with $personType -}}{{- $parts = $parts | append . -}}{{- end -}}
+{{- with $position -}}{{- $parts = $parts | append . -}}{{- end -}}
+{{- with $studentYear -}}{{- $parts = $parts | append . -}}{{- end -}}
+{{- if or $parts $personName -}}
+  <span class="news-person-prefix">
+    {{- if $parts -}}({{ delimit $parts ", " }}) {{ end -}}{{- with $personName -}}{{ . }}{{ end -}}
+  </span>
+{{- end -}}

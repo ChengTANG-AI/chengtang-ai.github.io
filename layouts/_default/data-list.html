@@ -1,0 +1,591 @@
+{{ define "main" }}
+  {{ $lang := .Site.Language.Lang }}
+  {{ if hasPrefix $lang "ja" }}
+    {{ $lang = "ja" }}
+  {{ else if hasPrefix $lang "zh" }}
+    {{ $lang = "zh" }}
+  {{ else }}
+    {{ $lang = "en" }}
+  {{ end }}
+  {{ $key := .Params.sectionKey }}
+  {{ $data := index .Site.Data $lang $key }}
+  {{ if eq $key "members" }}
+    {{ $data = .Site.Data.members }}
+  {{ else if eq $key "news" }}
+    {{ $data = .Site.Data.news }}
+  {{ else if eq $key "research" }}
+    {{ $data = .Site.Data.research }}
+  {{ end }}
+  {{ $pageTitle := $data.title | default .Title }}
+  {{ if eq $key "members" }}
+    {{ $pageTitle = .Title }}
+  {{ else if eq $key "news" }}
+    {{ $pageTitle = .Title }}
+  {{ else if eq $key "research" }}
+    {{ $pageTitle = .Title }}
+  {{ end }}
+
+  <section class="page">
+    <header class="page-header">
+      <h1>{{ $pageTitle }}</h1>
+    </header>
+
+    {{ if eq $key "members" }}
+      {{ $facultyLabel := cond (eq $lang "ja") "教員" (cond (eq $lang "zh") "教师" "Faculty") }}
+      {{ $collaboratorsLabel := cond (eq $lang "ja") "共同研究者" (cond (eq $lang "zh") "合作研究者" "Collaborating Researchers") }}
+      {{ $studentsLabel := cond (eq $lang "ja") "学生" (cond (eq $lang "zh") "学生" "Students") }}
+      {{ $doctoralLabel := cond (eq $lang "ja") "博士課程" (cond (eq $lang "zh") "博士生" "Doctoral Students") }}
+      {{ $masterLabel := cond (eq $lang "ja") "修士課程" (cond (eq $lang "zh") "硕士生" "Master's Students") }}
+      {{ $researchLabel := cond (eq $lang "ja") "研究生" (cond (eq $lang "zh") "预科生" "Research Students") }}
+      {{ $undergraduateLabel := cond (eq $lang "ja") "学部生" (cond (eq $lang "zh") "本科生" "Undergraduate Students") }}
+      {{ $alumniLabel := cond (eq $lang "ja") "卒業生・元教員" (cond (eq $lang "zh") "往届毕业生和教员" "Alumni and Former Faculty") }}
+      {{ $currentLabel := cond (eq $lang "ja") "現所属" (cond (eq $lang "zh") "现所属" "Current") }}
+      {{ $originLabel := cond (eq $lang "ja") "出身" (cond (eq $lang "zh") "出身" "Origin") }}
+      {{ $interestsLabel := cond (eq $lang "ja") "研究分野" (cond (eq $lang "zh") "研究方向" "Research Interests") }}
+      {{ $hobbiesLabel := cond (eq $lang "ja") "趣味" (cond (eq $lang "zh") "兴趣爱好" "Hobbies") }}
+      {{ $messageLabel := cond (eq $lang "ja") "一言" (cond (eq $lang "zh") "一句话" "Message") }}
+
+      {{ $memberItems := slice }}
+      {{ range $id, $member := $data }}
+        {{ if ne $member.display false }}
+          {{ $memberItems = $memberItems | append (merge $member (dict "id" $id)) }}
+        {{ end }}
+      {{ end }}
+      {{ $faculty := sort (where $memberItems "group" "faculty") "sort_weight" "asc" }}
+      {{ $collaborators := sort (where $memberItems "group" "collaborator") "sort_weight" "asc" }}
+      {{ $studentItems := where $memberItems "group" "student" }}
+      {{ $doctoralStudents := sort (where $studentItems "student_type" "doctoral") "sort_weight" "asc" }}
+      {{ $masterStudents := sort (where $studentItems "student_type" "master") "sort_weight" "asc" }}
+      {{ $researchStudents := sort (where $studentItems "student_type" "research") "sort_weight" "asc" }}
+      {{ $undergraduateStudents := sort (where $studentItems "student_type" "undergraduate") "sort_weight" "asc" }}
+      {{ $alumni := sort (where $memberItems "group" "alumni") "sort_weight" "asc" }}
+
+      {{ with $faculty }}
+        <section class="content-group">
+          <h2>{{ $facultyLabel }}</h2>
+          <div class="card-grid">
+            {{ range . }}
+              {{ partial "member-card.html" (dict "person" . "lang" $lang "currentLabel" $currentLabel "originLabel" $originLabel "interestsLabel" $interestsLabel "hobbiesLabel" $hobbiesLabel "messageLabel" $messageLabel) }}
+            {{ end }}
+          </div>
+        </section>
+      {{ end }}
+
+      {{ with $collaborators }}
+        <section class="content-group">
+          <h2>{{ $collaboratorsLabel }}</h2>
+          <div class="card-grid">
+            {{ range . }}
+              {{ partial "member-card.html" (dict "person" . "lang" $lang "currentLabel" $currentLabel "originLabel" $originLabel "interestsLabel" $interestsLabel "hobbiesLabel" $hobbiesLabel "messageLabel" $messageLabel) }}
+            {{ end }}
+          </div>
+        </section>
+      {{ end }}
+
+      {{ $hasStudents := or $doctoralStudents $masterStudents $researchStudents $undergraduateStudents }}
+      {{ if $hasStudents }}
+        <section class="content-group">
+          <h2>{{ $studentsLabel }}</h2>
+          {{ with $doctoralStudents }}
+            <div class="member-subgroup">
+              <h3>{{ $doctoralLabel }}</h3>
+              <div class="card-grid">
+                {{ range . }}
+                  {{ partial "member-card.html" (dict "person" . "lang" $lang "currentLabel" $currentLabel "originLabel" $originLabel "interestsLabel" $interestsLabel "hobbiesLabel" $hobbiesLabel "messageLabel" $messageLabel) }}
+                {{ end }}
+              </div>
+            </div>
+          {{ end }}
+          {{ with $masterStudents }}
+            <div class="member-subgroup">
+              <h3>{{ $masterLabel }}</h3>
+              <div class="card-grid">
+                {{ range . }}
+                  {{ partial "member-card.html" (dict "person" . "lang" $lang "currentLabel" $currentLabel "originLabel" $originLabel "interestsLabel" $interestsLabel "hobbiesLabel" $hobbiesLabel "messageLabel" $messageLabel) }}
+                {{ end }}
+              </div>
+            </div>
+          {{ end }}
+          {{ with $researchStudents }}
+            <div class="member-subgroup">
+              <h3>{{ $researchLabel }}</h3>
+              <div class="card-grid">
+                {{ range . }}
+                  {{ partial "member-card.html" (dict "person" . "lang" $lang "currentLabel" $currentLabel "originLabel" $originLabel "interestsLabel" $interestsLabel "hobbiesLabel" $hobbiesLabel "messageLabel" $messageLabel) }}
+                {{ end }}
+              </div>
+            </div>
+          {{ end }}
+          {{ with $undergraduateStudents }}
+            <div class="member-subgroup">
+              <h3>{{ $undergraduateLabel }}</h3>
+              <div class="card-grid">
+                {{ range . }}
+                  {{ partial "member-card.html" (dict "person" . "lang" $lang "currentLabel" $currentLabel "originLabel" $originLabel "interestsLabel" $interestsLabel "hobbiesLabel" $hobbiesLabel "messageLabel" $messageLabel) }}
+                {{ end }}
+              </div>
+            </div>
+          {{ end }}
+        </section>
+      {{ end }}
+
+      {{ with $alumni }}
+        <section class="content-group">
+          <details class="publication-section">
+            <summary>{{ $alumniLabel }}</summary>
+            {{ $alumniItems := slice }}
+            {{ range . }}
+              {{ $year := int (.year | default .graduation_year | default 0) }}
+              {{ $alumniItems = $alumniItems | append (dict "year" $year "person" .) }}
+            {{ end }}
+            {{ range $year := seq 2100 -1 1900 }}
+              {{ $yearItems := where $alumniItems "year" $year }}
+              {{ if $yearItems }}
+                <details class="member-year-section">
+                  <summary>{{ $year }}</summary>
+                  <div class="card-grid">
+                    {{ range $yearItems }}
+                      {{ partial "member-card.html" (dict "person" .person "lang" $lang "currentLabel" $currentLabel "originLabel" $originLabel "interestsLabel" $interestsLabel "hobbiesLabel" $hobbiesLabel "messageLabel" $messageLabel) }}
+                    {{ end }}
+                  </div>
+                </details>
+              {{ end }}
+            {{ end }}
+          </details>
+        </section>
+      {{ end }}
+
+    {{ else if eq $key "research" }}
+      {{ $research := .Site.Data.research }}
+      {{ $publications := .Site.Data.publications }}
+      {{ $topicLabel := "Research Topics" }}
+      {{ $linkLabel := "Link" }}
+      {{ if eq $lang "ja" }}
+        {{ $topicLabel = "研究課題" }}
+        {{ $linkLabel = "リンク" }}
+      {{ else if eq $lang "zh" }}
+        {{ $topicLabel = "研究课题" }}
+        {{ $linkLabel = "链接" }}
+      {{ end }}
+      {{ $directions := slice }}
+      {{ range $id, $direction := $research.directions }}
+        {{ if ne $direction.display false }}
+          {{ $paperCount := 0 }}
+          {{ range $paperTitle, $paper := $research.papers }}
+            {{ if and (ne $paper.display false) (eq $paper.direction $id) }}
+              {{ $paperCount = add $paperCount 1 }}
+            {{ end }}
+          {{ end }}
+          {{ $directionSortKey := add (mul (sub 0 $paperCount) 10000) (int ($direction.sort_weight | default 999)) }}
+          {{ $directions = $directions | append (merge $direction (dict "id" $id "paperCount" $paperCount "directionSortKey" $directionSortKey)) }}
+        {{ end }}
+      {{ end }}
+      <div class="research-directions">
+        {{ range sort $directions "directionSortKey" "asc" }}
+          {{ $directionId := .id }}
+          {{ $directionTitle := index .title $lang | default (index .title "en") }}
+          {{ $directionDescription := index .description $lang | default (index .description "en") }}
+          {{ $directionPapers := slice }}
+          {{ range $paperTitle, $paper := $research.papers }}
+            {{ if and (ne $paper.display false) (eq $paper.direction $directionId) }}
+              {{ $publicationTitle := $paper.publication_title | default $paperTitle }}
+              {{ $sortMatchedPaper := dict }}
+              {{ $hasSortMatchedPaper := false }}
+              {{ $normalizedSortQuery := lower (strings.TrimSpace $publicationTitle) }}
+              {{ range $publicationId, $publicationPaper := $publications }}
+                {{ if and (not $hasSortMatchedPaper) (ne $publicationPaper.display false) (eq (lower (strings.TrimSpace $publicationPaper.title)) $normalizedSortQuery) }}
+                  {{ $sortMatchedPaper = merge $publicationPaper (dict "id" $publicationId) }}
+                  {{ $hasSortMatchedPaper = true }}
+                {{ end }}
+              {{ end }}
+              {{ $paperYear := 0 }}
+              {{ $paperMonth := 0 }}
+              {{ if $hasSortMatchedPaper }}
+                {{ with $sortMatchedPaper.year }}{{ $paperYear = int . }}{{ end }}
+                {{ with $sortMatchedPaper.month }}
+                  {{ $monthText := printf "%v" . }}
+                  {{ $monthText = replaceRE "^0+" "" $monthText }}
+                  {{ if $monthText }}{{ $paperMonth = int $monthText }}{{ end }}
+                {{ end }}
+              {{ end }}
+              {{ $paperIndex := int ($paper.sort_weight | default 0) }}
+              {{ $paperSortKey := add (add (mul $paperYear 10000) (mul $paperMonth 100)) (sub 100 $paperIndex) }}
+              {{ $directionPapers = $directionPapers | append (merge $paper (dict "id" $paperTitle "publication_title" $publicationTitle "researchSortKey" $paperSortKey)) }}
+            {{ end }}
+          {{ end }}
+          <section class="content-group research-direction">
+            <h2>{{ $directionTitle }} ({{ .paperCount }})</h2>
+            {{ with $directionDescription }}<p>{{ . }}</p>{{ end }}
+            {{ if $directionPapers }}
+              <div class="research-topic-list" aria-label="{{ $topicLabel }}">
+                {{ range sort $directionPapers "researchSortKey" "desc" }}
+                  {{ $topicTitle := .id }}
+                  {{ $topicDescription := "" }}
+                  {{ with .description }}
+                    {{ $topicDescription = index . $lang | default (index . "en") }}
+                  {{ end }}
+                  {{ $topicContributions := slice }}
+                  {{ with .contributions }}
+                    {{ $topicContributions = index . $lang | default (index . "en") }}
+                  {{ end }}
+                  {{ $topicImage := .image }}
+                  {{ $topicImageAlt := "" }}
+                  {{ with .image_alt }}
+                    {{ $topicImageAlt = index . $lang | default (index . "en") }}
+                  {{ end }}
+                  {{ $publicationQuery := .publication_title | default .id }}
+                  {{ $matchedPaper := dict }}
+                  {{ $hasMatchedPaper := false }}
+                  {{ $topicLink := .link | default "" }}
+                  {{ if $publicationQuery }}
+                    {{ $normalizedQuery := lower (strings.TrimSpace $publicationQuery) }}
+                    {{ range $paperId, $paper := $publications }}
+                      {{ if and (not $hasMatchedPaper) (ne $paper.display false) (eq (lower (strings.TrimSpace $paper.title)) $normalizedQuery) }}
+                        {{ $matchedPaper = merge $paper (dict "id" $paperId) }}
+                        {{ $hasMatchedPaper = true }}
+                      {{ end }}
+                    {{ end }}
+                  {{ end }}
+                  {{ if $hasMatchedPaper }}
+                    {{ $topicLink = $matchedPaper.doi | default $matchedPaper.url | default $matchedPaper.link | default $topicLink }}
+                    {{ if not $topicLink }}{{ $topicLink = printf "https://scholar.google.com/scholar?q=%s" ($matchedPaper.title | urlquery) }}{{ end }}
+                  {{ end }}
+                  <details class="research-topic">
+                    <summary>
+                      <span class="research-topic-heading">
+                        <span class="research-topic-title">{{ $topicTitle }}</span>
+                      </span>
+                      {{ with $topicLink }}
+                        <a class="publication-link-button research-topic-link" href="{{ . }}" target="_blank" rel="noopener" onclick="event.stopPropagation();" aria-label="Open link for {{ $topicTitle }}">{{ $linkLabel }}</a>
+                      {{ end }}
+                    </summary>
+                    <div class="research-topic-body">
+                      {{ if $topicImage }}
+                        <div class="research-topic-feature">
+                          <figure class="research-topic-figure">
+                            <img src="{{ $topicImage | relURL }}" alt="{{ $topicImageAlt }}">
+                          </figure>
+                          <div class="research-topic-copy">
+                            {{ if $hasMatchedPaper }}
+                              {{ $paperVenue := $matchedPaper.journal | default $matchedPaper.conference | default $matchedPaper.preprint }}
+                              {{ $paperDate := "" }}
+                              {{ with $matchedPaper.year }}{{ $paperDate = printf "%v" . }}{{ end }}
+                              {{ if and $matchedPaper.year $matchedPaper.month }}
+                                {{ $monthText := printf "%v" $matchedPaper.month }}
+                                {{ $monthText = replaceRE "^0+" "" $monthText }}
+                                {{ if $monthText }}{{ $paperDate = printf "%v.%02d" $matchedPaper.year (int $monthText) }}{{ end }}
+                              {{ end }}
+                              {{ $paperAuthors := $matchedPaper.authors | replaceRE "(Cheng Tang|唐 成|唐成)" "<span class=\"publication-author-self\">$1</span>" }}
+                              <div class="research-topic-publication">
+                                <p class="publication-authors">{{ $paperAuthors | safeHTML }}</p>
+                                <p class="meta">
+                                  {{ with $paperDate }}{{ . }}{{ end }}{{ if and $paperDate $paperVenue }} &middot; {{ end }}{{ with $paperVenue }}{{ . }}{{ end }}
+                                  {{ with $matchedPaper.volume }} &middot; Vol. {{ . }}{{ end }}{{ with $matchedPaper.number }}({{ . }}){{ end }}{{ with $matchedPaper.pages }} &middot; pp. {{ . }}{{ end }}
+                                </p>
+                              </div>
+                            {{ end }}
+                            {{ if $topicContributions }}
+                              <ul class="research-contribution-list">
+                                {{ range $topicContributions }}
+                                  <li>{{ . }}</li>
+                                {{ end }}
+                              </ul>
+                            {{ else }}
+                              {{ with $topicDescription }}<p>{{ . }}</p>{{ end }}
+                            {{ end }}
+                          </div>
+                        </div>
+                      {{ else }}
+                        {{ if $topicContributions }}
+                          <ul class="research-contribution-list">
+                            {{ range $topicContributions }}
+                              <li>{{ . }}</li>
+                            {{ end }}
+                          </ul>
+                        {{ else }}
+                          {{ with $topicDescription }}<p>{{ . }}</p>{{ end }}
+                        {{ end }}
+                      {{ end }}
+                    </div>
+                  </details>
+                {{ end }}
+              </div>
+            {{ end }}
+          </section>
+        {{ end }}
+      </div>
+    {{ else if eq $key "publications" }}
+      {{ $publications := .Site.Data.publications }}
+      {{ $papers := slice }}
+      {{ range $id, $paper := $publications }}
+        {{ if ne $paper.display false }}
+          {{ $paperYear := int $paper.year }}
+          {{ $paperMonth := 0 }}
+          {{ with $paper.month }}
+            {{ $monthText := printf "%v" . }}
+            {{ $monthText = replaceRE "^0+" "" $monthText }}
+            {{ if $monthText }}{{ $paperMonth = int $monthText }}{{ end }}
+          {{ end }}
+          {{ $fiscalYear := $paperYear }}
+          {{ if and (gt $paperMonth 0) (le $paperMonth 3) }}
+            {{ $fiscalYear = sub $paperYear 1 }}
+          {{ end }}
+          {{ $paperIndex := 0 }}
+          {{ with findRE "[0-9]+$" $id }}
+            {{ $indexText := index . 0 }}
+            {{ $indexText = replaceRE "^0+" "" $indexText }}
+            {{ if $indexText }}{{ $paperIndex = int $indexText }}{{ end }}
+          {{ end }}
+          {{ $sortKey := add (add (mul $paperYear 10000) (mul $paperMonth 100)) $paperIndex }}
+          {{ $papers = $papers | append (merge $paper (dict "id" $id "fiscalYear" $fiscalYear "sortKey" $sortKey)) }}
+        {{ end }}
+      {{ end }}
+      {{ $numberedPapers := slice }}
+      {{ range $index, $paper := sort (where $papers "type" "preprint") "sortKey" "asc" }}
+        {{ $numberedPapers = $numberedPapers | append (merge $paper (dict "publicationNumber" (printf "P%03d" (add $index 1)))) }}
+      {{ end }}
+      {{ range $index, $paper := sort (where $papers "type" "journal") "sortKey" "asc" }}
+        {{ $numberedPapers = $numberedPapers | append (merge $paper (dict "publicationNumber" (printf "J%03d" (add $index 1)))) }}
+      {{ end }}
+      {{ range $index, $paper := sort (where $papers "type" "conference") "sortKey" "asc" }}
+        {{ $numberedPapers = $numberedPapers | append (merge $paper (dict "publicationNumber" (printf "C%03d" (add $index 1)))) }}
+      {{ end }}
+      {{ $papers = $numberedPapers }}
+      {{ if site.Params.showCitations }}
+        {{ partial "citation-overview.html" (dict "papers" $papers "lang" $lang) }}
+      {{ end }}
+      <div class="publication-groups">
+        {{ $preprints := sort (where $papers "type" "preprint") "sortKey" "desc" }}
+        {{ with $preprints }}
+          <details class="publication-section">
+            <summary>Preprints ({{ len . }}) {{ if site.Params.showCitations }}{{ partial "citation-total.html" . }}{{ end }}</summary>
+            <div class="publication-list">
+              {{ range . }}
+                {{ partial "publication-entry.html" . }}
+              {{ end }}
+            </div>
+          </details>
+        {{ end }}
+
+        {{ $currentFiscalYear := int (now.Format "2006") }}
+        {{ if le (int (now.Format "1")) 3 }}
+          {{ $currentFiscalYear = sub $currentFiscalYear 1 }}
+        {{ end }}
+        {{ range seq 2100 -1 1900 }}
+          {{ $year := . }}
+          {{ $yearPapers := where $papers "fiscalYear" $year }}
+          {{ $journalPapers := sort (where $yearPapers "type" "journal") "sortKey" "desc" }}
+          {{ $conferencePapers := sort (where $yearPapers "type" "conference") "sortKey" "desc" }}
+          {{ $publishedPapers := slice }}
+          {{ range $journalPapers }}{{ $publishedPapers = $publishedPapers | append . }}{{ end }}
+          {{ range $conferencePapers }}{{ $publishedPapers = $publishedPapers | append . }}{{ end }}
+          {{ if or $journalPapers $conferencePapers }}
+            <section class="publication-year">
+              {{ $yearLabel := printf "%d年度" $year }}
+              {{ if eq $lang "en" }}{{ $yearLabel = printf "FY %d" $year }}{{ end }}
+              <h2>{{ $yearLabel }} ({{ len $publishedPapers }}) {{ if site.Params.showCitations }}{{ partial "citation-total.html" $publishedPapers }}{{ end }}</h2>
+
+              {{ if $journalPapers }}
+                <details class="publication-section" {{ if eq (int $year) $currentFiscalYear }}open{{ end }}>
+                  <summary>Journal Papers ({{ len $journalPapers }}) {{ if site.Params.showCitations }}{{ partial "citation-total.html" $journalPapers }}{{ end }}</summary>
+                  <div class="publication-list">
+                    {{ range $journalPapers }}
+                      {{ partial "publication-entry.html" . }}
+                    {{ end }}
+                  </div>
+                </details>
+              {{ end }}
+
+              {{ if $conferencePapers }}
+                <details class="publication-section" {{ if eq (int $year) $currentFiscalYear }}open{{ end }}>
+                  <summary>Conference Papers ({{ len $conferencePapers }}) {{ if site.Params.showCitations }}{{ partial "citation-total.html" $conferencePapers }}{{ end }}</summary>
+                  <div class="publication-list">
+                    {{ range $conferencePapers }}
+                      {{ partial "publication-entry.html" . }}
+                    {{ end }}
+                  </div>
+                </details>
+              {{ end }}
+            </section>
+          {{ end }}
+        {{ end }}
+      </div>
+
+    {{ else if eq $key "projects" }}
+      {{ $projects := .Site.Data.projects }}
+      {{ $currentYear := now.Year }}
+      {{ $ongoingLabel := "Ongoing Projects" }}
+      {{ $completedLabel := "Completed Projects" }}
+      {{ if eq $lang "ja" }}
+        {{ $ongoingLabel = "進行中のプロジェクト" }}
+        {{ $completedLabel = "完了したプロジェクト" }}
+      {{ else if eq $lang "zh" }}
+        {{ $ongoingLabel = "正在进行的项目" }}
+        {{ $completedLabel = "已经完成的项目" }}
+      {{ end }}
+      {{ $ongoingProjects := slice }}
+      {{ $completedProjects := slice }}
+      {{ range $id, $project := $projects }}
+        {{ if ne $project.display false }}
+          {{ $startYear := int ($project.start_year | default 0) }}
+          {{ $endYear := int ($project.end_year | default 0) }}
+          {{ $projectIndex := 0 }}
+          {{ with findRE "[0-9]+$" $id }}
+            {{ $indexText := index . 0 }}
+            {{ $indexText = replaceRE "^0+" "" $indexText }}
+            {{ if $indexText }}{{ $projectIndex = int $indexText }}{{ end }}
+          {{ end }}
+          {{ $sortKey := add (add (mul $startYear 1000000) (mul $endYear 100)) $projectIndex }}
+          {{ $projectWithSort := merge $project (dict "id" $id "sortKey" $sortKey) }}
+          {{ if and (gt $endYear 0) (lt $endYear $currentYear) }}
+            {{ $completedProjects = $completedProjects | append $projectWithSort }}
+          {{ else }}
+            {{ $ongoingProjects = $ongoingProjects | append $projectWithSort }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      {{ $ongoingProjects = sort $ongoingProjects "sortKey" "desc" }}
+      {{ $completedProjects = sort $completedProjects "sortKey" "desc" }}
+      <div class="publication-groups">
+        {{ if $ongoingProjects }}
+          <details class="publication-section" open>
+            <summary>{{ $ongoingLabel }}</summary>
+            {{ partial "project-role-groups.html" (dict "projects" $ongoingProjects "lang" $lang) }}
+          </details>
+        {{ end }}
+        {{ if $completedProjects }}
+          <details class="publication-section">
+            <summary>{{ $completedLabel }}</summary>
+            {{ partial "project-role-groups.html" (dict "projects" $completedProjects "lang" $lang) }}
+          </details>
+        {{ end }}
+      </div>
+    {{ else if eq $key "news" }}
+      {{ $news := $data }}
+      <div class="stack">
+        {{ $newsItems := slice }}
+        {{ range $id, $item := $news }}
+          {{ if ne $item.display false }}
+            {{ $year := int (substr $item.date 0 4) }}
+            {{ $monthText := strings.TrimLeft "0" (substr $item.date 5 2) }}
+            {{ $month := 0 }}
+            {{ with $monthText }}
+              {{ $month = int . }}
+            {{ end }}
+            {{ $fiscalYear := $year }}
+            {{ if and (gt $month 0) (le $month 3) }}
+              {{ $fiscalYear = sub $year 1 }}
+            {{ end }}
+            {{ $newsIndex := 0 }}
+            {{ with findRE "[0-9]+$" $id }}
+              {{ $indexText := index . 0 }}
+              {{ $indexText = replaceRE "^0+" "" $indexText }}
+              {{ if $indexText }}{{ $newsIndex = int $indexText }}{{ end }}
+            {{ end }}
+            {{ $sortDate := replace $item.date "-" "" }}
+            {{ $sortKey := add (mul (int $sortDate) 100) $newsIndex }}
+            {{ $newsItems = $newsItems | append (dict "id" $id "year" (string $fiscalYear) "sortYear" $fiscalYear "date" $item.date "sortKey" $sortKey "item" $item) }}
+          {{ end }}
+        {{ end }}
+        {{ $numberedNewsItems := slice }}
+        {{ range $index, $newsItem := sort $newsItems "sortKey" "asc" }}
+          {{ $itemWithNumber := merge $newsItem.item (dict "newsNumber" (printf "N%03d" (add $index 1))) }}
+          {{ $numberedNewsItems = $numberedNewsItems | append (merge $newsItem (dict "item" $itemWithNumber)) }}
+        {{ end }}
+        {{ $newsItems = $numberedNewsItems }}
+        {{ $yearKeys := slice }}
+        {{ $years := slice }}
+        {{ range $newsItems }}
+          {{ if not (in $yearKeys .year) }}
+            {{ $yearKeys = $yearKeys | append .year }}
+            {{ $years = $years | append (dict "year" .year "sortYear" .sortYear) }}
+          {{ end }}
+        {{ end }}
+        {{ range $yearIndex, $yearGroup := sort $years "sortYear" "desc" }}
+          {{ $year := $yearGroup.year }}
+          {{ $yearItems := where $newsItems "year" $year }}
+          {{ if $yearItems }}
+            <details class="publication-section" {{ if eq $yearIndex 0 }}open{{ end }}>
+              <summary>{{ $year }} ({{ len $yearItems }})</summary>
+              <div class="stack">
+                {{ range sort $yearItems "date" "desc" }}
+                  {{ $item := .item }}
+                  {{ $newsTitle := index $item.title $lang | default (index $item.title "en") }}
+                  {{ $newsText := index $item.text $lang | default (index $item.text "en") }}
+                  {{ $personName := index $item.person_name $lang | default (index $item.person_name "en") }}
+                  {{ $personType := index $item.person_type $lang | default (index $item.person_type "en") }}
+                  {{ $position := index $item.position $lang | default (index $item.position "en") }}
+                  {{ $localizedItem := merge $item (dict "title" $newsTitle "text" $newsText "person_name" $personName "person_type" $personType "position" $position) }}
+                  <article class="entry">
+                    <p class="meta">{{ $item.date }}</p>
+                    <h2>{{ with $item.newsNumber }}<span class="publication-number">[{{ . }}]</span> {{ end }}{{ $newsTitle | markdownify }}</h2>
+                    <p>{{ partial "news-person-prefix.html" (dict "item" $localizedItem "lang" $lang) }} {{ $newsText | markdownify }}</p>
+                  </article>
+                {{ end }}
+              </div>
+            </details>
+          {{ end }}
+        {{ end }}
+      </div>
+
+    {{ else if eq $key "access" }}
+      <div class="access-page">
+        {{ with $data.intro }}
+          <p class="access-intro">{{ . }}</p>
+        {{ end }}
+        <div class="access-grid">
+          <section class="entry access-card">
+            <h2>{{ $data.address.title }}</h2>
+            <p><strong>{{ $data.address.name }}</strong></p>
+            {{ range $data.address.lines }}
+              <p>{{ . }}</p>
+            {{ end }}
+          </section>
+          <section class="entry access-card access-map-card">
+            <h2>{{ $data.access.title }}</h2>
+            <p>{{ $data.access.description }}</p>
+            {{ with $data.map.embed }}
+              <iframe class="access-map" src="{{ . }}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="{{ $data.map.label }}"></iframe>
+            {{ end }}
+            <p class="access-action"><a class="access-button" href="{{ $data.map.url }}" target="_blank" rel="noopener">{{ $data.map.label }}</a></p>
+          </section>
+        </div>
+        {{ with $data.message }}
+          <section class="entry access-card">
+            <h2>{{ .title }}</h2>
+            {{ range .paragraphs }}
+              <p>{{ . }}</p>
+            {{ end }}
+          </section>
+        {{ end }}
+        <section class="entry access-card">
+          <h2>{{ $data.contact.title }}</h2>
+          {{ if $data.contact.emails }}
+            <div class="compact-email-list">
+              {{ range $data.contact.emails }}
+                <p class="contact-email">{{ $data.contact.emailLabel | default "E-mail" }}: <a href="mailto:{{ . }}">{{ . }}</a></p>
+              {{ end }}
+            </div>
+          {{ else }}
+            <p class="contact-email">{{ $data.contact.emailLabel | default "E-mail" }}: <a href="{{ $data.contact.emailHref }}">{{ $data.contact.email }}</a></p>
+          {{ end }}
+          {{ with $data.contact.phone }}
+            <p>{{ $data.contact.phoneLabel | default "Tel" }}: {{ . }}</p>
+          {{ end }}
+          <p>{{ $data.contact.note }}</p>
+          <p class="access-action"><a class="access-button" href="{{ $data.contact.emailHref }}">{{ $data.contact.button }}</a></p>
+        </section>
+      </div>
+
+    {{ else if eq $key "links" }}
+      <div class="stack">
+        {{ range $data.items }}
+          <article class="entry">
+            <h2><a href="{{ .url }}">{{ .label }}</a></h2>
+            <p>{{ .description }}</p>
+          </article>
+        {{ end }}
+      </div>
+    {{ end }}
+  </section>
+{{ end }}

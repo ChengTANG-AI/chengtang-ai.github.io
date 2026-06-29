@@ -1,0 +1,9 @@
+title: "リンク等"
+items:
+  - label: "大学"
+    url: "https://example.edu/"
+    description: "大学の公式サイト"
+  - label: "研究科"
+    url: "https://example.edu/graduate/"
+    description: "研究科の情報"
+

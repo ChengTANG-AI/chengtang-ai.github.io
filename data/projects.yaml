@@ -1,0 +1,77 @@
+# Add one top-level entry per research grant/project.
+# display: true shows the project; display: false hides the project.
+# IDs use rg_001, rg_002, rg_003, ...
+# role_type: principal or collaborator.
+# The projects page sorts by start_year descending, then end_year descending.
+
+example_project_principal:
+  display: false
+  code: "RG000"
+  title: "Example research project as principal investigator"
+  title_ja: "代表者としての研究プロジェクト例"
+  title_zh: "作为主持人的科研项目示例"
+  funder: "Example Funding Agency"
+  funder_ja: "助成機関の例"
+  funder_zh: "资助机构示例"
+  program: "Example Funding Program"
+  grant_number: "JP00K00000"
+  institution: "Example University"
+  period: "2026-2028"
+  start_year: 2026
+  end_year: 2028
+  role: "PI"
+  role_type: "principal"
+
+example_project_collaborator:
+  display: false
+  code: "RG000"
+  title: "Example research project as co-investigator"
+  title_ja: "分担者としての研究プロジェクト例"
+  title_zh: "作为共同研究者的科研项目示例"
+  funder: "Example Funding Agency"
+  funder_ja: "助成機関の例"
+  funder_zh: "资助机构示例"
+  program: "Example Funding Program"
+  grant_number: "JP00K00000"
+  institution: "Example University"
+  period: "2026-2028"
+  start_year: 2026
+  end_year: 2028
+  role: "Co-I"
+  role_type: "collaborator"
+
+rg_003:
+  code: "RG003"
+  title: "Behavior sequence modeling and performance prediction using learning behavior logs"
+  title_ja: "学習行動ログを用いた行動シーケンスモデリングと成績予測"
+  funder: "Educational and Research Support Program for Mathematical and Data Science"
+  funder_ja: "数理・データサイエンスに関する教育・研究支援プログラム"
+  institution: "Kyushu University"
+  period: "2025-2025"
+  start_year: 2025
+  end_year: 2025
+  role: "PI"
+  role_type: "principal"
+
+rg_002:
+  code: "RG002"
+  title: "Development of an explainable dendritic neural network with transparent architecture for medical image analysis"
+  funder: "Japan Society for the Promotion of Science (JSPS)"
+  program: "Early-Career Scientists"
+  grant_number: "JP25K21340"
+  period: "2025-2027"
+  start_year: 2025
+  end_year: 2027
+  role: "PI"
+  role_type: "principal"
+
+rg_001:
+  code: "RG001"
+  title: "Development of a trusted XAI-based dropout prediction method with feature selection"
+  funder: "Japan Science and Technology Agency"
+  program: "Core Research for Evolutionary Science and Technology (CREST), AIP Challenge"
+  period: "2024-2024"
+  start_year: 2024
+  end_year: 2024
+  role: "PI"
+  role_type: "principal"

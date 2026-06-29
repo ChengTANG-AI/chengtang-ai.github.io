@@ -1,0 +1,36 @@
+{{- $projects := .projects -}}
+{{- $lang := .lang -}}
+{{- $principalLabel := "Principal Investigator" -}}
+{{- $collaboratorLabel := "Co-Investigator" -}}
+{{- if eq $lang "ja" -}}
+  {{- $principalLabel = "代表者" -}}
+  {{- $collaboratorLabel = "分担者" -}}
+{{- else if eq $lang "zh" -}}
+  {{- $principalLabel = "项目负责人" -}}
+  {{- $collaboratorLabel = "共同研究人员" -}}
+{{- end -}}
+
+{{- $principalProjects := where $projects "role_type" "principal" -}}
+{{- $collaboratorProjects := where $projects "role_type" "collaborator" -}}
+
+{{- if $principalProjects -}}
+  <section class="project-role-group">
+    <h3>{{ $principalLabel }}</h3>
+    <div class="publication-list">
+      {{- range $principalProjects -}}
+        {{ partial "project-entry.html" . }}
+      {{- end -}}
+    </div>
+  </section>
+{{- end -}}
+
+{{- if $collaboratorProjects -}}
+  <section class="project-role-group">
+    <h3>{{ $collaboratorLabel }}</h3>
+    <div class="publication-list">
+      {{- range $collaboratorProjects -}}
+        {{ partial "project-entry.html" . }}
+      {{- end -}}
+    </div>
+  </section>
+{{- end -}}

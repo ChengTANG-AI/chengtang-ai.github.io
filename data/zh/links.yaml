@@ -1,0 +1,9 @@
+title: "相关链接"
+items:
+  - label: "大学"
+    url: "https://example.edu/"
+    description: "大学官方网站"
+  - label: "研究科"
+    url: "https://example.edu/graduate/"
+    description: "研究科相关信息"
+

@@ -1,0 +1,33 @@
+<header class="site-header">
+  <a class="brand" href="{{ .Site.Home.RelPermalink }}" aria-label="{{ .Site.Params.labShortName }}">
+    <img class="brand-logo" src="{{ .Site.Params.logo | relURL }}" alt="{{ .Site.Params.labShortName }}">
+    <span class="brand-text">
+      <span class="brand-short">{{ .Site.Params.labShortName }}</span>
+      <span class="brand-full">{{ .Site.Params.labName }}</span>
+    </span>
+  </a>
+  <nav class="main-nav" aria-label="Main navigation">
+    {{ $disabledSections := .Site.Params.visibility.disabledSections | default slice }}
+    {{ range .Site.Menus.main }}
+      {{ $sectionKey := "" }}
+      {{ with .Page }}{{ $sectionKey = .Params.sectionKey | default "" }}{{ end }}
+      {{ if and $sectionKey (in $disabledSections $sectionKey) }}{{ continue }}{{ end }}
+      {{ $href := .URL | relLangURL }}
+      {{ if or (hasPrefix .URL "http://") (hasPrefix .URL "https://") }}
+        {{ $href = .URL }}
+      {{ end }}
+      {{ with .Page }}{{ $href = .RelPermalink }}{{ end }}
+      {{ $isActive := or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
+      {{ if eq $href $.RelPermalink }}{{ $isActive = true }}{{ end }}
+      {{ $isLabLink := eq .URL "https://t-aiclab.github.io/" }}
+      <a href="{{ $href }}"{{ if or (hasPrefix .URL "http://") (hasPrefix .URL "https://") }} target="_blank" rel="noopener"{{ end }}{{ if or $isActive $isLabLink }} class="{{ if $isActive }}is-active{{ end }}{{ if and $isActive $isLabLink }} {{ end }}{{ if $isLabLink }}lab-site-link{{ end }}"{{ end }}{{ if $isActive }} aria-current="page"{{ end }}>{{ .Name }}</a>
+    {{ end }}
+  </nav>
+  <nav class="language-nav" aria-label="Language switcher">
+    {{ $disabledLanguages := .Site.Params.visibility.disabledLanguages | default slice }}
+    {{ range .AllTranslations }}
+      {{ if in $disabledLanguages .Language.Lang }}{{ continue }}{{ end }}
+      <a href="{{ .RelPermalink }}" lang="{{ .Language.Lang }}"{{ if eq .Language.Lang $.Site.Language.Lang }} class="is-active" aria-current="true"{{ end }}>{{ .Language.LanguageName }}</a>
+    {{ end }}
+  </nav>
+</header>

@@ -1,0 +1,42 @@
+title: "所在地・連絡先"
+intro: "キャンパスへのアクセスと連絡方法をご案内します．名古屋工業大学6号館を拠点に，人工知能・通信研究室が活動しています．"
+homeSummary:
+  label: "ACCESS"
+  messageButton: "アクセスページへ"
+  addressButton: "詳細を見る"
+  accessButton: "アクセスページへ"
+address:
+  title: "住所"
+  name: "人工知能・通信研究室"
+  lines:
+    - "〒466-8555 愛知県名古屋市昭和区御器所町"
+    - "名古屋工業大学"
+    - "研究室：6号館 10階1014室"
+access:
+  title: "アクセス情報"
+  description: "JR中央本線 鶴舞駅および名古屋市営地下鉄鶴舞線 鶴舞駅から徒歩圏内です．研究室は名古屋工業大学キャンパス内の6号館10階1014室にあります．"
+message:
+  label: "MESSAGE"
+  title: "学生の皆さんへ"
+  paragraphs:
+    - "AIが社会を大きく変えつつある現在，本当に価値のある研究とは，新しいAI技術を生み出すことだけではなく，現実世界で安心して利用できる知的システムを実現することだと私たちは考えています．"
+    - "本研究室では，人工知能と情報通信技術を融合し，人や社会を支える知的システムの研究に取り組んでいます．AI，通信，データを総合的に活用し，医療，科学，産業などの実社会に貢献する技術の創出を目指しています．"
+    - "私たちが大切にしているのは，論文を書くことやシステムを作ることだけではありません．自ら課題を見つけ，考え，実装し，実験によって検証し，改善を繰り返すという研究のプロセスそのものを重視しています．その過程を通じて，研究者としての思考力と，技術者としての実践力を身に付けてほしいと考えています．"
+    - "研究は一人で完結するものではありません．仲間と議論し，協力し，試行錯誤を重ねながら，新しい知識を創り出していくことに研究の醍醐味があります．失敗を恐れず挑戦し続ける姿勢を大切にしてください．"
+    - "人工知能に興味があり，現実世界の課題を解決したい，新しい技術を自らの手で創り出したいという意欲を持つ皆さんを，心より歓迎します．"
+contact:
+  title: "お問い合わせ"
+  emailLabel: "E-mail"
+  phoneLabel: "電話"
+  email: "aiclab@nitech.ac.jp"
+  emailHref: "mailto:aiclab@nitech.ac.jp"
+  emails:
+    - "aiclab@nitech.ac.jp"
+    - "tang.lab.ai@gmail.com"
+  phone: "052-735-5187"
+  note: "共同研究・学生募集に関するお問い合わせをお待ちしています．"
+  button: "メールを送る"
+map:
+  label: "Google Mapsで開く"
+  url: "https://www.google.com/maps/search/?api=1&query=Nagoya%20Institute%20of%20Technology"
+  embed: "https://www.google.com/maps?q=Nagoya%20Institute%20of%20Technology&output=embed"

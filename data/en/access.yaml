@@ -1,0 +1,42 @@
+title: "Access & Contact"
+intro: "This page provides campus access and contact information. The laboratory is based in Building 6 at Nagoya Institute of Technology."
+homeSummary:
+  label: "ACCESS"
+  messageButton: "Open access page"
+  addressButton: "View details"
+  accessButton: "Open access page"
+address:
+  title: "Address"
+  name: "Artificial Intelligence and Communication Laboratory"
+  lines:
+    - "Room 1014, 10th Floor, Building 6"
+    - "Nagoya Institute of Technology"
+    - "Gokiso-cho, Showa-ku, Nagoya, Aichi 466-8555, Japan"
+access:
+  title: "Access Info"
+  description: "The laboratory is located on the Nagoya Institute of Technology campus, near JR Tsurumai Station and Tsurumai Station on the Nagoya Municipal Subway Tsurumai Line."
+message:
+  label: "MESSAGE"
+  title: "Message to Students"
+  paragraphs:
+    - "As artificial intelligence continues to reshape our society, we believe that truly valuable research is not only about developing new AI algorithms, but also about creating intelligent systems that work reliably in the real world."
+    - "In our laboratory, we combine artificial intelligence with communication technologies to build systems that can sense, understand, and support people in diverse environments. We study AI, communication, and data together, and transform research ideas into practical solutions for healthcare, science, industry, and society."
+    - "What we value most is not simply publishing papers or building systems. We value the entire research process: asking meaningful questions, thinking independently, implementing ideas, validating them through experiments, and continuously improving them. Through this process, we hope students develop both scientific thinking and engineering skills."
+    - "Research is also a collaborative journey. We encourage open discussion, mutual support, and learning through trial and error. Rather than fearing failure, we see it as an essential step toward innovation."
+    - "If you are excited by artificial intelligence, inspired by real-world challenges, and eager to create technologies that make a positive impact on society, we warmly welcome you to join our laboratory."
+contact:
+  title: "Contact"
+  emailLabel: "E-mail"
+  phoneLabel: "Tel"
+  email: "aiclab@nitech.ac.jp"
+  emailHref: "mailto:aiclab@nitech.ac.jp"
+  emails:
+    - "aiclab@nitech.ac.jp"
+    - "tang.lab.ai@gmail.com"
+  phone: "+81-52-735-5187"
+  note: "We welcome inquiries regarding collaboration and student opportunities."
+  button: "send e-mail"
+map:
+  label: "Open in Google Maps"
+  url: "https://www.google.com/maps/search/?api=1&query=Nagoya%20Institute%20of%20Technology"
+  embed: "https://www.google.com/maps?q=Nagoya%20Institute%20of%20Technology&output=embed"

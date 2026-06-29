@@ -1,0 +1,43 @@
+title: "访问与联系"
+intro: "本页面提供校园访问与联系方式信息。研究室位于名古屋工业大学 6 号馆。"
+homeSummary:
+  label: "ACCESS"
+  messageButton: "联系我们"
+  addressButton: "查看详情"
+  accessButton: "查看详情"
+address:
+  title: "地址"
+  name: "人工智能与通信研究室"
+  lines:
+    - "日本 〒466-8555"
+    - "爱知县名古屋市昭和区御器所町"
+    - "名古屋工业大学"
+    - "6 号馆 10 楼 1014 室"
+access:
+  title: "交通信息"
+  description: "研究室位于名古屋工业大学校园内，最近车站为 JR 中央本线鹤舞站和名古屋市营地下铁鹤舞线鹤舞站。"
+message:
+  label: "MESSAGE"
+  title: "致学生"
+  paragraphs:
+    - "人工智能正在深刻改变我们的社会，而我们认为，真正有价值的研究不仅是提出新的 AI 算法，更重要的是构建能够真正服务于现实世界的智能系统。"
+    - "在本实验室，我们将人工智能与通信技术相结合，研究能够感知、理解并支持真实世界的智能系统。我们综合运用 AI、通信与数据技术，面向医疗、科学、产业等领域，探索能够真正解决实际问题的新方法和新系统。"
+    - "我们最重视的，不只是发表论文或完成一个系统，而是完整的科研过程：提出问题、独立思考、设计算法、实现系统、实验验证，并不断改进。希望每一位同学都能在这一过程中培养科研能力，也成长为具有工程实践能力的研究者。"
+    - "科研从来不是一个人的工作。我们鼓励开放交流、相互合作，在不断尝试、不断失败、不断改进中体会科研的乐趣，并共同成长。"
+    - "如果你对人工智能充满兴趣，希望利用 AI 与通信技术解决真实世界的问题，并创造能够真正影响社会的智能系统，我们诚挚地欢迎你加入我们的实验室。"
+contact:
+  title: "联系方式"
+  emailLabel: "E-mail"
+  phoneLabel: "电话"
+  email: "aiclab@nitech.ac.jp"
+  emailHref: "mailto:aiclab@nitech.ac.jp"
+  emails:
+    - "aiclab@nitech.ac.jp"
+    - "tang.lab.ai@gmail.com"
+  phone: "+81-52-735-5187"
+  note: "欢迎就共同研究和学生机会进行联系。"
+  button: "发送邮件"
+map:
+  label: "在 Google Maps 中打开"
+  url: "https://www.google.com/maps/search/?api=1&query=Nagoya%20Institute%20of%20Technology"
+  embed: "https://www.google.com/maps?q=Nagoya%20Institute%20of%20Technology&output=embed"

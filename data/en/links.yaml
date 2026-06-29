@@ -1,0 +1,9 @@
+title: "Links"
+items:
+  - label: "University"
+    url: "https://example.edu/"
+    description: "University website"
+  - label: "Graduate School"
+    url: "https://example.edu/graduate/"
+    description: "Graduate school information"
+
