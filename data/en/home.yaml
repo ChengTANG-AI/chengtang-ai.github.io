@@ -20,7 +20,7 @@ profile:
 hero:
   eyebrow: ""
   title: "Cheng Tang"
-  description: "I am a tenured Associate Professor at Nagoya Institute of Technology, where I lead the Tang Laboratory and conduct research on artificial intelligence, communication systems, and data-driven intelligence."
+  description: "I am a tenured Associate Professor at Nagoya Institute of Technology, where I lead the Artificial Intelligence and Communication Laboratory (AIC Lab) and conduct research on artificial intelligence, communication systems, and data-driven intelligence."
   primaryButton: "View publications"
   secondaryButton: "View research"
 biography:
