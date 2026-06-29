@@ -29,7 +29,7 @@ a {
 
 .site-header {
   display: grid;
-  grid-template-columns: minmax(18rem, auto) minmax(0, 1fr) auto;
+  grid-template-columns: minmax(18rem, auto) minmax(0, 1fr);
   gap: 1.25rem;
   align-items: center;
   padding: 1rem clamp(1rem, 4vw, 3rem);
@@ -38,6 +38,22 @@ a {
   position: sticky;
   top: 0;
   z-index: 10;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+.nav-toggle-button {
+  display: none;
+}
+
+.site-nav-panel {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 0;
 }
 
 .brand {
@@ -1255,7 +1271,54 @@ html[lang="zh"] .brand {
 
 @media (max-width: 820px) {
   .site-header {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .brand-logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .brand-full {
+    display: none;
+  }
+
+  .nav-toggle-button {
+    display: inline-flex;
+    min-height: 2.05rem;
+    align-items: center;
+    border: 1px solid var(--ink);
+    padding: 0.36rem 0.78rem;
+    background: var(--ink);
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 800;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+  .site-nav-panel {
+    display: none;
+    grid-column: 1 / -1;
+    width: 100%;
+    padding-top: 0.25rem;
+  }
+
+  .nav-toggle:checked ~ .site-nav-panel {
+    display: grid;
+    gap: 0.65rem;
+  }
+
+  .main-nav,
+  .language-nav {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .main-nav a.lab-site-link {
+    margin-right: 0;
   }
 
   .language-nav {
