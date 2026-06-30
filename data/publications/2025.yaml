@@ -10,7 +10,7 @@ preprint_04:
   month: 11
   doi: https://doi.org/10.48550/arxiv.2511.04144
   url: https://arxiv.org/abs/2511.04144
-  citations: 20
+  citations: 21
   citations_by_year:
     '2026': 2
 journal_2025_01:
@@ -51,7 +51,7 @@ journal_2025_03:
   month: 12
   pages: '113758'
   doi: https://doi.org/10.1016/j.asoc.2025.113758
-  citations: 6
+  citations: 7
   citations_by_year:
     '2025': 2
     '2026': 2
@@ -223,7 +223,7 @@ conference_2025_12:
   month: 5
   pages: 543-548
   doi: https://doi.org/10.1109/cai64502.2025.00099
-  citations: 3
+  citations: 4
   citations_by_year:
     '2026': 2
 conference_2025_13:
@@ -262,6 +262,6 @@ conference_2025_15:
   pages: 4873-4878
   doi: https://doi.org/10.1109/smc58881.2025.11343445
   url: https://ieeexplore.ieee.org/document/11343445
-  citations: 5
+  citations: 6
   citations_by_year:
     '2026': 1

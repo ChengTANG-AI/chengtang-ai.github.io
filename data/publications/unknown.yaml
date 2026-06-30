@@ -1,0 +1,23 @@
+# Publication entries for unknown.
+# Add one top-level entry per paper.
+# The site and citation updater read all YAML files in data/publications/ automatically.
+
+
+# AUTO-ADDED PUBLICATIONS FROM GOOGLE SCHOLAR
+# Please review these entries regularly, fill type/source/month/doi/link fields,
+# and rename IDs to journal_YYYY_NN, conference_YYYY_NN, or preprint_NN.
+
+new_publication_unknown_01:
+  # TODO: Review this automatically added Google Scholar entry.
+  display: true
+  type: "preprint"
+  title: "KUMA: A Novel Framework with Koopman Separation and Efficient Multilevel Extraction in Time Series Forecasting"
+  authors: ""
+  journal: ""
+  conference: ""
+  preprint: "Google Scholar"
+  year: ""
+  month: ""
+  doi: ""
+  link: ""
+  citations: 0
