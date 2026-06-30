@@ -1,0 +1,146 @@
+# Publication entries for 2021.
+# Add one top-level entry per paper. The site and citation updater read all YAML files in data/publications/ automatically.
+
+journal_2021_01:
+  type: journal
+  title: A simple dendritic neural network model-based approach for daily PM2.5 concentration prediction
+  authors: Zhenyu Song, Cheng Tang, Junkai Ji, Yuki Todo, Zheng Tang
+  journal: Electronics
+  year: 2021
+  month: 2
+  volume: '10'
+  number: '4'
+  pages: '373'
+  doi: https://doi.org/10.3390/electronics10040373
+  citations: 27
+  citations_by_year:
+    '2021': 4
+    '2022': 7
+    '2023': 5
+    '2024': 6
+    '2025': 3
+journal_2021_02:
+  type: journal
+  title: Adaptive self-scaling brain-storm optimization via a chaotic search mechanism
+  authors: Zhenyu Song, Xuemei Yan, Lvxing Zhao, Luyi Fan, Cheng Tang, Junkai Ji
+  journal: Algorithms
+  year: 2021
+  month: 8
+  volume: '14'
+  number: '8'
+  pages: '239'
+  doi: https://doi.org/10.3390/a14080239
+  citations: 2
+  citations_by_year:
+    '2022': 1
+    '2024': 1
+journal_2021_03:
+  type: journal
+  title: Air quality estimation using dendritic neural regression with scale-free network-based differential evolution
+  authors: Zhenyu Song, Cheng Tang, Jin Qian, Bin Zhang, Yuki Todo
+  journal: Atmosphere
+  year: 2021
+  month: 12
+  volume: '12'
+  number: '12'
+  pages: '1647'
+  doi: https://doi.org/10.3390/atmos12121647
+  citations: 1
+  citations_by_year:
+    '2023': 1
+journal_2021_04:
+  type: journal
+  title: Artificial immune system training algorithm for a dendritic neuron model
+  authors: Cheng Tang, Yuki Todo, Junkai Ji, Qiuzhen Lin, Zheng Tang
+  journal: Knowledge-Based Systems
+  year: 2021
+  month: 12
+  volume: '233'
+  pages: '107509'
+  doi: https://doi.org/10.1016/j.knosys.2021.107509
+  citations: 20
+  citations_by_year:
+    '2022': 5
+    '2023': 5
+    '2024': 5
+    '2025': 5
+    '2026': 1
+journal_2021_05:
+  type: journal
+  title: Transmission trend of the COVID-19 pandemic predicted by dendritic neural regression
+  authors: Minhui Dong, Cheng Tang, Junkai Ji, Qiuzhen Lin, Ka-Chun Wong
+  journal: Applied Soft Computing
+  year: 2021
+  month: 11
+  volume: '111'
+  pages: '107683'
+  doi: https://doi.org/10.1016/j.asoc.2021.107683
+  citations: 24
+  citations_by_year:
+    '2021': 2
+    '2022': 6
+    '2023': 6
+    '2024': 5
+    '2025': 2
+    '2026': 2
+conference_2021_01:
+  type: conference
+  title: An adaptive scaling cuckoo search algorithm
+  authors: Zhenyu Song, Shuangyu Song, Bin Zhang, Jin Qian, Cheng Tang, Junkai Ji
+  conference: '2021 4th International Conference on Advanced Electronic Materials, Computers and Software Engineering (AEMCSE)'
+  year: 2021
+  month: 3
+  pages: 562-566
+  doi: https://doi.org/10.1109/aemcse51986.2021.00120
+  citations: 5
+  citations_by_year:
+    '2023': 1
+    '2025': 1
+    '2026': 1
+conference_2021_02:
+  type: conference
+  title: An efficient orientation detection mechanism inspired via orientation-selective amacrine cells
+  authors: Fenggang Yuan, Cheng Tang, Yuki Todo, Zheng Tang
+  conference: 'Proceedings of the 2021 4th International Conference on Signal Processing and Machine Learning'
+  year: 2021
+  month: 8
+  pages: 7-11
+  doi: https://doi.org/10.1145/3483207.3483209
+  citations: 0
+conference_2021_03:
+  type: conference
+  title: An evolutionary neuron model with dendritic computation for classification and prediction
+  authors: Cheng Tang, Zhenyu Song, Yajiao Tang, Huimei Tang, Yuxi Wang, Junkai Ji
+  conference: International conference on intelligent computing
+  year: 2021
+  month: 8
+  pages: 18-36
+  doi: https://doi.org/10.1007/978-3-030-84522-3_2
+  citations: 3
+  citations_by_year:
+    '2024': 1
+    '2025': 1
+    '2026': 1
+conference_2021_04:
+  type: conference
+  title: The mechanism of motion direction detection from gray images
+  authors: Yuxiao Hua, Riku Inoue, Cheng Tang, Yuki Todo, Zheng Tang
+  conference: 'Proceedings of the 2021 4th International Conference on Signal Processing and Machine Learning'
+  year: 2021
+  month: 8
+  pages: 12-17
+  doi: https://doi.org/10.1145/3483207.3483210
+  citations: 0
+conference_2021_05:
+  type: conference
+  title: The mechanism of orientation detection based on dendritic neuron
+  authors: Xiliang Zhang, Yuki Todo, Cheng Tang, Zheng Tang
+  conference: '2021 IEEE 4th International Conference on Big Data and Artificial Intelligence (BDAI)'
+  year: 2021
+  month: 7
+  pages: 225-229
+  doi: https://doi.org/10.1109/bdai52447.2021.9515286
+  citations: 2
+  citations_by_year:
+    '2022': 1
+    '2023': 1

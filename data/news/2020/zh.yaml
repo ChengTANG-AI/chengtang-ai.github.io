@@ -1,0 +1,15 @@
+# Localized news fields for zh, Japanese fiscal year 2020.
+# Common fields such as display, date, and student_year are maintained in en.yaml.
+# Add the same news id here only when localized text is needed.
+news_2020_11_01_01:
+  title: 富山大学优秀学生奖
+  person_name: 唐成
+  person_type: 学生
+  position: 博士生
+  text: 获得富山大学颁发的**[富山大学优秀学生奖](https://researchmap.jp/chengtang/awards/50350930)**。
+news_2020_04_01_01:
+  title: 大塚敏美育英奖学金
+  person_name: 唐成
+  person_type: 学生
+  position: 博士生
+  text: 获得公益财团法人大塚敏美育英奖学财团颁发的**[大塚敏美育英奖学金](https://researchmap.jp/chengtang/awards/50350948)**。

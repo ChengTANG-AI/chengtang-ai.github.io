@@ -1,0 +1,78 @@
+# Publication entries for 2020.
+# Add one top-level entry per paper. The site and citation updater read all YAML files in data/publications/ automatically.
+
+journal_2020_01:
+  type: journal
+  title: A novel machine learning technique for computer-aided diagnosis
+  authors: Cheng Tang, Junkai Ji, Yajiao Tang, Shangce Gao, Zheng Tang, Yuki Todo
+  journal: Engineering Applications of Artificial Intelligence
+  year: 2020
+  month: 6
+  volume: '92'
+  pages: '103627'
+  doi: https://doi.org/10.1016/j.engappai.2020.103627
+  citations: 79
+  citations_by_year:
+    '2020': 3
+    '2021': 16
+    '2022': 14
+    '2023': 10
+    '2024': 9
+    '2025': 6
+    '2026': 4
+journal_2020_02:
+  type: journal
+  title: Evolutionary dendritic neural model for classification problems
+  authors: Xiaoxiao Qian, Cheng Tang, Yuki Todo, Qiuzhen Lin, Junkai Ji
+  journal: Complexity
+  year: 2020
+  month: 8
+  volume: '2020'
+  number: '1'
+  pages: '6296209'
+  doi: https://doi.org/10.1155/2020/6296209
+  citations: 18
+  citations_by_year:
+    '2021': 2
+    '2022': 5
+    '2023': 3
+    '2024': 2
+conference_2020_01:
+  type: conference
+  title: A novel plastic neural model with dendritic computation for classification problems
+  authors: Junkai Ji, Minhui Dong, Cheng Tang, Jiajun Zhao, Shuangbao Song
+  conference: International Conference on Intelligent Computing
+  year: 2020
+  month: 10
+  pages: 471-483
+  doi: https://doi.org/10.1007/978-3-030-60799-9_41
+  citations: 1
+  citations_by_year:
+    '2024': 1
+conference_2020_02:
+  type: conference
+  title: Improving approximate logic neuron model by means of a novel learning algorithm
+  authors: Jiajun Zhao, Minhui Dong, Cheng Tang, Junkai Ji, Ying He
+  conference: International Conference on Intelligent Computing
+  year: 2020
+  month: 10
+  pages: 484-496
+  doi: https://doi.org/10.1007/978-3-030-60799-9_42
+  citations: 3
+  citations_by_year:
+    '2022': 1
+conference_2020_03:
+  type: conference
+  title: Wind speed time series prediction using a single dendritic neuron model
+  authors: Zhenyu Song, Tianle Zhou, Xuemei Yan, Cheng Tang, Junkai Ji
+  conference: '2020 2nd International Conference on Machine Learning, Big Data and Business Intelligence (MLBDBI)'
+  year: 2020
+  month: 10
+  pages: 140-144
+  doi: https://doi.org/10.1109/mlbdbi51377.2020.00031
+  citations: 6
+  citations_by_year:
+    '2021': 1
+    '2022': 1
+    '2023': 2
+    '2024': 1

@@ -1,0 +1,27 @@
+# Localized news fields for ja, Japanese fiscal year 2022.
+# Common fields such as display, date, and student_year are maintained in en.yaml.
+# Add the same news id here only when localized text is needed.
+news_2023_02_01_01:
+  title: COVID-19 AI・シミュレーションプロジェクト，共同研究者
+  person_name: 唐成
+  person_type: 教員
+  position: 助教
+  text: 'は，**[COVID-19 AI・シミュレーションプロジェクト](https://www.covid19-ai.jp/ja-jp/)** に**共同研究者**として参画しました．関連成果には **[東京都における新規陽性者数の長期予測](https://www.covid19-ai.jp/en-us/presentation/2022_rq1_simulations_for_infection_situations/articles/article435/)** および **[第8波後の新規陽性者数の予測：XBB.1.5拡大の可能性](https://www.covid19-ai.jp/en-us/presentation/2022_rq1_simulations_for_infection_situations/articles/article427/)** が含まれます．'
+news_2022_09_01_01:
+  title: IEEE，会員
+  person_name: 唐成
+  person_type: 教員
+  position: 助教
+  text: は，**[電気電子技術者協会（IEEE）](https://www.ieee.org/)** に**会員**として入会しました．
+news_2022_08_01_01:
+  title: 名古屋工業大学，助教
+  person_name: 唐成
+  person_type: 教員
+  position: 助教
+  text: は，**[名古屋工業大学](https://www.nitech.ac.jp/)** **大学院工学研究科 電気電子系** に**助教**として着任しました．
+news_2022_04_01_01:
+  title: 富山大学，研究員
+  person_name: 唐成
+  person_type: 教員
+  position: 研究員
+  text: は，**[富山大学](https://www.u-toyama.ac.jp/)** **工学部** に**博士研究員**として着任しました．

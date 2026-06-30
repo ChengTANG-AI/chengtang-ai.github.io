@@ -1,0 +1,33 @@
+# Localized news fields for zh, Japanese fiscal year 2023.
+# Common fields such as display, date, and student_year are maintained in en.yaml.
+# Add the same news id here only when localized text is needed.
+news_2024_03_12_01:
+  title: DSAA 2024，程序委员会委员
+  person_name: 唐成
+  person_type: 教员
+  position: 助理教授
+  text: '担任 **[第11届 IEEE International Conference on Data Science and Advanced Analytics](https://indigopurple.github.io/DSAA/dsaa2024.html)**（DSAA 2024）的**程序委员会委员**。会议于2024年10月6日至10日在美国加利福尼亚州圣迭戈举行。'
+news_2023_12_01_01:
+  title: 信息处理学会，会员
+  person_name: 唐成
+  person_type: 教员
+  position: 助理教授
+  text: 作为**会员**加入 **[信息处理学会](https://www.ipsj.or.jp/index.html)**。
+news_2023_09_01_01:
+  title: 岛根大学 S-SPRING 项目，导师
+  person_name: 唐成
+  person_type: 教员
+  position: 助理教授
+  text: 在岛根大学医学部担任“面向可持续社会建设的岛根大学高度人才培养项目”（S-SPRING）的**导师**。
+news_2023_06_01_01:
+  title: 九州大学，助理教授
+  person_name: 唐成
+  person_type: 教员
+  position: 助理教授
+  text: 加入 **[九州大学](https://www.kyushu-u.ac.jp/ja/)** **信息科学与电气工程学院**，担任**助理教授**。
+news_2023_04_01_01:
+  title: 日本人工智能学会，会员
+  person_name: 唐成
+  person_type: 教员
+  position: 助理教授
+  text: 作为**会员**加入 **[日本人工智能学会](https://www.ai-gakkai.or.jp/)**。

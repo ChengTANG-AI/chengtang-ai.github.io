@@ -1,0 +1,134 @@
+# Publication entries for 2022.
+# Add one top-level entry per paper. The site and citation updater read all YAML files in data/publications/ automatically.
+
+journal_2022_01:
+  type: journal
+  title: A cuckoo search algorithm with scale-free population topology
+  authors: Cheng Tang, Shuangbao Song, Junkai Ji, Yajiao Tang, Zheng Tang, Yuki Todo
+  journal: Expert Systems With Applications
+  year: 2022
+  month: 2
+  volume: '188'
+  pages: '116049'
+  doi: https://doi.org/10.1016/j.eswa.2021.116049
+  citations: 16
+  citations_by_year:
+    '2022': 2
+    '2023': 4
+    '2024': 3
+    '2025': 4
+    '2026': 3
+journal_2022_02:
+  type: journal
+  title: A novel motion direction detection mechanism based on dendritic computation of direction-selective ganglion cells
+  authors: Cheng Tang, Yuki Todo, Junkai Ji, Zheng Tang
+  journal: Knowledge-Based Systems
+  year: 2022
+  month: 4
+  volume: '241'
+  pages: '108205'
+  doi: https://doi.org/10.1016/j.knosys.2022.108205
+  citations: 17
+  citations_by_year:
+    '2022': 3
+    '2023': 1
+    '2024': 6
+    '2025': 2
+    '2026': 1
+journal_2022_03:
+  type: journal
+  title: 'A survey on dendritic neuron model: mechanisms, algorithms and practical applications'
+  authors: Junkai Ji, Cheng Tang, Jiajun Zhao, Zheng Tang, Yuki Todo
+  journal: Neurocomputing
+  year: 2022
+  month: 6
+  volume: '489'
+  pages: 390-406
+  doi: https://doi.org/10.1016/j.neucom.2021.08.153
+  citations: 49
+  citations_by_year:
+    '2022': 3
+    '2023': 5
+    '2024': 13
+    '2025': 13
+    '2026': 4
+journal_2022_04:
+  type: journal
+  title: A survey on machine learning models for financial time series forecasting
+  authors: 'Yajiao Tang, Zhenyu Song, Yulin Zhu, Huaiyu Yuan, Maozhang Hou, Junkai Ji, Cheng Tang, Jianqiang Li'
+  journal: Neurocomputing
+  year: 2022
+  month: 11
+  volume: '512'
+  pages: 363-380
+  doi: https://doi.org/10.1016/j.neucom.2022.09.003
+  citations: 186
+  citations_by_year:
+    '2022': 2
+    '2023': 28
+    '2024': 34
+    '2025': 43
+    '2026': 17
+journal_2022_05:
+  type: journal
+  title: Adopting a dendritic neural model for predicting stock price index movement
+  authors: Yajiao Tang, Zhenyu Song, Yulin Zhu, Maozhang Hou, Cheng Tang, Junkai Ji
+  journal: Expert Systems with Applications
+  year: 2022
+  month: 11
+  volume: '205'
+  pages: '117637'
+  doi: https://doi.org/10.1016/j.eswa.2022.117637
+  citations: 30
+  citations_by_year:
+    '2022': 1
+    '2023': 6
+    '2024': 11
+    '2025': 8
+    '2026': 1
+journal_2022_06:
+  type: journal
+  title: 'DenseHashNet: a novel deep hashing for medical image retrieval'
+  authors: 'Chuansheng Liu, Weiping Ding, Chun Cheng, Cheng Tang, Jiashuang Huang, Haipeng Wang'
+  journal: IEEE Journal of Radio Frequency Identification
+  year: 2022
+  month: 9
+  volume: '6'
+  pages: 697-702
+  doi: https://doi.org/10.1109/jrfid.2022.3209986
+  citations: 10
+  citations_by_year:
+    '2023': 3
+    '2024': 2
+    '2025': 4
+    '2026': 1
+journal_2022_07:
+  type: journal
+  title: The mechanism of orientation detection based on color-orientation jointly selective cells
+  authors: Bin Li, Yuki Todo, Zheng Tang, Cheng Tang
+  journal: Knowledge-Based Systems
+  year: 2022
+  month: 10
+  volume: '254'
+  pages: '109715'
+  doi: https://doi.org/10.1016/j.knosys.2022.109715
+  citations: 7
+  citations_by_year:
+    '2023': 1
+    '2024': 2
+    '2025': 4
+conference_2022_01:
+  type: conference
+  title: Evolutionary neural architecture design of liquid state machine for image classification
+  authors: Cheng Tang, Junkai Ji, Qiuzhen Lin, Yan Zhou
+  conference: 'ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)'
+  year: 2022
+  month: 5
+  pages: 91-95
+  doi: https://doi.org/10.1109/icassp43922.2022.9747040
+  citations: 9
+  citations_by_year:
+    '2023': 1
+    '2024': 2
+    '2025': 1
+    '2026': 1

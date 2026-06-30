@@ -1,0 +1,7 @@
+{{- $items := slice -}}
+{{- range $fileKey, $fileData := .Site.Data.publications -}}
+  {{- range $id, $paper := $fileData -}}
+    {{- $items = $items | append (merge $paper (dict "id" $id "source_file" $fileKey)) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $items -}}

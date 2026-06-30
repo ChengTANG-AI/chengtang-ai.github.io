@@ -1,0 +1,48 @@
+# News items for Japanese fiscal year 2023.
+# Add one top-level entry per news item. The site reads all numeric year folders automatically.
+
+news_2024_03_12_01:
+  display: true
+  date: '2024-03-12'
+  student_year: ''
+  title: DSAA 2024, Program Committee Member
+  person_name: Cheng Tang
+  person_type: Faculty
+  position: Assistant Professor
+  text: 'served as a **Program Committee Member** for the **[11th IEEE International Conference on Data Science and Advanced Analytics](https://indigopurple.github.io/DSAA/dsaa2024.html)** (DSAA 2024), held in San Diego, CA, United States, October 6-10, 2024.'
+news_2023_12_01_01:
+  display: true
+  date: '2023-12-01'
+  student_year: ''
+  title: Information Processing Society of Japan, Member
+  person_name: Cheng Tang
+  person_type: Faculty
+  position: Assistant Professor
+  text: 'joined the **[Information Processing Society of Japan](https://www.ipsj.or.jp/index.html)** as a **Member**.'
+news_2023_09_01_01:
+  display: true
+  date: '2023-09-01'
+  student_year: ''
+  title: Shimane University S-SPRING Project, Mentor
+  person_name: Cheng Tang
+  person_type: Faculty
+  position: Assistant Professor
+  text: 'was appointed as a **Mentor** for the Shimane University Project for Developing Highly Skilled Human Resources for Building a Sustainable Society (持続可能な社会構築に向けた島根大学高度人材育成プロジェクト, S-SPRING) at Shimane University, Faculty of Medicine.'
+news_2023_06_01_01:
+  display: true
+  date: '2023-06-01'
+  student_year: ''
+  title: Kyushu University, Assistant Professor
+  person_name: Cheng Tang
+  person_type: Faculty
+  position: Assistant Professor
+  text: 'joined the **Faculty of Information Science and Electrical Engineering**, **[Kyushu University](https://www.kyushu-u.ac.jp/ja/)**, as an **Assistant Professor**.'
+news_2023_04_01_01:
+  display: true
+  date: '2023-04-01'
+  student_year: ''
+  title: Japanese Society for Artificial Intelligence, Member
+  person_name: Cheng Tang
+  person_type: Faculty
+  position: Assistant Professor
+  text: 'joined the **[Japanese Society for Artificial Intelligence](https://www.ai-gakkai.or.jp/)** as a **Member**.'

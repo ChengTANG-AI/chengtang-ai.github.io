@@ -1,0 +1,26 @@
+# Research direction data for one language.
+# display: true shows this research direction; display: false hides it.
+# Add one top-level entry per featured paper below title and description.
+# Each featured paper is matched against all files under data/publications/ by title.
+
+display: true
+title: AI for Drug Design
+description: 'AI methods for molecular representation, property prediction, and data-driven drug discovery.'
+Improving the artificial bee colony algorithm with a proprietary estimation of distribution mechanism for protein-ligand docking:
+  display: true
+  image: images/research/ai_for_drug_design/ABC-DEM.png
+  contributions:
+  - 'Proposed ABC-EDM, an enhanced artificial bee colony algorithm for protein–ligand docking by integrating a problem-specific estimation of distribution mechanism (EDM).'
+  - 'Designed a proprietary search mechanism that models ligand positional variables with probabilistic distributions while preserving promising molecular conformations to improve docking efficiency.'
+  - 'Incorporated domain-specific knowledge of protein–ligand interactions into the optimization process, enabling more effective exploration of the docking search space than general-purpose evolutionary strategies.'
+  - 'Achieved superior docking accuracy and optimization performance compared with representative ABC variants, evolutionary algorithms, and AutoDock Vina.'
+  - 'Demonstrated that exploiting problem-specific prior knowledge significantly improves structure-based drug design and protein–ligand docking optimization.'
+'ATLAS-DMPNN: an attention-guided topological framework for enhanced ADMET property prediction':
+  display: true
+  image: images/research/ai_for_drug_design/ATLAS-DMPNN.png
+  contributions:
+  - 'Proposed ATLAS-DMPNN, an enhanced directed message passing neural network that integrates attention-guided message passing, topological encoding, and structural motif mining for ADMET property prediction.'
+  - 'Introduced an attention-guided message aggregation mechanism with gated updates to improve feature weighting and capture pharmacologically relevant molecular interactions.'
+  - 'Developed a topological feature encoding strategy by incorporating molecular positional, ring, and geometric information, strengthening structural sensitivity beyond conventional molecular graph representations.'
+  - 'Designed an ant colony optimization (ACO)-based structural motif mining module to identify recurrent pharmacophore substructures and integrate motif-aware representations into molecular graph learning.'
+  - 'Achieved superior performance on multiple ADMET benchmarks, particularly for bioactivity and toxicity prediction tasks, demonstrating the effectiveness of combining graph neural networks with interpretable topological and motif-based molecular representations.'

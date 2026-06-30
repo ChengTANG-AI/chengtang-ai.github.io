@@ -1,0 +1,33 @@
+# Localized news fields for ja, Japanese fiscal year 2023.
+# Common fields such as display, date, and student_year are maintained in en.yaml.
+# Add the same news id here only when localized text is needed.
+news_2024_03_12_01:
+  title: DSAA 2024，プログラム委員
+  person_name: 唐成
+  person_type: 教員
+  position: 助教
+  text: 'は，**[11th IEEE International Conference on Data Science and Advanced Analytics](https://indigopurple.github.io/DSAA/dsaa2024.html)**（DSAA 2024）の**プログラム委員**を務めました．同会議は2024年10月6日から10日まで米国カリフォルニア州サンディエゴで開催されました．'
+news_2023_12_01_01:
+  title: 情報処理学会，会員
+  person_name: 唐成
+  person_type: 教員
+  position: 助教
+  text: は，**[情報処理学会](https://www.ipsj.or.jp/index.html)** に**会員**として入会しました．
+news_2023_09_01_01:
+  title: 島根大学 S-SPRING プロジェクト，メンター
+  person_name: 唐成
+  person_type: 教員
+  position: 助教
+  text: は，島根大学医学部において，持続可能な社会構築に向けた島根大学高度人材育成プロジェクト（S-SPRING）の**メンター**に就任しました．
+news_2023_06_01_01:
+  title: 九州大学，助教
+  person_name: 唐成
+  person_type: 教員
+  position: 助教
+  text: は，**[九州大学](https://www.kyushu-u.ac.jp/ja/)** **大学院システム情報科学研究院** に**助教**として着任しました．
+news_2023_04_01_01:
+  title: 人工知能学会，会員
+  person_name: 唐成
+  person_type: 教員
+  position: 助教
+  text: は，**[人工知能学会](https://www.ai-gakkai.or.jp/)** に**会員**として入会しました．

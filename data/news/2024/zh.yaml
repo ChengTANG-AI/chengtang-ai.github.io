@@ -1,0 +1,57 @@
+# Localized news fields for zh, Japanese fiscal year 2024.
+# Common fields such as display, date, and student_year are maintained in en.yaml.
+# Add the same news id here only when localized text is needed.
+news_2025_03_06_01:
+  title: ICLEA 2025，程序委员会委员
+  person_name: 唐成
+  person_type: 教员
+  position: 助理教授
+  text: '担任 **[第1届 International Conference on Learning Evidence and Analytics](https://sites.google.com/leds.ait.kyushu-u.ac.jp/iclea2025/?pli=1)**（ICLEA 2025）的**程序委员会委员**。会议于2025年9月5日至7日在日本福冈举行。'
+news_2025_03_06_02:
+  title: ICLEA 2025，组织委员会委员
+  person_name: 唐成
+  person_type: 教员
+  position: 助理教授
+  text: '担任 **[第1届 International Conference on Learning Evidence and Analytics](https://sites.google.com/leds.ait.kyushu-u.ac.jp/iclea2025/?pli=1)**（ICLEA 2025）的**组织委员会委员**。会议于2025年9月5日至7日在日本福冈举行。'
+news_2025_03_06_03:
+  title: AIED 2025，程序委员会委员
+  person_name: 唐成
+  person_type: 教员
+  position: 助理教授
+  text: '担任 **[第26届 International Conference on Artificial Intelligence in Education](https://iaied.org/conferences)**（AIED 2025）的**程序委员会委员**。会议于2025年7月22日至26日在意大利巴勒莫举行。'
+news_2025_02_11_01:
+  title: Mathematics，专题首席客座编辑
+  person_name: 唐成
+  person_type: 教员
+  position: 助理教授
+  text: '担任 **[Mathematics](https://www.mdpi.com/journal/mathematics)**（EISSN 2227-7390）专题 **[Deep Neural Network: Theory, Algorithms and Applications](https://www.mdpi.com/journal/mathematics/special_issues/156YM1P982)** 的**首席客座编辑**。'
+news_2025_01_25_01:
+  title: ICIC 2025，程序委员会委员
+  person_name: 唐成
+  person_type: 教员
+  position: 助理教授
+  text: '担任 **[第21届 International Conference on Intelligent Computing](http://www.ic-icc.cn/icg/)**（ICIC 2025）的**程序委员会委员**。会议于2025年7月26日至29日在中国宁波举行。'
+news_2024_11_05_01:
+  title: 日本电气学会，副编辑
+  person_name: 唐成
+  person_type: 教员
+  position: 助理教授
+  text: 担任 **[日本电气学会](https://www.iee.jp/en/)**（IEEJ）的**副编辑**。
+news_2024_10_01_01:
+  title: 日本电气学会，会员
+  person_name: 唐成
+  person_type: 教员
+  position: 助理教授
+  text: 作为**会员**加入 **[日本电气学会](https://www.iee.jp/en/)**（IEEJ）。
+news_2024_04_22_01:
+  title: Electronics，专题首席客座编辑
+  person_name: 唐成
+  person_type: 教员
+  position: 助理教授
+  text: '担任 **[Electronics](https://www.mdpi.com/journal/electronics)**（ISSN 2079-9292）专题 **[Applications of Edge Computing in Mobile Systems Computing](https://www.mdpi.com/journal/electronics/special_issues/OQ9C0UPK46)** 的**首席客座编辑**。'
+news_2024_04_22_02:
+  title: ICIC 2024，程序委员会委员
+  person_name: 唐成
+  person_type: 教员
+  position: 助理教授
+  text: '担任 **[第20届 International Conference on Intelligent Computing](https://www.ic-icc.cn/2024/index.htm)**（ICIC 2024）的**程序委员会委员**。会议于2024年8月5日至8日在中国天津举行。'

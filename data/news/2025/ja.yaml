@@ -1,0 +1,39 @@
+# Localized news fields for ja, Japanese fiscal year 2025.
+# Common fields such as display, date, and student_year are maintained in en.yaml.
+# Add the same news id here only when localized text is needed.
+news_2026_02_12_01:
+  title: ICML 2026，プログラム委員
+  person_name: 唐成
+  person_type: 教員
+  position: 准教授
+  text: 'は，**[43rd International Conference on Machine Learning](https://icml.cc/Conferences/2026)**（ICML 2026）の**プログラム委員**を務めました．'
+news_2025_06_28_01:
+  title: AAAI 2026，プログラム委員
+  person_name: 唐成
+  person_type: 教員
+  position: 准教授
+  text: 'は，**[40th Annual AAAI Conference on Artificial Intelligence](https://aaai.org/conference/aaai/aaai-26/)**（AAAI 2026）の**プログラム委員**を務めました．同会議は2026年1月20日から27日までシンガポールのSingapore EXPOで開催されました．'
+news_2026_01_01_01:
+  title: IEEE CYB 2026，プログラム委員
+  person_name: 唐成
+  person_type: 教員
+  position: 助教
+  text: 'は，**[6th IEEE International Conference on Cybernetics](https://www.ieeecyb2026.net/)**（IEEE CYB 2026）の**プログラム委員**を務めました．同会議は2026年4月17日から20日まで中国江蘇省南京市で開催されました．'
+news_2025_12_23_01:
+  title: ICIC 2026，プログラム委員
+  person_name: 唐成
+  person_type: 教員
+  position: 助教
+  text: 'は，**[22nd International Conference on Intelligent Computing](http://ic-icc.cn/2026/index.php)**（ICIC 2026）の**プログラム委員**を務めました．同会議は2026年7月22日から26日までカナダ・トロントで開催されました．'
+news_2025_07_31_01:
+  title: Frontiers in Artificial Intelligence，特集号ゲストエディタ
+  person_name: 唐成
+  person_type: 教員
+  position: 助教
+  text: 'は，**[Frontiers in Artificial Intelligence](https://www.frontiersin.org/journals/artificial-intelligence)**（ISSN 2624-8212）の特集号 **[AI-Driven Architectures and Algorithms for Secure and Scalable Big Data Systems](https://www.frontiersin.org/research-topics/72103/ai-driven-architectures-and-algorithms-for-secure-and-scalable-big-data-systems)** の**ゲストエディタ**を務めました．'
+news_2025_07_10_01:
+  title: EDE Student SIG Offline Event，招待講演
+  person_name: 唐成
+  person_type: 教員
+  position: 助教
+  text: 'は，**[1st International Conference on Learning Evidence and Analytics](https://sites.google.com/leds.ait.kyushu-u.ac.jp/iclea2025/?pli=1)**（ICLEA 2025）併設の **[EDE Student SIG Offline Event](https://sites.google.com/leds.ait.kyushu-u.ac.jp/iclea2025/ede-student-sig-offline-event?authuser=0)** において**招待講演者**として登壇しました．同会議は2025年9月5日から7日まで福岡で開催されました．'

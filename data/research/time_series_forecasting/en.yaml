@@ -1,0 +1,62 @@
+# Research direction data for one language.
+# display: true shows this research direction; display: false hides it.
+# Add one top-level entry per featured paper below title and description.
+# Each featured paper is matched against all files under data/publications/ by title.
+
+display: true
+title: Time Series Forecasting
+description: 'Modeling temporal dynamics for prediction, monitoring, and decision support in real-world systems.'
+Adopting a dendritic neural model for predicting stock price index movement:
+  display: true
+  image: images/research/time_series_forecasting/FDNM.png
+  contributions:
+  - Proposed a dendritic neural model (DNM) for financial time series forecasting.
+  - 'Developed a scale-free differential evolution (SFDE) algorithm for optimizing DNM.'
+  - 'Integrated phase space reconstruction to capture the chaotic dynamics of financial time series.'
+  - Improved the balance between exploration and exploitation through scale-free optimization.
+  - Achieved superior prediction performance on multiple benchmark stock market indices.
+A survey on machine learning models for financial time series forecasting:
+  display: true
+  image: images/research/time_series_forecasting/MLTSF.png
+  contributions:
+  - 'Presented a comprehensive survey of machine learning models for financial time series forecasting.'
+  - 'Systematically compared the strengths and limitations of mainstream forecasting models.'
+  - 'Summarized widely used financial datasets, evaluation metrics, and forecasting tasks.'
+  - 'Analyzed recent research trends and the growing adoption of deep learning and hybrid models.'
+  - 'Identified open challenges and future research directions for financial time series forecasting.'
+Enhancing nonlinear dependencies of Mamba via negative feedback for time series forecasting:
+  display: true
+  image: images/research/time_series_forecasting/CME-Mamba.png
+  contributions:
+  - Proposed CME-Mamba to enhance nonlinear dependency modeling for time series forecasting.
+  - 'Introduced a Maclaurin-based negative feedback mechanism for nonlinear feature enhancement.'
+  - 'Developed an embedding channel attention mechanism to jointly capture temporal and inter-variate dependencies.'
+  - 'Incorporated an Einstein FFT block to alleviate gradient vanishing and improve training stability.'
+  - 'Achieved state-of-the-art performance on 11 real-world time series forecasting benchmarks.'
+'Attention Mamba: time series modeling with adaptive pooling acceleration and receptive field enhancements':
+  display: true
+  image: images/research/time_series_forecasting/Attention-Mamba.png
+  contributions:
+  - 'Proposed Attention Mamba, a novel Mamba-based architecture that integrates adaptive pooling with bidirectional state space modeling to improve multivariate time series forecasting.'
+  - 'Designed an Adaptive Pooling attention mechanism that simultaneously enlarges receptive fields, preserves global contextual information, and accelerates attention computation through adaptive feature compression.'
+  - 'Combined adaptive attention with a bidirectional Mamba block to jointly capture long-range and short-range nonlinear temporal dependencies while maintaining computational efficiency.'
+  - 'Enhanced feature representation by coupling global attention with selective state space modeling, achieving a better trade-off between prediction accuracy, training efficiency, and memory consumption than existing Mamba variants.'
+  - 'Demonstrated state-of-the-art forecasting performance across diverse real-world benchmark datasets, validating the effectiveness of adaptive receptive field enhancement for complex time series modeling.'
+Decomposed seasonal-trend network with rotary attention for time series forecasting:
+  display: true
+  image: images/research/time_series_forecasting/DSTN-RA.png
+  contributions:
+  - 'Proposed the Decomposed Seasonal-Trend Network with Rotary Attention (DSTN-RA), a dual-branch forecasting framework that explicitly models trend and seasonal components using dedicated architectures.'
+  - 'Introduced a Rotary Attention module with Rotary Position Embedding (RoPE) to strengthen periodic pattern learning and capture long-range nonlinear temporal dependencies in seasonal signals.'
+  - 'Developed a multi-granularity Channel Mixing module that combines down-sampling with feature and temporal mixing to effectively model smooth trend dynamics across multiple temporal resolutions.'
+  - 'Leveraged seasonal-trend decomposition to disentangle heterogeneous temporal patterns, enabling specialized learning strategies for trend and seasonal information and improving model interpretability.'
+  - 'Achieved state-of-the-art forecasting performance on multiple benchmark datasets, with ablation studies validating the complementary roles of decomposition, Rotary Attention, and Channel Mixing in time series modeling.'
+'KPMG: a graphical Koopman-Mamba approach for financial markets':
+  display: true
+  image: images/research/time_series_forecasting/KPMG.png
+  contributions:
+  - 'Proposed KPMG, a hybrid forecasting framework that integrates Koopman-enhanced Mamba with graph neural networks to jointly model temporal dependencies and inter-variable correlations in financial markets.'
+  - 'Developed a Koopman-Mamba module by incorporating Koopman operator theory into bidirectional Mamba, improving feature filtering and enhancing long-range temporal dependency modeling while suppressing noisy financial signals.'
+  - 'Introduced the Gaussian Kernel Graph (GKG) module to construct adaptive graph representations of financial indicators, enabling effective modeling of inter-variable correlations with reduced computational complexity.'
+  - 'Unified temporal dynamics and graph-based relational learning through Koopman-Mamba and GKG, achieving improved forecasting accuracy, information coefficient (IC), and ranked information coefficient (RIC) for trustworthy financial prediction.'
+  - 'Demonstrated superior performance on multiple financial market benchmarks, validating the effectiveness of combining Koopman spectral analysis, state space modeling, and graph learning for reliable financial forecasting.'

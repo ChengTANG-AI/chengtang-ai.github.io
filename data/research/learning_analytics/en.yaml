@@ -1,0 +1,35 @@
+# Research direction data for one language.
+# display: true shows this research direction; display: false hides it.
+# Add one top-level entry per featured paper below title and description.
+# Each featured paper is matched against all files under data/publications/ by title.
+
+display: true
+title: Learning Analytics
+description: 'Data-driven analysis of learning behavior for understanding, prediction, and educational support.'
+Visual analytics of learning behavior based on the dendritic neuron model:
+  display: true
+  image: images/research/learning_analytics/DNM.png
+  contributions:
+  - 'Proposed a visual analytics framework for learning behavior prediction based on the dendritic neuron model.'
+  - 'Developed an interpretable prediction model through synaptic and dendritic pruning mechanisms.'
+  - 'Quantified the contribution of individual learning behaviors for feature importance analysis.'
+  - Outperformed RNN, LSTM, GRU, BiLSTM, and BiGRU in student risk prediction.
+  - 'Provided actionable insights to support early intervention and personalized learning guidance.'
+'LECTOR: summarizing e-book reading content for personalized student support':
+  display: true
+  image: images/research/learning_analytics/LECTOR.png
+  contributions:
+  - 'Proposed LECTOR, an attention-based information retrieval framework that summarizes lecture slide content by modeling slide–topic relationships for educational e-book analysis.'
+  - 'Designed a discourse-aware topic extraction mechanism that leverages the hierarchical structure of lecture slides to improve keyphrase extraction beyond conventional educational tools and state-of-the-art unsupervised NLP methods.'
+  - 'Introduced a multimodal integration framework that combines reading activity logs with semantically contextualized slide content to derive topic-based reading preferences.'
+  - "Enhanced at-risk student prediction and model interpretability by incorporating topic-level reading features, enabling personalized identification of students' learning difficulties and reading preferences."
+  - 'Demonstrated the effectiveness of the proposed framework through large-scale experiments on 2,255 lecture slides and over 600,000 e-book reading logs, highlighting its potential for personalized educational support and learning analytics.'
+'From reflections to motifs: a graph-based analysis of learners'' knowledge construction':
+  display: true
+  image: images/research/learning_analytics/MBTM.png
+  contributions:
+  - "Proposed a context-aware graph-based framework that transforms learner reflections into Personal Knowledge Graphs (PKGs) using large language models to explicitly represent learners' knowledge construction."
+  - 'Developed a motif mining and representation learning approach that identifies recurrent graph substructures to characterize common knowledge organization patterns in learner reflections.'
+  - "Introduced a structural analysis framework that categorizes motif patterns into path-like, star-like, and hybrid structures, enabling interpretable analysis of learners' conceptual organization and knowledge construction strategies."
+  - 'Revealed significant relationships between motif structural characteristics and learning outcomes through statistical analysis, providing interpretable evidence of how different knowledge organization patterns influence academic performance.'
+  - 'Demonstrated that motif-based graph representations outperform text-based and graph neural network baselines in grade prediction and at-risk student identification, highlighting the effectiveness of graph mining for learning analytics.'

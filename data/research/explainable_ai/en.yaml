@@ -1,0 +1,35 @@
+# Research direction data for one language.
+# display: true shows this research direction; display: false hides it.
+# Add one top-level entry per featured paper below title and description.
+# Each featured paper is matched against all files under data/publications/ by title.
+
+display: true
+title: Explainable AI (XAI)
+description: 'Transparent and trustworthy AI methods that make model behavior understandable to humans.'
+A novel motion direction detection mechanism based on dendritic computation of direction-selective ganglion cells:
+  display: true
+  image: images/research/explainable_ai/DSGCs.png
+  contributions:
+  - 'Proposed a biologically inspired motion direction detection mechanism based on direction-selective ganglion cells (DSGCs).'
+  - 'Developed a two-dimensional eight-direction motion detection framework using dendritic computation.'
+  - Introduced a local receptive field scanning mechanism for global motion perception.
+  - Achieved robust motion detection for large-scale and random-dot images.
+  - 'Provided a biologically plausible computational model for understanding visual motion processing.'
+The mechanism of orientation detection based on color-orientation jointly selective cells:
+  display: true
+  image: images/research/explainable_ai/AVS.png
+  contributions:
+  - 'Proposed a biologically inspired orientation detection mechanism based on color-orientation jointly selective (COJS) cells.'
+  - 'Developed an artificial visual system (AVS) for interpretable global orientation detection.'
+  - 'Designed a hardware-friendly implementation based on the McCulloch-Pitts neuron model.'
+  - Achieved robust orientation detection with superior noise immunity and generalization.
+  - 'Demonstrated that AVS can effectively enhance the robustness of deep learning models through feature extraction.'
+EDNMs for visual analytics of learning behavior and early risk prediction:
+  display: true
+  image: images/research/explainable_ai/EDNMs.png
+  contributions:
+  - 'Proposed ensemble dendritic neuron models (EDNMs) for interpretable early risk prediction in learning analytics.'
+  - 'Enabled visual feature selection through biologically inspired neural pruning mechanisms.'
+  - 'Developed a single-model framework for early prediction across different timeframes by dynamically pruning dendrites.'
+  - 'Reduced computational overhead by eliminating the need to train multiple models for different prediction weeks.'
+  - 'Achieved competitive prediction performance while providing transparent and explainable learning behavior analysis.'

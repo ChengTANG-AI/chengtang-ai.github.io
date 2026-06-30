@@ -18,7 +18,7 @@ profile:
     - label: "Researchmap"
       url: "https://researchmap.jp/chengtang"
 hero:
-  eyebrow: ""
+  eyebrow: "Artificial Intelligence and Communication"
   title: "Cheng Tang"
   description: "I am a tenured Associate Professor at Nagoya Institute of Technology, where I lead the Artificial Intelligence and Communication Laboratory (AIC Lab) and conduct research on artificial intelligence, communication systems, and data-driven intelligence."
   primaryButton: "View publications"
@@ -27,25 +27,9 @@ biography:
   label: "BIOGRAPHY"
   title: "About"
   paragraphs:
-    - >-
-      I am currently a tenured Associate Professor in the Graduate School of Engineering at **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**, Nagoya, Japan, where I lead the Tang Laboratory as the principal investigator and supervise graduate students.
-    - >-
-      I received my M.E. and Ph.D. degrees in engineering from the **[University of Toyama](https://www.u-toyama.ac.jp/)**, Toyama, Japan, in 2020 and 2022, respectively. From 2022 to 2023, I was an Assistant Professor at the **[Hirata Laboratory](https://cem.web.nitech.ac.jp/hilab/)**, supervised by **[Prof. Hirata](https://scholar.google.com/citations?user=zSV81YwAAAAJ)**, Graduate School of Engineering Tsukuri College, **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**, Nagoya, Japan. In 2023, I joined **[Kyushu University](https://www.kyushu-u.ac.jp/ja/)**, Fukuoka, Japan, where I was an Assistant Professor (Tenured) with the Department of Advanced Information Technology, Graduate School and Faculty of Information Science and Electrical Engineering. I conducted my research in the **[Laboratory for Image and Media Understanding](https://www.eng.kyushu-u.ac.jp/lab_electrical33.html)**, supervised by **[Prof. Shimada](https://scholar.google.com/citations?user=gc2kslQAAAAJ)**. In 2026, I joined Nagoya Institute of Technology, Nagoya, Japan, where I currently hold my position.
-    - >-
-      My primary research interests include medical data mining, time series forecasting, computer vision, natural language processing, learning analytics, AI for drug design, explainable AI (XAI), and optimization.
-interests:
-  label: "RESEARCH INTERESTS"
-  title: "Research Areas"
-  items:
-    - "Medical Data Mining"
-    - "Time Series Forecasting"
-    - "Computer Vision"
-    - "Natural Language Processing"
-    - "Learning Analytics"
-    - "AI for Drug Design"
-    - "Explainable AI (XAI)"
-    - "Optimization"
-    - "Dendritic Computation"
+    - "I am currently a tenured Associate Professor in the Graduate School of Engineering at **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**, Nagoya, Japan, where I lead the Tang Laboratory as the principal investigator and supervise graduate students."
+    - "I received my M.E. and Ph.D. degrees in engineering from the **[University of Toyama](https://www.u-toyama.ac.jp/)**, Toyama, Japan, in 2020 and 2022, respectively. From 2022 to 2023, I was an Assistant Professor at the **[Hirata Laboratory](https://cem.web.nitech.ac.jp/hilab/)**, supervised by **[Prof. Hirata](https://scholar.google.com/citations?user=zSV81YwAAAAJ)**, Graduate School of Engineering Tsukuri College, **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**, Nagoya, Japan. In 2023, I joined **[Kyushu University](https://www.kyushu-u.ac.jp/ja/)**, Fukuoka, Japan, where I was an Assistant Professor (Tenured) with the Department of Advanced Information Technology, Graduate School and Faculty of Information Science and Electrical Engineering. I conducted my research in the **[Laboratory for Image and Media Understanding](https://www.eng.kyushu-u.ac.jp/lab_electrical33.html)**, supervised by **[Prof. Shimada](https://scholar.google.com/citations?user=gc2kslQAAAAJ)**. In 2026, I joined Nagoya Institute of Technology, Nagoya, Japan, where I currently hold my position."
+    - "My primary research interests include medical data mining, time series forecasting, computer vision, natural language processing, learning analytics, AI for drug design, explainable AI (XAI), and optimization."
 publicationProfile:
   label: "PUBLICATION PROFILE"
   title: "Selected Publication Venues"
@@ -66,8 +50,7 @@ publicationProfile:
     - "**[International Conference on Artificial Intelligence in Education](https://aied2025.itd.cnr.it/)** (AIED)"
     - "**[International Conference on Acoustics, Speech, and Signal Processing](https://2022.ieeeicassp.org/)** (ICASSP)"
     - "**[International Conference on Knowledge Science, Engineering and Management](https://ai-edge.net/index.html)** (KSEM)"
-  opportunity: >-
-    **I am looking for M.E. and B.E. students majoring in engineering, including but not limited to computer science and artificial intelligence. I am also pleased to collaborate with researchers interested in healthcare-related projects. If you are interested in my research, please feel free to contact me by e-mail.**
+  opportunity: "**I am looking for M.E. and B.E. students majoring in engineering, including but not limited to computer science and artificial intelligence. I am also pleased to collaborate with researchers interested in healthcare-related projects. If you are interested in my research, please feel free to contact me by e-mail.**"
 latest:
   publicationsLabel: "RECENT PUBLICATIONS"
   publicationsButton: "View all publications"

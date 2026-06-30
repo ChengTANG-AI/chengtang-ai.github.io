@@ -1,0 +1,57 @@
+# News items for Japanese fiscal year 2025.
+# Add one top-level entry per news item. The site reads all numeric year folders automatically.
+
+news_2026_02_12_01:
+  display: true
+  date: '2026-02-12'
+  student_year: ''
+  title: ICML 2026, Program Committee Member
+  person_name: Cheng Tang
+  person_type: Faculty
+  position: Associate Professor
+  text: 'served as a **Program Committee Member** for the **[43rd International Conference on Machine Learning](https://icml.cc/Conferences/2026)** (ICML 2026).'
+news_2025_06_28_01:
+  display: true
+  date: '2025-06-28'
+  student_year: ''
+  title: AAAI 2026, Program Committee Member
+  person_name: Cheng Tang
+  person_type: Faculty
+  position: Associate Professor
+  text: 'served as a **Program Committee Member** for the **[40th Annual AAAI Conference on Artificial Intelligence](https://aaai.org/conference/aaai/aaai-26/)** (AAAI 2026), held at Singapore EXPO, Singapore, January 20-27, 2026.'
+news_2026_01_01_01:
+  display: true
+  date: '2026-01-01'
+  student_year: ''
+  title: IEEE CYB 2026, Program Committee Member
+  person_name: Cheng Tang
+  person_type: Faculty
+  position: Assistant Professor
+  text: 'served as a **Program Committee Member** for the **[6th IEEE International Conference on Cybernetics](https://www.ieeecyb2026.net/)** (IEEE CYB 2026), held in Nanjing, Jiangsu, China, April 17-20, 2026.'
+news_2025_12_23_01:
+  display: true
+  date: '2025-12-23'
+  student_year: ''
+  title: ICIC 2026, Program Committee Member
+  person_name: Cheng Tang
+  person_type: Faculty
+  position: Assistant Professor
+  text: 'served as a **Program Committee Member** for the **[22nd International Conference on Intelligent Computing](http://ic-icc.cn/2026/index.php)** (ICIC 2026), held in Toronto, Canada, July 22-26, 2026.'
+news_2025_07_31_01:
+  display: true
+  date: '2025-07-31'
+  student_year: ''
+  title: Frontiers in Artificial Intelligence, Guest Editor
+  person_name: Cheng Tang
+  person_type: Faculty
+  position: Assistant Professor
+  text: 'served as a **Guest Editor** for the special issue **[AI-Driven Architectures and Algorithms for Secure and Scalable Big Data Systems](https://www.frontiersin.org/research-topics/72103/ai-driven-architectures-and-algorithms-for-secure-and-scalable-big-data-systems)** in **[Frontiers in Artificial Intelligence](https://www.frontiersin.org/journals/artificial-intelligence)** (ISSN 2624-8212).'
+news_2025_07_10_01:
+  display: true
+  date: '2025-07-10'
+  student_year: ''
+  title: EDE Student SIG Offline Event, Invited Speaker
+  person_name: Cheng Tang
+  person_type: Faculty
+  position: Assistant Professor
+  text: 'was invited as an **Invited Speaker** at the **[EDE Student SIG Offline Event](https://sites.google.com/leds.ait.kyushu-u.ac.jp/iclea2025/ede-student-sig-offline-event?authuser=0)**, co-located with the **[1st International Conference on Learning Evidence and Analytics](https://sites.google.com/leds.ait.kyushu-u.ac.jp/iclea2025/?pli=1)** (ICLEA 2025), held in Fukuoka, Japan, September 5-7, 2025.'

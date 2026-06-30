@@ -1,0 +1,72 @@
+# Research direction data for one language.
+# display: true shows this research direction; display: false hides it.
+# Add one top-level entry per featured paper below title and description.
+# Each featured paper is matched against all files under data/publications/ by title.
+
+display: true
+title: Dendritic Computation
+description: 'Computational models and learning algorithms inspired by dendritic processing in biological neurons.'
+'Dendritic neural network: a novel extension of dendritic neuron model':
+  display: true
+  image: images/research/dendritic_computation/DNN.png
+  contributions:
+  - 'Proposed the Dendritic Neural Network (DNN), extending the conventional dendritic neuron model into a neural network.'
+  - Introduced flexible synaptic and dendritic structures for enhanced nonlinear learning.
+  - Developed a dendrite-aware dropout mechanism to mitigate gradient vanishing.
+  - Designed a multi-output architecture for complex classification tasks.
+  - Achieved state-of-the-art performance on benchmark classification datasets.
+Artificial immune system training algorithm for a dendritic neuron model:
+  display: true
+  image: images/research/dendritic_computation/AISDNM.png
+  contributions:
+  - 'Proposed an artificial immune system (AIS) training algorithm for the dendritic neuron model.'
+  - Improved the optimization capability of DNM through immune-inspired global search.
+  - 'Enhanced convergence speed and reduced the risk of local optima compared with backpropagation.'
+  - Preserved the neuronal pruning mechanism for automatic model simplification.
+  - Enabled hardware implementation through logic circuit transformation.
+'A survey on dendritic neuron model: mechanisms, algorithms and practical applications':
+  display: true
+  image: images/research/dendritic_computation/SDNM.png
+  contributions:
+  - Presented the first comprehensive survey of the dendritic neuron model (DNM).
+  - 'Systematically reviewed the mechanisms, learning algorithms, and practical applications of DNM.'
+  - Analyzed the neural pruning and logic circuit transformation mechanisms of DNM.
+  - 'Compared representative optimization algorithms for training DNM through extensive experiments.'
+  - Discussed the challenges and future research directions of dendritic neuron models.
+An evolutionary neuron model with dendritic computation for classification and prediction:
+  display: true
+  publication_title: Evolutionary dendritic neural model for classification problems
+  image: images/research/dendritic_computation/EDNM.png
+  contributions:
+  - 'Proposed an evolutionary dendritic neuron model (FADNM) using the firefly algorithm for classification and prediction.'
+  - 'Improved the learning capability of the dendritic neuron model through metaheuristic optimization.'
+  - Introduced a neural pruning scheme to automatically simplify dendritic structures.
+  - Enabled hardware implementation of the pruned model using logic circuits.
+  - 'Demonstrated superior performance on both classification and time series prediction tasks.'
+Evaluating a novel incremental-input neural network for multivariate air temperature forecasting:
+  display: true
+  image: images/research/dendritic_computation/IINN.png
+  contributions:
+  - 'Proposed a novel Incremental-Input Neural Network (IINN) for multivariate air temperature forecasting, extending dendritic neural computation to efficiently model complex nonstationary time series.'
+  - 'Introduced an incremental-input mechanism that preserves information flow across dendritic branches, effectively alleviating gradient vanishing, gradient explosion, and branch degeneration in high-dimensional learning.'
+  - 'Designed a lightweight dendritic neural architecture that enhances nonlinear feature representation while maintaining computational efficiency and improving model interpretability.'
+  - 'Integrated the IINN with AdamW optimization to achieve stable convergence and robust multivariate forecasting under different prediction horizons.'
+  - 'Demonstrated state-of-the-art forecasting performance on multiple real-world meteorological datasets, consistently outperforming recurrent, transformer-based, and conventional dendritic neural models.'
+Short-term traffic flow prediction with a dendritic neural network-enhanced time series decomposition framework:
+  display: true
+  image: images/research/dendritic_computation/TSDDNN.png
+  contributions:
+  - 'Proposed the TSDDNN framework, integrating seasonal-trend decomposition with a dendritic neural network for accurate and efficient short-term traffic flow prediction.'
+  - 'Developed a decomposition-based forecasting strategy that separately models seasonal, trend, and residual components, enabling more effective learning of complex traffic dynamics.'
+  - 'Enhanced dendritic neural network optimization using the OLSHADE-CS evolutionary algorithm, improving convergence efficiency and nonlinear residual modeling while avoiding local optima.'
+  - 'Combined statistical time-series decomposition with biologically inspired neural computation, providing a lightweight and computationally efficient framework for nonlinear traffic forecasting.'
+  - 'Demonstrated superior prediction accuracy and robustness over statistical, machine learning, deep learning, and transformer-based approaches across multiple real-world traffic datasets.'
+Dendritic neural regression model trained by chicken swarm optimization algorithm for bank customer churn prediction:
+  display: true
+  image: images/research/dendritic_computation/DNRM-CSO.png
+  contributions:
+  - 'Proposed a Chicken Swarm Optimization-based Dendritic Neural Regression Model (CSO-DNRM) for accurate bank customer churn prediction by integrating biologically inspired neural computation with swarm intelligence optimization.'
+  - 'Designed a four-layer dendritic neural regression architecture that models nonlinear synaptic interactions while employing synaptic and dendritic pruning to simplify network topology and improve computational efficiency.'
+  - 'Applied the Chicken Swarm Optimization (CSO) algorithm to optimize network weights and thresholds, achieving an effective balance between global exploration and local exploitation during model training.'
+  - 'Improved prediction accuracy and convergence speed through the synergy of evolutionary optimization and dendritic neural computation, outperforming conventional gradient-based learning strategies.'
+  - 'Demonstrated superior performance on a public bank customer churn benchmark, highlighting the potential of lightweight dendritic neural models for customer relationship management and business decision support.'

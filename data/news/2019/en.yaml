@@ -1,0 +1,12 @@
+# News items for Japanese fiscal year 2019.
+# Add one top-level entry per news item. The site reads all numeric year folders automatically.
+
+news_2020_03_24_01:
+  display: true
+  date: '2020-03-24'
+  student_year: ''
+  title: University of Toyama, M.E. Degree
+  person_name: Cheng Tang
+  person_type: Student
+  position: Master's Student
+  text: received an **M.E.** degree in **Engineering** from the **[University of Toyama](https://www.u-toyama.ac.jp/)**.

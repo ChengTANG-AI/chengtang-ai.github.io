@@ -1,0 +1,39 @@
+# Localized news fields for ja, Japanese fiscal year 2026.
+# Common fields such as display, date, and student_year are maintained in en.yaml.
+# Add the same news id here only when localized text is needed.
+example_news:
+  title: ニュースタイトルの例
+  person_name: 唐 成
+  person_type: 教員
+  position: 准教授
+  text: "**Markdown** と [リンク](https://example.com/) を利用できます．"
+news_2026_05_14_01:
+  title: ICML 2026，Silver Reviewer
+  person_name: 唐成
+  person_type: 教員
+  position: 准教授
+  text: '**[43rd International Conference on Machine Learning](https://icml.cc/Conferences/2026)**（ICML 2026）において，優れた査読貢献が評価され，**Silver Reviewer**に選出されました．'
+news_2026_06_28_01:
+  title: AAAI 2027，プログラム委員
+  person_name: 唐成
+  person_type: 教員
+  position: 准教授
+  text: 'は，**[41th Annual AAAI Conference on Artificial Intelligence](https://aaai.org/conference/aaai/aaai-27/)**（AAAI 2027）の**プログラム委員**を務めました．同会議は2027年2月16日から23日までカナダのモントリオールで開催されました．'
+news_2026_06_28_02:
+  title: ICONIP 2026，プログラム委員
+  person_name: 唐成
+  person_type: 教員
+  position: 准教授
+  text: 'は，**[International Conference on Neural Information Processing](https://iconip2026.apnns.org/)**（ICONIP 2026）の**プログラム委員**を務めました．同会議は2026年11月23日から27日までオーストラリア・メルボルンで開催されました．'
+news_2026_04_02_01:
+  title: 先端医用物理・情報工学研究センター，兼任准教授
+  person_name: 唐成
+  person_type: 教員
+  position: 兼任准教授
+  text: は，**[名古屋工業大学 先端医用物理・情報工学研究センター](https://bpit.web.nitech.ac.jp/)** の兼任准教授に就任しました．
+news_2026_04_01_01:
+  title: 名古屋工業大学，准教授
+  person_name: 唐成
+  person_type: 教員
+  position: 准教授
+  text: は，**[名古屋工業大学](https://www.nitech.ac.jp/)** **大学院工学研究科 電気電子系** に准教授として着任しました．

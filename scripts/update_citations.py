@@ -1,12 +1,12 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Incrementally update publication citation counts.
 
 This script preserves the existing YAML layout as much as possible:
 - Field names are read case-insensitively, so title/Title/TITLE all work.
 - Existing entries are updated in place by replacing or inserting only citations.
-- Works missing from publications.yaml can be inserted near the top as
-  review-required templates.
+- Works missing from all files under data/publications/ can be inserted into
+  the corresponding year file as review-required templates.
 
 Optional environment variables:
 
@@ -21,7 +21,10 @@ Optional environment variables:
   OPENALEX_AUTHOR_ID  OpenAlex author ID, such as A1234567890. If omitted, the
                       script updates existing entries only and does not add
                       new publications, avoiding same-name author collisions.
-  PUBLICATIONS_YAML   Defaults to data/publications.yaml.
+  PUBLICATIONS_YAML   Backward-compatible path override. Defaults to
+                      data/publications. If a directory is provided, all
+                      *.yaml files in that directory are read and updated.
+  PUBLICATIONS_DIR    Preferred path override for the publications directory.
   CITATION_META_YAML  Defaults to data/citation_meta.yaml.
 """
 
@@ -47,9 +50,9 @@ SCHOLARLY_PUBLICATION_LIMIT = int(os.getenv("SCHOLARLY_PUBLICATION_LIMIT", "300"
 OPENALEX_API_KEY = os.getenv("OPENALEX_API_KEY")
 OPENALEX_EMAIL = os.getenv("OPENALEX_EMAIL")
 OPENALEX_AUTHOR_ID = os.getenv("OPENALEX_AUTHOR_ID", "").strip()
-DATA_FILE = Path(os.getenv("PUBLICATIONS_YAML", "data/publications.yaml"))
+DATA_PATH = Path(os.getenv("PUBLICATIONS_DIR", os.getenv("PUBLICATIONS_YAML", "data/publications")))
 CITATION_META_FILE = Path(os.getenv("CITATION_META_YAML", "data/citation_meta.yaml"))
-MATCH_THRESHOLD = 0.88
+MATCH_THRESHOLD = 0.90
 OPENALEX_BASE = "https://api.openalex.org"
 AUTHOR_CITATION_META = {}
 IGNORED_PUBLICATION_TITLE_TEXTS = [
@@ -58,7 +61,14 @@ IGNORED_PUBLICATION_TITLE_TEXTS = [
 
 
 def normalize(text: str) -> str:
-    return re.sub(r"[^a-z0-9]+", " ", str(text).lower()).strip()
+    """Return a punctuation-insensitive title key for matching.
+
+    Google Scholar may store preprints, proceedings, and publisher records with
+    slightly different punctuation, spaces, capitalization, or line wrapping.
+    For matching, keep only ASCII letters and compare the compact lowercase key.
+    The original title is still preserved when adding a new YAML entry.
+    """
+    return re.sub(r"[^a-z]+", "", str(text).lower())
 
 
 IGNORED_PUBLICATION_TITLES = {normalize(title) for title in IGNORED_PUBLICATION_TITLE_TEXTS}
@@ -79,6 +89,28 @@ def parse_scalar(raw: str):
     return raw
 
 
+def field_raw_value(lines: list[str], index: int, value: str) -> str:
+    """Return a scalar field value, folding YAML continuation lines if present."""
+    raw = value.strip()
+    if not raw:
+        return raw
+
+    parts = [] if raw in {">", ">-", ">+", "|", "|-", "|+"} else [raw]
+    next_index = index + 1
+    while next_index < len(lines):
+        continuation = lines[next_index]
+        if not continuation.strip() or continuation.lstrip().startswith("#"):
+            break
+        if not continuation.startswith("    "):
+            break
+        stripped = continuation.strip()
+        if stripped.startswith("-"):
+            break
+        parts.append(stripped)
+        next_index += 1
+    return " ".join(parts) if parts else raw
+
+
 def parse_entries(lines: list[str]):
     entries = []
     current = None
@@ -94,12 +126,44 @@ def parse_entries(lines: list[str]):
         if current and re.match(r"^  [^ ].*:", line):
             name, value = line.strip().split(":", 1)
             normalized = name.lower()
-            current["fields"][normalized] = parse_scalar(value)
+            current["fields"][normalized] = parse_scalar(field_raw_value(lines, index, value))
             current["field_lines"][normalized] = index
     if current:
         current["end"] = len(lines)
         entries.append(current)
     return entries
+
+
+def publication_files() -> list[Path]:
+    if DATA_PATH.is_file():
+        return [DATA_PATH]
+    if DATA_PATH.is_dir():
+        return sorted(path for path in DATA_PATH.glob("*.yaml") if path.is_file())
+    return []
+
+
+def read_publication_states() -> list[dict]:
+    states = []
+    for path in publication_files():
+        lines = path.read_text(encoding="utf-8").splitlines()
+        states.append({"path": path, "lines": lines, "entries": parse_entries(lines)})
+    return states
+
+
+def publication_target_path(work) -> Path:
+    if DATA_PATH.is_file():
+        return DATA_PATH
+    year = work_year(work) or "unknown"
+    return DATA_PATH / f"{year}.yaml"
+
+
+def publication_file_header(year: str) -> list[str]:
+    return [
+        f"# Publication entries for {year}.",
+        "# Add one top-level entry per paper.",
+        "# The site and citation updater read all YAML files in data/publications/ automatically.",
+        "",
+    ]
 
 
 def is_hidden_entry(entry) -> bool:
@@ -628,6 +692,52 @@ def prepend_missing_publications(lines: list[str], entries, works, matched_work_
     return new_count
 
 
+def prepend_missing_publications_to_files(states: list[dict], entries, works, matched_work_titles: set[str]):
+    existing_keys = {entry["key"] for entry in entries}
+    state_by_path = {state["path"]: state for state in states}
+    new_count = 0
+    added_by_path: dict[Path, list[str]] = {}
+
+    for work in works:
+        title = work_title(work)
+        if is_ignored_title(title):
+            continue
+        if normalize(title) in matched_work_titles:
+            continue
+        entry, _ = best_entry_match(title, entries)
+        if entry:
+            continue
+
+        new_count += 1
+        key = make_new_key(work, existing_keys, new_count)
+        target_path = publication_target_path(work)
+        added_by_path.setdefault(target_path, []).extend(new_publication_block(key, work))
+
+    if not added_by_path:
+        return 0
+
+    for path, new_blocks in added_by_path.items():
+        if path not in state_by_path:
+            year = path.stem
+            path.parent.mkdir(parents=True, exist_ok=True)
+            state = {"path": path, "lines": publication_file_header(year), "entries": []}
+            states.append(state)
+            state_by_path[path] = state
+        else:
+            state = state_by_path[path]
+
+        notice = [
+            "",
+            f"# AUTO-ADDED PUBLICATIONS FROM {source_label().upper()}",
+            "# Please review these entries regularly, fill type/source/month/doi/link fields,",
+            "# and rename IDs to journal_YYYY_NN, conference_YYYY_NN, or preprint_NN.",
+        ]
+        index = insertion_index(state["lines"])
+        state["lines"][index:index] = notice + new_blocks + [""]
+
+    return new_count
+
+
 def source_label() -> str:
     if CITATION_SOURCE in {"google_scholar", "scholar", "scholarly"}:
         return "Google Scholar"
@@ -654,32 +764,66 @@ def write_citation_meta() -> None:
 
 
 def main() -> int:
-    if not DATA_FILE.exists():
-        print(f"Missing publications file: {DATA_FILE}", file=sys.stderr)
+    if not DATA_PATH.exists():
+        print(f"Missing publications path: {DATA_PATH}", file=sys.stderr)
         return 1
 
-    lines = DATA_FILE.read_text(encoding="utf-8").splitlines()
-    entries = parse_entries(lines)
+    states = read_publication_states()
+    if not states:
+        print(f"No publication YAML files found in: {DATA_PATH}", file=sys.stderr)
+        return 1
+    entries = [entry for state in states for entry in state["entries"]]
 
     if CITATION_SOURCE in {"google_scholar", "scholar", "scholarly"}:
         author_id = GOOGLE_SCHOLAR_ID
         author_works = fetch_google_scholar_works(author_id)
-        updated, unmatched_existing, matched_work_titles, matched_works = apply_citation_updates_from_works(lines, entries, author_works)
+        updated = 0
+        unmatched_existing = 0
+        matched_work_titles = set()
+        matched_works = []
+        for state in states:
+            state_updated, state_unmatched, state_matched_titles, state_matched_works = apply_citation_updates_from_works(
+                state["lines"],
+                state["entries"],
+                author_works,
+            )
+            updated += state_updated
+            unmatched_existing += state_unmatched
+            matched_work_titles.update(state_matched_titles)
+            matched_works.extend(state_matched_works)
     elif CITATION_SOURCE == "openalex":
-        updated, unmatched_existing, matched_work_titles, matched_works = apply_citation_updates(lines, entries)
+        updated = 0
+        unmatched_existing = 0
+        matched_work_titles = set()
+        matched_works = []
+        for state in states:
+            state_updated, state_unmatched, state_matched_titles, state_matched_works = apply_citation_updates(
+                state["lines"],
+                state["entries"],
+            )
+            updated += state_updated
+            unmatched_existing += state_unmatched
+            matched_work_titles.update(state_matched_titles)
+            matched_works.extend(state_matched_works)
         author_id = OPENALEX_AUTHOR_ID
         author_works = fetch_author_works(author_id) if author_id else []
     else:
         print(f"Unsupported CITATION_SOURCE: {CITATION_SOURCE}", file=sys.stderr)
         return 1
 
-    entries_after_update = parse_entries(lines)
-    added = prepend_missing_publications(lines, entries_after_update, author_works, matched_work_titles)
+    entries_after_update = [
+        entry
+        for state in states
+        for entry in parse_entries(state["lines"])
+    ]
+    added = prepend_missing_publications_to_files(states, entries_after_update, author_works, matched_work_titles)
 
     write_citation_meta()
 
     if updated or added:
-        DATA_FILE.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
+        for state in states:
+            state["path"].parent.mkdir(parents=True, exist_ok=True)
+            state["path"].write_text("\n".join(state["lines"]).rstrip() + "\n", encoding="utf-8")
     print(
         f"{source_label()} works="
         f"{len(author_works)} entries={len(entries)} citations_updated={updated} "
@@ -691,3 +835,6 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
+
+

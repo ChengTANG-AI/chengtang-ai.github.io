@@ -1,0 +1,117 @@
+# Publication entries for 2026.
+# Add one top-level entry per paper. The site and citation updater read all YAML files in data/publications/ automatically.
+
+example_preprint:
+  display: false
+  type: preprint
+  title: Example preprint title
+  authors: Author A, Cheng Tang, Author B
+  preprint: arXiv preprint arXiv:0000.00000
+  year: 2026
+  month: 4
+  url: https://arxiv.org/abs/0000.00000
+  citations: 0
+example_journal:
+  display: false
+  type: journal
+  title: Example journal paper title
+  authors: Author A, Cheng Tang, Author B
+  journal: Example Journal
+  year: 2026
+  month: 5
+  volume: '1'
+  number: '1'
+  pages: 1-10
+  doi: https://doi.org/10.0000/example
+  url: ''
+  citations: 0
+example_conference:
+  display: false
+  type: conference
+  title: Example conference paper title
+  authors: Author A, Cheng Tang, Author B
+  conference: Example International Conference
+  year: 2026
+  month: 6
+  pages: 1-8
+  doi: ''
+  url: https://example.org/conference-paper
+  citations: 0
+preprint_01:
+  type: preprint
+  title: 'Capture-Calibrate-Coach: a graph-based framework for knowledge monitoring estimation and adaptive feedback'
+  authors: 'Gen Li, Li Chen, Cheng Tang, Boxuan Ma, Yuncheng Jiang, Daisuke Deguchi, Takayoshi Yamashita, Atsushi Shimada'
+  preprint: arXiv preprint arXiv:2605.25419
+  year: 2026
+  month: 5
+  url: https://arxiv.org/abs/2605.25419
+  citations: 0
+preprint_02:
+  type: preprint
+  title: 'Recovering stranded discrimination in knowledge tracing: per-item bias correction via empirical-bayes shrinkage'
+  authors: Xiaoran Yan, Cheng Tang, Atsushi Shimada
+  preprint: arXiv preprint arXiv:2606.14123
+  year: 2026
+  month: 6
+  url: https://arxiv.org/abs/2606.14123
+  citations: 0
+preprint_03:
+  type: preprint
+  title: 'Three years with classroom AI in introductory programming: shifts in student awareness, interaction, and performance'
+  authors: "Boxuan Ma, Huiyong Li, Gen Li, Li Chen, Cheng Tang, Atsushi Shimada, Shin'ichi Konomi"
+  preprint: arXiv preprint arXiv:2603.22672
+  year: 2026
+  month: 3
+  url: https://arxiv.org/abs/2603.22672
+  citations: 0
+journal_2026_01:
+  type: journal
+  title: Evaluating a novel incremental-input neural network for multivariate air temperature forecasting
+  authors: 'Zhenyu Song, Shuangyu Song, Shuangbao Song, Lixing Tan, Cheng Tang, Junkai Ji'
+  journal: Engineering Applications of Artificial Intelligence
+  year: 2026
+  month: 4
+  volume: '170'
+  pages: '114203'
+  doi: https://doi.org/10.1016/j.engappai.2026.114203
+  citations: 0
+journal_2026_02:
+  type: journal
+  title: Short-term traffic flow prediction with a dendritic neural network-enhanced time series decomposition framework
+  authors: 'Zhenyu Song, Shuangbao Song, Yajiao Tang, Shuangyu Song, Lixing Tan, Cheng Tang'
+  journal: Applied Soft Computing
+  year: 2026
+  month: 6
+  pages: '115072'
+  doi: https://doi.org/10.1016/j.asoc.2026.115072
+  citations: 0
+conference_2026_01:
+  type: conference
+  title: Decomposed seasonal-trend network with rotary attention for time series forecasting
+  authors: 'Tao Sun, Sijie Xiong, Cheng Tang, Haichuan Yang, Fumiya Okubo, Atsushi Shimada'
+  conference: 'ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)'
+  year: 2026
+  month: 5
+  pages: 1216-1220
+  doi: https://doi.org/10.1109/icassp55912.2026.11463355
+  citations: 0
+conference_2026_02:
+  type: conference
+  title: 'GlucoMixer: an efficient glucose monitoring model with mixers'
+  authors: Sijie Xiong, Jianing Wang, Tao Sun, Cheng Tang, Fumiya Okubo, Atsushi Shimada
+  conference: 'ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)'
+  year: 2026
+  month: 5
+  pages: 2811-2815
+  doi: https://doi.org/10.1109/icassp55912.2026.11464084
+  citations: 0
+conference_2026_03:
+  type: conference
+  title: 'KPMG: a graphical Koopman-Mamba approach for financial markets'
+  authors: 'Sijie Xiong, Cheng Tang, Fumiya Okubo, Tsubasa Minematsu, Yinlong Hu, Atsushi Shimada'
+  conference: 'ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)'
+  year: 2026
+  month: 5
+  pages: 1116-1120
+  doi: https://doi.org/10.1109/icassp55912.2026.11461257
+  citations: 0

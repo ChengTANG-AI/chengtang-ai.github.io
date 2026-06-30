@@ -1,0 +1,57 @@
+# News items for Japanese fiscal year 2026.
+# Add one top-level entry per news item. The site reads all numeric year folders automatically.
+
+example_news:
+  display: false
+  date: '2026-04-01'
+  student_year: ''
+  title: Example news title
+  person_name: Cheng Tang
+  person_type: Faculty
+  position: Associate Professor
+  text: News body with **Markdown** and [links](https://example.com/).
+news_2026_05_14_01:
+  display: true
+  date: '2026-05-14'
+  student_year: ''
+  title: ICML 2026, Silver Reviewer
+  person_name: Cheng Tang
+  person_type: Faculty
+  position: Associate Professor
+  text: 'was recognized as a **Silver Reviewer** for the **[43rd International Conference on Machine Learning](https://icml.cc/Conferences/2026)** (ICML 2026) in recognition of outstanding reviewing service.'
+news_2026_06_28_01:
+  display: true
+  date: '2026-06-28'
+  student_year: ''
+  title: AAAI 2027, Program Committee Member
+  person_name: Cheng Tang
+  person_type: Faculty
+  position: Associate Professor
+  text: 'served as a **Program Committee Member** for the **[41th Annual AAAI Conference on Artificial Intelligence](https://aaai.org/conference/aaai/aaai-27/)** (AAAI 2027), held at Montréal, Canada, February 16-23, 2027.'
+news_2026_06_28_02:
+  display: true
+  date: '2026-06-28'
+  student_year: ''
+  title: ICONIP 2026, Program Committee Member
+  person_name: Cheng Tang
+  person_type: Faculty
+  position: Associate Professor
+  text: 'served as a **Program Committee Member** for the **[International Conference on Neural Information Processing](https://iconip2026.apnns.org/)** (ICONIP 2026), held in Melbourne, Australia, November 23-27, 2026.'
+news_2026_04_02_01:
+  display: true
+  date: '2026-04-02'
+  student_year: ''
+  title: Concurrent Appointment at the Center of Biomedical Physics and Information Technology
+  person_name: Cheng Tang
+  person_type: Faculty
+  position: Concurrent Associate Professor
+  text: 'was appointed as a **Concurrent Associate Professor** at the **[Center of Biomedical Physics and Information Technology](https://bpit.web.nitech.ac.jp/)**, Nagoya Institute of Technology.'
+news_2026_04_01_01:
+  display: true
+  date: '2026-04-01'
+  student_year: ''
+  title: Nagoya Institute of Technology, Associate Professor
+  person_name: Cheng Tang
+  person_type: Faculty
+  position: Associate Professor
+  text: joined the **Department of Engineering**, **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**.

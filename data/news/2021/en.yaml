@@ -1,0 +1,30 @@
+# News items for Japanese fiscal year 2021.
+# Add one top-level entry per news item. The site reads all numeric year folders automatically.
+
+news_2022_03_23_01:
+  display: true
+  date: '2022-03-23'
+  student_year: ''
+  title: University of Toyama, Ph.D. Degree
+  person_name: Cheng Tang
+  person_type: Student
+  position: Doctoral Student
+  text: received a **Ph.D.** degree in **Engineering** from the **[University of Toyama](https://www.u-toyama.ac.jp/)**.
+news_2021_12_01_01:
+  display: true
+  date: '2021-12-01'
+  student_year: ''
+  title: Chinese Government Award for Outstanding Self-Financed Students Abroad
+  person_name: Cheng Tang
+  person_type: Student
+  position: Doctoral Student
+  text: 'received the **[Chinese Government Award for Outstanding Self-Financed Students Abroad](https://researchmap.jp/chengtang/awards/50350927)** from the China Scholarship Council.'
+news_2021_04_01_01:
+  display: true
+  date: '2021-04-01'
+  student_year: ''
+  title: Toshimi Otsuka Scholarship Foundation, Scholarship
+  person_name: Cheng Tang
+  person_type: Student
+  position: Doctoral Student
+  text: 'received the **[Toshimi Otsuka Scholarship](https://researchmap.jp/chengtang/awards/50350946)** from the Toshimi Otsuka Scholarship Foundation.'

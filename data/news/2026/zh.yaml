@@ -1,0 +1,39 @@
+# Localized news fields for zh, Japanese fiscal year 2026.
+# Common fields such as display, date, and student_year are maintained in en.yaml.
+# Add the same news id here only when localized text is needed.
+example_news:
+  title: 动态标题示例
+  person_name: 唐 成
+  person_type: 教师
+  position: 副教授
+  text: 可以使用 **Markdown** 和 [链接](https://example.com/)。
+news_2026_05_14_01:
+  title: ICML 2026，银级审稿人
+  person_name: 唐成
+  person_type: 教员
+  position: 副教授
+  text: '因优秀的审稿贡献，被评为 **[第43届 International Conference on Machine Learning](https://icml.cc/Conferences/2026)**（ICML 2026）**银级审稿人（Silver Reviewer）**。'
+news_2026_06_28_01:
+  title: AAAI 2027，程序委员会委员
+  person_name: 唐成
+  person_type: 教员
+  position: 副教授
+  text: '担任 **[第41届 AAAI Conference on Artificial Intelligence](https://aaai.org/conference/aaai/aaai-27/)**（AAAI 2027）的**程序委员会委员**。会议于2027年2月16日至23日在加拿大蒙特利尔举行。'
+news_2026_06_28_02:
+  title: ICONIP 2026，程序委员会委员
+  person_name: 唐成
+  person_type: 教员
+  position: 副教授
+  text: '担任 **[International Conference on Neural Information Processing](https://iconip2026.apnns.org/)**（ICONIP 2026）的**程序委员会委员**。会议于2026年11月23日至27日在澳大利亚墨尔本举行。'
+news_2026_04_02_01:
+  title: 兼任先端医用物理・信息工学研究中心副教授
+  person_name: 唐成
+  person_type: 教员
+  position: 兼任副教授
+  text: 兼任 **[名古屋工业大学 先端医用物理・信息工学研究中心](https://bpit.web.nitech.ac.jp/)** 副教授。
+news_2026_04_01_01:
+  title: 名古屋工业大学，副教授
+  person_name: 唐成
+  person_type: 教员
+  position: 副教授
+  text: 加入 **[名古屋工业大学](https://www.nitech.ac.jp/)** **大学院工学研究科 电气电子系**，担任副教授。

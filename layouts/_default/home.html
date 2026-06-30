@@ -16,20 +16,32 @@
   {{ with .Site.GetPage "/news" }}{{ $newsHref = .RelPermalink }}{{ end }}
 
   {{ $papers := slice }}
-  {{ range $id, $paper := .Site.Data.publications }}
+  {{ range $paper := partial "collect-publications.html" . }}
     {{ if and (ne $paper.display false) $paper.title }}
       {{ $paperYear := int ($paper.year | default 0) }}
-      {{ $paperMonth := int ($paper.month | default 0) }}
+      {{ $paperMonth := 0 }}
+      {{ with $paper.month }}
+        {{ $monthText := printf "%v" . }}
+        {{ $monthText = replaceRE "^0+" "" $monthText }}
+        {{ if $monthText }}{{ $paperMonth = int $monthText }}{{ end }}
+      {{ end }}
       {{ $sortKey := add (mul $paperYear 100) $paperMonth }}
-      {{ $papers = $papers | append (merge $paper (dict "id" $id "sortKey" $sortKey)) }}
+      {{ $papers = $papers | append (merge $paper (dict "sortKey" $sortKey)) }}
     {{ end }}
   {{ end }}
 
   {{ $newsItems := slice }}
-  {{ range $id, $item := .Site.Data.news }}
+  {{ range $item := partial "collect-news.html" (dict "site" .Site "lang" $lang) }}
     {{ if and (ne $item.display false) $item.date }}
       {{ $sortDate := replace $item.date "-" "" }}
-      {{ $newsItems = $newsItems | append (dict "id" $id "sortKey" (int $sortDate) "item" $item) }}
+      {{ $newsIndex := 0 }}
+      {{ with findRE "[0-9]+$" $item.id }}
+        {{ $indexText := index . 0 }}
+        {{ $indexText = replaceRE "^0+" "" $indexText }}
+        {{ if $indexText }}{{ $newsIndex = int $indexText }}{{ end }}
+      {{ end }}
+      {{ $sortKey := add (mul (int $sortDate) 100) $newsIndex }}
+      {{ $newsItems = $newsItems | append (dict "sortKey" $sortKey "item" $item) }}
     {{ end }}
   {{ end }}
 
@@ -59,7 +71,7 @@
       </div>
       <div class="profile-links">
         {{ range $home.profile.links }}
-          <a href="{{ .url }}">{{ .label }}</a>
+          <a href="{{ .url }}" target="_blank" rel="noopener">{{ .label }}</a>
         {{ end }}
       </div>
     </aside>
@@ -121,7 +133,7 @@
         {{ range first 5 (sort $papers "sortKey" "desc") }}
           <article class="compact-entry">
             <h3>{{ .title }}</h3>
-            <p class="meta">{{ .year }}{{ with .month }}.{{ printf "%02d" (int .) }}{{ end }} · {{ .journal | default .conference | default .preprint }}</p>
+            <p class="meta">{{ .year }}{{ with .month }}.{{ printf "%02d" (int .) }}{{ end }} &middot; {{ .journal | default .conference | default .preprint }}</p>
           </article>
         {{ end }}
       </div>
@@ -135,16 +147,10 @@
       <div class="latest-news-list">
         {{ range first 3 (sort $newsItems "sortKey" "desc") }}
           {{ $item := .item }}
-          {{ $newsTitle := index $item.title $lang | default (index $item.title "en") }}
-          {{ $newsText := index $item.text $lang | default (index $item.text "en") }}
-          {{ $personName := index $item.person_name $lang | default (index $item.person_name "en") }}
-          {{ $personType := index $item.person_type $lang | default (index $item.person_type "en") }}
-          {{ $position := index $item.position $lang | default (index $item.position "en") }}
-          {{ $localizedItem := merge $item (dict "title" $newsTitle "text" $newsText "person_name" $personName "person_type" $personType "position" $position) }}
           <article class="latest-news-card">
             <p class="meta">{{ $item.date }}</p>
-            <h3>{{ $newsTitle | markdownify }}</h3>
-            <p>{{ partial "news-person-prefix.html" (dict "item" $localizedItem "lang" $lang) }} {{ $newsText | markdownify }}</p>
+            <h3>{{ $item.title | markdownify }}</h3>
+            <p>{{ partial "news-person-prefix.html" (dict "item" $item "lang" $lang) }} {{ $item.text | markdownify }}</p>
           </article>
         {{ end }}
       </div>

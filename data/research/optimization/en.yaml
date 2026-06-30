@@ -1,0 +1,35 @@
+# Research direction data for one language.
+# display: true shows this research direction; display: false hides it.
+# Add one top-level entry per featured paper below title and description.
+# Each featured paper is matched against all files under data/publications/ by title.
+
+display: true
+title: Optimization
+description: 'Optimization algorithms for learning, search, scheduling, and intelligent system design.'
+A cuckoo search algorithm with scale-free population topology:
+  display: true
+  image: images/research/optimization/SFCS.png
+  contributions:
+  - Proposed a scale-free population topology for the cuckoo search algorithm.
+  - 'Improved the balance between exploration and exploitation through scale-free information exchange.'
+  - Enhanced solution quality and convergence speed on large-scale optimization problems.
+  - 'Validated the proposed method on benchmark functions and real-world optimization problems.'
+  - 'Demonstrated that the scale-free topology can be generalized to other population-based algorithms.'
+An artificial bee colony algorithm search guided by scale-free networks:
+  display: true
+  image: images/research/optimization/SFABC.png
+  contributions:
+  - 'Proposed a scale-free artificial bee colony (SFABC) algorithm guided by scale-free networks.'
+  - 'Enhanced the balance between exploration and exploitation through scale-free information exchange.'
+  - 'Accelerated convergence by guiding inferior solutions to learn from high-quality neighbors.'
+  - 'Conducted a systematic analysis of scale-free network properties in evolutionary optimization.'
+  - 'Demonstrated that the proposed mechanism can be generalized to improve other population-based optimization algorithms.'
+A complex network-based firefly algorithm for numerical optimization and time series forecasting:
+  display: true
+  image: images/research/optimization/CnFA.png
+  contributions:
+  - 'Proposed a complex network-based firefly algorithm (CnFA) by introducing a scale-free network topology into swarm optimization.'
+  - 'Improved the balance between global exploration and local exploitation through topology-guided information exchange instead of fully connected population interactions.'
+  - 'Enhanced population diversity and alleviated premature convergence by exploiting the power-law connectivity characteristics of complex networks.'
+  - 'Demonstrated that the proposed network-guided mechanism can be generalized to other population-based evolutionary algorithms.'
+  - 'Achieved superior performance on CEC2017 benchmark optimization tasks and improved time-series forecasting accuracy for wind speed and air quality prediction.'

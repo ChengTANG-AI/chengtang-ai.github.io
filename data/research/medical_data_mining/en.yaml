@@ -1,0 +1,53 @@
+# Research direction data for one language.
+# display: true shows this research direction; display: false hides it.
+# Add one top-level entry per featured paper below title and description.
+# Each featured paper is matched against all files under data/publications/ by title.
+
+display: true
+title: Medical Data Mining
+description: 'Methods for discovering clinically meaningful patterns from heterogeneous medical and healthcare data.'
+A novel machine learning technique for computer-aided diagnosis:
+  display: true
+  image: images/research/medical_data_mining/EDNM.png
+  contributions:
+  - 'Proposed an evolutionary dendritic neuron model (EDNM) for computer-aided medical diagnosis.'
+  - Optimized the model using the gbest-guided artificial bee colony algorithm.
+  - Introduced a neuronal pruning mechanism for automatic model simplification.
+  - Enabled direct hardware implementation through logic circuits.
+  - Demonstrated superior diagnostic performance on multiple medical datasets.
+A novel multivariate time series forecasting dendritic neuron model for COVID-19 pandemic transmission tendency:
+  display: true
+  image: images/research/medical_data_mining/DFDNM.png
+  contributions:
+  - 'Proposed a densely connected highly flexible dendritic neuron model (DFDNM) for multivariate time series forecasting.'
+  - 'Introduced dense shortcut connections to alleviate vanishing and exploding gradient problems.'
+  - Developed a highly flexible dendritic architecture with AdamW-based optimization.
+  - Achieved state-of-the-art performance in long-term COVID-19 transmission forecasting.
+  - 'Demonstrated the generalizability of DFDNM on multiple multivariate forecasting benchmarks.'
+Transmission trend of the COVID-19 pandemic predicted by dendritic neural regression:
+  display: true
+  image: images/research/medical_data_mining/DNR.png
+  contributions:
+  - 'Proposed a dendritic neural regression (DNR) model for COVID-19 transmission trend prediction.'
+  - 'Introduced branch-strength modeling to enhance the regression capability of dendritic neural networks.'
+  - 'Developed a scale-free state-of-matter search (SFSMS) algorithm for efficient optimization of DNR.'
+  - 'Integrated phase space reconstruction to capture hidden nonlinear dynamics in epidemic time series.'
+  - 'Achieved superior forecasting performance over state-of-the-art machine learning and deep learning methods.'
+'Sensitivity of electrocardiogram on electrode-pair locations for wearable devices: computational analysis of amplitude and waveform distortion':
+  display: true
+  image: images/research/medical_data_mining/SECG.png
+  contributions:
+  - 'Developed a computational framework to systematically evaluate wearable bipolar ECG electrode placements using anatomical human body models and electrophysiological simulations.'
+  - 'Quantified the effects of body morphology, heart size, heart orientation, and electrode misalignment on ECG amplitude and waveform distortion using dynamic time warping (DTW).'
+  - 'Revealed that heart–electrode distance predominantly determines ECG amplitude, whereas the solid angle of the heart relative to the electrode mainly governs waveform distortion.'
+  - 'Identified electrode locations near the standard V2–V3 chest leads that provide robust ECG measurements with reduced inter-subject variability and lower sensitivity to electrode misalignment.'
+  - 'Provided practical design guidelines for optimizing electrode placement and improving signal reliability in wearable ECG monitoring devices.'
+'GlucoMixer: an efficient glucose monitoring model with mixers':
+  display: true
+  image: images/research/medical_data_mining/GlucoMixer.png
+  contributions:
+  - 'Proposed GlucoMixer, an efficient encoder-only glucose monitoring framework based on Mixer architectures, achieving a balanced trade-off between predictive accuracy and model trustworthiness.'
+  - 'Designed a lightweight Mask Block with progressive triangular masking to prevent future information leakage while preserving temporal continuity in continuous glucose prediction.'
+  - 'Developed a Pattern Extraction Block that combines Conv1D filtering with dual Time Mixer Blocks to capture heterogeneous glucose dynamics across different diabetes patterns.'
+  - 'Integrated temporal and channel mixing within a simple Mixer-based architecture, providing efficient feature interaction without relying on computationally intensive attention mechanisms.'
+  - 'Demonstrated state-of-the-art and well-balanced performance across in-distribution and out-of-distribution glucose prediction benchmarks, improving both forecasting accuracy and uncertainty calibration for reliable clinical decision support.'

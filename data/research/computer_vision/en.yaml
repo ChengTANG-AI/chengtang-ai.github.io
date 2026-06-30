@@ -1,0 +1,53 @@
+# Research direction data for one language.
+# display: true shows this research direction; display: false hides it.
+# Add one top-level entry per featured paper below title and description.
+# Each featured paper is matched against all files under data/publications/ by title.
+
+display: true
+title: Computer Vision
+description: 'Visual recognition and analysis methods for images, videos, and multimodal real-world observations.'
+Evolutionary neural architecture design of liquid state machine for image classification:
+  display: true
+  image: images/research/computer_vision/LSM-SHADE.png
+  contributions:
+  - 'Proposed an evolutionary neural architecture design framework for liquid state machines (LSMs).'
+  - 'Developed a SHADE-based optimization strategy for automatic neural architecture search.'
+  - Optimized key reservoir hyperparameters without prior knowledge or manual tuning.
+  - 'Improved the classification performance of LSM through evolutionary architecture optimization.'
+  - Demonstrated superior performance on handwritten image classification benchmarks.
+'DenseHashNet: a novel deep hashing for medical image retrieval':
+  display: true
+  image: images/research/computer_vision/DenseHashNet.png
+  contributions:
+  - 'Proposed DenseHashNet, an end-to-end deep hashing framework for content-based medical image retrieval.'
+  - 'Introduced a Spatial Pyramid Pooling (SPP) module for multi-scale feature extraction and fusion.'
+  - 'Developed a Power-Mean Transformation (PMT) module to enhance nonlinear feature representation.'
+  - 'Designed a joint optimization strategy with pairwise, quantization, and balanced loss functions for hash learning.'
+  - 'Achieved state-of-the-art retrieval performance on medical image datasets with compact hash codes.'
+A framework of specialized knowledge distillation for Siamese tracker on challenging attributes:
+  display: true
+  image: images/research/computer_vision/SDST.png
+  contributions:
+  - 'Proposed a Specialized teachers Distilled Siamese Tracker (SDST) framework that compresses Siamese trackers while enhancing robustness under challenging tracking scenarios.'
+  - 'Introduced a multi-teacher knowledge distillation strategy combining a general teacher with attribute-specific specialized teachers to transfer both generic and scenario-oriented tracking knowledge.'
+  - 'Designed a Multi-teacher Specialized Knowledge Distillation (MSKD) model that jointly distills intermediate feature representations and high-level semantic knowledge through customized feature and soft-label losses.'
+  - 'Improved tracking performance on challenging attributes such as fast motion, occlusion, low resolution, and background clutter while achieving substantial model compression and real-time inference.'
+  - 'Validated the framework on multiple Siamese trackers, achieving up to 8× model compression, 252 FPS inference speed, and consistent accuracy improvements across challenging tracking benchmarks.'
+Hyperspectral image classification based on double-hop graph attention multiview fusion network:
+  display: true
+  image: images/research/computer_vision/DGAT-MFN.png
+  contributions:
+  - 'Proposed a Double-hop Graph Attention Multiview Fusion Network (DGAT-MFN) for hyperspectral image classification by jointly exploiting graph-based contextual information and multiview feature learning.'
+  - 'Introduced a double-hop graph attention mechanism that aggregates both local and long-range superpixel relationships, extending the receptive field beyond conventional graph attention networks.'
+  - 'Developed a Spectral-Coordinate Attention Module (SCAM) that jointly models spectral channel importance and spatial coordinate dependencies to enhance discriminative spectral–spatial feature representation.'
+  - 'Designed a multiview fusion framework integrating global spectral–spatial representations with multiscale Gabor texture features, enabling more accurate preservation of edge details and homogeneous-region structures.'
+  - 'Achieved state-of-the-art classification performance on four benchmark hyperspectral datasets under limited labeled samples, demonstrating the effectiveness of combining graph learning, attention mechanisms, and multiview feature fusion.'
+A two-stage filtering approach for video-based document digitization:
+  display: true
+  image: images/research/computer_vision/TSFA.png
+  contributions:
+  - 'Proposed a lightweight two-stage filtering framework for automatic document digitization from overhead videos by combining temporal anomaly detection and density-based clustering.'
+  - 'Developed a page-turn event detection strategy using cosine similarity of pretrained MobileNetV3 feature embeddings, enabling robust identification of page transitions without additional model training.'
+  - 'Integrated OPTICS-based clustering to group stable page frames and eliminate residual page-turn artifacts, producing representative page images while preserving visually similar pages.'
+  - 'Designed a practical CPU-only digitization pipeline with hand detection and duplicate removal, supporting batch processing and parameter refinement without requiring video recapture.'
+  - 'Achieved perfect recall across multiple real-world document digitization scenarios, demonstrating a cost-effective and reliable alternative to dedicated document scanning systems.'

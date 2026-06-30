@@ -1,0 +1,312 @@
+# Publication entries for 2024.
+# Add one top-level entry per paper. The site and citation updater read all YAML files in data/publications/ automatically.
+
+journal_2024_01:
+  type: journal
+  title: A framework of specialized knowledge distillation for Siamese tracker on challenging attributes
+  authors: Yiding Li, Atsushi Shimada, Tsubasa Minematsu, Cheng Tang
+  journal: Machine Vision and Applications
+  year: 2024
+  month: 7
+  volume: '35'
+  number: '4'
+  pages: '94'
+  doi: https://doi.org/10.1007/s00138-024-01578-4
+  citations: 1
+  citations_by_year:
+    '2025': 1
+journal_2024_02:
+  type: journal
+  title: A hardware-based orientation detection system using dendritic computation
+  authors: 'Masahiro Nomura, Tianqi Chen, Cheng Tang, Yuki Todo, Rong Sun, Bin Li, Zheng Tang'
+  journal: Electronics
+  year: 2024
+  month: 4
+  volume: '13'
+  number: '7'
+  pages: '1367'
+  doi: https://doi.org/10.3390/electronics13071367
+  citations: 0
+  citations_by_year:
+    '2024': 1
+journal_2024_03:
+  type: journal
+  title: A novel multivariate time series forecasting dendritic neuron model for COVID-19 pandemic transmission tendency
+  authors: 'Cheng Tang, Yuki Todo, Sachiko Kodera, Rong Sun, Atsushi Shimada, Akimasa Hirata'
+  journal: Neural Networks
+  year: 2024
+  month: 11
+  volume: '179'
+  pages: '106527'
+  doi: https://doi.org/10.1016/j.neunet.2024.106527
+  citations: 7
+  citations_by_year:
+    '2025': 3
+    '2026': 2
+journal_2024_04:
+  type: journal
+  title: An improved weighted cross-entropy-based convolutional neural network for auxiliary diagnosis of pneumonia
+  authors: 'Zhenyu Song, Zhanling Shi, Xuemei Yan, Bin Zhang, Shuangbao Song, Cheng Tang'
+  journal: Electronics
+  year: 2024
+  month: 7
+  volume: '13'
+  number: '15'
+  pages: '2929'
+  doi: https://doi.org/10.3390/electronics13152929
+  citations: 12
+  citations_by_year:
+    '2025': 3
+    '2026': 1
+journal_2024_05:
+  type: journal
+  title: Assessing residential building energy efficiency using evolutionary dendritic neural regression
+  authors: Zhenyu Song, Yajiao Tang, Shuangbao Song, Bin Zhang, Cheng Tang
+  journal: Electronics
+  year: 2024
+  month: 5
+  volume: '13'
+  number: '10'
+  pages: '1803'
+  doi: https://doi.org/10.3390/electronics13101803
+  citations: 2
+  citations_by_year:
+    '2025': 1
+journal_2024_06:
+  type: journal
+  title: Attention-based artificial neural network for student performance prediction based on learning activities
+  authors: 'Sukrit Leelaluk, Cheng Tang, Tsubasa Minematsu, Yuta Taniguchi, Fumiya Okubo, Takayoshi Yamashita, Atsushi Shimada'
+  journal: IEEE Access
+  year: 2024
+  month: 7
+  volume: '12'
+  pages: 100659-100675
+  doi: https://doi.org/10.1109/access.2024.3429554
+  citations: 22
+  citations_by_year:
+    '2025': 8
+    '2026': 2
+journal_2024_07:
+  type: journal
+  title: 'Dendritic neural network: a novel extension of dendritic neuron model'
+  authors: 'Cheng Tang, Junkai Ji, Yuki Todo, Atsushi Shimada, Weiping Ding, Akimasa Hirata'
+  journal: IEEE Transactions on Emerging Topics in Computational Intelligence
+  year: 2024
+  month: 6
+  volume: '8'
+  number: '3'
+  pages: 2228-2239
+  doi: https://doi.org/10.1109/tetci.2024.3367819
+  citations: 21
+  citations_by_year:
+    '2025': 8
+    '2026': 10
+journal_2024_08:
+  type: journal
+  title: Hyperspectral image classification based on double-hop graph attention multiview fusion network
+  authors: Ying Cui, Li Luo, Lu Wang, Liwei Chen, Shan Gao, Chunhui Zhao, Cheng Tang
+  journal: 'IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing'
+  year: 2024
+  month: 10
+  volume: '17'
+  pages: 20080-20097
+  doi: https://doi.org/10.1109/jstars.2024.3486283
+  citations: 4
+  citations_by_year:
+    '2025': 4
+journal_2024_09:
+  type: journal
+  title: Improving the artificial bee colony algorithm with a proprietary estimation of distribution mechanism for protein-ligand docking
+  authors: Shuangbao Song, Cheng Tang, Zhenyu Song, Jia Qu, Xingqian Chen
+  journal: Applied Soft Computing
+  year: 2024
+  month: 8
+  volume: '161'
+  pages: '111732'
+  doi: https://doi.org/10.1016/j.asoc.2024.111732
+  citations: 6
+  citations_by_year:
+    '2024': 1
+    '2025': 3
+    '2026': 2
+journal_2024_10:
+  type: journal
+  title: 'Sensitivity of electrocardiogram on electrode-pair locations for wearable devices: computational analysis of amplitude and waveform distortion'
+  authors: 'Kiyoto Sanjo, Kazuki Hebiguchi, Cheng Tang, Essam A Rashed, Sachiko Kodera, Hiroyoshi Togo, Akimasa Hirata'
+  journal: Biosensors
+  year: 2024
+  month: 3
+  volume: '14'
+  number: '3'
+  pages: '153'
+  doi: https://doi.org/10.3390/bios14030153
+  citations: 15
+  citations_by_year:
+    '2024': 2
+    '2025': 6
+    '2026': 2
+conference_2024_01:
+  type: conference
+  title: A deep learning grade prediction model of online learning performance based on knowledge learning representation
+  authors: 'Shuaileng Yuan, Sukrit Leelaluk, Cheng Tang, Li Chen, Fumiya Okubo, Atsushi Shimada'
+  conference: LAK Workshops
+  year: 2024
+  month: 3
+  url: https://scholar.google.com/scholar?q=A+Deep+learning+Grade+Prediction+Model+of+Online+Learning+Performance+Based+on+knowledge+learning+representation
+  citations: 0
+conference_2024_02:
+  type: conference
+  title: A high-speed and lightweight Siamese tracker based on RepVGG network
+  authors: Yiding Li, Cheng Tang, Tsubasa Minematsu, Atsushi Shimada
+  conference: 2024 7th International Symposium on Autonomous Systems (ISAS)
+  year: 2024
+  month: 5
+  pages: 1-6
+  doi: https://doi.org/10.1109/isas61044.2024.10552459
+  citations: 1
+  citations_by_year:
+    '2025': 1
+conference_2024_03:
+  type: conference
+  title: 'A novel approach: enhancing data extraction from student handwritten notes using multi-task u-net and GPT-4'
+  authors: YunYu Zhou, Cheng Tang, Atsushi Shimada
+  conference: 2024 7th International Symposium on Autonomous Systems (ISAS)
+  year: 2024
+  month: 5
+  pages: 1-6
+  doi: https://doi.org/10.1109/isas61044.2024.10552516
+  citations: 2
+conference_2024_04:
+  type: conference
+  title: A three-step knowledge graph approach using LLMs in collaborative problem solving-based STEM education
+  authors: Li Chen, Gen Li, Boxuan Ma, Cheng Tang, Masanori Yamada
+  conference: 'International Conference on Cognition and Exploratory Learning in Digital Age (CELDA 2024)'
+  year: 2024
+  month: 10
+  doi: https://doi.org/10.33965/celda2024_202408l007
+  citations: 9
+  citations_by_year:
+    '2025': 2
+conference_2024_05:
+  type: conference
+  title: Analysis of adapter in attention of change detection vision transformer
+  authors: Ryunosuke Hamada, Tsubasa Minematsu, Cheng Tang, Atsushi Shimada
+  conference: Proceedings of the Asian Conference on Computer Vision
+  year: 2024
+  month: 3
+  pages: 34-49
+  doi: https://doi.org/10.1007/978-981-96-2641-0_3
+  citations: 1
+conference_2024_06:
+  type: conference
+  title: Automated recommendations for revising lecture slides using reading activity data
+  authors: Erwin D. LOPEZ Z., Cheng TANG, Yuta TANIGUCHI, Fumiya OKUBO, Atsushi SHIMADA
+  conference: International Conference on Computers in Education
+  year: 2024
+  month: 11
+  doi: https://doi.org/10.58459/icce.2024.4848
+  citations: 1
+  citations_by_year:
+    '2025': 1
+conference_2024_07:
+  type: conference
+  title: 'Binocular disparity unveils the mechanisms of stereo feature selectivity: orientation and motion'
+  authors: Bin Li, Yuki Todo, Zheng Tang, Cheng Tang
+  conference: 2024 International Joint Conference on Neural Networks (IJCNN)
+  year: 2024
+  month: 6
+  pages: 1-7
+  doi: https://doi.org/10.1109/ijcnn60899.2024.10650968
+  citations: 0
+conference_2024_08:
+  type: conference
+  title: Chaotic map-coded evolutionary algorithms for dendritic neuron model optimization
+  authors: 'Haichuan Yang, Yifei Yang, Yuxin Zhang, Cheng Tang, Koichi Hashimoto, Yuichi Nagata'
+  conference: 2024 IEEE Congress on Evolutionary Computation (CEC)
+  year: 2024
+  month: 6
+  pages: 1-8
+  doi: https://doi.org/10.1109/cec60901.2024.10612087
+  citations: 3
+  citations_by_year:
+    '2025': 2
+    '2026': 1
+conference_2024_09:
+  type: conference
+  title: Educational data analysis using generative AI
+  authors: 'Abdul Berr, Sukrit Leelaluk, Cheng Tang, Li Chen, Fumiya Okubo, Atsushi Shimada'
+  conference: LAK Workshops
+  year: 2024
+  month: 3
+  pages: 47-55
+  url: https://scholar.google.com/scholar?q=Educational+Data+Analysis+using+Generative+AI
+  citations: 3
+conference_2024_10:
+  type: conference
+  title: How do strategies for using ChatGPT affect knowledge comprehension?
+  authors: Li Chen, Gen Li, Boxuan Ma, Cheng Tang, Fumiya Okubo, Atsushi Shimada
+  conference: International conference on artificial intelligence in education
+  year: 2024
+  month: 7
+  pages: 151-162
+  doi: https://doi.org/10.1007/978-3-031-64315-6_12
+  citations: 8
+  citations_by_year:
+    '2025': 3
+conference_2024_11:
+  type: conference
+  title: デジタル教科書のログデータを用いた Knowledge Tracing モデルの拡張
+  authors: 川畑考太朗, 大久保文哉, 谷口雄太, 唐成, 島田敬士
+  conference: IEICE Conferences Archives
+  year: 2024
+  month: 8
+  url: https://scholar.google.com/scholar?q=%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%95%99%E7%A7%91%E6%9B%B8%E3%81%AE%E3%83%AD%E3%82%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E7%94%A8%E3%81%84%E3%81%9F+Knowledge+Tracing+%E3%83%A2%E3%83%87%E3%83%AB%E3%81%AE%E6%8B%A1%E5%BC%B5
+  citations: 1
+  citations_by_year:
+    '2026': 1
+conference_2024_12:
+  type: conference
+  title: LLM-driven ontology learning to augment student performance analysis in higher education
+  authors: 'Gen Li, Cheng Tang, Li Chen, Daisuke Deguchi, Takayoshi Yamashita, Atsushi Shimada'
+  conference: International Conference on Knowledge Science, Engineering and Management
+  year: 2024
+  month: 7
+  pages: 57-68
+  doi: https://doi.org/10.1007/978-981-97-5498-4_5
+  citations: 16
+  citations_by_year:
+    '2025': 6
+    '2026': 3
+conference_2024_13:
+  type: conference
+  title: QA-knowledge attention for exam performance prediction
+  authors: Yongle Ren, Cheng Tang, Yuta Taniguchi, Fumiya Okubo, Atsushi Shimada
+  conference: European Conference on Technology Enhanced Learning
+  year: 2024
+  month: 9
+  pages: 375-389
+  doi: https://doi.org/10.1007/978-3-031-72315-5_26
+  citations: 0
+conference_2024_14:
+  type: conference
+  title: Visibility-aware multi-teacher knowledge distillation for Siamese tracker
+  authors: Yiding Li, Cheng Tang, Tsubasa Minematsu, Atsushi Shimada
+  conference: 2024 7th International Symposium on Autonomous Systems (ISAS)
+  year: 2024
+  month: 5
+  pages: 1-6
+  doi: https://doi.org/10.1109/isas61044.2024.10552525
+  citations: 0
+conference_2024_15:
+  type: conference
+  title: Visual analytics of learning behavior based on the dendritic neuron model
+  authors: 'Cheng Tang, Li Chen, Gen Li, Tsubasa Minematsu, Fumiya Okubo, Yuta Taniguchi, Atsushi Shimada'
+  conference: International Conference on Knowledge Science, Engineering and Management
+  year: 2024
+  month: 7
+  pages: 192-203
+  doi: https://doi.org/10.1007/978-981-97-5495-3_14
+  citations: 3
+  citations_by_year:
+    '2025': 1
+    '2026': 1

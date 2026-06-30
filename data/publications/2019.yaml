@@ -1,0 +1,54 @@
+# Publication entries for 2019.
+# Add one top-level entry per paper. The site and citation updater read all YAML files in data/publications/ automatically.
+
+journal_2019_01:
+  type: journal
+  title: An artificial bee colony algorithm search guided by scale-free networks
+  authors: Junkai Ji, Shuangbao Song, Cheng Tang, Shangce Gao, Zheng Tang, Yuki Todo
+  journal: Information Sciences
+  year: 2019
+  month: 1
+  volume: '473'
+  pages: 142-165
+  doi: https://doi.org/10.1016/j.ins.2018.09.034
+  citations: 78
+  citations_by_year:
+    '2018': 1
+    '2019': 10
+    '2020': 11
+    '2021': 15
+    '2022': 13
+    '2023': 5
+    '2024': 4
+    '2025': 5
+journal_2019_02:
+  type: journal
+  title: Training an approximate logic dendritic neuron model using social learning particle swarm optimization algorithm
+  authors: 'Shuangyu Song, Xingqian Chen, Cheng Tang, Shuangbao Song, Zheng Tang, Yuki Todo'
+  journal: IEEE Access
+  year: 2019
+  month: 10
+  volume: '7'
+  pages: 141947-141959
+  doi: https://doi.org/10.1109/access.2019.2944682
+  citations: 29
+  citations_by_year:
+    '2021': 4
+    '2022': 7
+    '2023': 3
+    '2024': 8
+    '2025': 1
+conference_2019_01:
+  type: conference
+  title: A self-adaptive mechanism embedded gravitational search algorithm
+  authors: Zhenyu Song, Cheng Tang, Xingqian Chen, Shuangyu Song, Junkai Ji
+  conference: '2019 12th International Symposium on Computational Intelligence and Design (ISCID)'
+  year: 2019
+  month: 12
+  volume: '1'
+  pages: 108-112
+  doi: https://doi.org/10.1109/iscid.2019.00031
+  citations: 4
+  citations_by_year:
+    '2021': 1
+    '2022': 1

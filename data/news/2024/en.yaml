@@ -1,0 +1,84 @@
+# News items for Japanese fiscal year 2024.
+# Add one top-level entry per news item. The site reads all numeric year folders automatically.
+
+news_2025_03_06_01:
+  display: true
+  date: '2025-03-06'
+  student_year: ''
+  title: ICLEA 2025, Program Committee Member
+  person_name: Cheng Tang
+  person_type: Faculty
+  position: Assistant Professor
+  text: 'served as a **Program Committee Member** for the **[1st International Conference on Learning Evidence and Analytics](https://sites.google.com/leds.ait.kyushu-u.ac.jp/iclea2025/?pli=1)** (ICLEA 2025), held in Fukuoka, Japan, September 5-7, 2025.'
+news_2025_03_06_02:
+  display: true
+  date: '2025-03-06'
+  student_year: ''
+  title: ICLEA 2025, Organizing Committee Member
+  person_name: Cheng Tang
+  person_type: Faculty
+  position: Assistant Professor
+  text: 'served as an **Organizing Committee Member** for the **[1st International Conference on Learning Evidence and Analytics](https://sites.google.com/leds.ait.kyushu-u.ac.jp/iclea2025/?pli=1)** (ICLEA 2025), held in Fukuoka, Japan, September 5-7, 2025.'
+news_2025_03_06_03:
+  display: true
+  date: '2025-03-06'
+  student_year: ''
+  title: AIED 2025, Program Committee Member
+  person_name: Cheng Tang
+  person_type: Faculty
+  position: Assistant Professor
+  text: 'served as a **Program Committee Member** for the **[26th International Conference on Artificial Intelligence in Education](https://iaied.org/conferences)** (AIED 2025), held in Palermo, Italy, July 22-26, 2025.'
+news_2025_02_11_01:
+  display: true
+  date: '2025-02-11'
+  student_year: ''
+  title: Mathematics, Leading Guest Editor
+  person_name: Cheng Tang
+  person_type: Faculty
+  position: Assistant Professor
+  text: 'served as the **Leading Guest Editor** for the special issue **[Deep Neural Network: Theory, Algorithms and Applications](https://www.mdpi.com/journal/mathematics/special_issues/156YM1P982)** in **[Mathematics](https://www.mdpi.com/journal/mathematics)** (EISSN 2227-7390).'
+news_2025_01_25_01:
+  display: true
+  date: '2025-01-25'
+  student_year: ''
+  title: ICIC 2025, Program Committee Member
+  person_name: Cheng Tang
+  person_type: Faculty
+  position: Assistant Professor
+  text: 'served as a **Program Committee Member** for the **[21st International Conference on Intelligent Computing](http://www.ic-icc.cn/icg/)** (ICIC 2025), held in Ningbo, China, July 26-29, 2025.'
+news_2024_11_05_01:
+  display: true
+  date: '2024-11-05'
+  student_year: ''
+  title: IEEJ, Associate Editor
+  person_name: Cheng Tang
+  person_type: Faculty
+  position: Assistant Professor
+  text: 'served as an **Associate Editor** of **[The Institute of Electrical Engineers of Japan](https://www.iee.jp/en/)** (IEEJ).'
+news_2024_10_01_01:
+  display: true
+  date: '2024-10-01'
+  student_year: ''
+  title: IEEJ, Member
+  person_name: Cheng Tang
+  person_type: Faculty
+  position: Assistant Professor
+  text: 'joined **[The Institute of Electrical Engineers of Japan](https://www.iee.jp/en/)** (IEEJ) as a **Member**.'
+news_2024_04_22_01:
+  display: true
+  date: '2024-04-22'
+  student_year: ''
+  title: Electronics, Leading Guest Editor
+  person_name: Cheng Tang
+  person_type: Faculty
+  position: Assistant Professor
+  text: 'served as the **Leading Guest Editor** for the special issue **[Applications of Edge Computing in Mobile Systems Computing](https://www.mdpi.com/journal/electronics/special_issues/OQ9C0UPK46)** in **[Electronics](https://www.mdpi.com/journal/electronics)** (ISSN 2079-9292).'
+news_2024_04_22_02:
+  display: true
+  date: '2024-04-22'
+  student_year: ''
+  title: ICIC 2024, Program Committee Member
+  person_name: Cheng Tang
+  person_type: Faculty
+  position: Assistant Professor
+  text: 'served as a **Program Committee Member** for the **[20th International Conference on Intelligent Computing](https://www.ic-icc.cn/2024/index.htm)** (ICIC 2024), held in Tianjin, China, August 5-8, 2024.'

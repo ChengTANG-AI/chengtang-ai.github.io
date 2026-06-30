@@ -1,0 +1,9 @@
+# Localized news fields for zh, Japanese fiscal year 2019.
+# Common fields such as display, date, and student_year are maintained in en.yaml.
+# Add the same news id here only when localized text is needed.
+news_2020_03_24_01:
+  title: 富山大学，硕士学位
+  person_name: 唐成
+  person_type: 学生
+  position: 硕士生
+  text: 获得 **[富山大学](https://www.u-toyama.ac.jp/)** **工学**硕士（M.E.）学位。

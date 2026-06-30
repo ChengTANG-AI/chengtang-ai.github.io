@@ -1,0 +1,21 @@
+# Localized news fields for zh, Japanese fiscal year 2021.
+# Common fields such as display, date, and student_year are maintained in en.yaml.
+# Add the same news id here only when localized text is needed.
+news_2022_03_23_01:
+  title: 富山大学，博士学位
+  person_name: 唐成
+  person_type: 学生
+  position: 博士生
+  text: 获得 **[富山大学](https://www.u-toyama.ac.jp/)** **工学**博士（Ph.D.）学位。
+news_2021_12_01_01:
+  title: 国家优秀自费留学生奖
+  person_name: 唐成
+  person_type: 学生
+  position: 博士生
+  text: 获得中国留学基金委颁发的**[国家优秀自费留学生奖](https://researchmap.jp/chengtang/awards/50350927)**。
+news_2021_04_01_01:
+  title: 大塚敏美育英奖学金
+  person_name: 唐成
+  person_type: 学生
+  position: 博士生
+  text: 获得公益财团法人大塚敏美育英奖学财团颁发的**[大塚敏美育英奖学金](https://researchmap.jp/chengtang/awards/50350946)**。

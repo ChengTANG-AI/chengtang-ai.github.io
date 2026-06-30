@@ -1,0 +1,35 @@
+# Research direction data for one language.
+# display: true shows this research direction; display: false hides it.
+# Add one top-level entry per featured paper below title and description.
+# Each featured paper is matched against all files under data/publications/ by title.
+
+display: true
+title: Natural Language Processing
+description: 'Language understanding and generation techniques for extracting, organizing, and using knowledge.'
+'Multi-granular legal information fusion with adversarial compensation: a hierarchical and logic-aware framework for robust case retrieval':
+  display: true
+  image: images/research/natural_language_processing/HLAF-LCR.png
+  contributions:
+  - Proposed a hierarchical and logic-aware framework for legal case retrieval.
+  - Introduced a dynamic masking strategy for fact, reasoning, and ruling modeling.
+  - Developed a cross-hierarchical semantic and logic-guided fusion mechanism.
+  - 'Designed a dual-channel adversarial compensation module for robust representation learning.'
+  - 'Achieved state-of-the-art performance on multiple Chinese and English legal case retrieval benchmarks.'
+'MFLSCI: multi-granularity fusion and label semantic correlation information for multi-label legal text classification':
+  display: true
+  image: images/research/natural_language_processing/MFLSCI.png
+  contributions:
+  - 'Proposed the MFLSCI framework, which jointly models multi-granularity textual semantics and label semantic correlations for robust multi-label legal text classification.'
+  - 'Integrated Graph Convolutional Networks (GCNs) with TextCNN to capture both inter-label semantic dependencies and multi-granularity N-gram representations, reducing label omission and confusion.'
+  - 'Introduced a similarity-driven soft label distribution that fuses textual semantic features with label correlation information, replacing conventional multi-hot supervision with probability-based soft alignment.'
+  - 'Improved robustness against noisy annotations by dynamically aligning text–label similarity distributions, significantly outperforming conventional label smoothing on mislabeled datasets.'
+  - 'Demonstrated superior performance across multiple legal and general-purpose multi-label text classification benchmarks, validating the effectiveness and generalizability of the proposed framework.'
+'DPFSI: a legal judgment prediction method based on deontic logic prompt and fusion of law article statistical information':
+  display: true
+  image: images/research/natural_language_processing/DPFSI.png
+  contributions:
+  - 'Proposed the DPFSI framework for legal judgment prediction by integrating deontic logic prompt learning, multi-granularity graph representation fusion, and law article statistical information.'
+  - 'Enhanced legal language representations through deontic logic prompt learning, enabling pretrained language models to better capture obligations, permissions, prohibitions, and normative reasoning in legal texts.'
+  - 'Designed a multi-granularity heterogeneous graph fusion mechanism that combines PMI, AMR, and semantic dependency graphs via Gated Graph Neural Networks to jointly model semantic, syntactic, and structural information.'
+  - 'Introduced an adaptive statistical information fusion mechanism that aligns law article statistics with textual representations using a β-VAE and selectively replaces low-confidence features to improve robustness while reducing overfitting.'
+  - 'Achieved state-of-the-art performance on legal judgment prediction benchmarks, particularly for law article prediction, demonstrating the effectiveness of integrating legal knowledge, graph reasoning, and statistical information.'

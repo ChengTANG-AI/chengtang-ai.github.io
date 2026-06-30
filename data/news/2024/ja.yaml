@@ -1,0 +1,57 @@
+# Localized news fields for ja, Japanese fiscal year 2024.
+# Common fields such as display, date, and student_year are maintained in en.yaml.
+# Add the same news id here only when localized text is needed.
+news_2025_03_06_01:
+  title: ICLEA 2025，プログラム委員
+  person_name: 唐成
+  person_type: 教員
+  position: 助教
+  text: 'は，**[1st International Conference on Learning Evidence and Analytics](https://sites.google.com/leds.ait.kyushu-u.ac.jp/iclea2025/?pli=1)**（ICLEA 2025）の**プログラム委員**を務めました．同会議は2025年9月5日から7日まで福岡で開催されました．'
+news_2025_03_06_02:
+  title: ICLEA 2025，組織委員
+  person_name: 唐成
+  person_type: 教員
+  position: 助教
+  text: 'は，**[1st International Conference on Learning Evidence and Analytics](https://sites.google.com/leds.ait.kyushu-u.ac.jp/iclea2025/?pli=1)**（ICLEA 2025）の**組織委員**を務めました．同会議は2025年9月5日から7日まで福岡で開催されました．'
+news_2025_03_06_03:
+  title: AIED 2025，プログラム委員
+  person_name: 唐成
+  person_type: 教員
+  position: 助教
+  text: 'は，**[26th International Conference on Artificial Intelligence in Education](https://iaied.org/conferences)**（AIED 2025）の**プログラム委員**を務めました．同会議は2025年7月22日から26日までイタリア・パレルモで開催されました．'
+news_2025_02_11_01:
+  title: Mathematics，特集号主任ゲストエディタ
+  person_name: 唐成
+  person_type: 教員
+  position: 助教
+  text: 'は，**[Mathematics](https://www.mdpi.com/journal/mathematics)**（EISSN 2227-7390）の特集号 **[Deep Neural Network: Theory, Algorithms and Applications](https://www.mdpi.com/journal/mathematics/special_issues/156YM1P982)** の**主任ゲストエディタ**を務めました．'
+news_2025_01_25_01:
+  title: ICIC 2025，プログラム委員
+  person_name: 唐成
+  person_type: 教員
+  position: 助教
+  text: 'は，**[21st International Conference on Intelligent Computing](http://www.ic-icc.cn/icg/)**（ICIC 2025）の**プログラム委員**を務めました．同会議は2025年7月26日から29日まで中国・寧波で開催されました．'
+news_2024_11_05_01:
+  title: 電気学会，アソシエイトエディタ
+  person_name: 唐成
+  person_type: 教員
+  position: 助教
+  text: は，**[電気学会](https://www.iee.jp/en/)**（IEEJ）の**アソシエイトエディタ**を務めました．
+news_2024_10_01_01:
+  title: 電気学会，会員
+  person_name: 唐成
+  person_type: 教員
+  position: 助教
+  text: は，**[電気学会](https://www.iee.jp/en/)**（IEEJ）に**会員**として入会しました．
+news_2024_04_22_01:
+  title: Electronics，特集号主任ゲストエディタ
+  person_name: 唐成
+  person_type: 教員
+  position: 助教
+  text: 'は，**[Electronics](https://www.mdpi.com/journal/electronics)**（ISSN 2079-9292）の特集号 **[Applications of Edge Computing in Mobile Systems Computing](https://www.mdpi.com/journal/electronics/special_issues/OQ9C0UPK46)** の**主任ゲストエディタ**を務めました．'
+news_2024_04_22_02:
+  title: ICIC 2024，プログラム委員
+  person_name: 唐成
+  person_type: 教員
+  position: 助教
+  text: 'は，**[20th International Conference on Intelligent Computing](https://www.ic-icc.cn/2024/index.htm)**（ICIC 2024）の**プログラム委員**を務めました．同会議は2024年8月5日から8日まで中国・天津で開催されました．'

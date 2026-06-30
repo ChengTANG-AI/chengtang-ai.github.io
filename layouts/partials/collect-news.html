@@ -1,0 +1,13 @@
+﻿{{- $lang := .lang | default "en" -}}
+{{- $items := slice -}}
+{{- range $yearKey, $yearData := .site.Data.news -}}
+  {{- if not (hasPrefix $yearKey "_") -}}
+    {{- $baseData := index $yearData "en" | default dict -}}
+    {{- $localData := index $yearData $lang | default dict -}}
+    {{- range $id, $baseItem := $baseData -}}
+      {{- $localItem := index $localData $id | default dict -}}
+      {{- $items = $items | append (merge (merge $baseItem $localItem) (dict "id" $id "source_year" $yearKey)) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $items -}}
