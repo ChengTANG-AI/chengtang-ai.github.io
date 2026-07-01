@@ -64,10 +64,13 @@
       <h2>{{ $home.profile.name }}</h2>
       <p class="meta">{{ $home.profile.title }}</p>
       <p>{{ $home.profile.affiliation }}</p>
-      <div class="compact-email-list">
-        {{ range $home.profile.email }}
-          <p class="contact-email">E-mail: <a href="mailto:{{ . }}">{{ . }}</a></p>
-        {{ end }}
+      <div class="compact-email-list contact-email-list profile-email-list">
+        <span class="contact-email-label">E-mail:</span>
+        <span class="contact-email-values">
+          {{ range $home.profile.email }}
+            <a class="contact-email-link" href="mailto:{{ . }}">{{ . }}</a>
+          {{ end }}
+        </span>
       </div>
       <div class="profile-links">
         {{ range $home.profile.links }}
@@ -104,7 +107,6 @@
   {{ with $home.publicationProfile }}
     <section class="personal-section">
       <p class="section-label">{{ .label }}</p>
-      <h2>{{ .title }}</h2>
       <div class="message-card publication-profile-card">
         <p>{{ .intro | markdownify }}</p>
         <div class="venue-columns">
