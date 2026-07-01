@@ -25,7 +25,7 @@ Optional environment variables:
                       data/publications. If a directory is provided, all
                       *.yaml files in that directory are read and updated.
   PUBLICATIONS_DIR    Preferred path override for the publications directory.
-  CITATION_META_YAML  Defaults to data/citation_meta.yaml.
+  CITATION_META_YAML  Defaults to data/citations/meta.yaml.
 """
 
 from __future__ import annotations
@@ -51,7 +51,7 @@ OPENALEX_API_KEY = os.getenv("OPENALEX_API_KEY")
 OPENALEX_EMAIL = os.getenv("OPENALEX_EMAIL")
 OPENALEX_AUTHOR_ID = os.getenv("OPENALEX_AUTHOR_ID", "").strip()
 DATA_PATH = Path(os.getenv("PUBLICATIONS_DIR", os.getenv("PUBLICATIONS_YAML", "data/publications")))
-CITATION_META_FILE = Path(os.getenv("CITATION_META_YAML", "data/citation_meta.yaml"))
+CITATION_META_FILE = Path(os.getenv("CITATION_META_YAML", "data/citations/meta.yaml"))
 MATCH_THRESHOLD = 0.90
 OPENALEX_BASE = "https://api.openalex.org"
 AUTHOR_CITATION_META = {}

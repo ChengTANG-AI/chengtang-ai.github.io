@@ -1,4 +1,4 @@
-﻿{{ define "main" }}
+{{ define "main" }}
   {{ $lang := .Site.Language.Lang }}
   {{ if hasPrefix $lang "ja" }}
     {{ $lang = "ja" }}
@@ -8,10 +8,10 @@
     {{ $lang = "en" }}
   {{ end }}
   {{ $key := .Params.sectionKey }}
-  {{ $sectionData := index .Site.Data $key }}
-  {{ $data := dict }}
-  {{ if $sectionData }}
-    {{ $data = index $sectionData $lang | default dict }}
+  {{ $sectionData := index .Site.Data $key | default dict }}
+  {{ $data := index $sectionData $lang | default dict }}
+  {{ if or (eq $key "access") (eq $key "links") }}
+    {{ $data = partial "merge-localized-data.html" (dict "base" (index $sectionData "en" | default dict) "local" (index $sectionData $lang | default dict) "keys" (slice "homeSummary" "address" "access" "message" "contact" "map")) }}
   {{ end }}
   {{ if eq $key "members" }}
     {{ $data = dict }}
@@ -501,7 +501,7 @@
       </div>
 
     {{ else if eq $key "projects" }}
-      {{ $projects := .Site.Data.projects }}
+      {{ $projects := .Site.Data.projects.items }}
       {{ $currentYear := now.Year }}
       {{ $ongoingLabel := "Ongoing Projects" }}
       {{ $completedLabel := "Completed Projects" }}
@@ -650,17 +650,26 @@
         {{ end }}
         <section class="entry access-card">
           <h2>{{ $data.contact.title }}</h2>
+          {{ with $data.contact.phone }}
+            <div class="compact-contact-line contact-phone-line">
+              <span class="contact-line-label">{{ $data.contact.phoneLabel | default "Tel" }}:</span>
+              <span class="contact-line-value">{{ . }}</span>
+            </div>
+          {{ end }}
           {{ if $data.contact.emails }}
-            <div class="compact-email-list">
-              {{ range $data.contact.emails }}
-                <p class="contact-email">{{ $data.contact.emailLabel | default "E-mail" }}: <a href="mailto:{{ . }}">{{ . }}</a></p>
-              {{ end }}
+            <div class="compact-email-list contact-email-list">
+              <span class="contact-email-label">{{ $data.contact.emailLabel | default "E-mail" }}:</span>
+              <span class="contact-email-values">
+                {{ range $data.contact.emails }}
+                  <a class="contact-email-link" href="mailto:{{ . }}">{{ . }}</a>
+                {{ end }}
+              </span>
             </div>
           {{ else }}
-            <p class="contact-email">{{ $data.contact.emailLabel | default "E-mail" }}: <a href="{{ $data.contact.emailHref }}">{{ $data.contact.email }}</a></p>
-          {{ end }}
-          {{ with $data.contact.phone }}
-            <p>{{ $data.contact.phoneLabel | default "Tel" }}: {{ . }}</p>
+            <div class="compact-email-list contact-email-list">
+              <span class="contact-email-label">{{ $data.contact.emailLabel | default "E-mail" }}:</span>
+              <span class="contact-email-values"><a class="contact-email-link" href="{{ $data.contact.emailHref }}">{{ $data.contact.email }}</a></span>
+            </div>
           {{ end }}
           <p>{{ $data.contact.note }}</p>
           <p class="access-action"><a class="access-button" href="{{ $data.contact.emailHref }}">{{ $data.contact.button }}</a></p>

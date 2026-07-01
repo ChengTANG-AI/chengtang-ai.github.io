@@ -1,5 +1,5 @@
 title: "访问与联系"
-intro: "本页面提供校园访问与联系方式信息。研究室位于名古屋工业大学 6 号馆。"
+intro: "本页面提供校园访问和联系方式信息。研究室位于名古屋工业大学6号馆。"
 homeSummary:
   label: "ACCESS"
   messageButton: "联系我们"
@@ -12,7 +12,7 @@ address:
     - "日本 〒466-8555"
     - "爱知县名古屋市昭和区御器所町"
     - "名古屋工业大学"
-    - "6 号馆 10 楼 1014 室"
+    - "6号馆 10楼 1014室"
 access:
   title: "交通信息"
   description: "研究室位于名古屋工业大学校园内，最近车站为 JR 中央本线鹤舞站和名古屋市营地下铁鹤舞线鹤舞站。"
@@ -31,13 +31,6 @@ contact:
   phoneLabel: "电话"
   email: "aiclab@nitech.ac.jp"
   emailHref: "mailto:aiclab@nitech.ac.jp"
-  emails:
-    - "aiclab@nitech.ac.jp"
-    - "tang.lab.ai@gmail.com"
-  phone: "+81-52-735-5187"
-  note: "欢迎就共同研究和学生机会进行联系。"
   button: "发送邮件"
 map:
-  label: "在 Google Maps 中打开"
-  url: "https://www.google.com/maps/search/?api=1&query=Nagoya%20Institute%20of%20Technology"
-  embed: "https://www.google.com/maps?q=Nagoya%20Institute%20of%20Technology&output=embed"
+  label: "在 Google 地图中打开"

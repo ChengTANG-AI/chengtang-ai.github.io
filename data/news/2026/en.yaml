@@ -55,3 +55,12 @@ news_2026_04_01_01:
   person_type: Faculty
   position: Associate Professor
   text: joined the **Department of Engineering**, **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**.
+news_2026_06_29_01:
+  display: true
+  date: '2026-06-29'
+  student_year: ''
+  title: IQUESTECH, Participation
+  person_name: Cheng Tang
+  person_type: Faculty
+  position: Associate Professor
+  text: 'joined **[IQUESTECH](https://www.kyutech.ac.jp/research/IQUESTECH.html)**, an AI-based needs-seeds matching support system developed by Kyushu Institute of Technology.'

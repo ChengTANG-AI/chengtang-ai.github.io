@@ -1,6 +1,6 @@
-﻿{{- $papers := .papers -}}
+{{- $papers := .papers -}}
 {{- $lang := .lang -}}
-{{- $citationMeta := site.Data.citation_meta -}}
+{{- $citationMeta := site.Data.citations.meta -}}
 {{- $currentYear := now.Year -}}
 {{- $recentYearStart := sub $currentYear 5 -}}
 {{- $chartYearStart := sub $currentYear 7 -}}

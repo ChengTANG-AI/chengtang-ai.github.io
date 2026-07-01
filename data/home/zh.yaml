@@ -1,0 +1,31 @@
+profile:
+  name: "唐 成"
+  title: "副教授"
+  affiliation: "名古屋工业大学 大学院工学研究科"
+hero:
+  eyebrow: "人工智能、通信系统与数据驱动智能"
+  title: "唐 成"
+  description: "我现任名古屋工业大学副教授，主持人工智能与通信研究室（AIC Lab），主要从事人工智能、通信系统以及数据驱动智能相关研究。"
+  primaryButton: "查看研究业绩"
+  secondaryButton: "查看研究介绍"
+biography:
+  label: "BIOGRAPHY"
+  title: "个人简介"
+  paragraphs:
+    - "我目前在 **[名古屋工业大学](https://www.nitech.ac.jp/)** 大学院工学研究科担任终身制副教授，主持人工智能与通信研究室（AIC Lab），并指导研究生开展科研工作。"
+    - "我分别于2020年和2022年在 **[富山大学](https://www.u-toyama.ac.jp/)** 获得工学硕士和博士（工学）学位。2022年至2023年，我在 **[名古屋工业大学](https://www.nitech.ac.jp/)** 大学院工学研究科 **[平田研究室](https://cem.web.nitech.ac.jp/hilab/)** 担任助教。2023年，我加入 **[九州大学](https://www.kyushu-u.ac.jp/ja/)** 大学院系统信息科学研究院，担任终身制助教，并在 **[图像与媒体理解研究室](https://www.eng.kyushu-u.ac.jp/lab_electrical33.html)** 开展研究。2026年，我加入名古屋工业大学并任现职。"
+    - "我的主要研究方向包括医疗数据挖掘、时间序列预测、计算机视觉、自然语言处理、学习分析、AI 药物设计、可解释人工智能（XAI）以及优化算法。"
+publicationProfile:
+  label: "PUBLICATION PROFILE"
+  title: "主要发表期刊与会议"
+  intro: "我已在国际期刊和国际会议上发表80余篇论文，主要发表平台包括以下期刊和会议。"
+  opportunity: "**欢迎具有工程、计算机科学、人工智能等背景或兴趣的硕士生和本科生加入。同时，也欢迎对医疗健康相关课题感兴趣的研究者开展合作。如对我的研究方向感兴趣，欢迎通过邮件联系。**"
+latest:
+  publicationsLabel: "RECENT PUBLICATIONS"
+  publicationsButton: "查看全部研究业绩"
+  newsLabel: "LATEST NEWS"
+  newsButton: "查看全部动态"
+footer:
+  title: "CHENG TANG"
+  affiliation: "名古屋工业大学 大学院工学研究科"
+  copyright: "© Cheng Tang, Nagoya Institute of Technology"

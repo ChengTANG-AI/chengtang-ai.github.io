@@ -1,0 +1,11 @@
+title: "Links"
+items:
+  - label: "AIC Lab"
+    url: "https://t-aiclab.github.io/"
+    description: "Artificial Intelligence and Communication Laboratory."
+  - label: "Nagoya Institute of Technology"
+    url: "https://www.nitech.ac.jp/eng/"
+    description: "Official website of Nagoya Institute of Technology."
+  - label: "Google Scholar"
+    url: "https://scholar.google.com/citations?user=GvXOVv0AAAAJ"
+    description: "Cheng Tang's Google Scholar profile."

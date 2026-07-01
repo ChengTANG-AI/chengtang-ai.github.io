@@ -1,0 +1,11 @@
+title: "リンク"
+items:
+  - label: "AIC Lab"
+    url: "https://t-aiclab.github.io/"
+    description: "人工知能・通信研究室のウェブサイトです．"
+  - label: "名古屋工業大学"
+    url: "https://www.nitech.ac.jp/"
+    description: "名古屋工業大学の公式サイトです．"
+  - label: "Google Scholar"
+    url: "https://scholar.google.com/citations?user=GvXOVv0AAAAJ"
+    description: "唐成のGoogle Scholarプロフィールです．"

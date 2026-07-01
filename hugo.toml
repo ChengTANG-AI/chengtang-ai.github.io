@@ -19,7 +19,7 @@ disableLanguages = []
 
 [params.visibility]
   disabledLanguages = []
-  disabledSections = ["members", "access", "links"]
+  disabledSections = ["members", "links"]
 
 [markup.goldmark.renderer]
   unsafe = true
@@ -58,6 +58,10 @@ disableLanguages = []
   name = "News"
   pageRef = "/news"
   weight = 50
+[[languages.en.menu.main]]
+  name = "Access"
+  pageRef = "/access"
+  weight = 60
 
 [languages.ja]
   languageName = "日本語"
@@ -93,6 +97,10 @@ disableLanguages = []
   name = "ニュース"
   pageRef = "/news"
   weight = 50
+[[languages.ja.menu.main]]
+  name = "アクセス"
+  pageRef = "/access"
+  weight = 60
 
 [languages.zh]
   languageName = "中文"
@@ -128,3 +136,7 @@ disableLanguages = []
   name = "动态"
   pageRef = "/news"
   weight = 50
+[[languages.zh.menu.main]]
+  name = "联系我们"
+  pageRef = "/access"
+  weight = 60

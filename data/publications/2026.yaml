@@ -104,7 +104,7 @@ conference_2026_02:
   month: 5
   pages: 2811-2815
   doi: https://doi.org/10.1109/icassp55912.2026.11464084
-  citations: 0
+  citations: 1
 conference_2026_03:
   type: conference
   title: 'KPMG: a graphical Koopman-Mamba approach for financial markets'
@@ -114,4 +114,4 @@ conference_2026_03:
   month: 5
   pages: 1116-1120
   doi: https://doi.org/10.1109/icassp55912.2026.11461257
-  citations: 0
+  citations: 1

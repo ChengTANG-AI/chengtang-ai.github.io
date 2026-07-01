@@ -1,4 +1,4 @@
-{{ define "main" }}
+﻿{{ define "main" }}
   {{ $lang := .Site.Language.Lang }}
   {{ if hasPrefix $lang "ja" }}
     {{ $lang = "ja" }}
@@ -7,7 +7,7 @@
   {{ else }}
     {{ $lang = "en" }}
   {{ end }}
-  {{ $home := index .Site.Data $lang "home" }}
+  {{ $home := partial "merge-localized-data.html" (dict "base" (index .Site.Data.home "en") "local" (index .Site.Data.home $lang | default dict) "keys" (slice "profile" "hero" "biography" "overview" "message" "latest" "publicationProfile" "footer")) }}
   {{ $pubHref := "/publications/" | relLangURL }}
   {{ $researchHref := "/research/" | relLangURL }}
   {{ $newsHref := "/news/" | relLangURL }}
@@ -71,7 +71,17 @@
       </div>
       <div class="profile-links">
         {{ range $home.profile.links }}
-          <a href="{{ .url }}" target="_blank" rel="noopener">{{ .label }}</a>
+          {{ $link := . }}
+          {{ with $link.url }}
+            <a href="{{ . }}" target="_blank" rel="noopener" title="{{ $link.label }}" aria-label="{{ $link.label }}" class="{{ if $link.icon }}profile-icon-link{{ end }}{{ if and $link.icon (eq $link.variant "lab") }} {{ end }}{{ if eq $link.variant "lab" }}profile-lab-link{{ end }}">
+              {{ if $link.icon }}
+                <img src="{{ $link.icon | relURL }}" alt="" aria-hidden="true">
+                <span class="visually-hidden">{{ $link.label }}</span>
+              {{ else }}
+                {{ $link.label }}
+              {{ end }}
+            </a>
+          {{ end }}
         {{ end }}
       </div>
     </aside>

@@ -4,8 +4,8 @@ on:
   schedule:
     # JST 00:00
     - cron: "0 15 * * *"
-    # JST 12:00
-    - cron: "0 3 * * *"
+    # CST 12:00 / JST 13:00
+    - cron: "0 4 * * *"
   workflow_dispatch:
 
 permissions:
@@ -40,4 +40,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update publication citation counts"
-          file_pattern: data/publications/*.yaml data/citation_meta.yaml
+          file_pattern: data/publications/*.yaml data/citations/meta.yaml

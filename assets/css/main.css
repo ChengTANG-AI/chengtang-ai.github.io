@@ -119,10 +119,10 @@ a {
   background: #fff;
   color: var(--ink);
   font-size: 0.9rem;
-  font-weight: 600;
+  font-weight: 750;
   line-height: 1;
   text-decoration: none;
-  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+  white-space: nowrap;
 }
 
 .main-nav a:hover,
@@ -146,8 +146,8 @@ a {
 }
 
 .main-nav a.lab-site-link::after {
-  content: "↗";
-  margin-left: 0.35rem;
+  content: "\2197";
+  margin-left: 0.28rem;
   font-size: 0.82em;
   line-height: 1;
 }
@@ -160,14 +160,10 @@ a {
 }
 
 .language-nav {
+  flex-wrap: nowrap;
+  flex: 0 0 auto;
   border-left: 1px solid var(--line);
   padding-left: 1rem;
-  flex-wrap: nowrap;
-}
-
-.language-nav a {
-  font-weight: 800;
-  white-space: nowrap;
 }
 
 .language-nav a[lang="en"] {
@@ -718,14 +714,14 @@ html[lang="zh"] .overview-copy p {
 }
 
 .research-topic summary::before {
-  content: "▶";
+  content: "笆ｶ";
   color: var(--ink);
   font-size: 0.88rem;
   line-height: 1;
 }
 
 .research-topic[open] summary::before {
-  content: "▼";
+  content: "笆ｼ";
 }
 
 .research-topic-heading {
@@ -1316,6 +1312,9 @@ html[lang="zh"] .brand {
   .main-nav,
   .language-nav {
     width: 100%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: stretch;
     justify-content: flex-start;
   }
 
@@ -1326,6 +1325,15 @@ html[lang="zh"] .brand {
   .language-nav {
     border-left: 0;
     padding-left: 0;
+  }
+
+
+
+  .main-nav a,
+  .language-nav a {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
   }
 
   .section-grid,
@@ -1487,17 +1495,38 @@ html[lang="zh"] .member-card .member-message-field .member-field-value {
 
 .profile-links {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
+  width: 100%;
+  justify-self: stretch;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
   margin-top: 0.35rem;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .profile-links a {
+  display: inline-flex;
+  min-height: 1.95rem;
+  align-items: center;
   border: 1px solid var(--line);
-  padding: 0.25rem 0.65rem;
+  padding: 0.3rem 0.58rem;
+  background: #fff;
   color: var(--accent-strong);
-  font-size: 0.85rem;
+  font-size: 0.84rem;
   font-weight: 750;
+  line-height: 1;
   text-decoration: none;
 }
 
@@ -1505,6 +1534,45 @@ html[lang="zh"] .member-card .member-message-field .member-field-value {
   border-color: var(--accent);
   background: color-mix(in srgb, var(--accent) 9%, transparent);
 }
+
+.profile-links a.profile-icon-link {
+  width: 1.95rem;
+  min-width: 1.95rem;
+  height: 1.95rem;
+  padding: 0;
+  justify-content: center;
+}
+
+.profile-links a.profile-icon-link img {
+  display: block;
+  width: 1.16rem;
+  height: 1.16rem;
+  object-fit: contain;
+}
+
+.profile-links a.profile-lab-link {
+  white-space: nowrap;
+  min-width: max-content;
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #fff;
+  font-weight: 850;
+}
+
+.profile-links a.profile-lab-link::after {
+  content: "\2197";
+  margin-left: 0.28rem;
+  font-size: 0.82em;
+  line-height: 1;
+}
+
+.profile-links a.profile-lab-link:hover,
+.profile-links a.profile-lab-link:focus-visible {
+  border-color: var(--accent-strong);
+  background: var(--accent-strong);
+  color: #fff;
+}
+
 
 .personal-section {
   width: min(1400px, calc(100% - 2rem));
@@ -1598,4 +1666,75 @@ html[lang="zh"] .member-card .member-message-field .member-field-value {
   .venue-columns {
     grid-template-columns: 1fr;
   }
+}
+
+
+
+.language-nav a {
+  border-color: color-mix(in srgb, var(--accent) 24%, var(--line));
+  background: color-mix(in srgb, var(--accent) 8%, #fff);
+}
+
+.language-nav a:hover,
+.language-nav a:focus-visible {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 16%, #fff);
+  color: var(--accent-strong);
+}
+
+.language-nav a.is-active {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #fff;
+}
+.contact-email {
+  margin: 0.12rem 0 0;
+  line-height: 1.35;
+}
+
+.contact-email + .contact-email {
+  margin-top: 0.08rem;
+}
+
+.compact-email-list {
+  display: grid;
+  gap: 0.08rem;
+  margin: 0.12rem 0 0;
+}
+
+.compact-email-list .contact-email {
+  margin: 0;
+}
+
+.compact-contact-line,
+.contact-email-list {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  column-gap: 0.35rem;
+  align-items: start;
+  margin: 0.12rem 0 0;
+}
+
+.contact-line-label,
+.contact-email-label {
+  font-weight: 700;
+  line-height: 1.35;
+  white-space: nowrap;
+}
+
+.contact-email-values {
+  display: grid;
+  gap: 0.08rem;
+  min-width: 0;
+}
+
+.contact-email-link {
+  display: block;
+  width: fit-content;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.contact-line-value {
+  line-height: 1.35;
 }

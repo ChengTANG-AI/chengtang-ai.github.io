@@ -7,7 +7,7 @@
   {{ else }}
     {{ $lang = "en" }}
   {{ end }}
-  {{ $home := index .Site.Data $lang "home" }}
+  {{ $home := partial "merge-localized-data.html" (dict "base" (index .Site.Data.home "en") "local" (index .Site.Data.home $lang | default dict) "keys" (slice "profile" "hero" "biography" "overview" "message" "latest" "publicationProfile" "footer")) }}
   {{ $visitLabel := "Site visits" }}
   {{ if eq $lang "ja" }}
     {{ $visitLabel = "サイト訪問数" }}
@@ -15,8 +15,8 @@
     {{ $visitLabel = "本站访问次数" }}
   {{ end }}
   <div class="footer-inner">
-    <p class="footer-title">{{ $home.footer.title | default "Artificial Intelligence and Communication Laboratory" }}</p>
-    <p class="footer-affiliation">{{ $home.footer.affiliation | default "AIC Lab" }}</p>
+    <p class="footer-title">{{ $home.footer.title | default "Cheng Tang" }}</p>
+    <p class="footer-affiliation">{{ $home.footer.affiliation | default "Nagoya Institute of Technology" }}</p>
     {{ with $home.footer.affiliationSub }}
       <p class="footer-affiliation secondary">{{ . }}</p>
     {{ end }}
@@ -25,7 +25,7 @@
         {{ $visitLabel }}: <span id="busuanzi_value_site_pv">-</span>
       </p>
     {{ end }}
-    <p class="footer-copyright">{{ $home.footer.copyright | default "© AIC Lab" }}</p>
+    <p class="footer-copyright">{{ $home.footer.copyright | default "© Cheng Tang, Nagoya Institute of Technology" }}</p>
   </div>
 </footer>
 {{ if ne site.Params.showVisitCounter false }}

@@ -1,0 +1,12 @@
+{{- $base := .base | default dict -}}
+{{- $local := .local | default dict -}}
+{{- $keys := .keys | default slice -}}
+{{- $merged := merge $base $local -}}
+{{- range $keys -}}
+  {{- $baseSection := index $base . | default dict -}}
+  {{- $localSection := index $local . | default dict -}}
+  {{- if or $baseSection $localSection -}}
+    {{- $merged = merge $merged (dict . (merge $baseSection $localSection)) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $merged -}}
