@@ -3,9 +3,9 @@ name: Update publication citations
 on:
   schedule:
     # JST 00:00
-    - cron: "0 15 * * *"
+    - cron: "0 15 * * 0"
     # CST 12:00 / JST 13:00
-    - cron: "0 4 * * *"
+    # - cron: "0 4 * * *"
   workflow_dispatch:
 
 permissions:
