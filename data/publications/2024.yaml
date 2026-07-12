@@ -39,7 +39,7 @@ journal_2024_03:
   volume: '179'
   pages: '106527'
   doi: https://doi.org/10.1016/j.neunet.2024.106527
-  citations: 7
+  citations: 8
   citations_by_year:
     '2025': 3
     '2026': 2
@@ -273,7 +273,7 @@ conference_2024_12:
   month: 7
   pages: 57-68
   doi: https://doi.org/10.1007/978-981-97-5498-4_5
-  citations: 16
+  citations: 17
   citations_by_year:
     '2025': 6
     '2026': 3

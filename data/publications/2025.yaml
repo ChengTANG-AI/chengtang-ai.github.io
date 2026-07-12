@@ -10,7 +10,7 @@ preprint_04:
   month: 11
   doi: https://doi.org/10.48550/arxiv.2511.04144
   url: https://arxiv.org/abs/2511.04144
-  citations: 21
+  citations: 22
   citations_by_year:
     '2026': 2
 journal_2025_01:
@@ -248,7 +248,7 @@ conference_2025_14:
   month: 6
   pages: 300-311
   doi: https://doi.org/10.1007/978-981-96-8186-0_24
-  citations: 8
+  citations: 9
   citations_by_year:
     '2025': 1
     '2026': 4
