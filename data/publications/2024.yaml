@@ -82,7 +82,7 @@ journal_2024_06:
   volume: '12'
   pages: 100659-100675
   doi: https://doi.org/10.1109/access.2024.3429554
-  citations: 22
+  citations: 23
   citations_by_year:
     '2025': 8
     '2026': 2
@@ -97,7 +97,7 @@ journal_2024_07:
   number: '3'
   pages: 2228-2239
   doi: https://doi.org/10.1109/tetci.2024.3367819
-  citations: 21
+  citations: 22
   citations_by_year:
     '2025': 8
     '2026': 10
@@ -140,7 +140,7 @@ journal_2024_10:
   number: '3'
   pages: '153'
   doi: https://doi.org/10.3390/bios14030153
-  citations: 15
+  citations: 16
   citations_by_year:
     '2024': 2
     '2025': 6
