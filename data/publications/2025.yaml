@@ -143,7 +143,7 @@ conference_2025_04:
   month: 9
   pages: 5011-5026
   doi: https://doi.org/10.48550/arxiv.2409.10907
-  citations: 5
+  citations: 6
 conference_2025_05:
   type: conference
   title: 'Classifying knowledge nodes and analyzing activation features: an integrated knowledge graph approach for collaborative problem-solving'
