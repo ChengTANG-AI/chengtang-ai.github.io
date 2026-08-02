@@ -51,7 +51,7 @@ journal_2025_03:
   month: 12
   pages: '113758'
   doi: https://doi.org/10.1016/j.asoc.2025.113758
-  citations: 9
+  citations: 10
   citations_by_year:
     '2025': 2
     '2026': 2
@@ -63,7 +63,7 @@ journal_2025_04:
   year: 2025
   month: 4
   doi: https://doi.org/10.1109/access.2025.3561916
-  citations: 2
+  citations: 3
 journal_2025_05:
   type: journal
   title: 'LECTOR: summarizing e-book reading content for personalized student support'
@@ -223,7 +223,7 @@ conference_2025_12:
   month: 5
   pages: 543-548
   doi: https://doi.org/10.1109/cai64502.2025.00099
-  citations: 5
+  citations: 6
   citations_by_year:
     '2026': 2
 conference_2025_13:

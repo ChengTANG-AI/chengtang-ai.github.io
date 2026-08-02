@@ -94,7 +94,7 @@ journal_2026_01:
   volume: '170'
   pages: '114203'
   doi: https://doi.org/10.1016/j.engappai.2026.114203
-  citations: 0
+  citations: 1
 journal_2026_02:
   type: journal
   title: Short-term traffic flow prediction with a dendritic neural network-enhanced time series decomposition framework
@@ -114,7 +114,7 @@ conference_2026_01:
   month: 5
   pages: 1216-1220
   doi: https://doi.org/10.1109/icassp55912.2026.11463355
-  citations: 0
+  citations: 1
 conference_2026_02:
   type: conference
   title: 'GlucoMixer: an efficient glucose monitoring model with mixers'
@@ -124,7 +124,7 @@ conference_2026_02:
   month: 5
   pages: 2811-2815
   doi: https://doi.org/10.1109/icassp55912.2026.11464084
-  citations: 1
+  citations: 2
 conference_2026_03:
   type: conference
   title: 'KPMG: a graphical Koopman-Mamba approach for financial markets'
