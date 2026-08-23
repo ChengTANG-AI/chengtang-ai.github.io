@@ -11,7 +11,7 @@ journal_2019_01:
   volume: '473'
   pages: 142-165
   doi: https://doi.org/10.1016/j.ins.2018.09.034
-  citations: 78
+  citations: 79
   citations_by_year:
     '2018': 1
     '2019': 10
@@ -31,7 +31,7 @@ journal_2019_02:
   volume: '7'
   pages: 141947-141959
   doi: https://doi.org/10.1109/access.2019.2944682
-  citations: 29
+  citations: 31
   citations_by_year:
     '2021': 4
     '2022': 7

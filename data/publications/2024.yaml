@@ -54,7 +54,7 @@ journal_2024_04:
   number: '15'
   pages: '2929'
   doi: https://doi.org/10.3390/electronics13152929
-  citations: 12
+  citations: 17
   citations_by_year:
     '2025': 3
     '2026': 1
@@ -140,7 +140,7 @@ journal_2024_10:
   number: '3'
   pages: '153'
   doi: https://doi.org/10.3390/bios14030153
-  citations: 17
+  citations: 16
   citations_by_year:
     '2024': 2
     '2025': 6
@@ -175,7 +175,7 @@ conference_2024_03:
   month: 5
   pages: 1-6
   doi: https://doi.org/10.1109/isas61044.2024.10552516
-  citations: 2
+  citations: 3
 conference_2024_04:
   type: conference
   title: A three-step knowledge graph approach using LLMs in collaborative problem solving-based STEM education
@@ -227,7 +227,7 @@ conference_2024_08:
   month: 6
   pages: 1-8
   doi: https://doi.org/10.1109/cec60901.2024.10612087
-  citations: 3
+  citations: 4
   citations_by_year:
     '2025': 2
     '2026': 1
@@ -240,7 +240,7 @@ conference_2024_09:
   month: 3
   pages: 47-55
   url: https://scholar.google.com/scholar?q=Educational+Data+Analysis+using+Generative+AI
-  citations: 3
+  citations: 4
 conference_2024_10:
   type: conference
   title: How do strategies for using ChatGPT affect knowledge comprehension?
@@ -273,7 +273,7 @@ conference_2024_12:
   month: 7
   pages: 57-68
   doi: https://doi.org/10.1007/978-981-97-5498-4_5
-  citations: 17
+  citations: 19
   citations_by_year:
     '2025': 6
     '2026': 3

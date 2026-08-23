@@ -10,7 +10,7 @@ preprint_04:
   month: 11
   doi: https://doi.org/10.48550/arxiv.2511.04144
   url: https://arxiv.org/abs/2511.04144
-  citations: 26
+  citations: 29
   citations_by_year:
     '2026': 2
 journal_2025_01:
@@ -51,7 +51,7 @@ journal_2025_03:
   month: 12
   pages: '113758'
   doi: https://doi.org/10.1016/j.asoc.2025.113758
-  citations: 10
+  citations: 12
   citations_by_year:
     '2025': 2
     '2026': 2
@@ -75,7 +75,7 @@ journal_2025_05:
   number: '4'
   pages: 2495-2533
   doi: https://doi.org/10.1007/s40593-025-00478-6
-  citations: 2
+  citations: 3
 journal_2025_06:
   type: journal
   title: 'MFLSCI: multi-granularity fusion and label semantic correlation information for multi-label legal text classification'
@@ -86,7 +86,7 @@ journal_2025_06:
   volume: '139'
   pages: '109604'
   doi: https://doi.org/10.1016/j.engappai.2024.109604
-  citations: 13
+  citations: 15
   citations_by_year:
     '2025': 3
     '2026': 5
@@ -100,7 +100,7 @@ journal_2025_07:
   volume: '325'
   pages: '113964'
   doi: https://doi.org/10.1016/j.knosys.2025.113964
-  citations: 5
+  citations: 6
   citations_by_year:
     '2026': 1
 conference_2025_01:
@@ -143,7 +143,7 @@ conference_2025_04:
   month: 9
   pages: 5011-5026
   doi: https://doi.org/10.48550/arxiv.2409.10907
-  citations: 6
+  citations: 8
 conference_2025_05:
   type: conference
   title: 'Classifying knowledge nodes and analyzing activation features: an integrated knowledge graph approach for collaborative problem-solving'
@@ -235,7 +235,7 @@ conference_2025_13:
   month: 3
   pages: 64-73
   doi: https://doi.org/10.1145/3672608.3707805
-  citations: 9
+  citations: 8
   citations_by_year:
     '2025': 1
     '2026': 3
@@ -248,7 +248,7 @@ conference_2025_14:
   month: 6
   pages: 300-311
   doi: https://doi.org/10.1007/978-981-96-8186-0_24
-  citations: 9
+  citations: 12
   citations_by_year:
     '2025': 1
     '2026': 4
