@@ -54,7 +54,7 @@ journal_2024_04:
   number: '15'
   pages: '2929'
   doi: https://doi.org/10.3390/electronics13152929
-  citations: 17
+  citations: 18
   citations_by_year:
     '2025': 3
     '2026': 1
@@ -82,7 +82,7 @@ journal_2024_06:
   volume: '12'
   pages: 100659-100675
   doi: https://doi.org/10.1109/access.2024.3429554
-  citations: 26
+  citations: 28
   citations_by_year:
     '2025': 8
     '2026': 2
@@ -140,7 +140,7 @@ journal_2024_10:
   number: '3'
   pages: '153'
   doi: https://doi.org/10.3390/bios14030153
-  citations: 16
+  citations: 17
   citations_by_year:
     '2024': 2
     '2025': 6

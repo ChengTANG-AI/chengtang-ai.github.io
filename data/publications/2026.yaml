@@ -83,7 +83,7 @@ preprint_03:
   year: 2026
   month: 3
   url: https://arxiv.org/abs/2603.22672
-  citations: 0
+  citations: 1
 journal_2026_01:
   type: journal
   title: Evaluating a novel incremental-input neural network for multivariate air temperature forecasting
