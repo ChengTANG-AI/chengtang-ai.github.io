@@ -11,7 +11,7 @@ journal_2020_01:
   volume: '92'
   pages: '103627'
   doi: https://doi.org/10.1016/j.engappai.2020.103627
-  citations: 78
+  citations: 79
   citations_by_year:
     '2020': 3
     '2021': 16
@@ -31,7 +31,7 @@ journal_2020_02:
   number: '1'
   pages: '6296209'
   doi: https://doi.org/10.1155/2020/6296209
-  citations: 17
+  citations: 18
   citations_by_year:
     '2021': 2
     '2022': 5
