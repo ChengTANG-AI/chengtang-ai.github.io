@@ -425,8 +425,15 @@
             {{ $indexText = replaceRE "^0+" "" $indexText }}
             {{ if $indexText }}{{ $paperIndex = int $indexText }}{{ end }}
           {{ end }}
-          {{ $sortKey := add (add (mul $paperYear 10000) (mul $paperMonth 100)) $paperIndex }}
-          {{ $papers = $papers | append (merge $paper (dict "id" $id "fiscalYear" $fiscalYear "sortKey" $sortKey)) }}
+          {{ $hasMonth := gt $paperMonth 0 }}
+          {{ $alphaKey := lower $paper.title }}
+          {{ $sortKey := printf "%04d-%02d-%08d-%s" $paperYear $paperMonth $paperIndex $id }}
+          {{ if not $hasMonth }}
+            {{/* Without a publication month, use the title as the deterministic
+                 chronological-numbering fallback within the year. */}}
+            {{ $sortKey = printf "%04d-00-%s-%s" $paperYear $alphaKey $id }}
+          {{ end }}
+          {{ $papers = $papers | append (merge $paper (dict "id" $id "fiscalYear" $fiscalYear "sortKey" $sortKey "hasMonth" $hasMonth "alphaKey" $alphaKey)) }}
         {{ end }}
       {{ end }}
       {{ $numberedPapers := slice }}
@@ -444,7 +451,13 @@
         {{ partial "citation-overview.html" (dict "papers" $papers "lang" $lang) }}
       {{ end }}
       <div class="publication-groups">
-        {{ $preprints := sort (where $papers "type" "preprint") "sortKey" "desc" }}
+        {{/* Dated papers are newest-first. Papers without a month follow in
+             alphabetical title order. */}}
+        {{ $allPreprints := where $papers "type" "preprint" }}
+        {{ $preprints := sort (where $allPreprints "hasMonth" true) "publicationNumber" "desc" }}
+        {{ range sort (where $allPreprints "hasMonth" false) "alphaKey" "asc" }}
+          {{ $preprints = $preprints | append . }}
+        {{ end }}
         {{ with $preprints }}
           <details class="publication-section">
             <summary>Preprints ({{ len . }}) {{ if site.Params.showCitations }}{{ partial "citation-total.html" . }}{{ end }}</summary>
@@ -463,8 +476,16 @@
         {{ range seq 2100 -1 1900 }}
           {{ $year := . }}
           {{ $yearPapers := where $papers "fiscalYear" $year }}
-          {{ $journalPapers := sort (where $yearPapers "type" "journal") "sortKey" "desc" }}
-          {{ $conferencePapers := sort (where $yearPapers "type" "conference") "sortKey" "desc" }}
+          {{ $allJournalPapers := where $yearPapers "type" "journal" }}
+          {{ $journalPapers := sort (where $allJournalPapers "hasMonth" true) "publicationNumber" "desc" }}
+          {{ range sort (where $allJournalPapers "hasMonth" false) "alphaKey" "asc" }}
+            {{ $journalPapers = $journalPapers | append . }}
+          {{ end }}
+          {{ $allConferencePapers := where $yearPapers "type" "conference" }}
+          {{ $conferencePapers := sort (where $allConferencePapers "hasMonth" true) "publicationNumber" "desc" }}
+          {{ range sort (where $allConferencePapers "hasMonth" false) "alphaKey" "asc" }}
+            {{ $conferencePapers = $conferencePapers | append . }}
+          {{ end }}
           {{ $publishedPapers := slice }}
           {{ range $journalPapers }}{{ $publishedPapers = $publishedPapers | append . }}{{ end }}
           {{ range $conferencePapers }}{{ $publishedPapers = $publishedPapers | append . }}{{ end }}
@@ -688,7 +709,6 @@
     {{ end }}
   </section>
 {{ end }}
-
 
 
 
