@@ -266,6 +266,15 @@ def work_authors(work) -> str:
     return ", ".join(names)
 
 
+def work_type(work) -> str:
+    value = str(work.get("publication_type") or "").strip().lower()
+    return value if value in {"preprint", "journal", "conference"} else "preprint"
+
+
+def work_pages(work) -> str:
+    return str(work.get("pages") or "").strip()
+
+
 def is_ignored_title(title: str) -> bool:
     return normalize(title) in IGNORED_PUBLICATION_TITLES
 
@@ -284,19 +293,33 @@ def merge_duplicate_works(works: list[dict]) -> list[dict]:
             continue
 
         target = merged[normalized_title]
-        target["cited_by_count"] = work_citations(target) + work_citations(work)
+        total_citations = work_citations(target) + work_citations(work)
 
         yearly_counts = work_citations_by_year(target)
         for year, count in work_citations_by_year(work).items():
             yearly_counts[year] = yearly_counts.get(year, 0) + count
-        target["counts_by_year"] = [
+        combined_counts = [
             {"year": year, "cited_by_count": count}
             for year, count in sorted(yearly_counts.items())
         ]
 
-        for field in ("authors", "source", "publication_year", "publication_date", "doi", "id"):
-            if not target.get(field) and work.get(field):
-                target[field] = work.get(field)
+        # Keep metadata from a formally published journal/conference version
+        # when the same title also appears as a preprint. Citation totals from
+        # every version are still accumulated above.
+        if work_type(target) == "preprint" and work_type(work) != "preprint":
+            preferred, secondary = work, target
+        else:
+            preferred, secondary = target, work
+
+        combined = dict(preferred)
+        for field, value in secondary.items():
+            if field in {"cited_by_count", "counts_by_year"}:
+                continue
+            if not combined.get(field) and value:
+                combined[field] = value
+        combined["cited_by_count"] = total_citations
+        combined["counts_by_year"] = combined_counts
+        merged[normalized_title] = combined
     return [merged[key] for key in order]
 
 
@@ -394,8 +417,13 @@ def scholar_work_from_publication(publication: dict) -> dict:
     bib = publication.get("bib") or {}
     title = bib.get("title") or publication.get("title") or ""
     year = scholar_year(bib.get("pub_year") or bib.get("year"))
-    venue = bib.get("venue") or bib.get("journal") or bib.get("conference") or ""
+    journal = bib.get("journal") or ""
+    conference = bib.get("conference") or ""
+    venue = bib.get("venue") or journal or conference or ""
     authors = bib.get("author") or bib.get("authors") or ""
+    if isinstance(authors, str):
+        authors = re.sub(r"\s+and\s+", ", ", authors)
+    publication_type = "conference" if conference else "journal" if journal else "preprint"
     citations = publication.get("num_citations")
     try:
         citations = int(citations or 0)
@@ -416,8 +444,11 @@ def scholar_work_from_publication(publication: dict) -> dict:
         "display_name": title,
         "authors": authors,
         "source": venue,
+        "publication_type": publication_type,
         "publication_year": year,
         "publication_date": year,
+        "pages": bib.get("pages") or "",
+        "publisher": bib.get("publisher") or "",
         "doi": "",
         "id": pub_url,
         "cited_by_count": citations,
@@ -425,7 +456,15 @@ def scholar_work_from_publication(publication: dict) -> dict:
     }
 
 
-def fetch_google_scholar_works(scholar_id: str) -> list[dict]:
+def entry_needs_scholar_details(entry) -> bool:
+    fields = entry.get("fields") or {}
+    return (
+        entry.get("key", "").startswith("new_publication_")
+        or str(fields.get("preprint", "")).strip().lower() == "google scholar"
+    )
+
+
+def fetch_google_scholar_works(scholar_id: str, entries=None) -> list[dict]:
     global AUTHOR_CITATION_META
     if not scholar_id:
         return []
@@ -463,7 +502,34 @@ def fetch_google_scholar_works(scholar_id: str) -> list[dict]:
         "i10_index_recent": author.get("i10index5y"),
         "annual_citations": author.get("cites_per_year") or {},
     }
-    works = [scholar_work_from_publication(publication) for publication in author.get("publications", [])]
+    publications = list(author.get("publications", []))
+    title_counts = {}
+    for publication in publications:
+        normalized_title = normalize(work_title(scholar_work_from_publication(publication)))
+        if normalized_title:
+            title_counts[normalized_title] = title_counts.get(normalized_title, 0) + 1
+
+    works = []
+    entries = entries or []
+    for publication in publications:
+        summary_work = scholar_work_from_publication(publication)
+        normalized_title = normalize(work_title(summary_work))
+        entry, _ = best_entry_match(work_title(summary_work), entries)
+        needs_details = (
+            entry is None
+            or entry_needs_scholar_details(entry)
+            or title_counts.get(normalized_title, 0) > 1
+        )
+        if needs_details and not publication.get("filled"):
+            try:
+                publication = scholarly.fill(publication)
+            except Exception as exc:
+                print(
+                    f"[WARN] Google Scholar detail lookup failed for "
+                    f"{work_title(summary_work)}: {exc}",
+                    file=sys.stderr,
+                )
+        works.append(scholar_work_from_publication(publication))
     return merge_duplicate_works(works)
 
 
@@ -481,22 +547,27 @@ def make_new_key(work, existing_keys: set[str], index: int) -> str:
 
 def new_publication_block(key: str, work) -> list[str]:
     source = work_source(work)
+    publication_type = work_type(work)
     doi = work_doi(work)
     link = "" if doi else work_link(work)
+    journal = source if publication_type == "journal" else ""
+    conference = source if publication_type == "conference" else ""
+    preprint = source or source_label() if publication_type == "preprint" else ""
     citations_by_year = work_citations_by_year(work)
     block = [
         "",
         f"{key}:",
         f"  # TODO: Review this automatically added {source_label()} entry.",
         "  display: true",
-        '  type: "preprint"',
+        f"  type: {quote_yaml(publication_type)}",
         f"  title: {quote_yaml(work_title(work))}",
         f"  authors: {quote_yaml(work_authors(work))}",
-        '  journal: ""',
-        '  conference: ""',
-        f"  preprint: {quote_yaml(source or source_label())}",
+        f"  journal: {quote_yaml(journal)}",
+        f"  conference: {quote_yaml(conference)}",
+        f"  preprint: {quote_yaml(preprint)}",
         f"  year: {work_year(work)}" if work_year(work) else '  year: ""',
         f"  month: {quote_yaml(work_month(work))}",
+        f"  pages: {quote_yaml(work_pages(work))}",
         f"  doi: {quote_yaml(doi)}",
         f"  link: {quote_yaml(link)}",
         f"  citations: {work_citations(work)}",
@@ -625,6 +696,46 @@ def apply_citation_updates_from_works(lines: list[str], entries, works):
         citations_by_year = work_citations_by_year(work)
         current = entry["fields"].get("citations")
         changed = False
+
+        if entry_needs_scholar_details(entry):
+            publication_type = work_type(work)
+            source = work_source(work)
+            metadata = {}
+            if work_authors(work):
+                metadata["authors"] = work_authors(work)
+            if source:
+                metadata["type"] = publication_type
+                metadata[publication_type] = source
+                if publication_type != "preprint":
+                    metadata["preprint"] = ""
+            if work_year(work):
+                metadata["year"] = work_year(work)
+            if work_month(work):
+                metadata["month"] = work_month(work)
+            if work_doi(work):
+                metadata["doi"] = work_doi(work)
+            if work_link(work):
+                metadata["link"] = work_link(work)
+
+            for field_name, value in metadata.items():
+                line_index = entry["field_lines"].get(field_name)
+                if line_index is None or str(entry["fields"].get(field_name, "")) == str(value):
+                    continue
+                formatted = str(value) if field_name == "year" else quote_yaml(value)
+                replacements.append((line_index, f"  {field_name}: {formatted}"))
+                changed = True
+
+            pages = work_pages(work)
+            if pages:
+                pages_index = entry["field_lines"].get("pages")
+                if pages_index is not None:
+                    if str(entry["fields"].get("pages", "")) != pages:
+                        replacements.append((pages_index, f"  pages: {quote_yaml(pages)}"))
+                        changed = True
+                else:
+                    insert_at = entry["field_lines"].get("doi", entry["field_lines"].get("citations", entry["end"]))
+                    insertions.append((insert_at, f"  pages: {quote_yaml(pages)}"))
+                    changed = True
 
         if current != citations:
             if "citations" in entry["field_lines"]:
@@ -776,7 +887,7 @@ def main() -> int:
 
     if CITATION_SOURCE in {"google_scholar", "scholar", "scholarly"}:
         author_id = GOOGLE_SCHOLAR_ID
-        author_works = fetch_google_scholar_works(author_id)
+        author_works = fetch_google_scholar_works(author_id, entries)
         updated = 0
         unmatched_existing = 0
         matched_work_titles = set()

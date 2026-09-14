@@ -2,10 +2,8 @@ name: Update publication citations
 
 on:
   schedule:
-    # JST 00:00
-    - cron: "0 15 * * 0"
-    # CST 12:00 / JST 13:00
-    # - cron: "0 4 * * *"
+    # Every Monday at 01:00 JST (Sunday 16:00 UTC)
+    - cron: "0 16 * * 0"
   workflow_dispatch:
 
 permissions:
@@ -24,7 +22,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install citation updater dependencies
-        run: python -m pip install "scholarly==1.7.11" "httpx<0.28"
+        run: python -m pip install "scholarly==1.7.11" "httpx<0.28" "bibtexparser<2"
 
       - name: Update citation counts
         env:
