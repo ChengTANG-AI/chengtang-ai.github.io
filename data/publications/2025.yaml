@@ -10,7 +10,7 @@ preprint_04:
   month: 11
   doi: https://doi.org/10.48550/arxiv.2511.04144
   url: https://arxiv.org/abs/2511.04144
-  citations: 30
+  citations: 31
   citations_by_year:
     '2026': 2
 journal_2025_01:
@@ -144,6 +144,9 @@ conference_2025_04:
   pages: 5011-5026
   doi: https://doi.org/10.48550/arxiv.2409.10907
   citations: 8
+  citations_by_year:
+    "2025": 2
+    "2026": 6
 conference_2025_05:
   type: conference
   title: 'Classifying knowledge nodes and analyzing activation features: an integrated knowledge graph approach for collaborative problem-solving'
@@ -223,7 +226,7 @@ conference_2025_12:
   month: 5
   pages: 543-548
   doi: https://doi.org/10.1109/cai64502.2025.00099
-  citations: 6
+  citations: 7
   citations_by_year:
     '2026': 2
 conference_2025_13:
@@ -235,7 +238,7 @@ conference_2025_13:
   month: 3
   pages: 64-73
   doi: https://doi.org/10.1145/3672608.3707805
-  citations: 8
+  citations: 9
   citations_by_year:
     '2025': 1
     '2026': 3

@@ -62,7 +62,7 @@ journal_2022_04:
   volume: '512'
   pages: 363-380
   doi: https://doi.org/10.1016/j.neucom.2022.09.003
-  citations: 190
+  citations: 194
   citations_by_year:
     '2022': 2
     '2023': 28
@@ -112,7 +112,7 @@ journal_2022_07:
   volume: '254'
   pages: '109715'
   doi: https://doi.org/10.1016/j.knosys.2022.109715
-  citations: 7
+  citations: 8
   citations_by_year:
     '2023': 1
     '2024': 2

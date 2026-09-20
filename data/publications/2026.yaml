@@ -8,6 +8,27 @@
 
 
 
+
+# AUTO-ADDED PUBLICATIONS FROM GOOGLE SCHOLAR
+# Please review these entries regularly, fill type/source/month/doi/link fields,
+# and rename IDs to journal_YYYY_NN, conference_YYYY_NN, or preprint_NN.
+
+new_publication_2026_01:
+  # TODO: Review this automatically added Google Scholar entry.
+  display: true
+  type: "conference"
+  title: "GluPIDHW: A PID-Holt-Winters Model for Personalized Glucose Monitoring"
+  authors: "Youhao Xu, Sijie Xiong, Tao Sun, Jianing Wang, Cheng Tang, Atsushi Shimada"
+  journal: ""
+  conference: "2026 6th IEEE International Conference on Cybernetics (CYBCONF)"
+  preprint: ""
+  year: 2026
+  month: ""
+  pages: "149-154"
+  doi: ""
+  link: "https://ieeexplore.ieee.org/abstract/document/11670280/"
+  citations: 0
+
 example_preprint:
   display: false
   type: preprint
