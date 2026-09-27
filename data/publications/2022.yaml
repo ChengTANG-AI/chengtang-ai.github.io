@@ -62,7 +62,7 @@ journal_2022_04:
   volume: '512'
   pages: 363-380
   doi: https://doi.org/10.1016/j.neucom.2022.09.003
-  citations: 194
+  citations: 196
   citations_by_year:
     '2022': 2
     '2023': 28
@@ -79,7 +79,7 @@ journal_2022_05:
   volume: '205'
   pages: '117637'
   doi: https://doi.org/10.1016/j.eswa.2022.117637
-  citations: 29
+  citations: 30
   citations_by_year:
     '2022': 1
     '2023': 6

@@ -112,7 +112,7 @@ journal_2026_02:
   month: 6
   pages: '115072'
   doi: https://doi.org/10.1016/j.asoc.2026.115072
-  citations: 0
+  citations: 1
 conference_2026_01:
   type: conference
   title: Decomposed seasonal-trend network with rotary attention for time series forecasting

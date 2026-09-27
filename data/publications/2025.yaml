@@ -23,7 +23,7 @@ journal_2025_01:
   volume: '272'
   pages: '126722'
   doi: https://doi.org/10.1016/j.eswa.2025.126722
-  citations: 17
+  citations: 18
   citations_by_year:
     '2025': 4
     '2026': 5
@@ -86,7 +86,7 @@ journal_2025_06:
   volume: '139'
   pages: '109604'
   doi: https://doi.org/10.1016/j.engappai.2024.109604
-  citations: 15
+  citations: 16
   citations_by_year:
     '2025': 3
     '2026': 5
