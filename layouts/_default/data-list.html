@@ -231,6 +231,17 @@
       {{ end }}
 
     {{ else if eq $key "research" }}
+      {{ $overviewAlt := cond (eq $lang "ja") "研究概要" (cond (eq $lang "zh") "研究概览" "Research overview") }}
+      <figure class="research-overview-figure">
+        <img
+          src="{{ "images/research/research.svg" | relURL }}"
+          width="7567"
+          height="9216"
+          alt="{{ $overviewAlt }}"
+          decoding="async"
+          fetchpriority="high"
+        >
+      </figure>
       {{ $publications := partial "collect-publications.html" . }}
       {{ $topicLabel := "Research Topics" }}
       {{ $linkLabel := "Link" }}
@@ -709,7 +720,6 @@
     {{ end }}
   </section>
 {{ end }}
-
 
 
 

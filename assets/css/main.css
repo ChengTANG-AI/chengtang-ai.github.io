@@ -668,6 +668,21 @@ html[lang="zh"] .overview-copy p {
   gap: 1rem;
 }
 
+.research-overview-figure {
+  margin: 0 0 clamp(1.5rem, 4vw, 2.5rem);
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(20, 33, 41, 0.08);
+}
+
+.research-overview-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .research-directions {
   display: grid;
   gap: 2rem;
