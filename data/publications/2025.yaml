@@ -10,7 +10,7 @@ preprint_04:
   month: 11
   doi: https://doi.org/10.48550/arxiv.2511.04144
   url: https://arxiv.org/abs/2511.04144
-  citations: 31
+  citations: 32
   citations_by_year:
     '2026': 2
 journal_2025_01:
@@ -49,6 +49,7 @@ journal_2025_03:
   journal: Applied Soft Computing
   year: 2025
   month: 12
+  volume: '184'
   pages: '113758'
   doi: https://doi.org/10.1016/j.asoc.2025.113758
   citations: 13
@@ -62,12 +63,14 @@ journal_2025_04:
   journal: IEEE Access
   year: 2025
   month: 4
+  volume: '13'
+  pages: 74567-74580
   doi: https://doi.org/10.1109/access.2025.3561916
   citations: 3
 journal_2025_05:
   type: journal
   title: 'LECTOR: summarizing e-book reading content for personalized student support'
-  authors: "Erwin Daniel L'opez Zapata, Cheng Tang, Valdemar vSv'abensk`y, Fumiya Okubo, Atsushi Shimada"
+  authors: "Erwin Daniel Lopez Zapata, Cheng Tang, Valdemar Svabensky, Fumiya Okubo, Atsushi Shimada"
   journal: International Journal of Artificial Intelligence in Education
   year: 2025
   month: 12
@@ -100,7 +103,7 @@ journal_2025_07:
   volume: '325'
   pages: '113964'
   doi: https://doi.org/10.1016/j.knosys.2025.113964
-  citations: 7
+  citations: 8
   citations_by_year:
     '2026': 1
 conference_2025_01:
@@ -138,11 +141,11 @@ conference_2025_04:
   type: conference
   title: 'Attention-seeker: dynamic self-attention scoring for unsupervised keyphrase extraction'
   authors: Erwin Daniel Lopez Zapata, Cheng Tang, Atsushi Shimada
-  conference: Proceedings of the 31st International Conference on Computational Linguistics
+  conference: 31st International Conference on Computational Linguistics
   year: 2025
   month: 9
   pages: 5011-5026
-  doi: https://doi.org/10.48550/arxiv.2409.10907
+  doi: https://aclanthology.org/2025.coling-main.335/
   citations: 8
   citations_by_year:
     "2025": 2
@@ -238,7 +241,7 @@ conference_2025_13:
   month: 3
   pages: 64-73
   doi: https://doi.org/10.1145/3672608.3707805
-  citations: 9
+  citations: 11
   citations_by_year:
     '2025': 1
     '2026': 3

@@ -58,7 +58,7 @@ journal_2021_04:
   volume: '233'
   pages: '107509'
   doi: https://doi.org/10.1016/j.knosys.2021.107509
-  citations: 20
+  citations: 21
   citations_by_year:
     '2022': 5
     '2023': 5
@@ -101,7 +101,7 @@ conference_2021_02:
   type: conference
   title: An efficient orientation detection mechanism inspired via orientation-selective amacrine cells
   authors: Fenggang Yuan, Cheng Tang, Yuki Todo, Zheng Tang
-  conference: 'Proceedings of the 2021 4th International Conference on Signal Processing and Machine Learning'
+  conference: '2021 4th International Conference on Signal Processing and Machine Learning'
   year: 2021
   month: 8
   pages: 7-11
@@ -125,7 +125,7 @@ conference_2021_04:
   type: conference
   title: The mechanism of motion direction detection from gray images
   authors: Yuxiao Hua, Riku Inoue, Cheng Tang, Yuki Todo, Zheng Tang
-  conference: 'Proceedings of the 2021 4th International Conference on Signal Processing and Machine Learning'
+  conference: '2021 4th International Conference on Signal Processing and Machine Learning'
   year: 2021
   month: 8
   pages: 12-17

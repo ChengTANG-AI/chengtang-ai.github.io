@@ -40,13 +40,13 @@ journal_2023_03:
   volume: '21'
   number: '2'
   pages: 69-80
-  doi: https://doi.org/10.1504/ijbic.2022.10053950
+  doi: https://doi.org/10.1504/IJBIC.2023.130560
   citations: 0
 conference_2023_01:
   type: conference
   title: Dendritic neural regression model trained by chicken swarm optimization algorithm for bank customer churn prediction
   authors: Qi Wang, Haiyan Zhang, Junkai Ji, Cheng Tang, Yajiao Tang
-  conference: International Conference on Neural Information Processing
+  conference: 30th International Conference on Neural Information Processing (ICONIP 2023)
   year: 2023
   month: 11
   pages: 254-265

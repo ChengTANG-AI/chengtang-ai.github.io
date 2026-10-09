@@ -44,6 +44,7 @@ conference_2020_01:
   conference: International Conference on Intelligent Computing
   year: 2020
   month: 10
+  volume: '12463'
   pages: 471-483
   doi: https://doi.org/10.1007/978-3-030-60799-9_41
   citations: 1
@@ -56,6 +57,7 @@ conference_2020_02:
   conference: International Conference on Intelligent Computing
   year: 2020
   month: 10
+  volume: '12463'
   pages: 484-496
   doi: https://doi.org/10.1007/978-3-030-60799-9_42
   citations: 3

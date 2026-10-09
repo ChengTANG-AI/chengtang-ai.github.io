@@ -149,7 +149,7 @@ conference_2024_01:
   type: conference
   title: A deep learning grade prediction model of online learning performance based on knowledge learning representation
   authors: 'Shuaileng Yuan, Sukrit Leelaluk, Cheng Tang, Li Chen, Fumiya Okubo, Atsushi Shimada'
-  conference: LAK Workshops
+  conference: 6th Workshop on Predicting Performance Based on the Analysis of Reading Behavior (LAK24 Data Challenge)
   year: 2024
   month: 3
   url: https://scholar.google.com/scholar?q=A+Deep+learning+Grade+Prediction+Model+of+Online+Learning+Performance+Based+on+knowledge+learning+representation
@@ -183,6 +183,7 @@ conference_2024_04:
   conference: 'International Conference on Cognition and Exploratory Learning in Digital Age (CELDA 2024)'
   year: 2024
   month: 10
+  Pages: 51-58
   doi: https://doi.org/10.33965/celda2024_202408l007
   citations: 9
   citations_by_year:
@@ -235,7 +236,7 @@ conference_2024_09:
   type: conference
   title: Educational data analysis using generative AI
   authors: 'Abdul Berr, Sukrit Leelaluk, Cheng Tang, Li Chen, Fumiya Okubo, Atsushi Shimada'
-  conference: LAK Workshops
+  conference: 6th Workshop on Predicting Performance Based on the Analysis of Reading Behavior (LAK24 Data Challenge)
   year: 2024
   month: 3
   pages: 47-55
