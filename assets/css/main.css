@@ -731,14 +731,14 @@ html[lang="zh"] .overview-copy p {
 }
 
 .research-topic summary::before {
-  content: "笆ｶ";
+  content: "\25B6";
   color: var(--ink);
   font-size: 0.88rem;
   line-height: 1;
 }
 
 .research-topic[open] summary::before {
-  content: "笆ｼ";
+  content: "\25BC";
 }
 
 .research-topic-heading {
