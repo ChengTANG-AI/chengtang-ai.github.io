@@ -1,31 +1,22 @@
-profile:
-  name: "唐 成"
-  title: "副教授"
-  affiliation: "名古屋工业大学 大学院工学研究科"
 hero:
-  eyebrow: "人工智能、通信系统与数据驱动智能"
-  title: "唐 成"
-  description: "我现任名古屋工业大学副教授，主持人工智能与通信研究室（AIC Lab），主要从事人工智能、通信系统以及数据驱动智能相关研究。"
-  primaryButton: "查看研究业绩"
-  secondaryButton: "查看研究介绍"
-biography:
-  label: "BIOGRAPHY"
-  title: "个人简介"
+  eyebrow: 名古屋工业大学 大学院工学研究科 电气电子系
+  title: 人工智能与通信研究室
+  englishName: Artificial Intelligence and Communication Laboratory
+  founded: 成立于2026年4月
+  description: 融合人工智能与通信技术，推动科学、工程与社会发展的研究室。
+
+
+overview:
+  label: OVERVIEW
+  title: 关于人工智能与通信研究室
   paragraphs:
-    - "我目前在 **[名古屋工业大学](https://www.nitech.ac.jp/)** 大学院工学研究科担任终身制副教授，主持人工智能与通信研究室（AIC Lab），并指导研究生开展科研工作。"
-    - "我分别于2020年和2022年在 **[富山大学](https://www.u-toyama.ac.jp/)** 获得工学硕士和博士（工学）学位。2022年至2023年，我在 **[名古屋工业大学](https://www.nitech.ac.jp/)** 大学院工学研究科 **[平田研究室](https://cem.web.nitech.ac.jp/hilab/)** 担任助教。2023年，我加入 **[九州大学](https://www.kyushu-u.ac.jp/ja/)** 大学院系统信息科学研究院，担任终身制助教，并在 **[图像与媒体理解研究室](https://www.eng.kyushu-u.ac.jp/lab_electrical33.html)** 开展研究。2026年，我加入名古屋工业大学并任现职。"
-    - "我的主要研究方向包括医疗数据挖掘、时间序列预测、计算机视觉、自然语言处理、学习分析、AI 药物设计、可解释人工智能（XAI）以及优化算法。"
-publicationProfile:
-  label: "PUBLICATION PROFILE"
-  title: "主要发表期刊与会议"
-  intro: "我已在国际期刊和国际会议上发表80余篇论文，主要发表平台包括以下期刊和会议。"
-  opportunity: "**欢迎具有工程、计算机科学、人工智能等背景或兴趣的硕士生和本科生加入。同时，也欢迎对医疗健康相关课题感兴趣的研究者开展合作。如对我的研究方向感兴趣，欢迎通过邮件联系。**"
-latest:
-  publicationsLabel: "RECENT PUBLICATIONS"
-  publicationsButton: "查看全部研究业绩"
-  newsLabel: "LATEST NEWS"
-  newsButton: "查看全部动态"
+    - 人工智能与通信研究室（Artificial Intelligence and Communication Laboratory，AIC Lab）由唐成副教授主持，致力于人工智能（AI）与通信技术的深度融合，探索面向未来的智能信息系统。
+    - 长期以来，通信技术一直是连接人与人、人与设备、人与信息的重要基础设施。与此同时，人工智能技术的快速发展正在深刻改变通信网络的设计、优化、运行与应用方式。我们认为，人工智能与通信技术并非两个独立发展的学科，而是相互促进、共同演进的技术体系。
+    - 本实验室围绕智能通信系统开展研究，将人工智能算法、通信网络、感知技术以及数据驱动建模有机结合，构建兼具自适应性、可靠性与以人为中心特征的智能基础设施，为复杂真实环境中的智能应用提供理论与技术支撑。
+    - 我们的主要研究方向包括 AI for Communications、Communications for AI、医疗人工智能、时序智能、网络智能、边缘智能以及 AI for Science。通过这些研究，我们希望构建连接网络空间与物理世界的新一代智能信息基础设施，为医疗健康、智能制造以及未来社会的发展提供可靠、高效且可持续的智能解决方案。
+
+
 footer:
-  title: "CHENG TANG"
-  affiliation: "名古屋工业大学 大学院工学研究科"
-  copyright: "© Cheng Tang, Nagoya Institute of Technology"
+  title: Artificial Intelligence and Communication Laboratory
+  affiliation: 人工智能与通信研究室 | 名古屋工业大学 大学院工学研究科 电气电子系
+  copyright: © AIC Lab, Nagoya Institute of Technology

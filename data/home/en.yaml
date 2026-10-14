@@ -1,70 +1,21 @@
-profile:
-  name: "Cheng Tang"
-  title: "Associate Professor"
-  affiliation: "Department of Engineering, Nagoya Institute of Technology"
-  photo: "/images/ct_photo.jpg"
-  email:
-    - "tang.cheng@nitech.ac.jp"
-    - "tangcheng.ac@outlook.com"
-  links:
-    - label: "ResearchGate"
-      url: "https://www.researchgate.net/profile/Cheng-Tang-11"
-      icon: "/images/profile-links/researchgate.svg"
-    - label: "GitHub"
-      url: "https://github.com/ChengTANG-AI"
-      icon: "/images/profile-links/github.svg"
-    - label: "Google Scholar"
-      url: "https://scholar.google.com/citations?user=GvXOVv0AAAAJ"
-      icon: "/images/profile-links/google-scholar.svg"
-    - label: "ORCID"
-      url: "https://orcid.org/0000-0002-8148-1509"
-      icon: "/images/profile-links/orcid.svg"
-    - label: "Researchmap"
-      url: "https://researchmap.jp/chengtang"
-      icon: "/images/profile-links/researchmap.svg"
-    - label: "AIC Lab"
-      url: "https://t-aiclab.github.io/"
-      variant: "lab"
 hero:
-  eyebrow: "Artificial Intelligence and Communication"
-  title: "Cheng Tang"
-  description: "I am a tenured Associate Professor at Nagoya Institute of Technology, where I lead the Artificial Intelligence and Communication Laboratory (AIC Lab) and conduct research on artificial intelligence, communication systems, and data-driven intelligence."
-  primaryButton: "View publications"
-  secondaryButton: "View research"
-biography:
-  label: "BIOGRAPHY"
-  title: "About"
+  eyebrow: Department of Engineering, Nagoya Institute of Technology
+  title: Artificial Intelligence and Communication Laboratory
+  founded: Founded in April 2026
+  description: A lab integrating artificial intelligence and communication technologies to advance science, engineering, and society.
+
+
+overview:
+  label: OVERVIEW
+  title: About the AIC Lab
   paragraphs:
-    - "I am currently a tenured Associate Professor in the Graduate School of Engineering at **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**, Nagoya, Japan, where I lead the Tang Laboratory as the principal investigator and supervise graduate students."
-    - "I received my M.E. and Ph.D. degrees in engineering from the **[University of Toyama](https://www.u-toyama.ac.jp/)**, Toyama, Japan, in 2020 and 2022, respectively. From 2022 to 2023, I was an Assistant Professor at the **[Hirata Laboratory](https://cem.web.nitech.ac.jp/hilab/)**, supervised by **[Prof. Hirata](https://scholar.google.com/citations?user=zSV81YwAAAAJ)**, Graduate School of Engineering Tsukuri College, **[Nagoya Institute of Technology](https://www.nitech.ac.jp/)**, Nagoya, Japan. In 2023, I joined **[Kyushu University](https://www.kyushu-u.ac.jp/ja/)**, Fukuoka, Japan, where I was an Assistant Professor (Tenured) with the Department of Advanced Information Technology, Graduate School and Faculty of Information Science and Electrical Engineering. I conducted my research in the **[Laboratory for Image and Media Understanding](https://www.eng.kyushu-u.ac.jp/lab_electrical33.html)**, supervised by **[Prof. Shimada](https://scholar.google.com/citations?user=gc2kslQAAAAJ)**. In 2026, I joined Nagoya Institute of Technology, Nagoya, Japan, where I currently hold my position."
-    - "My primary research interests include medical data mining, time series forecasting, computer vision, natural language processing, learning analytics, AI for drug design, explainable AI (XAI), and optimization."
-publicationProfile:
-  label: "PUBLICATION PROFILE"
-  title: "Selected Publication Venues"
-  intro: "I have published more than 80 articles in international journals and conferences, including the following venues."
-  journals:
-    - "**[Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing)**"
-    - "**[Information Sciences](https://www.sciencedirect.com/journal/information-sciences)** (INS)"
-    - "**[Applied Soft Computing](https://www.sciencedirect.com/journal/applied-soft-computing)** (ASOC)"
-    - "**[Knowledge-Based Systems](https://www.sciencedirect.com/journal/knowledge-based-systems)** (KBS)"
-    - "**[Expert Systems with Applications](https://www.sciencedirect.com/journal/expert-systems-with-applications)** (ESWA)"
-    - "**[Engineering Applications of Artificial Intelligence](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence)** (EAAI)"
-    - "**[IEEE Transactions on Emerging Topics in Computational Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7433297)** (IEEE TETCI)"
-    - "**[IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4609443)** (JSTARS)"
-  conferences:
-    - "**[International Conference on Intelligent Computing](https://www.ic-icc.cn/2024/index.htm)** (ICIC)"
-    - "**[International Joint Conference on Neural Networks](https://www.inns.org/ijcnn-home)** (IJCNN)"
-    - "**[International Conference on Neural Information Processing](https://iconip2024.org/)** (ICONIP)"
-    - "**[International Conference on Artificial Intelligence in Education](https://aied2025.itd.cnr.it/)** (AIED)"
-    - "**[International Conference on Acoustics, Speech, and Signal Processing](https://2022.ieeeicassp.org/)** (ICASSP)"
-    - "**[International Conference on Knowledge Science, Engineering and Management](https://ai-edge.net/index.html)** (KSEM)"
-  opportunity: "**I am looking for M.E. and B.E. students majoring in engineering, including but not limited to computer science and artificial intelligence. I am also pleased to collaborate with researchers interested in healthcare-related projects. If you are interested in my research, please feel free to contact me by e-mail.**"
-latest:
-  publicationsLabel: "RECENT PUBLICATIONS"
-  publicationsButton: "View all publications"
-  newsLabel: "LATEST NEWS"
-  newsButton: "View all news"
+    - The Artificial Intelligence and Communication (AIC) Lab, led by Associate Professor Cheng Tang, explores the convergence of artificial intelligence and communication technologies to build intelligent systems for the future.
+    - Communication networks have traditionally served as the infrastructure for connecting people, devices, and information. At the same time, rapid advances in artificial intelligence are transforming the way these networks are designed, operated, and utilized. Rather than viewing AI and communication technologies as separate disciplines, we regard them as mutually reinforcing technologies that continuously drive each other's evolution.
+    - Our research focuses on creating intelligent communication systems in which networking, computation, and machine intelligence are tightly integrated. By combining AI algorithms, communication infrastructures, sensing technologies, and data-driven modeling, we develop intelligent foundations capable of supporting adaptive, reliable, and human-centered systems across diverse real-world environments.
+    - More specifically, we conduct research on AI for communications, communications for AI, medical AI, time-series intelligence, network intelligence, edge intelligence, and AI for Science. Through these efforts, we aim to establish next-generation intelligent infrastructures that seamlessly connect cyberspace and the physical world, enabling trustworthy and sustainable applications in healthcare, industry, and society.
+
+
 footer:
-  title: "CHENG TANG"
-  affiliation: "Department of Engineering, Nagoya Institute of Technology"
-  copyright: "© Cheng Tang, Nagoya Institute of Technology"
+  title: Artificial Intelligence and Communication Laboratory
+  affiliation: Department of Engineering, Nagoya Institute of Technology
+  copyright: © AIC Lab, Nagoya Institute of Technology

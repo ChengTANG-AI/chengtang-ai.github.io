@@ -4,19 +4,21 @@
 journal_2023_01:
   type: journal
   title: A complex network-based firefly algorithm for numerical optimization and time series forecasting
-  authors: 'Zhenyu Song, Cheng Tang, Shuangbao Song, Yajiao Tang, Jinhai Li, Junkai Ji'
+  authors: Zhenyu Song, Cheng Tang, Shuangbao Song, Yajiao Tang, Jinhai Li, Junkai Ji
   journal: Applied Soft Computing
   year: 2023
   month: 4
-  volume: '137'
-  pages: '110158'
+  volume: 137
+  pages: 110158
   doi: https://doi.org/10.1016/j.asoc.2023.110158
   citations: 15
   citations_by_year:
-    '2023': 1
-    '2024': 5
-    '2025': 4
-    '2026': 2
+    2023: 1
+    2024: 5
+    2025: 4
+    2026: 2
+
+
 journal_2023_02:
   type: journal
   title: A model of amacrine cells for orientation detection.
@@ -24,12 +26,14 @@ journal_2023_02:
   journal: Electronic Research Archive
   year: 2023
   month: 2
-  volume: '31'
-  number: '4'
+  volume: 31
+  number: 4
   doi: https://doi.org/10.3934/era.2023103
   citations: 0
   citations_by_year:
-    '2023': 1
+    2023: 1
+
+
 journal_2023_03:
   type: journal
   title: A model of the starburst amacrine cell for motion direction detection
@@ -37,11 +41,13 @@ journal_2023_03:
   journal: International Journal of Bio-Inspired Computation
   year: 2023
   month: 2
-  volume: '21'
-  number: '2'
+  volume: 21
+  number: 2
   pages: 69-80
   doi: https://doi.org/10.1504/IJBIC.2023.130560
   citations: 0
+
+  
 conference_2023_01:
   type: conference
   title: Dendritic neural regression model trained by chicken swarm optimization algorithm for bank customer churn prediction
@@ -53,4 +59,4 @@ conference_2023_01:
   doi: https://doi.org/10.1007/978-981-99-8184-7_20
   citations: 2
   citations_by_year:
-    '2026': 1
+    2026: 1

@@ -1,3 +1,68 @@
-display: true
-title: Dendritic Computation
-description: '生物の樹状突起処理に着想を得た計算モデルと学習アルゴリズムを研究しています．'
+# Localized Research text for one language.
+# Common fields such as display, image, publication_title, and link are inherited from en.yaml by matching the same top-level paper ID.
+# Keep only translated fields here, such as title, description, contributions, and image_alt.
+
+title: 樹状突起計算
+description: 生物学的ニューロンにおける樹状突起の情報処理に着想を得た計算モデルと学習アルゴリズムを研究します．
+
+'Dendritic neural network: a novel extension of dendritic neuron model':
+  contributions:
+  - 従来の樹状突起ニューロンモデルをニューラルネットワークへ拡張した Dendritic Neural Network（DNN）を提案しました．
+  - 柔軟なシナプス構造と樹状突起構造を導入し，非線形学習能力を高めました．
+  - 勾配消失を緩和するため，樹状突起構造を考慮したドロップアウト機構を開発しました．
+  - 複雑な分類タスクに対応するため，マルチ出力アーキテクチャを設計しました．
+  - ベンチマーク分類データセットにおいて最先端性能を達成しました．
+
+
+Artificial immune system training algorithm for a dendritic neuron model:
+  contributions:
+  - 樹状突起ニューロンモデルのための人工免疫システム（AIS）学習アルゴリズムを提案しました．
+  - 免疫機構に着想を得た大域探索により，DNM の最適化能力を向上させました．
+  - 誤差逆伝播法と比較して，収束速度を高め，局所最適解に陥るリスクを低減しました．
+  - モデルを自動的に簡略化するためのニューロン枝刈り機構を維持しました．
+  - 論理回路への変換を通じてハードウェア実装を可能にしました．
+
+
+'A survey on dendritic neuron model: mechanisms, algorithms and practical applications':
+  contributions:
+  - 樹状突起ニューロンモデル（DNM）に関する初めての包括的なサーベイを提示しました．
+  - DNM の機構，学習アルゴリズム，実応用を体系的に整理しました．
+  - DNM におけるニューロン枝刈り機構と論理回路変換機構を分析しました．
+  - 広範な実験により，DNM 学習のための代表的な最適化アルゴリズムを比較しました．
+  - 樹状突起ニューロンモデルの課題と今後の研究方向を議論しました．
+
+
+An evolutionary neuron model with dendritic computation for classification and prediction:
+  contributions:
+  - 分類と予測のため，ホタルアルゴリズムを用いた進化型樹状突起ニューロンモデル（FADNM）を提案しました．
+  - メタヒューリスティック最適化により，樹状突起ニューロンモデルの学習能力を向上させました．
+  - 樹状突起構造を自動的に簡略化するためのニューロン枝刈り手法を導入しました．
+  - 枝刈り後のモデルを論理回路でハードウェア実装できるようにしました．
+  - 分類タスクと時系列予測タスクの両方で優れた性能を示しました．
+
+
+Evaluating a novel incremental-input neural network for multivariate air temperature forecasting:
+  contributions:
+  - 複雑な非定常時系列を効率的にモデル化するため，樹状突起ニューロン計算を拡張したIncremental-Input Neural Network（IINN）を提案し，多変量気温予測へ適用しました．
+  - Incremental-Input機構を導入することで，樹状突起分岐における情報伝播を維持し，高次元学習で生じる勾配消失，勾配爆発，および分岐退化を効果的に抑制しました．
+  - 軽量な樹状突起ニューラルアーキテクチャを設計し，計算効率を維持しながら非線形特徴表現能力とモデルの解釈性を向上させました．
+  - AdamW最適化手法を組み合わせることで，異なる予測期間においても安定した学習収束と高精度な多変量時系列予測を実現しました．
+  - 複数の実世界気象データセットにおいて，RNN，Transformer系モデル，および従来の樹状突起ニューロンモデルを上回る予測性能を達成しました．
+
+
+Short-term traffic flow prediction with a dendritic neural network-enhanced time series decomposition framework:
+  contributions:
+  - 季節・トレンド分解と樹状突起ニューラルネットワークを統合した短期交通流予測フレームワークTSDDNNを提案し，高精度かつ高効率な交通流予測を実現しました．
+  - 交通流時系列を季節成分，トレンド成分，残差成分へ分解し，各成分を個別に予測することで，複雑な交通時系列の特徴を効果的に学習する予測戦略を構築しました．
+  - OLSHADE-CS進化最適化アルゴリズムを用いて樹状突起ニューラルネットワークを学習し，収束性能と残差成分の非線形モデリング能力を向上させるとともに局所最適解への収束を抑制しました．
+  - 統計的時系列分解と生物学的着想に基づく樹状突起計算を融合することで，軽量かつ計算効率に優れた非線形交通流予測フレームワークを実現しました．
+  - 複数の実交通データセットにおいて，統計手法，機械学習，深層学習，Transformer系モデルを上回る予測性能と高い頑健性を実証しました．
+
+
+Dendritic neural regression model trained by chicken swarm optimization algorithm for bank customer churn prediction:
+  contributions:
+  - 生物学的着想に基づく樹状突起ニューラル計算と群知能最適化を統合したChicken Swarm OptimizationベースのDendritic Neural Regression Model（CSO-DNRM）を提案し，銀行顧客離脱予測へ適用しました．
+  - シナプス層，樹状突起層，膜層，細胞体層から構成される4層の樹状突起ニューラル回帰モデルを設計し，シナプスおよび樹状突起の枝刈りによってネットワーク構造を簡素化しつつ計算効率を向上させました．
+  - Chicken Swarm Optimization（CSO）アルゴリズムを用いてネットワークの重みと閾値を最適化し，大域探索と局所探索のバランスを考慮した効率的な学習を実現しました．
+  - 進化的最適化と樹状突起ニューラル計算を組み合わせることで，従来の勾配ベース学習手法より高い予測精度と高速な収束性能を達成しました．
+  - 公開ベンチマークデータセットにおいて優れた顧客離脱予測性能を示し，顧客関係管理および意思決定支援への有効性を実証しました．

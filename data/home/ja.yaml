@@ -1,31 +1,22 @@
-profile:
-  name: "唐 成（トウ セイ）"
-  title: "准教授"
-  affiliation: "名古屋工業大学 大学院工学研究科"
 hero:
-  eyebrow: "人工知能・通信システム・データ駆動型知能"
-  title: "唐 成"
-  description: "名古屋工業大学の准教授として，人工知能・通信研究室（AIC Lab）を主宰し，人工知能，通信システム，データ駆動型知能に関する研究に取り組んでいます．"
-  primaryButton: "研究業績を見る"
-  secondaryButton: "研究紹介を見る"
-biography:
-  label: "BIOGRAPHY"
-  title: "プロフィール"
+  eyebrow: 名古屋工業大学 大学院工学研究科 工学専攻 電気電子プログラム
+  title: 人工知能・通信研究室
+  englishName: Artificial Intelligence and Communication Laboratory
+  founded: 2026年4月発足
+  description: 人工知能と情報通信技術を融合し，科学・工学・社会の発展に貢献する研究室．
+
+
+overview:
+  label: OVERVIEW
+  title: 人工知能・通信研究室とは
   paragraphs:
-    - "現在，**[名古屋工業大学](https://www.nitech.ac.jp/)** 大学院工学研究科においてテニュア准教授を務め，人工知能・通信研究室（AIC Lab）の主宰者として大学院生の研究指導を行っています．"
-    - "2020年および2022年に，**[富山大学](https://www.u-toyama.ac.jp/)** にて工学修士および博士（工学）の学位を取得しました．2022年から2023年までは，**[名古屋工業大学](https://www.nitech.ac.jp/)** 大学院工学研究科つくり領域の **[平田研究室](https://cem.web.nitech.ac.jp/hilab/)** において助教として勤務しました．2023年に **[九州大学](https://www.kyushu-u.ac.jp/ja/)** 大学院システム情報科学研究院に着任し，テニュア助教として **[イメージ・メディア理解研究室](https://www.eng.kyushu-u.ac.jp/lab_electrical33.html)** において研究を行いました．2026年より名古屋工業大学に着任し，現在に至ります．"
-    - "主な研究分野は，医療データマイニング，時系列予測，コンピュータビジョン，自然言語処理，ラーニングアナリティクス，AI創薬，説明可能AI（XAI），最適化です．"
-publicationProfile:
-  label: "PUBLICATION PROFILE"
-  title: "主な発表先"
-  intro: "国際学術誌および国際会議に80編以上の論文を発表しており，主な発表先は以下の通りです．"
-  opportunity: "**工学，情報科学，人工知能に関心を持つ修士課程・学部学生を歓迎しています．また，医療・ヘルスケア関連研究に関心のある研究者との共同研究も歓迎します．研究内容に興味がありましたら，お気軽にメールでご連絡ください．**"
-latest:
-  publicationsLabel: "RECENT PUBLICATIONS"
-  publicationsButton: "すべての研究業績を見る"
-  newsLabel: "LATEST NEWS"
-  newsButton: "すべてのニュースを見る"
+    - 唐成准教授が主宰する人工知能・通信研究室（Artificial Intelligence and Communication Laboratory: AIC Lab）は，人工知能（AI）と情報通信技術の融合を基盤とし，次世代の知的情報基盤と実社会応用の実現を目指しています．
+    - 情報通信技術はこれまで，人・モノ・情報をつなぐ社会基盤として発展してきました．一方，近年の人工知能技術の急速な進展により，AIは通信システムの設計・運用・最適化を大きく変えつつあります．また，高度な情報通信基盤は，大規模AIや分散知能を支える重要なインフラとして，新たな役割を担うようになっています．
+    - 私たちはこの変化を，「人工知能と情報通信技術が相互に進化し，新しい知能社会を支える基盤を共に創り出す時代への転換」と捉えています．AIは通信技術の高度化を促し，通信技術はAIの可能性をさらに拡張します．本研究室では，この相互作用を通じて，より高度で信頼性の高い知的情報基盤の構築に取り組んでいます．
+    - 具体的には，AIアルゴリズム，無線・ネットワーク技術，エッジコンピューティング，時系列データ解析，医療AI，AI for Scienceなどを統合し，高信頼・高効率・人間中心の知的システムの実現を目指しています．これらの研究を通じて，サイバー空間と実世界をシームレスにつなぐ次世代の知的情報基盤を創出し，医療，産業，社会の持続的な発展に貢献することを目指しています．
+
+
 footer:
-  title: "CHENG TANG"
-  affiliation: "名古屋工業大学 大学院工学研究科"
-  copyright: "© Cheng Tang, Nagoya Institute of Technology"
+  title: Artificial Intelligence and Communication Laboratory
+  affiliation: 人工知能・通信研究室 | 名古屋工業大学 大学院工学研究科
+  copyright: © AIC Lab, Nagoya Institute of Technology

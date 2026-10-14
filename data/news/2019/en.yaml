@@ -3,8 +3,8 @@
 
 news_2020_03_24_01:
   display: true
-  date: '2020-03-24'
-  student_year: ''
+  date: 2020-03-24
+  student_year: 
   title: University of Toyama, M.E. Degree
   person_name: Cheng Tang
   person_type: Student

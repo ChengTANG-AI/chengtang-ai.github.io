@@ -1,3 +1,59 @@
-display: true
-title: 时序预测
-description: '研究面向复杂非平稳时序数据的高精度、可靠预测模型。'
+# Localized Research text for one language.
+# Common fields such as display, image, publication_title, and link are inherited from en.yaml by matching the same top-level paper ID.
+# Keep only translated fields here, such as title, description, contributions, and image_alt.
+
+title: 时间序列预测
+description: 研究面向真实系统预测、监测与决策支持的时间动态建模方法。
+
+Adopting a dendritic neural model for predicting stock price index movement:
+  contributions:
+  - 提出用于金融时间序列预测的树突神经模型（DNM）。
+  - 开发用于优化 DNM 的无标度差分进化（SFDE）算法。
+  - 结合相空间重构，以捕捉金融时间序列中的混沌动态。
+  - 通过无标度优化改善探索与开发之间的平衡。
+  - 在多个基准股票市场指数上取得了优异的预测性能。
+
+
+A survey on machine learning models for financial time series forecasting:
+  contributions:
+  - 提出关于金融时间序列预测机器学习模型的综合性综述。
+  - 系统比较了主流预测模型的优势与局限性。
+  - 总结了常用金融数据集、评价指标和预测任务。
+  - 分析了近期研究趋势以及深度学习和混合模型的广泛应用。
+  - 指出了金融时间序列预测中的开放挑战和未来研究方向。
+
+
+Enhancing nonlinear dependencies of Mamba via negative feedback for time series forecasting:
+  contributions:
+  - 提出 CME-Mamba，以增强时间序列预测中的非线性依赖建模能力。
+  - 引入基于 Maclaurin 展开的负反馈机制，用于非线性特征增强。
+  - 开发嵌入通道注意力机制，同时捕捉时间依赖与变量间依赖。
+  - 引入 Einstein FFT 模块，以缓解梯度消失并提升训练稳定性。
+  - 在 11 个真实世界时间序列预测基准上取得了先进性能。
+
+
+'Attention Mamba: time series modeling with adaptive pooling acceleration and receptive field enhancements':
+  contributions:
+  - 提出了Attention Mamba模型，将自适应池化机制与双向状态空间模型相结合，实现高性能多变量时间序列预测。
+  - 设计了Adaptive Pooling注意力机制，通过自适应特征压缩扩大模型感受野、保留全局上下文信息，并显著加速注意力计算。
+  - 融合Adaptive Pooling与双向Mamba模块，同时建模长短期非线性时间依赖关系，在保持计算效率的同时提升时序表示能力。
+  - 将全局注意力与选择性状态空间建模相结合，在预测精度、训练效率和内存开销之间取得了优于现有Mamba模型的综合性能。
+  - 在多个真实世界时间序列基准数据集上取得了领先预测性能，验证了自适应感受野增强策略在复杂时间序列建模中的有效性。
+
+
+Decomposed seasonal-trend network with rotary attention for time series forecasting:
+  contributions:
+  - 提出了DSTN-RA双分支时间序列预测框架，将趋势项与季节项显式分解，并分别采用专用网络进行建模。
+  - 设计了融合Rotary Position Embedding（RoPE）的Rotary Attention模块，有效增强了季节性信号的周期建模能力和长距离非线性时间依赖建模能力。
+  - 提出结合多粒度下采样、特征混合和时间混合的Channel Mixing模块，在多个时间尺度上高效建模平滑趋势变化。
+  - 利用季节—趋势分解解耦复杂时间模式，为趋势项和季节项分别采用针对性的建模策略，提高了模型的预测性能与可解释性。
+  - 在多个公开时间序列基准数据集上取得了领先的预测性能，并通过消融实验验证了季节—趋势分解、Rotary Attention以及Channel Mixing模块的协同作用。
+
+
+'KPMG: a graphical Koopman-Mamba approach for financial markets':
+  contributions:
+  - 提出了KPMG框架，将Koopman增强Mamba与图神经网络相结合，实现对金融时间依赖关系和变量间关联关系的联合建模。
+  - 设计了Koopman-Mamba模块，将Koopman算子融入双向Mamba，有效过滤金融时序噪声，强化关键特征表示，并提升长期时间依赖建模能力。
+  - 提出Gaussian Kernel Graph（GKG）模块，利用高斯核自适应构建金融指标之间的图结构，实现高效的变量相关性建模，同时降低图计算复杂度。
+  - 融合Koopman-Mamba与GKG，实现时间动态建模与图关系学习的协同优化，在预测精度、信息系数（IC）和排序信息系数（RIC）等可信金融预测指标上均取得显著提升。
+  - 在多个金融市场基准数据集上的实验表明，该框架有效结合了Koopman谱分析、状态空间建模与图学习，为可靠金融时间序列预测提供了新的研究范式。
