@@ -1,3 +1,50 @@
-display: true
+# Localized Research text for one language.
+# Common fields such as display, image, publication_title, and link are inherited from en.yaml by matching the same top-level paper ID.
+# Keep only translated fields here, such as title, description, contributions, and image_alt.
+
 title: 医疗数据挖掘
-description: '研究从多源医疗与健康数据中提取具有临床价值知识的方法。'
+description: 研究从多源医疗与健康数据中挖掘具有临床意义知识的方法。
+
+A novel machine learning technique for computer-aided diagnosis:
+  contributions:
+  - 提出用于计算机辅助医疗诊断的进化型树突神经元模型（EDNM）。
+  - 采用 gbest 引导的人工蜂群算法对模型进行优化。
+  - 引入神经元剪枝机制，实现模型的自动简化。
+  - 通过逻辑电路支持模型的直接硬件实现。
+  - 在多个医疗数据集上展示了优异的诊断性能。
+
+
+A novel multivariate time series forecasting dendritic neuron model for COVID-19 pandemic transmission tendency:
+  contributions:
+  - 提出用于多变量时间序列预测的密集连接高柔性树突神经元模型（DFDNM）。
+  - 引入密集快捷连接，以缓解梯度消失和梯度爆炸问题。
+  - 开发结合 AdamW 优化的高柔性树突结构。
+  - 在 COVID-19 传播趋势长期预测中取得了先进性能。
+  - 在多个多变量预测基准任务上验证了 DFDNM 的泛化能力。
+
+
+Transmission trend of the COVID-19 pandemic predicted by dendritic neural regression:
+  contributions:
+  - 提出用于 COVID-19 传播趋势预测的树突神经回归（DNR）模型。
+  - 引入分支强度建模，以增强树突神经网络的回归能力。
+  - 开发无标度物质状态搜索（SFSMS）算法，用于高效优化 DNR。
+  - 结合相空间重构，捕捉疫情时间序列中隐藏的非线性动态。
+  - 相比先进机器学习和深度学习方法取得了更优的预测性能。
+
+
+'Sensitivity of electrocardiogram on electrode-pair locations for wearable devices: computational analysis of amplitude and waveform distortion': 
+  contributions:
+  - 构建了基于解剖人体模型与电生理仿真的计算框架，系统评估可穿戴双极心电图（ECG）电极的最佳布置方案。
+  - 利用动态时间规整（DTW）定量分析了体型、心脏大小、心脏朝向及电极偏移对ECG信号幅值和波形失真的影响。
+  - 揭示了心脏与电极之间的距离主要决定ECG信号幅值，而电极视角下心脏的立体角主要影响波形失真。
+  - 发现标准12导联V2–V3附近的电极位置能够兼顾较高信号质量、较低个体差异以及较强的抗电极偏移能力。
+  - 为可穿戴心电监测设备的电极布局优化和高可靠信号采集提供了理论依据与设计指导。
+
+  
+'GlucoMixer: an efficient glucose monitoring model with mixers':
+  contributions:
+  - 提出了基于Mixer架构的Encoder-only血糖监测模型GlucoMixer，在预测精度与模型可信性之间实现了良好的平衡。
+  - 设计了轻量级Mask Block，通过渐进式三角掩码机制有效防止未来信息泄漏，同时保持连续血糖预测中的时间连续性。
+  - 构建了融合Conv1D滤波与双Time Mixer模块的Pattern Extraction Block，能够分别学习不同糖尿病模式下的血糖动态变化特征。
+  - 采用时间混合与通道混合相结合的Mixer结构，在无需复杂注意力机制的情况下实现高效时序特征交互和表示学习。
+  - 在多个分布内（ID）和分布外（OOD）血糖预测基准数据集上取得了兼顾预测精度与不确定性校准能力的领先性能，为可信医疗AI和临床决策支持提供了有效方案。

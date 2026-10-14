@@ -1,3 +1,50 @@
-display: true
+# Localized Research text for one language.
+# Common fields such as display, image, publication_title, and link are inherited from en.yaml by matching the same top-level paper ID.
+# Keep only translated fields here, such as title, description, contributions, and image_alt.
+
 title: コンピュータビジョン
-description: '画像・映像データの理解，検索，分類，解析のための知的手法を研究しています．'
+description: 画像・映像・マルチモーダルな実世界観測を対象とした認識・解析手法を研究します．
+
+Evolutionary neural architecture design of liquid state machine for image classification:
+  contributions:
+  - 液体状態機械（LSM）のための進化的ニューラルアーキテクチャ設計フレームワークを提案しました．
+  - 自動ニューラルアーキテクチャ探索のため，SHADE に基づく最適化戦略を開発しました．
+  - 事前知識や手動調整なしに，リザバーの主要ハイパーパラメータを最適化しました．
+  - 進化的アーキテクチャ最適化により，LSM の分類性能を向上させました．
+  - 手書き画像分類ベンチマークで優れた性能を示しました．
+
+
+'DenseHashNet: a novel deep hashing for medical image retrieval':
+  contributions:
+  - 内容ベース医療画像検索のためのエンドツーエンド深層ハッシングフレームワーク DenseHashNet を提案しました．
+  - マルチスケール特徴抽出と融合のため，Spatial Pyramid Pooling（SPP）モジュールを導入しました．
+  - 非線形特徴表現を強化するため，Power-Mean Transformation（PMT）モジュールを開発しました．
+  - ハッシュ学習のため，ペアワイズ損失，量子化損失，バランス損失を組み合わせた共同最適化戦略を設計しました．
+  - コンパクトなハッシュコードにより，医療画像データセットで最先端の検索性能を達成しました．
+
+
+A framework of specialized knowledge distillation for Siamese tracker on challenging attributes:
+  contributions:
+  - 困難な追跡シナリオに対する頑健性を向上させつつ，Siameseトラッカーを軽量化するSpecialized teachers Distilled Siamese Tracker（SDST）フレームワークを提案しました．
+  - 一般知識を学習するGeneral Teacherと，属性ごとの専門知識を持つSpecialized Teacherを組み合わせたマルチ教師知識蒸留方式を導入しました．
+  - 中間特徴表現と高次意味情報を同時に蒸留するMulti-teacher Specialized Knowledge Distillation（MSKD）モデルを設計し，特徴蒸留とソフトラベル蒸留を統合しました．
+  - 高速移動，遮蔽，低解像度，背景クラッタなどの困難属性における追跡性能を向上させるとともに，高いモデル圧縮率とリアルタイム推論を実現しました．
+  - 複数のSiameseトラッカーで有効性を実証し，最大8倍のモデル圧縮，252 FPSの高速推論，および困難属性全体にわたる安定した性能向上を達成しました．
+
+
+Hyperspectral image classification based on double-hop graph attention multiview fusion network:
+  contributions:
+  - グラフ構造情報とマルチビュー特徴学習を統合した，ハイパースペクトル画像分類のためのDouble-hop Graph Attention Multiview Fusion Network（DGAT-MFN）を提案しました．
+  - Double-hop Graph Attention機構を導入し，近傍情報だけでなく遠距離のスーパー画素間関係も集約することで，従来のGATより広い受容野を実現しました．
+  - スペクトルチャネルと空間座標の依存関係を同時に学習するSpectral-Coordinate Attention Module（SCAM）を設計し，識別性の高いスペクトル・空間特徴を抽出しました．
+  - グローバルなスペクトル・空間情報とマルチスケールGaborテクスチャ特徴を統合するマルチビュー融合フレームワークを構築し，エッジ情報や均質領域の特徴保持を強化しました．
+  - 4つの代表的なハイパースペクトル画像データセットにおいて，少量の学習サンプルでも高い分類精度を達成し，グラフ学習，注意機構，マルチビュー融合の有効性を実証しました．
+
+
+A two-stage filtering approach for video-based document digitization:
+  contributions:
+  - 時間的異常検知と密度ベースクラスタリングを組み合わせた，俯瞰動画から文書画像を自動抽出する軽量な二段階フィルタリングフレームワークを提案しました．
+  - 事前学習済みMobileNetV3特徴量のコサイン類似度を利用したページめくり検出手法を設計し，追加学習を必要とせず高精度なページ遷移検出を実現しました．
+  - OPTICSクラスタリングを導入して静止ページフレームをグループ化し，残存するページめくりフレームを除去するとともに，代表画像を自動選択しました．
+  - 手検出と重複画像除去を組み合わせたCPUのみで動作する実用的な文書デジタル化パイプラインを構築し，再撮影を必要としないバッチ処理を実現しました．
+  - 複数の実文書デジタル化データセットにおいて完全なRecallを達成し，専用スキャナに代わる低コストかつ高信頼な文書デジタル化手法であることを実証しました．

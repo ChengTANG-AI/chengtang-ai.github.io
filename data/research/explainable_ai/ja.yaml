@@ -1,3 +1,32 @@
-display: true
+# Localized Research text for one language.
+# Common fields such as display, image, publication_title, and link are inherited from en.yaml by matching the same top-level paper ID.
+# Keep only translated fields here, such as title, description, contributions, and image_alt.
+
 title: 説明可能AI（XAI）
-description: '解釈性，透明性，信頼性を備えた人工知能モデルとその応用を研究しています．'
+description: モデルの振る舞いを人間が理解できる，透明で信頼性の高いAI手法を研究します．
+
+A novel motion direction detection mechanism based on dendritic computation of direction-selective ganglion cells:
+  contributions:
+  - 方向選択性神経節細胞（DSGCs）に基づく，生物に着想を得た運動方向検出機構を提案しました．
+  - 樹状突起計算を用いた二次元八方向の運動検出フレームワークを開発しました．
+  - 大域的な運動知覚のために，局所受容野の走査機構を導入しました．
+  - 大規模画像およびランダムドット画像に対して頑健な運動検出を実現しました．
+  - 視覚運動処理を理解するための生物学的に妥当な計算モデルを提示しました．
+
+
+The mechanism of orientation detection based on color-orientation jointly selective cells:
+  contributions:
+  - 色・方位同時選択性（COJS）細胞に基づく，生物に着想を得た方位検出機構を提案しました．
+  - 解釈可能な大域的方位検出のための人工視覚システム（AVS）を開発しました．
+  - McCulloch-Pitts ニューロンモデルに基づくハードウェア親和性の高い実装を設計しました．
+  - 優れた耐ノイズ性と汎化性能を備えた頑健な方位検出を実現しました．
+  - 特徴抽出を通じて，AVS が深層学習モデルの頑健性を効果的に向上できることを示しました．
+
+
+EDNMs for visual analytics of learning behavior and early risk prediction:
+  contributions:
+  - ラーニングアナリティクスにおける解釈可能な早期リスク予測のため，アンサンブル樹状突起ニューロンモデル（EDNMs）を提案しました．
+  - 生物に着想を得たニューロン枝刈り機構により，可視的な特徴選択を可能にしました．
+  - 樹状突起を動的に枝刈りすることで，異なる時点の早期予測を単一モデルで行うフレームワークを開発しました．
+  - 予測週ごとに複数モデルを訓練する必要をなくし，計算コストを削減しました．
+  - 透明で説明可能な学習行動分析を提供しつつ，競争力のある予測性能を達成しました．

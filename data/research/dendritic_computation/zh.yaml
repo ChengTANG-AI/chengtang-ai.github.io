@@ -1,3 +1,68 @@
-display: true
+# Localized Research text for one language.
+# Common fields such as display, image, publication_title, and link are inherited from en.yaml by matching the same top-level paper ID.
+# Keep only translated fields here, such as title, description, contributions, and image_alt.
+
 title: 树突计算
-description: '研究受生物神经元树突处理机制启发的计算模型与学习算法。'
+description: 研究受生物神经元树突信息处理机制启发的计算模型与学习算法。
+
+'Dendritic neural network: a novel extension of dendritic neuron model':
+  contributions:
+  - 提出 Dendritic Neural Network（DNN），将传统树突神经元模型扩展为神经网络。
+  - 引入灵活的突触结构与树突结构，以增强非线性学习能力。
+  - 开发面向树突结构的 dropout 机制，以缓解梯度消失问题。
+  - 设计多输出架构，用于处理复杂分类任务。
+  - 在基准分类数据集上取得了先进性能。
+
+
+Artificial immune system training algorithm for a dendritic neuron model:
+  contributions:
+  - 提出用于树突神经元模型的人工免疫系统（AIS）训练算法。
+  - 通过受免疫机制启发的全局搜索，提高 DNM 的优化能力。
+  - 与反向传播相比，提高了收敛速度，并降低陷入局部最优的风险。
+  - 保留神经元剪枝机制，实现模型的自动简化。
+  - 通过逻辑电路转换支持硬件实现。
+
+
+'A survey on dendritic neuron model: mechanisms, algorithms and practical applications':
+  contributions:
+  - 提出首篇关于树突神经元模型（DNM）的综合性综述。
+  - 系统梳理了 DNM 的机制、学习算法和实际应用。
+  - 分析了 DNM 的神经元剪枝机制和逻辑电路转换机制。
+  - 通过大量实验比较了用于训练 DNM 的代表性优化算法。
+  - 讨论了树突神经元模型面临的挑战和未来研究方向。
+
+
+An evolutionary neuron model with dendritic computation for classification and prediction:
+  contributions:
+  - 提出用于分类与预测的进化型树突神经元模型（FADNM），并采用萤火虫算法进行训练。
+  - 通过元启发式优化提升树突神经元模型的学习能力。
+  - 引入神经元剪枝方案，自动简化树突结构。
+  - 利用逻辑电路实现剪枝后模型的硬件实现。
+  - 在分类任务和时间序列预测任务上均展示了优异性能。
+
+
+Evaluating a novel incremental-input neural network for multivariate air temperature forecasting:
+  contributions:
+  - 提出了增量输入神经网络（Incremental-Input Neural Network，IINN），将树突神经元计算扩展到多变量气温预测，实现复杂非平稳时间序列的高效建模。
+  - 设计了增量输入机制，在树突分支中持续保留信息流，有效缓解高维学习中的梯度消失、梯度爆炸以及分支退化问题。
+  - 构建了轻量化树突神经网络结构，在保持较低计算复杂度的同时提升了非线性建模能力和模型可解释性。
+  - 结合AdamW优化策略，实现了不同预测时间跨度下稳定收敛且鲁棒的多变量时间序列预测。
+  - 在多个真实气象数据集上的实验表明，该模型持续优于循环神经网络、Transformer模型以及传统树突神经元模型，取得了领先的气温预测性能。
+
+
+Short-term traffic flow prediction with a dendritic neural network-enhanced time series decomposition framework:
+  contributions:
+  - 提出了TSDDNN框架，将时间序列分解与树突神经网络相结合，实现高精度、高效率的短时交通流预测。
+  - 设计了基于时间序列分解的预测策略，将交通流序列分解为季节项、趋势项和残差项分别建模，有效提升了复杂交通动态的建模能力。
+  - 采用OLSHADE-CS进化优化算法训练树突神经网络，提高了模型收敛效率和残差序列的非线性拟合能力，并有效避免陷入局部最优。
+  - 融合统计时间序列分解与生物启发的树突神经计算，构建了兼具轻量化、计算效率和非线性表达能力的交通流预测框架。
+  - 在多个真实交通流数据集上的实验表明，该方法持续优于统计模型、传统机器学习、深度学习以及Transformer系列模型，具有更高的预测精度和鲁棒性。
+
+
+Dendritic neural regression model trained by chicken swarm optimization algorithm for bank customer churn prediction:
+  contributions:
+  - 提出了基于鸡群优化算法（Chicken Swarm Optimization，CSO）的树突神经回归模型（CSO-DNRM），将生物启发的树突神经计算与群智能优化相结合，实现高精度银行客户流失预测。
+  - 设计了由突触层、树突层、膜层和胞体层组成的四层树突神经回归结构，通过突触剪枝和树突剪枝简化网络结构，提高计算效率。
+  - 采用鸡群优化算法优化网络权重与阈值，在模型训练过程中实现全局搜索与局部开发之间的有效平衡。
+  - 结合进化优化与树突神经计算，提高了模型预测精度和收敛速度，相较于传统梯度学习方法具有更优的优化性能。
+  - 在公开银行客户流失数据集上取得了优于多种经典机器学习方法的预测性能，验证了轻量化树突神经模型在客户关系管理和商业决策支持中的应用潜力。
