@@ -1,32 +1,3 @@
-# Localized Research text for one language.
-# Common fields such as display, image, publication_title, and link are inherited from en.yaml by matching the same top-level paper ID.
-# Keep only translated fields here, such as title, description, contributions, and image_alt.
-
+display: true
 title: 自然言語処理
-description: 知識の抽出・整理・活用を支える言語理解・生成技術を研究します．
-
-'Multi-granular legal information fusion with adversarial compensation: a hierarchical and logic-aware framework for robust case retrieval': 
-  contributions:
-  - 法的事例検索のための階層的かつ論理認識型フレームワークを提案しました．
-  - 事実，推論，判決をモデル化するための動的マスキング戦略を導入しました．
-  - 階層横断的な意味情報と論理に基づく融合機構を開発しました．
-  - 頑健な表現学習のための二チャネル敵対的補償モジュールを設計しました．
-  - 複数の中国語および英語の法的事例検索ベンチマークで最先端性能を達成しました．
-
-
-'MFLSCI: multi-granularity fusion and label semantic correlation information for multi-label legal text classification':
-  contributions:
-  - マルチラベル法文分類のために，マルチグラニュラリティなテキスト特徴とラベル間意味相関を統合するMFLSCIフレームワークを提案しました．
-  - Graph Convolutional Network（GCN）とTextCNNを統合し，ラベル間の意味的依存関係とマルチグラニュラリティN-gram特徴を同時に学習することで，ラベル欠落やラベル混同を低減しました．
-  - テキスト特徴とラベル意味相関を融合した類似度ベースのソフトラベル分布を設計し，従来のマルチホット教師信号を確率分布によるソフトアラインメントへ置き換えました．
-  - テキストとラベルの類似度分布を動的に最適化することで，ノイズラベルに対する頑健性を向上させ，従来のLabel Smoothingを上回る性能を実現しました．
-  - 複数の法律文書データセットおよび一般マルチラベル分類データセットで優れた性能を達成し，提案手法の有効性と高い汎化性能を実証しました．
-
-
-'DPFSI: a legal judgment prediction method based on deontic logic prompt and fusion of law article statistical information':
-  contributions:
-  - 義務論理プロンプト学習，マルチグラニュラリティグラフ表現融合，および法条文統計情報を統合した法律判決予測フレームワークDPFSIを提案しました．
-  - 義務論理プロンプト学習を導入することで，事前学習言語モデルが法律文書中の義務，許可，禁止などの規範的意味をより適切に表現できるようにしました．
-  - PMIグラフ，AMRグラフ，および意味依存グラフをGated Graph Neural Networkで統合するマルチグラニュラリティグラフ融合機構を設計し，意味・構文・構造情報を統合的に学習しました．
-  - β-VAEを用いて法条文統計情報をテキスト特徴空間へ整合させ，低信頼特徴を適応的に置換する統計情報融合機構を提案し，過学習を抑制しながらモデルの頑健性を向上させました．
-  - 法律判決予測ベンチマークにおいて，特に適用法条予測で最先端性能を達成し，法律知識，グラフ推論，統計情報融合の有効性を実証しました．
+description: 'テキスト，知識，論理構造を活用した自然言語理解・情報検索技術を研究しています．'

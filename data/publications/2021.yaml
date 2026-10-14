@@ -8,19 +8,17 @@ journal_2021_01:
   journal: Electronics
   year: 2021
   month: 2
-  volume: 10
-  number: 4
-  pages: 373
+  volume: '10'
+  number: '4'
+  pages: '373'
   doi: https://doi.org/10.3390/electronics10040373
   citations: 29
   citations_by_year:
-    2021: 4
-    2022: 7
-    2023: 5
-    2024: 6
-    2025: 3
-
-
+    '2021': 4
+    '2022': 7
+    '2023': 5
+    '2024': 6
+    '2025': 3
 journal_2021_02:
   type: journal
   title: Adaptive self-scaling brain-storm optimization via a chaotic search mechanism
@@ -28,16 +26,14 @@ journal_2021_02:
   journal: Algorithms
   year: 2021
   month: 8
-  volume: 14
-  number: 8
-  pages: 239
+  volume: '14'
+  number: '8'
+  pages: '239'
   doi: https://doi.org/10.3390/a14080239
   citations: 2
   citations_by_year:
-    2022: 1
-    2024: 1
-
-
+    '2022': 1
+    '2024': 1
 journal_2021_03:
   type: journal
   title: Air quality estimation using dendritic neural regression with scale-free network-based differential evolution
@@ -45,15 +41,13 @@ journal_2021_03:
   journal: Atmosphere
   year: 2021
   month: 12
-  volume: 12
-  number: 12
-  pages: 1647
+  volume: '12'
+  number: '12'
+  pages: '1647'
   doi: https://doi.org/10.3390/atmos12121647
   citations: 1
   citations_by_year:
-    2023: 1
-
-
+    '2023': 1
 journal_2021_04:
   type: journal
   title: Artificial immune system training algorithm for a dendritic neuron model
@@ -61,18 +55,16 @@ journal_2021_04:
   journal: Knowledge-Based Systems
   year: 2021
   month: 12
-  volume: 233
-  pages: 107509
+  volume: '233'
+  pages: '107509'
   doi: https://doi.org/10.1016/j.knosys.2021.107509
   citations: 21
   citations_by_year:
-    2022: 5
-    2023: 5
-    2024: 5
-    2025: 5
-    2026: 1
-
-
+    '2022': 5
+    '2023': 5
+    '2024': 5
+    '2025': 5
+    '2026': 1
 journal_2021_05:
   type: journal
   title: Transmission trend of the COVID-19 pandemic predicted by dendritic neural regression
@@ -80,47 +72,41 @@ journal_2021_05:
   journal: Applied Soft Computing
   year: 2021
   month: 11
-  volume: 111
-  pages: 107683
+  volume: '111'
+  pages: '107683'
   doi: https://doi.org/10.1016/j.asoc.2021.107683
   citations: 24
   citations_by_year:
-    2021: 2
-    2022: 6
-    2023: 6
-    2024: 5
-    2025: 2
-    2026: 2
-
-
+    '2021': 2
+    '2022': 6
+    '2023': 6
+    '2024': 5
+    '2025': 2
+    '2026': 2
 conference_2021_01:
   type: conference
   title: An adaptive scaling cuckoo search algorithm
   authors: Zhenyu Song, Shuangyu Song, Bin Zhang, Jin Qian, Cheng Tang, Junkai Ji
-  conference: 2021 4th International Conference on Advanced Electronic Materials, Computers and Software Engineering (AEMCSE)
+  conference: '2021 4th International Conference on Advanced Electronic Materials, Computers and Software Engineering (AEMCSE)'
   year: 2021
   month: 3
   pages: 562-566
   doi: https://doi.org/10.1109/aemcse51986.2021.00120
   citations: 5
   citations_by_year:
-    2023: 1
-    2025: 1
-    2026: 1
-
-
+    '2023': 1
+    '2025': 1
+    '2026': 1
 conference_2021_02:
   type: conference
   title: An efficient orientation detection mechanism inspired via orientation-selective amacrine cells
   authors: Fenggang Yuan, Cheng Tang, Yuki Todo, Zheng Tang
-  conference: 2021 4th International Conference on Signal Processing and Machine Learning
+  conference: '2021 4th International Conference on Signal Processing and Machine Learning'
   year: 2021
   month: 8
   pages: 7-11
   doi: https://doi.org/10.1145/3483207.3483209
   citations: 0
-
-
 conference_2021_03:
   type: conference
   title: An evolutionary neuron model with dendritic computation for classification and prediction
@@ -132,33 +118,29 @@ conference_2021_03:
   doi: https://doi.org/10.1007/978-3-030-84522-3_2
   citations: 3
   citations_by_year:
-    2024: 1
-    2025: 1
-    2026: 1
-
-
+    '2024': 1
+    '2025': 1
+    '2026': 1
 conference_2021_04:
   type: conference
   title: The mechanism of motion direction detection from gray images
   authors: Yuxiao Hua, Riku Inoue, Cheng Tang, Yuki Todo, Zheng Tang
-  conference: 2021 4th International Conference on Signal Processing and Machine Learning
+  conference: '2021 4th International Conference on Signal Processing and Machine Learning'
   year: 2021
   month: 8
   pages: 12-17
   doi: https://doi.org/10.1145/3483207.3483210
   citations: 0
-
-  
 conference_2021_05:
   type: conference
   title: The mechanism of orientation detection based on dendritic neuron
   authors: Xiliang Zhang, Yuki Todo, Cheng Tang, Zheng Tang
-  conference: 2021 IEEE 4th International Conference on Big Data and Artificial Intelligence (BDAI)
+  conference: '2021 IEEE 4th International Conference on Big Data and Artificial Intelligence (BDAI)'
   year: 2021
   month: 7
   pages: 225-229
   doi: https://doi.org/10.1109/bdai52447.2021.9515286
   citations: 2
   citations_by_year:
-    2022: 1
-    2023: 1
+    '2022': 1
+    '2023': 1

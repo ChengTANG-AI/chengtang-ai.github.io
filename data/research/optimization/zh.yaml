@@ -1,32 +1,3 @@
-# Localized Research text for one language.
-# Common fields such as display, image, publication_title, and link are inherited from en.yaml by matching the same top-level paper ID.
-# Keep only translated fields here, such as title, description, contributions, and image_alt.
-
-title: 优化
-description: 研究用于学习、搜索、调度和智能系统设计的优化算法。
-
-A cuckoo search algorithm with scale-free population topology:
-  contributions:
-  - 提出用于布谷鸟搜索算法的无标度种群拓扑结构。
-  - 通过无标度信息交换，改善探索与开发之间的平衡。
-  - 在大规模优化问题上提高了解的质量和收敛速度。
-  - 通过基准函数和真实世界优化问题验证了所提方法。
-  - 证明无标度拓扑结构可以推广到其他基于种群的算法。
-
-
-An artificial bee colony algorithm search guided by scale-free networks:
-  contributions:
-  - 提出由无标度网络引导的无标度人工蜂群（SFABC）算法。
-  - 通过无标度信息交换增强探索与开发之间的平衡。
-  - 引导较差解向高质量邻居学习，从而加速收敛。
-  - 系统分析了进化优化中的无标度网络特性。
-  - 证明所提机制可推广用于改进其他基于种群的优化算法。
-
-
-A complex network-based firefly algorithm for numerical optimization and time series forecasting:
-  contributions:
-  - 提出了一种基于无标度复杂网络的萤火虫算法（CnFA），将复杂网络拓扑引入群智能优化过程。
-  - 利用网络拓扑引导个体间的信息交互，替代传统全连接交互方式，提高了全局搜索与局部开发能力之间的平衡。
-  - 借助复杂网络的幂律连接特性保持种群多样性，有效缓解算法早熟收敛和陷入局部最优的问题。
-  - 证明所提出的网络引导机制不仅适用于萤火虫算法，也能够推广到其他基于种群的进化优化算法。
-  - 在CEC2017数值优化基准测试以及风速、PM2.5时间序列预测任务中均取得了优于现有方法的性能。
+display: true
+title: 优化算法
+description: '研究用于求解复杂问题的进化计算、群智能与元启发式优化方法。'

@@ -3,21 +3,19 @@
 
 news_2020_11_01_01:
   display: true
-  date: 2020-11-01
-  student_year: 
+  date: '2020-11-01'
+  student_year: ''
   title: University of Toyama, Excellent Student Award
   person_name: Cheng Tang
   person_type: Student
   position: Doctoral Student
-  text: received the **[Excellent Student Award](https://researchmap.jp/chengtang/awards/50350930)** from the University of Toyama.
-
-
+  text: 'received the **[Excellent Student Award](https://researchmap.jp/chengtang/awards/50350930)** from the University of Toyama.'
 news_2020_04_01_01:
   display: true
-  date: 2020-04-01
-  student_year: 
+  date: '2020-04-01'
+  student_year: ''
   title: Toshimi Otsuka Scholarship Foundation, Scholarship
   person_name: Cheng Tang
   person_type: Student
   position: Doctoral Student
-  text: received the **[Toshimi Otsuka Scholarship](https://researchmap.jp/chengtang/awards/50350948)** from the Toshimi Otsuka Scholarship Foundation.
+  text: 'received the **[Toshimi Otsuka Scholarship](https://researchmap.jp/chengtang/awards/50350948)** from the Toshimi Otsuka Scholarship Foundation.'

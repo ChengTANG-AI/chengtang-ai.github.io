@@ -1,32 +1,3 @@
-# Localized Research text for one language.
-# Common fields such as display, image, publication_title, and link are inherited from en.yaml by matching the same top-level paper ID.
-# Keep only translated fields here, such as title, description, contributions, and image_alt.
-
+display: true
 title: 可解释人工智能（XAI）
-description: 研究能够让人理解模型行为的透明、可信人工智能方法。
-
-A novel motion direction detection mechanism based on dendritic computation of direction-selective ganglion cells:
-  contributions:
-  - 提出一种基于方向选择性神经节细胞（DSGCs）的仿生运动方向检测机制。
-  - 利用树突计算构建二维八方向运动检测框架。
-  - 引入局部感受野扫描机制，实现全局运动感知。
-  - 在大规模图像和随机点图像中实现了稳健的运动检测。
-  - 为理解视觉运动处理提供了具有生物合理性的计算模型。
-
-
-The mechanism of orientation detection based on color-orientation jointly selective cells:
-  contributions:
-  - 提出基于颜色-方向联合选择性（COJS）细胞的仿生方向检测机制。
-  - 开发用于可解释全局方向检测的人工视觉系统（AVS）。
-  - 设计基于 McCulloch-Pitts 神经元模型的硬件友好实现。
-  - 实现具有优异抗噪能力和泛化能力的稳健方向检测。
-  - 证明 AVS 可通过特征提取有效提升深度学习模型的鲁棒性。
-
-
-EDNMs for visual analytics of learning behavior and early risk prediction:
-  contributions:
-  - 提出用于学习分析中可解释早期风险预测的集成树突神经元模型（EDNMs）。
-  - 通过受生物启发的神经元剪枝机制，实现可视化特征选择。
-  - 通过动态剪枝树突，开发可跨不同时间窗口进行早期预测的单模型框架。
-  - 避免为不同预测周分别训练多个模型，从而降低计算开销。
-  - 在提供透明、可解释学习行为分析的同时，取得了具有竞争力的预测性能。
+description: '研究具有可解释性、透明性与可靠性的人工智能模型及其应用。'

@@ -1,32 +1,3 @@
-# Localized Research text for one language.
-# Common fields such as display, image, publication_title, and link are inherited from en.yaml by matching the same top-level paper ID.
-# Keep only translated fields here, such as title, description, contributions, and image_alt.
-
-title: ラーニングアナリティクス
-description: 学習行動データを用いて，理解・予測・教育支援を行うための分析手法を研究します．
-
-Visual analytics of learning behavior based on the dendritic neuron model:
-  contributions:
-  - 樹状突起ニューロンモデルに基づく学習行動予測のための可視化分析フレームワークを提案しました．
-  - シナプスおよび樹状突起の枝刈り機構により，解釈可能な予測モデルを開発しました．
-  - 特徴重要度分析のため，個々の学習行動の寄与を定量化しました．
-  - 学生リスク予測において，RNN，LSTM，GRU，BiLSTM，BiGRU を上回る性能を達成しました．
-  - 早期介入と個別学習支援に役立つ実践的な知見を提供しました．
-
-
-'LECTOR: summarizing e-book reading content for personalized student support':
-  contributions:
-  - 講義スライドとトピックの関係をモデル化し，教育用電子教材の内容を要約する注意機構ベースの情報検索フレームワークLECTORを提案しました．
-  - 講義スライドの階層構造を活用した談話指向トピック抽出機構を設計し，従来の教育支援システムおよび最先端の教師なしキーフレーズ抽出手法を上回る性能を実現しました．
-  - 読書行動ログと意味的に文脈化された講義内容を統合するマルチモーダルフレームワークを構築し，トピックベースの学習嗜好を抽出しました．
-  - トピックレベルの読書特徴を導入することで，学習困難の要因や読書嗜好を説明可能な形で分析し，学習リスク予測と個別化支援の解釈性を向上させました．
-  - 2,255枚の講義スライドと60万件以上の電子教材閲覧ログを用いた大規模実験により，個別最適化学習支援およびラーニングアナリティクスへの有効性を実証しました．
-
-
-'From reflections to motifs: a graph-based analysis of learners knowledge construction':
-  contributions:
-  - 大規模言語モデルを用いて学習者の振り返り文章をPersonal Knowledge Graph（PKG）へ変換し，知識構築過程を明示的に表現するコンテキスト指向グラフ分析フレームワークを提案しました．
-  - グラフモチーフのマイニングと表現学習手法を開発し，繰り返し出現する部分グラフ構造を抽出することで，学習者の知識構造パターンを効果的に表現しました．
-  - モチーフをPath-like，Star-like，Hybridの3種類へ分類する構造分析手法を導入し，概念間の関係性や知識構築戦略を解釈可能な形で分析しました．
-  - モチーフ構造と学習成果との関係を統計的に分析し，知識構造の特徴が学習成果へ与える影響を定量的かつ説明可能な形で明らかにしました．
-  - モチーフベースの知識表現が，テキストベース手法やグラフニューラルネットワークを上回る成績予測および学習リスク学生検出性能を達成し，グラフマイニングの有効性を実証しました．
+display: true
+title: 学習分析
+description: '学習行動データを用いて学習者理解，成績予測，教育支援を行う方法を研究しています．'

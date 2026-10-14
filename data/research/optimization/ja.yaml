@@ -1,32 +1,3 @@
-# Localized Research text for one language.
-# Common fields such as display, image, publication_title, and link are inherited from en.yaml by matching the same top-level paper ID.
-# Keep only translated fields here, such as title, description, contributions, and image_alt.
-
+display: true
 title: 最適化
-description: 学習，探索，スケジューリング，知的システム設計のための最適化アルゴリズムを研究します．
-
-A cuckoo search algorithm with scale-free population topology:
-  contributions:
-  - カッコウ探索アルゴリズムのためのスケールフリー集団トポロジーを提案しました．
-  - スケールフリーな情報交換により，探索と活用のバランスを改善しました．
-  - 大規模最適化問題において，解の品質と収束速度を向上させました．
-  - ベンチマーク関数と実世界の最適化問題により，提案手法を検証しました．
-  - スケールフリートポロジーが他の集団ベースアルゴリズムにも一般化可能であることを示しました．
-
-
-An artificial bee colony algorithm search guided by scale-free networks:
-  contributions:
-  - スケールフリーネットワークにより誘導されるスケールフリー人工蜂コロニー（SFABC）アルゴリズムを提案しました．
-  - スケールフリーな情報交換により，探索と活用のバランスを高めました．
-  - 劣った解が高品質な近傍解から学習するよう誘導することで，収束を高速化しました．
-  - 進化的最適化におけるスケールフリーネットワーク特性を体系的に分析しました．
-  - 提案機構が他の集団ベース最適化アルゴリズムの改善にも一般化可能であることを示しました．
-
-
-A complex network-based firefly algorithm for numerical optimization and time series forecasting:
-  contributions:
-  - スケールフリー複雑ネットワークを群知能最適化へ導入した複雑ネットワークベースのホタルアルゴリズム（CnFA）を提案しました．
-  - 完全結合型の個体間相互作用をネットワーク構造に基づく情報伝播へ置き換え，大域探索と局所探索のバランスを改善しました．
-  - 複雑ネットワークのべき乗則に基づく接続特性を利用し，集団多様性を維持するとともに早期収束を抑制しました．
-  - 提案したネットワーク誘導型探索機構は，ホタルアルゴリズム以外の集団ベース進化アルゴリズムにも適用可能であることを示しました．
-  - CEC2017ベンチマーク最適化問題および風速・PM2.5時系列予測において，高い最適化性能と予測精度を達成しました．
+description: '複雑な問題を効率的に解くための進化計算，群知能，メタヒューリスティック最適化を研究しています．'
