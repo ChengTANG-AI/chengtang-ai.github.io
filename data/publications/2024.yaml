@@ -92,7 +92,7 @@ journal_2024_06:
   volume: 12
   pages: 100659-100675
   doi: https://doi.org/10.1109/access.2024.3429554
-  citations: 28
+  citations: 29
   citations_by_year:
     2025: 8
     2026: 2
@@ -225,7 +225,7 @@ conference_2024_05:
   month: 3
   pages: 34-49
   doi: https://doi.org/10.1007/978-981-96-2641-0_3
-  citations: 1
+  citations: 2
 
 
 conference_2024_06:
