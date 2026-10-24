@@ -84,7 +84,7 @@ preprint_01:
 
 
 conference_2026_05:
-  type: preprint
+  type: conference
   title: 'Recovering stranded discrimination in knowledge tracing: per-item bias correction via empirical-bayes shrinkage'
   authors: Xiaoran Yan, Cheng Tang, Atsushi Shimada
   conference: Machine Learning and Knowledge Discovery in Databases (ECML PKDD 2026)
