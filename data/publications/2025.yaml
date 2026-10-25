@@ -101,7 +101,7 @@ journal_2025_06:
   volume: 139
   pages: 109604
   doi: https://doi.org/10.1016/j.engappai.2024.109604
-  citations: 16
+  citations: 17
   citations_by_year:
     2025: 3
     2026: 5
@@ -170,7 +170,8 @@ conference_2025_04:
   doi: https://aclanthology.org/2025.coling-main.335/
   citations: 9
   citations_by_year:
-    "2026": 1
+    "2025": 2
+    "2026": 7
 conference_2025_05:
   type: conference
   title: 'Classifying knowledge nodes and analyzing activation features: an integrated knowledge graph approach for collaborative problem-solving'

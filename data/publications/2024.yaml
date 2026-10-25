@@ -125,7 +125,7 @@ journal_2024_08:
   volume: 17
   pages: 20080-20097
   doi: https://doi.org/10.1109/jstars.2024.3486283
-  citations: 4
+  citations: 5
   citations_by_year:
     2025: 4
 
@@ -199,7 +199,7 @@ conference_2024_03:
   month: 5
   pages: 1-6
   doi: https://doi.org/10.1109/isas61044.2024.10552516
-  citations: 3
+  citations: 4
 
 
 conference_2024_04:
@@ -277,7 +277,7 @@ conference_2024_09:
   month: 3
   pages: 47-55
   url: https://scholar.google.com/scholar?q=Educational+Data+Analysis+using+Generative+AI
-  citations: 4
+  citations: 5
 
 
 conference_2024_10:
