@@ -49,7 +49,7 @@ journal_2021_03:
   number: 12
   pages: 1647
   doi: https://doi.org/10.3390/atmos12121647
-  citations: 1
+  citations: 2
   citations_by_year:
     2023: 1
 
@@ -64,7 +64,7 @@ journal_2021_04:
   volume: 233
   pages: 107509
   doi: https://doi.org/10.1016/j.knosys.2021.107509
-  citations: 21
+  citations: 22
   citations_by_year:
     2022: 5
     2023: 5

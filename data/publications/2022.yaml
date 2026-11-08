@@ -49,7 +49,7 @@ journal_2022_03:
   volume: 489
   pages: 390-406
   doi: https://doi.org/10.1016/j.neucom.2021.08.153
-  citations: 52
+  citations: 53
   citations_by_year:
     2022: 3
     2023: 5
@@ -68,7 +68,7 @@ journal_2022_04:
   volume: 512
   pages: 363-380
   doi: https://doi.org/10.1016/j.neucom.2022.09.003
-  citations: 200
+  citations: 202
   citations_by_year:
     2022: 2
     2023: 28
@@ -87,7 +87,7 @@ journal_2022_05:
   volume: 205
   pages: 117637
   doi: https://doi.org/10.1016/j.eswa.2022.117637
-  citations: 30
+  citations: 31
   citations_by_year:
     2022: 1
     2023: 6
